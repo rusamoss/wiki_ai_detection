@@ -37,10 +37,12 @@ import random
 import re
 import sys
 import time
+from collections.abc import Callable, Iterable, Iterator
 from pathlib import Path
+from typing import Any
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 API_URL = "https://en.wikipedia.org/w/api.php"
 OCT_SNAPSHOT = "2022-10-31T23:59:59Z"
@@ -104,7 +106,7 @@ STRIP_SELECTORS = [
 ]
 
 
-def make_session(contact):
+def make_session(contact: str) -> requests.Session:
     s = requests.Session()
     s.headers.update({
         "User-Agent": f"AiTestArticleSampler/1.0 ({contact})",
@@ -114,11 +116,11 @@ def make_session(contact):
 
 class RateLimiter:
     """Minimum-interval throttle between successive API requests."""
-    def __init__(self, min_interval=0.05):
+    def __init__(self, min_interval: float = 0.05) -> None:
         self.min_interval = min_interval
         self.last = 0.0
 
-    def wait(self):
+    def wait(self) -> None:
         now = time.monotonic()
         delta = now - self.last
         if delta < self.min_interval:
@@ -126,7 +128,13 @@ class RateLimiter:
         self.last = time.monotonic()
 
 
-def api_get(session, limiter, params, backoff=2.0, max_backoff=120.0):
+def api_get(
+    session: requests.Session,
+    limiter: RateLimiter,
+    params: dict[str, Any],
+    backoff: float = 2.0,
+    max_backoff: float = 120.0,
+) -> dict[str, Any]:
     """GET against the MediaWiki API. Transient failures (5xx, 429, timeouts,
     dropped connections, maxlag) are retried indefinitely with capped
     exponential backoff. Real API error responses (e.g. a malformed query)
@@ -159,12 +167,12 @@ def api_get(session, limiter, params, backoff=2.0, max_backoff=120.0):
         return data
 
 
-def chunked(seq, size):
+def chunked(seq: list[str], size: int) -> Iterator[list[str]]:
     for i in range(0, len(seq), size):
         yield seq[i:i + size]
 
 
-def print_discarded(titles, reason):
+def print_discarded(titles: Iterable[str], reason: str) -> None:
     for title in sorted(titles):
         print(f"  [discard: {reason}] {title}")
 
@@ -173,8 +181,8 @@ def print_discarded(titles, reason):
 # Step 1: random candidate titles
 # ---------------------------------------------------------------------
 
-def get_random_titles(session, limiter, n):
-    titles = []
+def get_random_titles(session: requests.Session, limiter: RateLimiter, n: int) -> list[str]:
+    titles: list[str] = []
     while len(titles) < n:
         batch = min(500, n - len(titles)) # 500 is the cap on results per req
         data = api_get(session, limiter, {
@@ -192,14 +200,16 @@ def get_random_titles(session, limiter, n):
 # Step 2/3: batched navigational-page + redirect filter
 # ---------------------------------------------------------------------
 
-def filter_navigational_and_redirects(session, limiter, titles):
+def filter_navigational_and_redirects(
+    session: requests.Session, limiter: RateLimiter, titles: list[str]
+) -> dict[str, tuple[int, int]]:
     """Returns {title: (revid, size)} for the subset of `titles` that are
     NOT redirects, NOT disambiguation pages, and NOT list/set-index/outline
     -type pages. prop=info includes each survivor's current lastrevid/length
     at no extra request cost; callers that want the *current* revision (not
     a historical snapshot) can use that directly instead of a separate
     get_revision_ids lookup."""
-    survivors = {}
+    survivors: dict[str, tuple[int, int]] = {}
     for chunk in chunked(titles, 50):
         chunk = [t for t in chunk if not LIST_TITLE_RE.search(t)]
         if not chunk:
@@ -240,13 +250,15 @@ def filter_navigational_and_redirects(session, limiter, titles):
 # that point too (its very first revision can't postdate a later one).
 # ---------------------------------------------------------------------
 
-def get_revision_ids(session, limiter, titles, rvstart):
+def get_revision_ids(
+    session: requests.Session, limiter: RateLimiter, titles: Iterable[str], rvstart: str
+) -> dict[str, tuple[int, int]]:
     """Returns {title: (revid, size)} for each title's latest revision
     at/before `rvstart`, where `size` is the revision's wikitext byte length
     (rvprop=size costs nothing extra here and lets callers pre-filter stubs
     before paying for an action=parse call).
     """
-    result = {}
+    result: dict[str, tuple[int, int]] = {}
     for title in titles:
         data = api_get(session, limiter, {
             "action": "query",
@@ -273,7 +285,7 @@ def get_revision_ids(session, limiter, titles, rvstart):
 # Suspected-AI-text category members, used by --ai-n instead of step 1.
 # ---------------------------------------------------------------------
 
-def get_category_members(session, limiter, category):
+def get_category_members(session: requests.Session, limiter: RateLimiter, category: str) -> dict[str, str]:
     """Returns {title: source_category} for all namespace-0 pages in
     `category`, plus one level of its subcategories -- AI_SUSPECTED_CATEGORY
     is a hidden container whose actual tagged articles live in monthly dated
@@ -281,9 +293,9 @@ def get_category_members(session, limiter, category):
     `source_category` records exactly which of those a title was found in,
     so callers can see how a title's tag-recency relates to its results."""
 
-    def fetch_members(cat, cmtype):
-        titles = []
-        cmcontinue = None
+    def fetch_members(cat: str, cmtype: str) -> list[str]:
+        titles: list[str] = []
+        cmcontinue: str | None = None
         while True:
             params = {
                 "action": "query",
@@ -315,7 +327,7 @@ def get_category_members(session, limiter, category):
 # so the word count and the on-disk article text never disagree.
 # ---------------------------------------------------------------------
 
-def normalize_prose_whitespace(text):
+def normalize_prose_whitespace(text: str) -> str:
     """Collapses whitespace and removes the spurious space BeautifulSoup's
     get_text(" ") leaves behind where a stripped inline element (e.g. a
     <sup> citation marker) used to sit directly against punctuation, e.g.
@@ -326,15 +338,15 @@ def normalize_prose_whitespace(text):
     return text.strip()
 
 
-def extract_list_lines(list_el, depth=1):
+def extract_list_lines(list_el: Tag, depth: int = 1) -> list[tuple[int, str]]:
     """Recursively renders a <ul>/<ol>'s items as (depth, text) pairs,
     mirroring wikitext's '*'/'**' nesting. Each item's "own" text excludes
     any nested sub-list (that's collected separately, one level deeper) so
     a parent <li> and its children don't duplicate each other's text."""
-    lines = []
+    lines: list[tuple[int, str]] = []
     for li in list_el.find_all("li", recursive=False):
-        nested_lists = []
-        own_text_parts = []
+        nested_lists: list[Tag] = []
+        own_text_parts: list[str] = []
         for child in li.children:
             if getattr(child, "name", None) in ("ul", "ol"):
                 nested_lists.append(child)
@@ -359,7 +371,7 @@ HEADING_TAGS = {"h1", "h2", "h3", "h4", "h5", "h6"}
 EXCLUDED_SECTION_HEADINGS = {"references", "external links", "see also", "further reading", "notes"}
 
 
-def extract_cleaned_prose(html):
+def extract_cleaned_prose(html: str) -> tuple[int, str]:
     """Returns (word_count, cleaned_text) for rendered article HTML.
 
     word_count covers everything kept in cleaned_text -- headings, list
@@ -374,8 +386,8 @@ def extract_cleaned_prose(html):
         el.decompose()
 
     words = 0
-    parts = []
-    skip_level = None  # heading level of an excluded section currently in progress
+    parts: list[str] = []
+    skip_level: int | None = None  # heading level of an excluded section currently in progress
     # Walk headings, paragraphs, and top-level lists in document order so
     # sections stay attached to the text they introduce. Anything that
     # survived the stripping above but isn't one of these (e.g. stray <div>
@@ -418,7 +430,7 @@ def extract_cleaned_prose(html):
     return words, "\n\n".join(parts)
 
 
-def fetch_cleaned_prose(session, limiter, revid):
+def fetch_cleaned_prose(session: requests.Session, limiter: RateLimiter, revid: int) -> tuple[int, str]:
     data = api_get(session, limiter, {
         "action": "parse",
         "oldid": revid,
@@ -433,16 +445,16 @@ def fetch_cleaned_prose(session, limiter, revid):
     return extract_cleaned_prose(html)
 
 
-def sanitize_title(title):
+def sanitize_title(title: str) -> str:
     """Strips characters that aren't valid in a filename."""
     return re.sub(r'[\\/:*?"<>|]', "_", title).strip(" .")
 
 
-def safe_filename(title):
+def safe_filename(title: str) -> str:
     return sanitize_title(title) + ".txt"
 
 
-def make_row(title, revid):
+def make_row(title: str, revid: int | str) -> dict[str, Any]:
     return {
         "title": title,
         "pageid_url_slug": title.replace(" ", "_"),
@@ -452,7 +464,7 @@ def make_row(title, revid):
     }
 
 
-def load_existing_by_title(out_path):
+def load_existing_by_title(out_path: Path) -> dict[str, dict[str, Any]]:
     """Returns {title: row} for whatever's already in `out_path`, or {} if
     it doesn't exist yet -- the accumulated record collect_sample/
     run_from_csv merge new rows into, so a fresh run doesn't erase rows for
@@ -463,15 +475,11 @@ def load_existing_by_title(out_path):
         return {row["title"]: row for row in csv.DictReader(f)}
 
 
-def save_csv(out_path, fieldnames, rows_by_title):
+def save_csv(out_path: Path, fieldnames: list[str], rows_by_title: dict[str, dict[str, Any]]) -> None:
     """Rewrites `out_path` from scratch with every row in `rows_by_title`,
     sorted by title. Called after each new/updated row so a crash never
     loses more than the article in progress -- at the cost of re-writing
-    the whole accumulated CSV each time, not just the new row. Fine at the
-    scale this collects (rounds of tens to low hundreds of articles); if a
-    category folder's CSV grows into the thousands, this is the place to
-    switch to appending new rows and only doing a full rewrite for titles
-    that already exist."""
+    the whole accumulated CSV each time, not just the new row."""
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -480,12 +488,10 @@ def save_csv(out_path, fieldnames, rows_by_title):
             writer.writerow(rows_by_title[title])
 
 
-def emit_row(run_dir, row, text, progress, already_existed):
+def emit_row(run_dir: Path, row: dict[str, Any], text: str, progress: str, already_existed: bool) -> None:
     """Saves `text` to run_dir/<title>.txt and prints a "[progress] title
     (N words)" line. `already_existed` -- whether this title was already in
-    the accumulated CSV, decided once by the caller -- governs the
-    overwrite warning, so the file and the CSV row are always described by
-    the same signal rather than two independent checks that could disagree."""
+    the accumulated CSV, decided once by the caller."""
     path = run_dir / safe_filename(row["title"])
     if already_existed:
         print(f"  [warn] {row['title']!r} already exists at {path} -- overwriting")
@@ -499,14 +505,20 @@ def emit_row(run_dir, row, text, progress, already_existed):
 # random-sampling and filtering steps (1-4) entirely.
 # ---------------------------------------------------------------------
 
-def run_from_csv(session, limiter, args, run_dir, fieldnames):
+def run_from_csv(
+    session: requests.Session,
+    limiter: RateLimiter,
+    args: argparse.Namespace,
+    run_dir: Path,
+    fieldnames: list[str],
+) -> list[dict[str, Any]]:
     with open(args.from_csv, newline="", encoding="utf-8") as fin:
         rows_in = list(csv.DictReader(fin))
 
     out_path = Path(args.out)
     all_rows = load_existing_by_title(out_path)
 
-    results = []
+    results: list[dict[str, Any]] = []
     for row in rows_in:
         title = row["title"]
         revid = row["revision_id"]
@@ -535,8 +547,19 @@ def run_from_csv(session, limiter, args, run_dir, fieldnames):
 # titles come from, which revision they want, and where output goes.
 # ---------------------------------------------------------------------
 
-def collect_sample(session, limiter, run_dir, out_path, batches, *,
-                    fieldnames, target_n, rvstart, label, source):
+def collect_sample(
+    session: requests.Session,
+    limiter: RateLimiter,
+    run_dir: Path,
+    out_path: str | Path,
+    batches: Iterable[list[str]],
+    *,
+    fieldnames: list[str],
+    target_n: int,
+    rvstart: str | None,
+    label: str,
+    source: Callable[[str], str],
+) -> list[dict[str, Any]]:
     """Pulls candidate titles from `batches` (an iterable of title-list
     batches) until `target_n` qualifying articles are written to `out_path`
     (CSV) and `run_dir` (one .txt per article), or `batches` is exhausted.
@@ -553,8 +576,8 @@ def collect_sample(session, limiter, run_dir, out_path, batches, *,
     """
     out_path = Path(out_path)
     all_rows = load_existing_by_title(out_path)
-    results = []
-    seen = set()
+    results: list[dict[str, Any]] = []
+    seen: set[str] = set()
 
     for batch in batches:
         if len(results) >= target_n:
@@ -582,8 +605,8 @@ def collect_sample(session, limiter, run_dir, out_path, batches, *,
         # Free pre-filter: skip anything whose raw wikitext is too small
         # to plausibly contain MIN_WORDS of prose, without ever calling
         # the expensive action=parse endpoint for it.
-        stubs = {}
-        kept = {}
+        stubs: dict[str, int] = {}
+        kept: dict[str, int] = {}
         for title, (revid, size) in revid_map.items():
             if size < MIN_WIKITEXT_BYTES:
                 stubs[title] = size
@@ -636,7 +659,9 @@ AI_FIELDNAMES = ["title", "pageid_url_slug", "revision_id", "prose_word_count",
                  "url", "source", "date_fetched"]
 
 
-def collect_ai_suspected(session, limiter, args, ai_articles_dir):
+def collect_ai_suspected(
+    session: requests.Session, limiter: RateLimiter, args: argparse.Namespace, ai_articles_dir: Path
+) -> None:
     print(f"\n--- Collecting {args.ai_n} suspected-AI-text articles from "
           f"{AI_SUSPECTED_CATEGORY} ---", file=sys.stderr)
 
@@ -662,7 +687,7 @@ def collect_ai_suspected(session, limiter, args, ai_articles_dir):
 # Run
 # ---------------------------------------------------------------------
 
-def main():
+def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--n", type=int, default=20, help="number of qualifying articles to collect")
     ap.add_argument("--out", default=DEFAULT_OUT,

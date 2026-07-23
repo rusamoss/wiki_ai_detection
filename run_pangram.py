@@ -6,9 +6,7 @@ Runs Pangram AI-text detection (https://pangram.com) against every .txt
 article in a folder (or just the first --limit of them, by filename). With
 --all-dirs, runs this once per directory under data/ that directly
 contains .txt files (--limit still applies to each one individually)
-instead of a single folder -- the normal way to cover every category at
-once, since get_test_wiki_pages.py writes each category into its own flat
-folder rather than a per-run subfolder. Without --folder or --all-dirs,
+instead of a single folder. Without --folder or --all-dirs,
 falls back to the most recently modified subfolder of --articles-dir (only
 relevant if --articles-dir actually has subfolders -- rarely true for the
 two conventional categories now). Uses Pangram's Bulk API, which is
@@ -16,14 +14,10 @@ cheaper than one predict() call per file.
 
 Before submitting, each article's (title, --label, revision ID) is checked
 against rows already in the destination CSV; anything already scored there
-is skipped rather than re-submitted. Results (including "date_ran", when
-that batch was analyzed) are appended to that CSV rather than overwriting
-it (default: data/pangram_results.csv, shared across every folder/category
+is skipped rather than re-submitted. Results are appended to that CSV (default: data/pangram_results.csv, shared across every folder/category
 unless --out says otherwise), so running this repeatedly against different
 category folders builds one combined results file. If --label isn't given,
-it defaults to the folder's own name (e.g. data/random_2022 -> "random_2022"),
-since get_test_wiki_pages.py writes articles straight into a bare category
-folder rather than a per-run subfolder.
+it defaults to the folder's name (e.g. data/random_2022 -> "random_2022").
 
 The revision ID, word count, and URL come from --source-csv: the CSV
 get_test_wiki_pages.py wrote alongside this folder (it has "title",
@@ -32,12 +26,12 @@ omitted, this is guessed from the label ("random_2022" ->
 data/wikipedia_sample.csv, "random_AI_suspected" ->
 data/wikipedia_ai_sample.csv) when that file exists. Otherwise -- e.g.
 self-generated content, which has no such CSV -- articles are deduped by
-title alone and cost estimates fall back to a raw whitespace word count.
+title alone.
 
 Before each bulk submission, prints an estimated cost (5c per 1000 words,
 with a 1-credit-per-article minimum) and asks for confirmation. If Pangram
 reports the account is out of credits, the script pauses with a link to
-buy more instead of failing the run, and retries once you've topped up.
+buy more instead of failing the run.
 
 Usage:
     pip install pangram-sdk
@@ -48,7 +42,9 @@ Usage:
 import argparse
 import csv
 import time
+from collections.abc import Callable
 from pathlib import Path
+from typing import Any
 
 from pangram import Pangram
 
@@ -82,9 +78,9 @@ FIELDNAMES = [
 ]
 
 
-def window_confidence(result):
+def window_confidence(result: dict[str, Any]) -> str | None:
     """Pangram reports confidence ("High"/"Medium"/"Low") per text window,
-    not as a single top-level field. Most articles fit in one window; when
+    not as a single top-level field. Many articles fit in one window; when
     there's more than one, join their confidences in order."""
     windows = result.get("windows") or []
     if not windows:
@@ -92,7 +88,16 @@ def window_confidence(result):
     return ";".join(w.get("confidence", "") for w in windows)
 
 
-def build_result_row(name, label, revision_id, url, result, error, full_dict_source, date_ran):
+def build_result_row(
+    name: str,
+    label: str,
+    revision_id: str,
+    url: str,
+    result: dict[str, Any] | None,
+    error: str | None,
+    full_dict_source: dict[str, Any],
+    date_ran: str,
+) -> dict[str, Any]:
     """Builds one destination-CSV row for a bulk-job item, whether it
     succeeded (`result` is Pangram's per-article dict) or failed (`result`
     is None)."""
@@ -113,7 +118,7 @@ def build_result_row(name, label, revision_id, url, result, error, full_dict_sou
     }
 
 
-def latest_articles_folder(articles_dir):
+def latest_articles_folder(articles_dir: Path) -> Path:
     subdirs = [p for p in articles_dir.iterdir() if p.is_dir()]
     if not subdirs:
         raise SystemExit(f"No subfolders found in {articles_dir}")
@@ -122,7 +127,7 @@ def latest_articles_folder(articles_dir):
     return max(subdirs, key=lambda p: p.name)
 
 
-def find_txt_directories(base_dir):
+def find_txt_directories(base_dir: Path) -> list[Path]:
     """Returns every directory at or under `base_dir` that directly
     contains at least one .txt file, sorted. rglob("*.txt") matches files
     directly in `base_dir` too (not just nested ones), so a `base_dir` with
@@ -131,7 +136,7 @@ def find_txt_directories(base_dir):
     return sorted({p.parent for p in base_dir.rglob("*.txt")})
 
 
-def default_label(folder):
+def default_label(folder: Path) -> str:
     """Falls back to the folder's own name for --label when none is given
     (e.g. data/random_2022 -> "random_2022", data/claude -> "claude")."""
     return folder.name
@@ -147,7 +152,7 @@ DEFAULT_SOURCE_CSV_BY_LABEL = {
 }
 
 
-def guess_source_csv(label):
+def guess_source_csv(label: str) -> str | None:
     """Returns the conventional get_test_wiki_pages.py output CSV for a
     known category `label`, if that file actually exists in the current
     directory -- otherwise None (e.g. for self-generated content, which
@@ -158,7 +163,7 @@ def guess_source_csv(label):
     return None
 
 
-def load_source_metadata(path):
+def load_source_metadata(path: str) -> dict[str, dict[str, str]]:
     """Returns {title: {"revision_id": ..., "prose_word_count": ..., "url":
     ...}} from a get_test_wiki_pages.py CSV, keyed by sanitize_title(title)
     to match the corresponding .txt filename. "prose_word_count" is that
@@ -180,7 +185,9 @@ CENTS_PER_1000_WORDS = 5
 MIN_CREDITS_PER_ARTICLE = 1  # Pangram bills at least one "1000 word" unit per article
 
 
-def estimate_cost(texts, word_counts=None):
+def estimate_cost(
+    texts: dict[str, str], word_counts: dict[str, str] | None = None
+) -> tuple[int, int, float]:
     """Returns (total_words, total_credits, total_cost_dollars) for a dict
     of {name: text}, at Pangram's pricing: 5 cents per 1000 words, with a
     1-credit minimum per article even if it's under 1000 words. Uses each
@@ -199,7 +206,7 @@ def estimate_cost(texts, word_counts=None):
     return total_words, total_credits, total_credits * CENTS_PER_1000_WORDS / 100
 
 
-def confirm_bulk_cost(texts, word_counts=None):
+def confirm_bulk_cost(texts: dict[str, str], word_counts: dict[str, str] | None = None) -> bool:
     """Prints a cost estimate for submitting `texts` as a Pangram bulk job
     and asks the user to confirm. Returns whether to proceed."""
     total_words, total_credits, total_cost = estimate_cost(texts, word_counts)
@@ -209,7 +216,7 @@ def confirm_bulk_cost(texts, word_counts=None):
     return input("Proceed with this Pangram bulk submission? [y/N] ").strip().lower() in ("y", "yes")
 
 
-def call_with_credit_pause(fn, *args, **kwargs):
+def call_with_credit_pause(fn: Callable[..., Any], *args: Any, **kwargs: Any) -> Any:
     """Calls fn(*args, **kwargs), pausing to let the user buy more credits
     and retrying instead of failing the whole run if Pangram reports the
     account is out of credits (HTTP 402)."""
@@ -224,7 +231,7 @@ def call_with_credit_pause(fn, *args, **kwargs):
             input("    Press Enter once you've topped up to retry (Ctrl+C to cancel)... ")
 
 
-def read_existing_results(out_path):
+def read_existing_results(out_path: Path) -> tuple[list[dict[str, Any]], list[str] | None]:
     """Returns (rows, header) already in the destination CSV, or ([], None)
     if it doesn't exist yet (or is empty)."""
     if not out_path.exists() or out_path.stat().st_size == 0:
@@ -234,7 +241,7 @@ def read_existing_results(out_path):
         return list(reader), reader.fieldnames
 
 
-def process_folder(folder, out_path, args):
+def process_folder(folder: Path, out_path: Path, args: argparse.Namespace) -> None:
     """Runs the full scan/dedup/cost-estimate/submit/append pipeline against
     one folder of .txt articles. Used both for a single --folder run and,
     once per discovered directory, for --all-dirs."""
@@ -259,7 +266,7 @@ def process_folder(folder, out_path, args):
     # Keyed by (file, label, revision_id) -- label is part of the identity so
     # e.g. a Claude-generated "X.txt" isn't mistaken for an already-scored
     # real Wikipedia "X.txt" just because they share a title.
-    already_scored = {
+    already_scored: set[tuple[str, str, str]] = {
         (row["file"], row.get("label", ""), row.get("revision_id", ""))
         for row in existing_rows
     }
@@ -274,17 +281,17 @@ def process_folder(folder, out_path, args):
               "row that recorded a real revision ID")
     source_metadata = load_source_metadata(source_csv) if source_csv else {}
 
-    paths_by_name = {p.name: p for p in txt_files}
-    revids = {}
-    word_counts = {}
-    urls = {}
+    paths_by_name: dict[str, Path] = {p.name: p for p in txt_files}
+    revids: dict[str, str] = {}
+    word_counts: dict[str, str] = {}
+    urls: dict[str, str] = {}
     for name in paths_by_name:
         meta = source_metadata.get(Path(name).stem, {})
         revids[name] = meta.get("revision_id", "")
         word_counts[name] = meta.get("prose_word_count", "")
         urls[name] = meta.get("url", "")
 
-    to_submit = []
+    to_submit: list[str] = []
     for name in sorted(paths_by_name):
         if (name, label, revids[name]) in already_scored:
             print(f"  [already scored] {name} (label {label!r}, revision "
@@ -298,7 +305,7 @@ def process_folder(folder, out_path, args):
 
     # Only read the files that actually need submitting -- anything already
     # scored never needs its text loaded at all.
-    to_submit_texts = {name: paths_by_name[name].read_text(encoding="utf-8") for name in to_submit}
+    to_submit_texts: dict[str, str] = {name: paths_by_name[name].read_text(encoding="utf-8") for name in to_submit}
     if not confirm_bulk_cost(to_submit_texts, word_counts):
         print("Cancelled; nothing submitted.")
         return
@@ -316,7 +323,7 @@ def process_folder(folder, out_path, args):
     bulk_results = call_with_credit_pause(client.get_bulk_results, bulk_id)
     date_ran = time.strftime(TIMESTAMP_FORMAT)
 
-    rows = []
+    rows: list[dict[str, Any]] = []
     for item in bulk_results["items"]:
         result = item.get("result") or {}
         name = item.get("id")
@@ -339,7 +346,7 @@ def process_folder(folder, out_path, args):
           f"({len(paths_by_name) - len(to_submit)} already scored, skipped).")
 
 
-def main():
+def main() -> None:
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
