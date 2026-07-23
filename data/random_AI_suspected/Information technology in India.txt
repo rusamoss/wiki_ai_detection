@@ -1,0 +1,99 @@
+The information technology (I.T.) industry in India comprises information technology services and business process outsourcing. The share of the IT-BPM sector in the GDP of India is 7.4% in FY 2022. In FY24, India's IT-BPM industry is estimated to have generated $253.9 billion in revenue. The domestic revenue of the IT industry is estimated at $51 billion, and export revenue is estimated at $194 billion in FY 2023. The IT–BPM sector overall employs 5.4 million people as of March 2023. IT units registered with state-run Software Technology Parks of India (STPI) and Special Economic Zones have exported software worth Rs 11.59 lakh crore in 2021–22.
+
+History
+
+The Electronics Committee also known as the "Bhabha Committee" created a 10-year (1966–1975) plan laying the foundation for India's IT Service Industries. The industry was born in Mumbai in 1967 with the establishment of Tata Consultancy Services who in 1977 partnered with Burroughs which began India's export of IT services. The first software export zone, SEEPZ – the precursor to the modern-day IT park – was established in Mumbai in 1973. More than 80 percent of the country's software exports were from SEEPZ in the 1980s.
+
+Within 90 days of its establishment, the Task Force produced an extensive background report on the state of technology in India and an IT Action Plan with 108 recommendations. The Task Force could act quickly because it built upon the experience and frustrations of state governments, central government agencies, universities, and the software industry. Much of what it proposed was also consistent with the thinking and recommendations of international bodies like the World Trade Organization (WTO), International Telecommunication Union (ITU), and World Bank. In addition, the Task Force incorporated the experiences of Singapore and other nations, which implemented similar programs. It was less a task of invention than of sparking action on a consensus that had already evolved within the networking community and government.
+
+Regulated VSAT links became visible in 1994. Desai (2006) describes the steps taken to relax regulations on linking in 1991:
+
+In 1991 the Department of Electronics broke this impasse, creating a corporation called Software Technology Parks of India (STPI) that, being owned by the government, could provide VSAT communications without breaching its monopoly. STPI set up software technology parks in different cities, each of which provided satellite links to be used by firms; the local link was a wireless radio link. In 1993 the government began to allow individual companies their own dedicated links, which allowed work done in India to be transmitted abroad directly. Indian firms soon convinced their American customers that a satellite link was as reliable as a team of programmers working in the clients' office.
+
+A joint EU-India group of scholars was formed on 23 November 2001 to further promote joint research and development. On 25 June 2002, India and the European Union agreed to bilateral cooperation in the field of science and technology. From 2017, India holds an Associate Member State status at CERN, while a joint India-EU Software Education and Development Center will be located in Bangalore.
+
+Automation and layoffs
+
+In the last decade, most of the IT companies developed indigenous R&D and innovation capabilities to develop homegrown IT products. As the IT–BPM sector evolves, many are concerned that artificial intelligence (AI) will drive significant automation and destroy jobs in the coming years.
+
+The rise of AI-powered code generation tools like ChatGPT, Gemini, and Copilot has sparked discussions about their potential impact on programming jobs. These tools can automate some coding tasks, potentially affecting the skillset required for certain programming roles. In 2024, the tech industry witnessed a significant increase in layoffs, with companies like Google, Amazon, Meta, and Cisco announcing job cuts. While AI is a contributing factor, economic downturns and cost-cutting measures often influence such decisions. Automation's role in the IT industry has been a topic of discussion. Industry leaders like Vineet Nayar, former CEO of HCL, have suggested that automation may lead to a decrease in workforce size needed for specific tasks. According to Layoffs', there have been over 500,000 layoffs from 2022 until April 2024. According to Harvard Business Review research, AI could impact various job sectors, including writing, coding, and imaging. A recent study suggests that up to 30% of jobs in these fields might be affected due to the efficiency and capabilities of AI tools like ChatGPT and image-generating AI.
+
+According to Center for the Advanced Study of India (CASI) of the University of Pennsylvania, it is expected in India, which has 65 percent of global IT off-shore work and 40 percent of global business processing, will have 69 percent of its jobs in the formal employment automated by 2030. One report indicates that 640,000 low-skilled service jobs in the IT sector are at risk due to automation, while only 160,000 mid- to high-skilled positions will be created in the IT and BPO service sectors. Goldman Sachs has predicted that advances in artificial intelligence (AI) could potentially automate the equivalent of 300 million full-time jobs globally.
+
+The tech industry witnessed a significant increase in layoffs in 2024, with companies like Google, Amazon, Meta, and Cisco announcing job cuts. While AI is a contributing factor, economic downturns and cost-cutting measures often influence such decisions. Vineet Nayar, former CEO of HCL said in March 2024 that automation may lead to a decrease in the workforce size needed for specific tasks, particularly for repetitive or data entry-heavy IT jobs and skills of employees for coding, testing, maintenance, responding to trouble tickets, all that will be taken over by AI these skills will become obsolete.
+
+Attrition rate
+
+The Indian IT-BPM industry has the highest employee attrition rate. In recent years, the industry has seen a surge in resignations at all levels. As a global outsourcing hub, the Indian IT industry benefits from a lower cost of living and the consequent cheaper labor.
+
+Several factors contribute to the high attrition rate in the Indian IT sector. These include a lack of career growth opportunities, work-life balance issues, high workload and stress, and limited skill development opportunities. Additionally, competitive compensation packages offered by other companies (both domestic and international) can be a significant pull factor for employees.
+
+Statistics
+
+Indian IT revenues
+
+In the contemporary world economy, India is the largest exporter of IT. The contribution of the IT sector in India's GDP rose from 1.2% in 1998 to 7% in 2019. Exports dominate the Indian IT industry and constitute about 79% of the industry's total revenue. However, the domestic market is also significant, with robust revenue growth.
+
+The industry's share of total Indian exports (merchandise plus services) increased from less than 4% in FY1998 to about 25% in FY2012. The technologically inclined services sector in India accounts for 40% of the country's GDP and 30% of export earnings as of 2006, while employing only 25% of its workforce, according to Sharma (2006). According to Gartner, the "Top Five Indian IT Services Providers" are Tata Consultancy Services, Infosys, Wipro, Tech Mahindra, and HCL Technologies.
+
+The IT and BPM industry's revenue is estimated at US$ 194 billion in FY 2021, an increase of 2.3% YoY. The domestic revenue of the IT industry is estimated at US$45 billion and export revenue is estimated at US$150 billion in FY 2021. The IT industry employed almost 2.8 million employees in FY 2021. The IT–BPM sector overall employs 5.4 million people as of March 2023.
+
+In 2022, companies within the sector faced significant employee attrition and intense competition in hiring's. Indian IT revenues grow fastest in a decade to $227 billion in COVID-19 pandemic -hit FY22. NASSCOM in its Strategic Review predicted that the IT industry can achieve the ambitious target of being a US$ 350 billion by FY26 growing at a rate of 11-14 per cent.
+
+State/UT wise revenue in IT exports from stpi registered units
+
+Below is the State wise list of revenue in stpi IT exports as of FY2023.
+
+Largest Indian IT companies based on market capitalization
+
+Top IT services companies in India in 2022 by market capitalization. In September 2021, TCS recorded a market capitalization of US$ 200 billion, making it the first Indian IT tech company to do so. On 24 August 2021, Infosys became the fourth Indian company to reach $100 billion in market capitalization.
+
+Largest Indian IT companies in India based on revenue
+
+Top IT services companies in India in 2022 by revenue.
+
+IT-BPM employees headcount by location
+
+Major IT hubs
+
+Bengaluru
+
+Bengaluru is a global technology hub and is India's biggest tech hub. As of fiscal 2016–17, Bengaluru accounted for 38% of total IT exports from India worth $45 billion, employing 10 lakh people directly and 30 lakh indirectly. The city is known as the "Silicon Valley of India".
+
+Bengaluru is also known as the "startup capital of India"; the city is home to 44 percent of all Indian unicorn startup companies as of 2020.
+
+Hyderabad
+
+Hyderabad – known for the HITEC City or Cyberabad – is India's second largest information technology exporter and a major global IT hub, and the largest bioinformatics hub in India. Hyderabad has emerged as the second largest city in the country for software exports pipping competitors Chennai and Pune.
+
+Chennai
+
+As of 2018, Chennai is India's third-largest exporter of information technology (IT) after Bangalore and Hyderabad and business process outsourcing (BPO) services. TIDEL Park in Chennai was billed as Asia's largest IT park when it was built.
+
+Pune
+
+Pune has established itself as a key player in India's IT and consultancy sectors, attracting major companies like Infosys, TCS, Accenture, Amdocs, Cognizant, IBM, Capgemini and Tech Mahindra. The city is a hub for IT services, software development, and consultancy work, serving global clients across various industries. There are several Global Capability Centres operating in Pune, Some of them being the largest names in Finance sector like UBS, Barclays and BNY. Beyond large corporations, Pune's startup ecosystem has flourished, with companies like Druva, specializing in cloud data protection. Startups such as FirstCry and PubMatic have also gained international recognition.
+
+Kolkata
+
+Kolkata (Greater) is one of the major and the biggest IT hub of East India. Most of the IT parks and offices are located at New Town and Bidhannagar. Salt Lake Electronics Complex in Salt Lake Sector-V is India's first fully integrated Electronics Complex. As of 2020, The IT sector employs more than 200,000 people directly. Total export from IT sector was estimated at ₹25,918 crore in 2021–22. In 2022, Kolkata generated 20,000 direct jobs in just 6 months, which is an all-time high for IT industry in East India.
+
+Controversies
+
+Recruitment fraud
+
+In recent years, many IT workers use forged experience certificates to gain entry into the Indian IT industry. These fake documents are provided by consultancies that are mainly operating out of Hyderabad and Bangalore. IT professionals frequently use proxy interviews to clear interviews, but the majority of the phoney candidates are rejected during the interview round.
+
+The use of fake experience certificates has a detrimental effect on both the IT industry and individual employees. It damages the reputation of Indian IT companies and can lead to a loss of productivity due to hiring unqualified candidates. Furthermore, it can create security risks if unqualified personnel gain access to sensitive information. Employees caught using fake certificates face potential legal repercussions.
+
+Several initiatives are being undertaken to address the use of fake experience certificates. IT companies are implementing stricter background verification processes and utilizing more technical assessments and coding challenges during interviews. Collaboration between IT companies and educational institutions for verification of credentials is also increasing. Government regulations and penalties for issuing or using fake certificates are additional measures being explored.
+
+Tech support scams
+
+A 2017 study of technical support scams published at the NDSS Symposium found that, of the tech support scams in which the IPs involved could be geolocated, 85% could be traced to locations in India. Indian call centres are infamous for defrauding customers from the US and Europe. Kolkata, Bangalore, Hyderabad, and Mumbai are the main operating locations for these fraud call centres.
+
+Technical support scams originating from India often employ various tactics. These include pop-up scams displaying fake error messages, phishing emails or calls impersonating legitimate tech companies, and scareware tactics pressuring users into unnecessary purchases due to alleged virus infections. Scammers exploit fear and a lack of technical knowledge by using persuasive language and impersonation tactics to appear official.
+
+Law enforcement agencies in India and internationally are taking steps to address these call centers. This includes government crackdowns and raids on illegal operations, along with international collaboration between law enforcement agencies.
+
+Work hours controversy

@@ -1,0 +1,78 @@
+A panchāngam (Template:Lang-sa; IAST: pañcāṅgam) is a Hindu calendar and almanac, which follows traditional units of Hindu timekeeping, and presents important dates and their calculations in a tabulated form. It is sometimes spelled Panchāngamu, Pancanga, Panchanga, Panchaanga, or Panchānga, and is often pronounced Panchāng. Panchangas are used in Jyotisha (Jyotiṣa) (Indian astrology).
+
+In Nepal and Eastern India, including Assam, Bengal and Odisha, the Panchangam is referred to as Panjika.
+
+Overview
+
+Panchāngams are published in India by many authors, societies, academies, and universities. Different publications differ only minutely, at least for a casual or not yet trained reader. They forecast celestial phenomena such as solar eclipses, forecasting weather (rain, dry spells) as well as more mundane occurrences.
+
+The study of Panchāngams involves understanding Rasi phala (also pronounced 'Rashi phala'), the impact of the signs of the zodiac on the individual. Astrologers consult the Panchāngam to set auspicious dates for weddings, corporate mergers, and other activities as per their religion.
+
+The casting of a Panchāngam involves elaborate mathematical work involving high level of spherical geometry and sound understanding of astronomical phenomena, such as sidereal movements of heavenly bodies. However, in practice the tabulation is done on the basis of short-cut formulations as propounded by ancient Vedic sages and scholars.
+
+A typical Panchāngam may state tabulations of positions of Sun, Moon, and other planets for every day of the year on a fixed place (longitude, latitude) and time of day (in 24-hour format IST). The users calculate the remaining data using their relative difference from this fixed place and time.
+
+There are several panchāngas that contain information for more than one year. There is one, Vishvavijaya Panchāngam, that covers 100 years.
+
+The theories propounded in the two scriptures, Surya Siddhanta and Grahalaghava formed the basis for the myriad calendars or Panchāngas in the past in different regions of India.
+
+The Grahalaghava was compiled about 600 years ago and Surya Siddhanta was available long before that. These had become outdated and did not tally with actual astronomical events and did not tally with each other. Hence, a committee was appointed by the Government of India with experts in the field drawn from various parts of the country who were involved with preparation of Panchāngam in local languages to draw up a reliable Panchāngam in which the mathematical calculations provides the positions of grahas (the planets) and nakshatras (constellations) in the sky as they are observed.
+
+Thus, the Government of India has prepared the National Panchānga or the Indian national calendar in 1957 (was proposed by Meghnad Saha and Lahiri in 1952), which is used in predictive astrology. The Lahiris Ephemeris published annually is the most widely used English almanac in Vedic astrology, many Panchāngas are published in local languages, which are mostly based on the National Panchānga.
+
+Etymology
+
+Accuracy of attributes depending upon the Moon's motions were considered most crucial for the reliability of a panchāngam, because the Moon is the fastest among all heavenly entities shown in traditional panchāngas. Tithi, Nakshatra, Rāśi, Yoga, and Karana depend upon Moon's motions, which are five in number. Panchānga is a Sanskrit word, literally meaning "having five limbs". If these five limbs, for example, the five attributes depending upon Moon, are accurate, an almanac is held to be reliable, because other elements are not so difficult to compute due to their slow rates of change.
+
+There are three popular meanings of panchāngam:
+
+* In Vedic astrology, meaning "five attributes" of the day. They are:
+** Tithi - Ending Moment (EM) of elongation of the Moon, the lunar day, the angular relationship between Sun and Moon (Apparent Moon minus Apparent Sun). One Tithi equals 12 degree difference between Moon and Sun.
+** Nakshatram - EM of asterism of the day, that is, the stellar mansion in which Moon is located for an observer at the center of the Earth. One Nakshatra equals 13 degrees:20 minutes. There are 27 Nakshatra in 360 degrees.
+** Yoga - EM of the angular relationship between Sun and Moon(Apparent Moon plus Apparent Sun). One Yoga equals 13 degrees:20 minutes. There are 27 Yogas in 360 degrees.
+** Karana - EM of half of a Tithi. One Karaṇa equals 6 degree difference between Moon and Sun.
+** Var weekday the seven weekdays. Monier-Williams gives "solar day" instead of Rāśi as the fifth limb. Some people enumerate Vār (days of the week) instead. Vār or solar days do not involve intricate computations, unlike EM of Rāśi; however, in the Hindu system the five elements only constitute the five limbs of the Panchāngam.
+* An almanac that contains the astronomical / astrological daily details also came to be called a panchāngam because of the importance of five attributes.
+* Panchānga-pūjan, which is a part of Ganesh-Ambika-pūjan.
+
+In Vedic astrology, the basic tenet of astrology was integrated with celestial events and thus was born various branches of Vedic astrology and the Panchānga. In simple terms, "Panchānga" means the Day, Nakshatra (Star), tithi, Yoga and Karana every day. It is a mirror of the sky. The document used as Panchāngam has evolved over the last 5000 years. The theories propounded in the two scriptures, Surya Siddhanta and Grahalaghava formed the basis for the plethora of calendars or Panchāngas in the past in different regions of the country - a culturally complex system.
+
+The five Angas or parts of Panchāngam are elaborated in the following paragraphs but before that the composition of the Samvatsara OR Years (60 Years cycle), Varsha or Year and Masa or month are first explained, as these important calendar events are part of every Panchānga. All the components of Panchangam are relevant in Predictive Astrology, Prasna Shastra (electional astrology), etc.
+
+All followers and practitioners of Vedic astrology must know how to read a Panchāngam and in this context it is necessary to know the terminology used in the Panchāngam for different time slots of the day. Panchāngas are also published in English as Ephemeris - The Lahiris Ephemeris is most widely used, which gives all the details as contained in a traditional Panchāngam published in Sanskrit or Hindi and all the regional languages of the country.
+
+There are several forms of reckoning the varsha or year based on solar entry (solar ingress), lunar entry, Jupiter entry in a sign or the Julian calendar of starting the year from the first of January, but the most widely accepted practice in India is the Samvatsara, a 60 years cycle based on solar entry. Each zodiacal sign is represented by fixe years starting from Pramadi and the sixty years are equally distributed in successive order among the twelve signs (Rasis) starting from Mesha (Aries) and ending in Meena (Pisces).
+
+Varsha or the year, used in astrological context refers to the solar calendar of year and months, which starts with Sun entering Aries (Mesha Rasi) and completing a full circle of the zodiac in a period of twelve months.
+
+There are two kinds of lunar months followed in India - the new moon ending called the Amanta or Sukladi system and the full moon ending (covering one full moon to the next) called the Purnimanta system. But it is the lunar months full moon reckoned), which are reckoned in predictive astrology, and each represents the name of the star on full moon day of the solar months. The twelve lunar months starting from Chaitra along with the names of the solar months are given below.
+
+In Vedic astrology, the basic tenets of astrology were integrated with celestial events with vara or weekday and thus was born the Muhurtha astrology or electional astrology.
+
+Tithi or Lunar day is an important concept in Hindu astrology. It means lunation. There are thirty tithis in a Lunar month distributed in the 360 degrees of the Zodiac and each tithi is completed when the longitude of the Moon gains exactly twelve degrees or its multiple on that of the Sun. By name there are only 15 tithis repeating in the two halves of the month – Shukla 1 to Shukla 15 (known as Poornima or Full Moon) and Krishna 1 to 15 (known as Amavasya or New Moon). In astrological parlance tithi has great significance in the fact that each tithi from 1 to 14 in both Pakshas has what are called daghda rasis or burnt rasis – two rasis for each tithi except Chaturdasiwhich has four daghda rasis. But new moon and full moon have no dagdha rasis. The tithis are divided into five groups as under.
+
+* Nanda (Ananda or Joyous) tithi - Prathipada (1st), Shasti (6th) and Ekadashi (11th);
+* Bhadra (Arogya or Mangala or Healthy) tithis on – Dwitiya (2nd), Saptami (7th) and Dwadashi (12th);
+* Jaya (Victory) tithi –Tuesday- Tritiya (3rd), Ashtami (8th) and Trayodashi (13th);
+* Rikktha (Loss or Nashta) thitihis – Saturday - Chathurthi (4th) Navami (9th) and Chaturdasi (14th);
+* Poorna (Sampoorna - Full Moon or New Moon) tithis –Thursday Panchami (5th), Dashami (10th) and Amavasya (New Moon) or Poornima.
+
+A unique Vedic system is followed in Muhurtha astrology, Horary astrology and predictive astrology, which envisages grouping of Nakshtaras (stars) into nine sub-groups. Each sub-group covers three stars and has a specific name of ‘Tara’ proceeded by a word defining benefic or malefic nature. These are found to be extremely useful in Vedic astrology which is widely practiced in India.
+
+The nine taras (star groups) by their individual names are listed below.
+
+* Janma (Birth/Ascendant/Lagna) Tara – The Janma (Birth Star/Ascendant Star also known as Lagna Nakshatra) Nakshatra, the 10th from Janma nakshatra also known as Karna nakshatra and the 19th from Janma nakshatra known as Adhana nakshatra constitute this tara.
+* Sampat Tara – The 2nd the 11th and the 20th Nakshatras counted from Janma nakshatra constitute this tara.
+* Vipat Tara – The 3rd, the 12th and the 21st stars counted from Janma nakshatra constitute this tara.
+* Kshema Tara – The 4th, the 13th and the 22nd Nakshatras counted from the janama nakshatra constitute this tara.
+* Pratyak Tara – The 5t, the 14th, and the 23rd nakshatras from Janma nakshatra constitute this tara.
+* Sadhaka Tara – The 6th, the 15th, and the 24th nakshatras from Janma nakshatra constitute this tara.
+* Nidhana Tara – The 7th, the 16th, and the 25th nakshatras from the Janma nakshatra constitute this tara.
+* Mitra Tara – The 8th, the 17th and the 26th nakshatras from Janma nakshatra constitute this tara.
+* Ati or Parama Mitra Tara – The 9th, the 18th and the 27th nakshatras from Janma nakshatra constitute this tara.
+
+Usage
+
+The basic purpose of Hindu Panchāngam is to check various Hindu festivals and auspicious time (election- Muhurta). In the Hindu system of election, various element of Panchāngam constitute auspicious and inauspicious moments (Yogas) by combination of weekday-Tithi, weekday-constellation, weekdays-Tithis-constellations. In addition, individual weekdays, Tithis, constellations, Yoga and Karanas have been prescribed for specific activities which fructify during their currency.
+
+For selecting an auspicious moment Panchāngam Shuddhi (purified-time) is fundamental. In addition favourable transits, purified ascendant, absence of malefic yogas, favourable Dasha (Hindu progression), name of doer, propitiations, chanting of Mantras, place of activity, social customs, omens, mode of breathing are also examined.

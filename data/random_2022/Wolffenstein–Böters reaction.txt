@@ -1,0 +1,7 @@
+The Wolffenstein–Böters reaction is an organic reaction converting benzene to picric acid by a mixture of aqueous nitric acid and mercury(II) nitrate.
+
+The reaction, which involves simultaneous nitration and oxidation, was first reported by the German chemists Richard Wolffenstein and Oskar Böters in 1906.
+
+According to one series of studies the mercury nitrate first takes benzene to the corresponding nitroso compound and through the diazonium salt to the phenol. The presence of nitrite is essential for the reaction; picric acid formation is prevented when urea, a trap for nitrous acid, is added to the mixture. From then on the reaction proceeds as a regular aromatic nitration.
+
+A conceptually related reaction is the Bohn–Schmidt reaction, dating to 1889, which involves the hydroxylation of hydroxyanthraquinone with sulfuric acid and lead or selenium to a polyhydroxylated anthraquinone.

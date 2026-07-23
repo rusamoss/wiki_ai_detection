@@ -1,0 +1,40 @@
+The Elachistidae (grass-miner moths) are a family of small moths in the superfamily Gelechioidea. Some authors lump about 3,300 species in eight subfamilies here, but this arrangement almost certainly results in a massively paraphyletic and completely unnatural assemblage, united merely by symplesiomorphies retained from the first gelechioid moths.
+
+In fact, most of these moths appear to be either closer to the Oecophorinae and are hence nowadays usually included in the Oecophoridae (Depressariinae, " Deuterogoniinae ", Hypertrophinae, Stenomatinae and perhaps the enigmatic Aeolanthes), or constitute quite basal lineages of gelechioids, neither closely related to Elachista nor to Oecophora, and hence best treated as independent families within the Gelechioidea (Agonoxenidae, Ethmiidae). The genus Coelopoeta is sometimes still placed here, but probably belongs in the Oecophorinae.
+
+Consequently, the Elachistidae are essentially identical to the subfamily Elachistinae in the family's wide circumscription. The Agonoxenidae might perhaps belong here regardless, but even this is doubtful. Nonetheless, a considerable number of genera remain in the present family, and eventually it is likely that subdivisions will again be established (e.g. by raising some or all of the tribes proposed for the former Elachistinae to subfamily status).
+
+A significant reduction of genera has been proposed, from the current mass of 20 genera to 3. The proposition was made on the premise of several distinguishing classifications, all of which are synapomorphies. Those include genital size and presence of digitate, adult abdomen segments without dorsal spines, absence of maxillary palpi and fronto-clypeal suture, and immobile abdominal segments in pupae and larvae. Various tribes were considered within the proposition, with most differentiation coming from genital structure.
+
+In the modern, reduced description, the Elachistidae are small to very small moths (wingspans usually around 1 cm). Their wings appear feather-like due to the fine hair covering the wings' fringes, and the hindwings can be significantly reduced in area, essentially consisting of a small strip with a wide hairy fringe. The caterpillars are typically leaf miners or stem miners on Poales.
+
+Genera
+
+The genera of Elachistidae are:
+
+* Elachistinae
+** Elachista
+** Eretmograptis Meyrick, 1938
+** Mylocrita Meyrick, 1922
+** Myrrhinitis Meyrick, 1913
+** Perittia Stainton, 1854
+** Stephensia Stainton, 1858
+** Urodeta Stainton, 1869
+
+Several small genera colored by some authors are here included in Elachista, as it would otherwise be liable to be non- monophyletic. As noted above, Aeolanthes may also belong here, as the only genus of a subfamily Aeolanthinae. Also possibly included is the Peruvian species Auxotricha ochrogypsa, described by Edward Meyrick in 1931 as the sole member of its genus.
+
+* Parametriotinae Capuse, 1971
+* Agonoxeninae Meyrick, 1925 (alternatively treated as a separate family)
+
+Fossil record
+
+Some prehistoric genera of Elachistidae, known only from fossils, have been described:
+
+* † Elachistites Kozlov, 1987
+* † Microperittia Kozlov, 1987
+* † Palaeoelachista Kozlov, 1987
+* † Praemendesia Kozlov, 1987
+
+Former genera
+
+Footnotes

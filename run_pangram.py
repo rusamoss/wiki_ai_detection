@@ -3,22 +3,36 @@
 run_pangram.py
 
 Runs Pangram AI-text detection (https://pangram.com) against every .txt
-article in a folder, defaulting to the most recently generated subfolder of
---articles-dir if none is given. Uses Pangram's Bulk API, which is cheaper
-than one predict() call per file.
+article in a folder (or just the first --limit of them, by filename). With
+--all-dirs, runs this once per directory under data/ that directly
+contains .txt files (--limit still applies to each one individually)
+instead of a single folder -- the normal way to cover every category at
+once, since get_test_wiki_pages.py writes each category into its own flat
+folder rather than a per-run subfolder. Without --folder or --all-dirs,
+falls back to the most recently modified subfolder of --articles-dir (only
+relevant if --articles-dir actually has subfolders -- rarely true for the
+two conventional categories now). Uses Pangram's Bulk API, which is
+cheaper than one predict() call per file.
 
 Before submitting, each article's (title, --label, revision ID) is checked
 against rows already in the destination CSV; anything already scored there
-is skipped rather than re-submitted. Results are appended to that CSV
-rather than overwriting it, so running this repeatedly against the same
---out (e.g. once per category folder) builds one combined results file.
+is skipped rather than re-submitted. Results (including "date_ran", when
+that batch was analyzed) are appended to that CSV rather than overwriting
+it (default: data/pangram_results.csv, shared across every folder/category
+unless --out says otherwise), so running this repeatedly against different
+category folders builds one combined results file. If --label isn't given,
+it defaults to the folder's own name (e.g. data/random_2022 -> "random_2022"),
+since get_test_wiki_pages.py writes articles straight into a bare category
+folder rather than a per-run subfolder.
 
-The revision ID and word count come from --source-csv: the CSV
+The revision ID, word count, and URL come from --source-csv: the CSV
 get_test_wiki_pages.py wrote alongside this folder (it has "title",
-"prose_word_count", and "revision_id" columns). Without --source-csv,
-articles are deduped by title alone -- fine for e.g. self-generated content
-that has no Wikipedia revision -- and cost estimates fall back to a raw
-whitespace word count.
+"prose_word_count", "url", "revision_id", and "date_fetched" columns). If
+omitted, this is guessed from the label ("random_2022" ->
+data/wikipedia_sample.csv, "random_AI_suspected" ->
+data/wikipedia_ai_sample.csv) when that file exists. Otherwise -- e.g.
+self-generated content, which has no such CSV -- articles are deduped by
+title alone and cost estimates fall back to a raw whitespace word count.
 
 Before each bulk submission, prints an estimated cost (5c per 1000 words,
 with a 1-credit-per-article minimum) and asks for confirmation. If Pangram
@@ -28,23 +42,34 @@ buy more instead of failing the run, and retries once you've topped up.
 Usage:
     pip install pangram-sdk
     export PANGRAM_API_KEY=...          # from your Pangram account
-    python run_pangram.py                                # most recent articles/ subfolder
-    python run_pangram.py --folder data/random_2022/20260722_103721 \\
-        --source-csv wikipedia_sample.csv --label pre2022 --out combined_results.csv
+    python run_pangram.py --folder data/random_2022 --source-csv data/wikipedia_sample.csv
 """
 
 import argparse
 import csv
+import time
 from pathlib import Path
 
 from pangram import Pangram
 
+from get_test_wiki_pages import (
+    DATA_DIR,
+    DEFAULT_AI_ARTICLES_DIR,
+    DEFAULT_AI_OUT,
+    DEFAULT_ARTICLES_DIR,
+    DEFAULT_OUT,
+    TIMESTAMP_FORMAT,
+    sanitize_title,
+)
+
 CREDITS_URL = "https://www.pangram.com/solutions/api"
+DEFAULT_OUT_DIR = Path(DATA_DIR)
 
 FIELDNAMES = [
     "file",
     "label",
     "revision_id",
+    "url",
     "prediction_short",
     "fraction_ai",
     "fraction_ai_assisted",
@@ -53,6 +78,7 @@ FIELDNAMES = [
     "confidence",
     "error",
     "full_dict",
+    "date_ran",
 ]
 
 
@@ -66,7 +92,7 @@ def window_confidence(result):
     return ";".join(w.get("confidence", "") for w in windows)
 
 
-def build_result_row(name, label, revision_id, result, error, full_dict_source):
+def build_result_row(name, label, revision_id, url, result, error, full_dict_source, date_ran):
     """Builds one destination-CSV row for a bulk-job item, whether it
     succeeded (`result` is Pangram's per-article dict) or failed (`result`
     is None)."""
@@ -74,6 +100,7 @@ def build_result_row(name, label, revision_id, result, error, full_dict_source):
         "file": name,
         "label": label,
         "revision_id": revision_id,
+        "url": url,
         "prediction_short": result.get("prediction_short") if result is not None else None,
         "fraction_ai": result.get("fraction_ai") if result is not None else None,
         "fraction_ai_assisted": result.get("fraction_ai_assisted") if result is not None else None,
@@ -82,6 +109,7 @@ def build_result_row(name, label, revision_id, result, error, full_dict_source):
         "confidence": window_confidence(result) if result is not None else None,
         "error": error,
         "full_dict": str(full_dict_source),
+        "date_ran": date_ran,
     }
 
 
@@ -94,17 +122,55 @@ def latest_articles_folder(articles_dir):
     return max(subdirs, key=lambda p: p.name)
 
 
+def find_txt_directories(base_dir):
+    """Returns every directory at or under `base_dir` that directly
+    contains at least one .txt file, sorted. rglob("*.txt") matches files
+    directly in `base_dir` too (not just nested ones), so a `base_dir` with
+    no category subfolders -- just .txt files dropped straight into it --
+    naturally comes back as [base_dir] with no special-casing needed."""
+    return sorted({p.parent for p in base_dir.rglob("*.txt")})
+
+
+def default_label(folder):
+    """Falls back to the folder's own name for --label when none is given
+    (e.g. data/random_2022 -> "random_2022", data/claude -> "claude")."""
+    return folder.name
+
+
+# get_test_wiki_pages.py's own --articles-dir/--out defaults (imported, not
+# retyped), keyed by the label its folders resolve to via default_label()
+# -- lets --source-csv be inferred instead of required, for the two
+# conventional categories, and can't drift out of sync with those defaults.
+DEFAULT_SOURCE_CSV_BY_LABEL = {
+    Path(DEFAULT_ARTICLES_DIR).name: DEFAULT_OUT,
+    Path(DEFAULT_AI_ARTICLES_DIR).name: DEFAULT_AI_OUT,
+}
+
+
+def guess_source_csv(label):
+    """Returns the conventional get_test_wiki_pages.py output CSV for a
+    known category `label`, if that file actually exists in the current
+    directory -- otherwise None (e.g. for self-generated content, which
+    has no such CSV to guess)."""
+    name = DEFAULT_SOURCE_CSV_BY_LABEL.get(label)
+    if name and Path(name).exists():
+        return name
+    return None
+
+
 def load_source_metadata(path):
-    """Returns {title: {"revision_id": ..., "prose_word_count": ...}} from a
-    get_test_wiki_pages.py CSV. "prose_word_count" is that script's own
-    prose-only word count (excluding headings/lists), truer than a raw
-    whitespace split of the cleaned .txt file."""
+    """Returns {title: {"revision_id": ..., "prose_word_count": ..., "url":
+    ...}} from a get_test_wiki_pages.py CSV, keyed by sanitize_title(title)
+    to match the corresponding .txt filename. "prose_word_count" is that
+    script's own prose-only word count (excluding headings/lists), truer
+    than a raw whitespace split of the cleaned .txt file."""
     with open(path, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
     return {
-        row["title"]: {
+        sanitize_title(row["title"]): {
             "revision_id": row.get("revision_id", ""),
             "prose_word_count": row.get("prose_word_count") or "",
+            "url": row.get("url", ""),
         }
         for row in rows
     }
@@ -168,50 +234,20 @@ def read_existing_results(out_path):
         return list(reader), reader.fieldnames
 
 
-def main():
-    ap = argparse.ArgumentParser(
-        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
-    )
-    ap.add_argument(
-        "--folder",
-        help="folder of .txt articles to scan (default: most recent subfolder of --articles-dir)",
-    )
-    ap.add_argument(
-        "--articles-dir",
-        default="articles",
-        help="base directory containing timestamped article subfolders",
-    )
-    ap.add_argument(
-        "--out",
-        help="CSV path for results, appended to rather than overwritten "
-             "(default: <folder>/pangram_results.csv)",
-    )
-    ap.add_argument(
-        "--label",
-        default="",
-        help="value stamped into every row's 'label' column (e.g. 'suspected_ai', "
-             "'pre2022', 'claude') -- makes it easy to tell rows apart after "
-             "combining CSVs from separate runs/folders",
-    )
-    ap.add_argument(
-        "--source-csv",
-        help="the CSV get_test_wiki_pages.py wrote alongside this folder (has "
-             "'title', 'prose_word_count', and 'revision_id' columns), used "
-             "to look up each article's revision ID (for dedup) and word "
-             "count (for the cost estimate). Without this, articles are "
-             "deduped by title alone and costed off a raw whitespace split.",
-    )
-    args = ap.parse_args()
-
-    folder = Path(args.folder) if args.folder else latest_articles_folder(Path(args.articles_dir))
-    if not folder.is_dir():
-        raise SystemExit(f"Not a directory: {folder}")
+def process_folder(folder, out_path, args):
+    """Runs the full scan/dedup/cost-estimate/submit/append pipeline against
+    one folder of .txt articles. Used both for a single --folder run and,
+    once per discovered directory, for --all-dirs."""
+    label = args.label or default_label(folder)
 
     txt_files = sorted(folder.glob("*.txt"))
     if not txt_files:
         raise SystemExit(f"No .txt files found in {folder}")
 
-    out_path = Path(args.out) if args.out else folder / "pangram_results.csv"
+    if args.limit is not None and len(txt_files) > args.limit:
+        print(f"  [limit] found {len(txt_files)} .txt files, only looking at "
+              f"the first {args.limit}")
+        txt_files = txt_files[:args.limit]
 
     existing_rows, existing_header = read_existing_results(out_path)
     if existing_header is not None and existing_header != FIELDNAMES:
@@ -228,24 +264,30 @@ def main():
         for row in existing_rows
     }
 
-    source_metadata = load_source_metadata(args.source_csv) if args.source_csv else {}
-    if not args.source_csv:
-        print("  [warn] no --source-csv given: revision ID is blank for every file "
-              "this run, so it won't match an already-scored row that recorded a "
-              "real revision ID")
+    source_csv = args.source_csv or guess_source_csv(label)
+    if source_csv:
+        print(f"  [source-csv] using {source_csv}"
+              + ("" if args.source_csv else " (auto-detected from label)"))
+    else:
+        print("  [warn] no --source-csv given or auto-detected: revision ID/url "
+              "blank for every file this run, so it won't match an already-scored "
+              "row that recorded a real revision ID")
+    source_metadata = load_source_metadata(source_csv) if source_csv else {}
 
     paths_by_name = {p.name: p for p in txt_files}
     revids = {}
     word_counts = {}
+    urls = {}
     for name in paths_by_name:
         meta = source_metadata.get(Path(name).stem, {})
         revids[name] = meta.get("revision_id", "")
         word_counts[name] = meta.get("prose_word_count", "")
+        urls[name] = meta.get("url", "")
 
     to_submit = []
     for name in sorted(paths_by_name):
-        if (name, args.label, revids[name]) in already_scored:
-            print(f"  [already scored] {name} (label {args.label!r}, revision "
+        if (name, label, revids[name]) in already_scored:
+            print(f"  [already scored] {name} (label {label!r}, revision "
                   f"{revids[name] or 'unknown'}): skipping")
         else:
             to_submit.append(name)
@@ -272,17 +314,18 @@ def main():
     call_with_credit_pause(client.wait_for_bulk, bulk_id)
 
     bulk_results = call_with_credit_pause(client.get_bulk_results, bulk_id)
+    date_ran = time.strftime(TIMESTAMP_FORMAT)
 
     rows = []
     for item in bulk_results["items"]:
         result = item.get("result") or {}
         name = item.get("id")
-        rows.append(build_result_row(name, args.label, revids.get(name, ""),
-                                      result, item.get("error"), result))
+        rows.append(build_result_row(name, label, revids.get(name, ""), urls.get(name, ""),
+                                      result, item.get("error"), result, date_ran))
     for item in bulk_results["failed_items"]:
         name = item.get("id")
-        rows.append(build_result_row(name, args.label, revids.get(name, ""),
-                                      None, item.get("error"), item))
+        rows.append(build_result_row(name, label, revids.get(name, ""), urls.get(name, ""),
+                                      None, item.get("error"), item, date_ran))
 
     rows.sort(key=lambda r: r["file"])
     with open(out_path, "a", newline="", encoding="utf-8") as f:
@@ -294,6 +337,89 @@ def main():
     succeeded = sum(1 for r in rows if r["prediction_short"] is not None)
     print(f"\nDone. {succeeded}/{len(rows)} succeeded. Appended to {out_path} "
           f"({len(paths_by_name) - len(to_submit)} already scored, skipped).")
+
+
+def main():
+    ap = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
+    ap.add_argument(
+        "--folder",
+        help="folder of .txt articles to scan (default: most recently modified "
+             "subfolder of --articles-dir, if it has any). Ignored if --all-dirs "
+             "is given -- prefer that over this for covering every category.",
+    )
+    ap.add_argument(
+        "--articles-dir",
+        help="base directory to look for a subfolder in when --folder isn't given "
+             "(rarely useful now that get_test_wiki_pages.py's categories are flat "
+             "folders, not subfolders -- see --all-dirs)",
+    )
+    ap.add_argument(
+        "--all-dirs",
+        action="store_true",
+        help=f"process every directory under {DEFAULT_OUT_DIR}/ that directly contains "
+             ".txt files (e.g. each category folder), instead of a single --folder -- "
+             "--limit still applies to each directory individually",
+    )
+    ap.add_argument(
+        "--out",
+        help="CSV path for results, appended to rather than overwritten "
+             f"(default: {DEFAULT_OUT_DIR}/pangram_results.csv, shared across "
+             "every folder/category)",
+    )
+    ap.add_argument(
+        "--label",
+        help="value stamped into every row's 'label' column (e.g. 'suspected_ai', "
+             "'pre2022', 'claude') -- makes it easy to tell rows apart after "
+             "combining CSVs from separate runs/folders. Defaults to the "
+             "folder's own name. With --all-dirs, this is always the "
+             "per-directory default, since one label can't fit every directory.",
+    )
+    ap.add_argument(
+        "--source-csv",
+        help="the CSV get_test_wiki_pages.py wrote alongside this folder (has "
+             "'title', 'prose_word_count', 'url', and 'revision_id' columns), "
+             "used to look up each article's revision ID/URL (for dedup and "
+             "the output) and word count (for the cost estimate). If omitted, "
+             "guessed from the label ('random_2022' -> data/wikipedia_sample.csv, "
+             "'random_AI_suspected' -> data/wikipedia_ai_sample.csv) when that "
+             "file exists; otherwise articles are deduped by title alone and "
+             "costed off a raw whitespace split. With --all-dirs, this is "
+             "always guessed per-directory.",
+    )
+    ap.add_argument(
+        "--limit",
+        type=int,
+        help="only look at the first N .txt files found in each folder (by "
+             "filename), even if there are more -- e.g. --limit 25 against a "
+             "folder of 50 articles",
+    )
+    args = ap.parse_args()
+
+    if args.all_dirs and args.label:
+        raise SystemExit("--label can't be used with --all-dirs -- each directory needs its own")
+    if args.all_dirs and args.source_csv:
+        raise SystemExit("--source-csv can't be used with --all-dirs -- each directory needs its own")
+
+    out_path = Path(args.out) if args.out else DEFAULT_OUT_DIR / "pangram_results.csv"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    if args.all_dirs:
+        folders = find_txt_directories(DEFAULT_OUT_DIR)
+        if not folders:
+            raise SystemExit(f"No .txt files found anywhere under {DEFAULT_OUT_DIR}")
+        print(f"[all-dirs] found {len(folders)} director{'y' if len(folders) == 1 else 'ies'} "
+              f"with .txt files under {DEFAULT_OUT_DIR}")
+        for folder in folders:
+            print(f"\n=== {folder} ===")
+            process_folder(folder, out_path, args)
+        return
+
+    folder = Path(args.folder) if args.folder else latest_articles_folder(Path(args.articles_dir))
+    if not folder.is_dir():
+        raise SystemExit(f"Not a directory: {folder}")
+    process_folder(folder, out_path, args)
 
 
 if __name__ == "__main__":

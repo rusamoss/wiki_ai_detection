@@ -4,46 +4,31 @@ get_test_wiki_pages.py
 
 Generates a random sample of English Wikipedia articles that satisfy:
 
-  1. Created (first revision) at or before the end of October 2022
-     (OCT_SNAPSHOT is the single cutoff used for everything).
+  1. Created (first revision) at or before the end of October 2022.
   2. Had between 100 and 3750 words of "readable prose" as of the end of
-     October 2022 (MIN_WORDS/MAX_WORDS), approximating en.wikipedia's
-     Prosesize gadget (https://en.wikipedia.org/wiki/MediaWiki:Gadget-Prosesize.js).
-     Unlike a wikitext-regex approach, this works on the *rendered HTML*
-     of the specific historical revision, which is what the gadget
-     itself does (it walks the parsed DOM, not raw wikitext) -- this
-     avoids having to hand-roll template expansion for infoboxes, etc.
+     October 2022; excluding infoboxes, tables, etc.
   3. Are not disambiguation pages, list articles, set index articles,
      or other navigational pages (heuristic: title pattern + pageprops
      + category checks; not a perfect replica of Wikipedia's own
      classification, so spot-check results if precision matters a lot).
 
 Usage:
-    pip install requests beautifulsoup4
     python get_test_wiki_pages.py --n 25 --out sample.csv
 
 Optionally, with --ai-n, also collects a separate random sample of articles
 from Category:Articles containing suspected AI-generated texts (a Wikipedia
-maintenance category for text human editors have flagged as likely
-AI-generated). These are processed the same way -- navigational/redirect
-filter, stub filter, prose extraction, MIN_WORDS filter -- except there's no
+maintenance category for articles human editors have flagged as likely
+AI-generated). These are processed the same way, except there's no
 creation-date cutoff and each article's *current* revision is used instead
-of its Oct-2022 one. Written to their own --ai-articles-dir/<timestamp>/
-folder and --ai-out CSV so they're never mixed with the dated sample:
+of its Oct-2022 one. Written to their own --ai-articles-dir folder and
+--ai-out CSV so they're never mixed with the dated sample:
 
     python get_test_wiki_pages.py --n 25 --ai-n 25 --out sample.csv --ai-out ai_sample.csv
 
-Notes:
-  - Respects Wikipedia API etiquette: sets a descriptive User-Agent, uses
-    maxlag to back off under replication lag, and throttles every request
-    via --min-interval.
-  - Because most randomly-sampled articles will fail one filter or
-    another (short stubs, lists, post-2022 articles, etc.), expect to
-    examine several thousand candidates to collect qualifying articles.
-    Requests run sequentially, so runtime scales directly with candidates
-    examined and current API latency.
-  - PLEASE set --contact to your email or a project URL. Wikipedia asks
-    for a real contact method in the User-Agent for API clients.
+Articles land in --articles-dir/--ai-articles-dir, and both that folder and its CSV accumulate across
+runs -- collecting a title that's already there overwrites its .txt file
+and CSV row (with a warning) rather than duplicating it. Each CSV row also
+records "date_fetched", when that article's text was (re)written.
 """
 
 import argparse
@@ -61,9 +46,16 @@ API_URL = "https://en.wikipedia.org/w/api.php"
 OCT_SNAPSHOT = "2022-10-31T23:59:59Z"
 MIN_WORDS = 100
 MAX_WORDS = 3750
+TIMESTAMP_FORMAT = "%Y-%m-%d %H:%M:%S"
 
-# "source" column value for the dated sample -- derived from OCT_SNAPSHOT so
-# it can't drift out of sync with the actual cutoff date.
+# Default output locations
+DATA_DIR = "data"
+DEFAULT_ARTICLES_DIR = f"{DATA_DIR}/random_2022"
+DEFAULT_OUT = f"{DATA_DIR}/wikipedia_sample.csv"
+DEFAULT_AI_ARTICLES_DIR = f"{DATA_DIR}/random_AI_suspected"
+DEFAULT_AI_OUT = f"{DATA_DIR}/wikipedia_ai_sample.csv"
+
+# "source" column value for the dated sample
 RANDOM_SOURCE_LABEL = f"Random; {time.strftime('%b %Y', time.strptime(OCT_SNAPSHOT, '%Y-%m-%dT%H:%M:%SZ'))} revision"
 
 # Conservative floor for pre-filtering stubs before paying for an
@@ -91,8 +83,7 @@ LIST_CATEGORY_RE = re.compile(
 # May 2025"), not directly in this page -- see get_category_members().
 AI_SUSPECTED_CATEGORY = "Category:Articles containing suspected AI-generated texts"
 
-# Elements that are not "readable prose" in the Prosesize sense --
-# infoboxes, navboxes, tables, references, images/galleries, TOC, etc.
+# Elements that are not "readable prose" -- infoboxes, navboxes, tables, references, images/galleries, TOC, etc.
 STRIP_SELECTORS = [
     "table",                      # infoboxes, wikitables, navboxes-as-tables
     ".navbox", ".vertical-navbox", ".navbox-inner",
@@ -109,16 +100,14 @@ STRIP_SELECTORS = [
     "style", "script",
     ".noprint",
     ".mw-empty-elt",
-    # Note: headings (h1-h6) are deliberately NOT stripped -- they're kept
-    # in the output text for structure, just excluded from the prose word
-    # count below (matching the Prosesize gadget, which doesn't count them).
+    # Note: headings (h1-h6) are deliberately NOT stripped
 ]
 
 
 def make_session(contact):
     s = requests.Session()
     s.headers.update({
-        "User-Agent": f"WikipediaProseSampler/1.0 ({contact})",
+        "User-Agent": f"AiTestArticleSampler/1.0 ({contact})",
     })
     return s
 
@@ -137,7 +126,7 @@ class RateLimiter:
         self.last = time.monotonic()
 
 
-def api_get(session, limiter, params, backoff=2.5, max_backoff=120.0):
+def api_get(session, limiter, params, backoff=2.0, max_backoff=120.0):
     """GET against the MediaWiki API. Transient failures (5xx, 429, timeouts,
     dropped connections, maxlag) are retried indefinitely with capped
     exponential backoff. Real API error responses (e.g. a malformed query)
@@ -187,7 +176,7 @@ def print_discarded(titles, reason):
 def get_random_titles(session, limiter, n):
     titles = []
     while len(titles) < n:
-        batch = min(500, n - len(titles))
+        batch = min(500, n - len(titles)) # 500 is the cap on results per req
         data = api_get(session, limiter, {
             "action": "query",
             "list": "random",
@@ -373,12 +362,10 @@ EXCLUDED_SECTION_HEADINGS = {"references", "external links", "see also", "furthe
 def extract_cleaned_prose(html):
     """Returns (word_count, cleaned_text) for rendered article HTML.
 
-    The output text keeps section headings and bulleted/numbered lists in
-    place (for readability/structure) but the word count -- and therefore
-    the MIN_WORDS filter -- only counts <p> paragraphs, matching the
-    Prosesize gadget's behavior of not treating headings or lists as prose.
-    Standard appendix sections (see EXCLUDED_SECTION_HEADINGS) are dropped
-    entirely, since they're backlinks/citations rather than article prose.
+    word_count covers everything kept in cleaned_text -- headings, list
+    items, and paragraphs alike -- since it's used (via MIN_WORDS/MAX_WORDS
+    and run_pangram.py's cost estimate) to size what's actually submitted
+    to Pangram, not to approximate the Prosesize gadget's prose-only count.
     """
     soup = BeautifulSoup(html, "html.parser")
     content = soup.select_one(".mw-parser-output") or soup
@@ -406,6 +393,7 @@ def extract_cleaned_prose(html):
                 skip_level = level
                 continue
             if heading_text:
+                words += len(re.findall(r"\b[\w'-]+\b", heading_text, flags=re.UNICODE))
                 parts.append(heading_text)
             continue
 
@@ -415,7 +403,9 @@ def extract_cleaned_prose(html):
         if el.name in ("ul", "ol"):
             if el.find_parent("li") is not None:
                 continue  # nested list; already handled by its ancestor
-            lines = [f"{'*' * depth} {text}" for depth, text in extract_list_lines(el)]
+            list_lines = extract_list_lines(el)
+            words += sum(len(re.findall(r"\b[\w'-]+\b", text, flags=re.UNICODE)) for _, text in list_lines)
+            lines = [f"{'*' * depth} {text}" for depth, text in list_lines]
             if lines:
                 parts.append("\n".join(lines))
             continue
@@ -423,8 +413,7 @@ def extract_cleaned_prose(html):
         text = normalize_prose_whitespace(el.get_text(" ", strip=True))
         if not text:
             continue
-        if el.name == "p":
-            words += len(re.findall(r"\b[\w'-]+\b", text, flags=re.UNICODE))
+        words += len(re.findall(r"\b[\w'-]+\b", text, flags=re.UNICODE))
         parts.append(text)
     return words, "\n\n".join(parts)
 
@@ -444,8 +433,13 @@ def fetch_cleaned_prose(session, limiter, revid):
     return extract_cleaned_prose(html)
 
 
+def sanitize_title(title):
+    """Strips characters that aren't valid in a filename."""
+    return re.sub(r'[\\/:*?"<>|]', "_", title).strip(" .")
+
+
 def safe_filename(title):
-    return re.sub(r'[\\/:*?"<>|]', "_", title).strip(" .") + ".txt"
+    return sanitize_title(title) + ".txt"
 
 
 def make_row(title, revid):
@@ -454,17 +448,48 @@ def make_row(title, revid):
         "pageid_url_slug": title.replace(" ", "_"),
         "revision_id": revid,
         "url": f"https://en.wikipedia.org/wiki/{title.replace(' ', '_')}?oldid={revid}",
+        "date_fetched": time.strftime(TIMESTAMP_FORMAT),
     }
 
 
-def emit_row(writer, f, run_dir, row, text, progress):
-    """Writes `row` via `writer`, flushes, saves `text` to
-    run_dir/<title>.txt, and prints a "[progress] title (N words)" line --
-    the bit run_from_csv and collect_sample both do identically once a row
-    is ready."""
-    writer.writerow(row)
-    f.flush()
-    (run_dir / safe_filename(row["title"])).write_text(text, encoding="utf-8")
+def load_existing_by_title(out_path):
+    """Returns {title: row} for whatever's already in `out_path`, or {} if
+    it doesn't exist yet -- the accumulated record collect_sample/
+    run_from_csv merge new rows into, so a fresh run doesn't erase rows for
+    articles an earlier run already collected into the same bare folder."""
+    if not out_path.exists() or out_path.stat().st_size == 0:
+        return {}
+    with open(out_path, newline="", encoding="utf-8") as f:
+        return {row["title"]: row for row in csv.DictReader(f)}
+
+
+def save_csv(out_path, fieldnames, rows_by_title):
+    """Rewrites `out_path` from scratch with every row in `rows_by_title`,
+    sorted by title. Called after each new/updated row so a crash never
+    loses more than the article in progress -- at the cost of re-writing
+    the whole accumulated CSV each time, not just the new row. Fine at the
+    scale this collects (rounds of tens to low hundreds of articles); if a
+    category folder's CSV grows into the thousands, this is the place to
+    switch to appending new rows and only doing a full rewrite for titles
+    that already exist."""
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        for title in sorted(rows_by_title):
+            writer.writerow(rows_by_title[title])
+
+
+def emit_row(run_dir, row, text, progress, already_existed):
+    """Saves `text` to run_dir/<title>.txt and prints a "[progress] title
+    (N words)" line. `already_existed` -- whether this title was already in
+    the accumulated CSV, decided once by the caller -- governs the
+    overwrite warning, so the file and the CSV row are always described by
+    the same signal rather than two independent checks that could disagree."""
+    path = run_dir / safe_filename(row["title"])
+    if already_existed:
+        print(f"  [warn] {row['title']!r} already exists at {path} -- overwriting")
+    path.write_text(text, encoding="utf-8")
     print(f"  [{progress}] {row['title']} ({row['prose_word_count']} words)")
 
 
@@ -478,25 +503,26 @@ def run_from_csv(session, limiter, args, run_dir, fieldnames):
     with open(args.from_csv, newline="", encoding="utf-8") as fin:
         rows_in = list(csv.DictReader(fin))
 
+    out_path = Path(args.out)
+    all_rows = load_existing_by_title(out_path)
+
     results = []
-    with open(args.out, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
+    for row in rows_in:
+        title = row["title"]
+        revid = row["revision_id"]
+        try:
+            word_count, text = fetch_cleaned_prose(session, limiter, int(revid))
+        except Exception as e:
+            print(f"  [warn] {title}: {e}", file=sys.stderr)
+            continue
 
-        for row in rows_in:
-            title = row["title"]
-            revid = row["revision_id"]
-            try:
-                word_count, text = fetch_cleaned_prose(session, limiter, int(revid))
-            except Exception as e:
-                print(f"  [warn] {title}: {e}", file=sys.stderr)
-                continue
-
-            out_row = make_row(title, revid)
-            out_row["prose_word_count"] = word_count
-            out_row["source"] = row.get("source") or RANDOM_SOURCE_LABEL
-            results.append(out_row)
-            emit_row(writer, f, run_dir, out_row, text, f"{len(results)}/{len(rows_in)}")
+        out_row = make_row(title, revid)
+        out_row["prose_word_count"] = word_count
+        out_row["source"] = row.get("source") or RANDOM_SOURCE_LABEL
+        results.append(out_row)
+        emit_row(run_dir, out_row, text, f"{len(results)}/{len(rows_in)}", title in all_rows)
+        all_rows[title] = out_row
+        save_csv(out_path, fieldnames, all_rows)
 
     return results
 
@@ -525,73 +551,73 @@ def collect_sample(session, limiter, run_dir, out_path, batches, *,
     both a constant value (e.g. `lambda _: "some label"`) and a per-title
     lookup (e.g. a dict's `.get`) fit the same contract.
     """
+    out_path = Path(out_path)
+    all_rows = load_existing_by_title(out_path)
     results = []
     seen = set()
 
-    with open(out_path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
+    for batch in batches:
+        if len(results) >= target_n:
+            break
 
-        for batch in batches:
+        batch = [t for t in batch if t not in seen]
+        seen.update(batch)
+        if not batch:
+            continue
+
+        print(f"--- have {len(results)}/{target_n} {label} "
+              f"({len(seen)} candidates examined) ---", file=sys.stderr)
+
+        revid_map = filter_navigational_and_redirects(session, limiter, batch)
+        print_discarded(set(batch) - set(revid_map), "navigational/redirect")
+        if not revid_map:
+            continue
+
+        if rvstart is not None:
+            revid_map = get_revision_ids(session, limiter, list(revid_map), rvstart=rvstart)
+            print_discarded(set(batch) - set(revid_map), "no revision at snapshot date")
+            if not revid_map:
+                continue
+
+        # Free pre-filter: skip anything whose raw wikitext is too small
+        # to plausibly contain MIN_WORDS of prose, without ever calling
+        # the expensive action=parse endpoint for it.
+        stubs = {}
+        kept = {}
+        for title, (revid, size) in revid_map.items():
+            if size < MIN_WIKITEXT_BYTES:
+                stubs[title] = size
+            else:
+                kept[title] = revid
+        for title in sorted(stubs):
+            print_discarded([title], f"stub ({stubs[title]}B wikitext)")
+        revid_map = kept
+        if not revid_map:
+            continue
+
+        for title, revid in revid_map.items():
+            try:
+                word_count, text = fetch_cleaned_prose(session, limiter, revid)
+            except Exception as e:
+                print(f"  [warn] {title}: {e}", file=sys.stderr)
+                continue
+            if word_count <= MIN_WORDS:
+                print_discarded([title], f"too short ({word_count} words)")
+                continue
+            if word_count > MAX_WORDS:
+                print_discarded([title], f"too long ({word_count} words)")
+                continue
+
+            row = make_row(title, revid)
+            row["prose_word_count"] = word_count
+            row["source"] = source(title)
+            results.append(row)
+            emit_row(run_dir, row, text, f"{len(results)}/{target_n}", title in all_rows)
+            all_rows[title] = row
+            save_csv(out_path, fieldnames, all_rows)
+
             if len(results) >= target_n:
                 break
-
-            batch = [t for t in batch if t not in seen]
-            seen.update(batch)
-            if not batch:
-                continue
-
-            print(f"--- have {len(results)}/{target_n} {label} "
-                  f"({len(seen)} candidates examined) ---", file=sys.stderr)
-
-            revid_map = filter_navigational_and_redirects(session, limiter, batch)
-            print_discarded(set(batch) - set(revid_map), "navigational/redirect")
-            if not revid_map:
-                continue
-
-            if rvstart is not None:
-                revid_map = get_revision_ids(session, limiter, list(revid_map), rvstart=rvstart)
-                print_discarded(set(batch) - set(revid_map), "no revision at snapshot date")
-                if not revid_map:
-                    continue
-
-            # Free pre-filter: skip anything whose raw wikitext is too small
-            # to plausibly contain MIN_WORDS of prose, without ever calling
-            # the expensive action=parse endpoint for it.
-            stubs = {}
-            kept = {}
-            for title, (revid, size) in revid_map.items():
-                if size < MIN_WIKITEXT_BYTES:
-                    stubs[title] = size
-                else:
-                    kept[title] = revid
-            for title in sorted(stubs):
-                print_discarded([title], f"stub ({stubs[title]}B wikitext)")
-            revid_map = kept
-            if not revid_map:
-                continue
-
-            for title, revid in revid_map.items():
-                try:
-                    word_count, text = fetch_cleaned_prose(session, limiter, revid)
-                except Exception as e:
-                    print(f"  [warn] {title}: {e}", file=sys.stderr)
-                    continue
-                if word_count <= MIN_WORDS:
-                    print_discarded([title], f"too short ({word_count} words)")
-                    continue
-                if word_count > MAX_WORDS:
-                    print_discarded([title], f"too long ({word_count} words)")
-                    continue
-
-                row = make_row(title, revid)
-                row["prose_word_count"] = word_count
-                row["source"] = source(title)
-                results.append(row)
-                emit_row(writer, f, run_dir, row, text, f"{len(results)}/{target_n}")
-
-                if len(results) >= target_n:
-                    break
 
     print(f"\nDone. Wrote {len(results)} {label} to {out_path} and {run_dir}/ "
           f"(examined {len(seen)} candidate titles).")
@@ -602,12 +628,12 @@ def collect_sample(session, limiter, run_dir, out_path, batches, *,
 # Suspected-AI-text sample: same pipeline as the dated snapshot, but
 # candidates come from AI_SUSPECTED_CATEGORY instead of list=random, and
 # each article's *current* revision is used (rvstart=None) with no
-# creation-date cutoff. Written to its own --ai-articles-dir/<timestamp>/
-# folder and CSV, kept entirely separate from the dated sample.
+# creation-date cutoff. Written to its own --ai-articles-dir folder and
+# CSV, kept entirely separate from the dated sample.
 # ---------------------------------------------------------------------
 
 AI_FIELDNAMES = ["title", "pageid_url_slug", "revision_id", "prose_word_count",
-                 "url", "source"]
+                 "url", "source", "date_fetched"]
 
 
 def collect_ai_suspected(session, limiter, args, ai_articles_dir):
@@ -622,7 +648,7 @@ def collect_ai_suspected(session, limiter, args, ai_articles_dir):
     candidates = list(candidate_map)
     random.shuffle(candidates)
 
-    run_dir = ai_articles_dir / time.strftime("%Y%m%d_%H%M%S")
+    run_dir = ai_articles_dir
     run_dir.mkdir(parents=True, exist_ok=True)
 
     batches = (candidates[i:i + args.batch_size] for i in range(0, len(candidates), args.batch_size))
@@ -639,12 +665,13 @@ def collect_ai_suspected(session, limiter, args, ai_articles_dir):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--n", type=int, default=20, help="number of qualifying articles to collect")
-    ap.add_argument("--out", default="wikipedia_sample.csv",
+    ap.add_argument("--out", default=DEFAULT_OUT,
                      help="CSV path for the dated sample")
-    ap.add_argument("--articles-dir", default="data/random_2022",
-                     help="base directory to write the dated sample's cleaned "
-                          "article text into (each run gets its own timestamped "
-                          "subdirectory)")
+    ap.add_argument("--articles-dir", default=DEFAULT_ARTICLES_DIR,
+                     help="directory to write the dated sample's cleaned article "
+                          "text into -- articles accumulate here across runs; a "
+                          "title collecting again overwrites its previous .txt "
+                          "file (and CSV row), with a warning")
     ap.add_argument("--batch-size", type=int, default=100,
                      help="random titles pulled per round before filtering")
     ap.add_argument("--min-interval", type=float, default=0.5,
@@ -663,11 +690,11 @@ def main():
                      help="also collect this many random articles from "
                           f"{AI_SUSPECTED_CATEGORY!r} (current revision, no "
                           "creation-date cutoff), written to --ai-articles-dir")
-    ap.add_argument("--ai-articles-dir", default="data/random_AI_suspected",
-                     help="base directory to write the suspected-AI sample's "
-                          "cleaned article text into (each run gets its own "
-                          "timestamped subdirectory); see --ai-n")
-    ap.add_argument("--ai-out", default="wikipedia_ai_sample.csv",
+    ap.add_argument("--ai-articles-dir", default=DEFAULT_AI_ARTICLES_DIR,
+                     help="directory to write the suspected-AI sample's cleaned "
+                          "article text into -- see --ai-n; same accumulate/"
+                          "overwrite behavior as --articles-dir")
+    ap.add_argument("--ai-out", default=DEFAULT_AI_OUT,
                      help="CSV path for the suspected-AI sample (see --ai-n)")
 
     args = ap.parse_args()
@@ -675,11 +702,11 @@ def main():
     session = make_session(args.contact)
     limiter = RateLimiter(min_interval=args.min_interval)
 
-    run_dir = Path(args.articles_dir) / time.strftime("%Y%m%d_%H%M%S")
+    run_dir = Path(args.articles_dir)
     run_dir.mkdir(parents=True, exist_ok=True)
 
     fieldnames = ["title", "pageid_url_slug", "revision_id",
-                  "prose_word_count", "url", "source"]
+                  "prose_word_count", "url", "source", "date_fetched"]
 
     if args.from_csv:
         results = run_from_csv(session, limiter, args, run_dir, fieldnames)

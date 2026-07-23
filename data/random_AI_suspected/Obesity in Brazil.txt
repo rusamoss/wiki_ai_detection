@@ -1,0 +1,105 @@
+Obesity in Brazil is a major public health challenge and one of the leading risk factors for non-communicable diseases in the country. Brazil is the largest country in South America and the fifth most populous in the world, with approximately 215 million inhabitants. Since the early 21st century, Brazil has experienced a substantial increase in obesity and overweight prevalence among adults, reflecting changes in dietary patterns, physical activity levels, urbanisation, and socioeconomic conditions.
+
+According to data from the Brazilian Ministry of Health's Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico (Vigitel), obesity prevalence among adults living in the 26 Brazilian state capitals and the Federal District more than doubled between 2006 and 2024.
+
+History
+
+Brazil's obesity epidemic accelerated sharply during the first two decades of the 21st century, driven by urbanisation, dietary transitions, and socioeconomic change. Successive national surveys documented a sustained rise in both overweight and obesity across all demographic groups.
+
+Data from the Consumer Expenditure Survey (Pesquisa de Orçamentos Familiares, POF) and the National Survey of Health (Pesquisa Nacional de Saúde, PNS) show that the proportion of obese adults aged 20 and over more than doubled between 2002–2003 and 2019, rising from 12.2% to 26.8%. Over the same period, the prevalence of overweight increased from 43.3% to 61.7%.
+
+Both sexes were affected, though women consistently showed higher rates of obesity across all age groups. In 2019, obesity prevalence stood at 29.5% among women and 21.8% among men. The 40–59 age group recorded the highest burden of excess weight, with 70.3% classified as overweight in 2019. A modest decline was observed among adults aged 60 and over.
+
+The 2019 PNS also assessed the quality of Primary Health Care (PHC) for the first time, finding an overall user satisfaction score of 5.9 out of 10 among adults attended at Basic Health Care Units (Unidades Básicas de Saúde, UBS) or Family Health Care Units (Unidades de Saúde da Família, USF) — below the 6.6 threshold considered indicative of high-quality service.
+
+Epidemiology
+
+Obesity prevalence in Brazil has increased steadily over recent decades. Data from the Vigitel surveillance system indicate that the prevalence of obesity among adults increased from 11.8% in 2006 to 25.7% in 2024. During the same period, the prevalence of excess weight increased from 42.6% to 62.6%.
+
+The increase corresponds to a growth of approximately 118% in obesity prevalence over an eighteen-year period. No sustained decline was observed during the surveillance period.
+
+A systematic review and meta-analysis published in 2024 estimated the pooled prevalence of obesity among Brazilian adults at approximately 20%, with higher prevalence observed in the South and Southeast regions.
+
+Sex differences
+
+Women consistently presented higher obesity prevalence than men throughout the Vigitel surveillance period.
+
+In 2006, obesity affected 12.1% of women and 11.4% of men. By 2024, prevalence had increased to 26.7% among women and 24.4% among men. Both sexes experienced substantial increases in obesity prevalence, although women maintained higher rates throughout the period.
+
+Trends observed by Vigitel
+
+Since its implementation in 2006, Vigitel has collected information from more than 833,000 Brazilian adults, making it one of the largest continuous surveillance systems for chronic disease risk factors in Latin America.
+
+The surveillance system has documented parallel increases in obesity, diabetes, and other chronic disease risk factors. Vigitel findings are frequently used by researchers, public health agencies, and policymakers to monitor population health trends in Brazil.
+
+Associated conditions
+
+The increase in obesity prevalence has occurred alongside rising rates of diabetes and other metabolic disorders. According to Vigitel, the prevalence of self-reported medical diagnosis of diabetes increased from 5.5% in 2006 to 12.9% in 2024. The trend closely parallels the increase in obesity prevalence observed during the same period.
+
+Obesity is associated with a wide range of chronic diseases in Brazil, including:
+
+* Type 2 diabetes mellitus
+* Hypertension
+* Cardiovascular disease
+* Stroke
+* Dyslipidaemia
+* Obstructive sleep apnoea
+* Osteoarthritis
+* Several forms of cancer
+
+The Brazilian Association for the Study of Obesity and Metabolic Syndrome (ABESO) and international clinical guidelines recognise obesity as a chronic, relapsing, multifactorial disease requiring long-term management.
+
+The Organisation for Economic Co-operation and Development (OECD) has identified obesity as one of the most important modifiable risk factors affecting population health in Brazil.
+
+Risk factors
+
+The increase in obesity in Brazil has been associated with multiple factors, including:
+
+* Increased consumption of ultra-processed foods
+* Reduced levels of physical activity
+* Urbanisation and lifestyle changes
+* Socioeconomic inequalities
+* Increased sedentary behaviour
+* Changes in transportation and occupational patterns
+
+Research has demonstrated associations between obesity and age, educational attainment, income, and regional disparities.
+
+Brazil's nutrition transition has been characterised by a gradual shift from traditional dietary patterns toward increased consumption of processed and ultra-processed foods.
+
+Childhood obesity
+
+Childhood and adolescent obesity have also increased in Brazil. National surveys and international reports have identified Brazil as one of the countries experiencing a rapid rise in obesity among children and adolescents.
+
+Public health experts have expressed concern that increasing childhood obesity may contribute to future increases in diabetes, cardiovascular disease, and healthcare expenditures. The World Obesity Federation has highlighted childhood obesity as an emerging public health challenge in Brazil and throughout Latin America.
+
+Public policy and prevention
+
+Brazil has implemented several public health measures aimed at preventing obesity and promoting healthy lifestyles. Major initiatives include:
+
+* National Food and Nutrition Policy (PNAN)
+* Brazilian Dietary Guidelines (Guia Alimentar para a População Brasileira)
+* National School Feeding Program
+* Physical activity promotion campaigns
+* Food labelling regulations
+
+The Brazilian Dietary Guidelines, first published in 2014, received international recognition for emphasising minimally processed foods and warning against excessive consumption of ultra-processed foods.
+
+Public health experts continue to debate additional interventions, including taxation of sugar-sweetened beverages, restrictions on food marketing directed at children, and expanded access to obesity treatment services.
+
+Pharmacological treatment
+
+Since the early 2020s, glucagon-like peptide-1 receptor agonists (GLP-1 RAs) have become an increasingly important component of obesity treatment in Brazil.
+
+The Brazilian Health Regulatory Agency (ANVISA) approved liraglutide for weight management in adolescents in August 2020, followed by the approval of semaglutide for expanded use in September 2023. These approvals introduced the first GLP-1 receptor agonists specifically indicated for obesity treatment in Brazil.
+
+Subsequent years saw rapid growth in the use of semaglutide and other GLP-1-based therapies, concentrated predominantly in higher-income regions. The expansion was accompanied by increasing regulatory attention regarding off-label use and counterfeit products.
+
+Brazilian clinical guidelines recommend GLP-1 receptor agonists as part of evidence-based obesity management in selected patients. A 2025 position statement issued jointly by five Brazilian medical societies reinforced the role of GLP-1 receptor agonists — including liraglutide, semaglutide, and tirzepatide — in the pharmacological management of obesity and prevention of cardiovascular complications.
+
+Internationally, semaglutide has been recognised as a significant development in obesity pharmacotherapy, with clinical trials demonstrating weight reductions of approximately 15–17% of baseline body weight in adults without type 2 diabetes.
+
+Future projections
+
+Studies based on historical trends project a continued increase in obesity prevalence in Brazil. A modelling study published in Scientific Reports estimated that nearly 30% of Brazilian adults could be living with obesity by 2030 if existing trends continue.
+
+Projections presented at the International Congress on Obesity in 2024 suggested that approximately 48% of Brazilian adults could have obesity by 2044. According to the World Obesity Federation, obesity is expected to generate substantial healthcare and economic burdens in Brazil unless effective prevention and treatment strategies are expanded.

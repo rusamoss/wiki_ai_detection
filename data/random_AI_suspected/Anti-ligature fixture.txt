@@ -1,0 +1,25 @@
+An anti-ligature fixture or fitting (or ligature resistant fitting) is a component used to reduce the risk of suicide and self-harm by preventing the attachment of ligatures. They are used in environments such as prisons and secure healthcare settings, where vulnerable individuals may attempt to harm themselves. Their use is guided by clinical evidence, government policy, and architectural standards. In the UK, their design, specification, and implementation are governed by NHS and Ministry of Justice standards.
+
+Design principles
+
+Ligature resistant design involves eliminating potential ligature points on fixtures and surfaces. Typical features include sloped or curved geometry, minimal gaps, tamper-resistant fastenings, and durable materials. These are applied to lighting, sanitary ware, door hardware, beds, curtain tracks, and furniture. These design principles form part of wider suicide prevention strategies and are incorporated into building standards for mental health and custodial facilities.
+
+Applications
+
+Prisons
+
+The Ministry of Justice (MoJ) provides formal guidance on the use of ligature-resistant design in custodial environments. These guidelines form part of the Certified Prisoner Accommodation Policy Framework, which includes specifications for "safer cells" that reduce self-harm opportunities. The government's response to the Harris Review into deaths of young people in custody reaffirmed the need for environmental safeguards, including ligature-resistant fixtures. The MoJ's response to the Harris Review on self-inflicted deaths in custody reinforces the importance of environmental design in suicide prevention.
+
+Secure healthcare facilities
+
+In mental health services, ligature resistance is a fundamental part of inpatient safety protocols. The NHS mandates the use of ligature resistant fixtures in all unsupervised or semi-supervised areas. Health Building Note (HBN) 03-01 outlines requirements for adult acute mental health units, including furniture, sanitary fittings, and lighting.
+
+In NHS mental health settings, anti-ligature measures are implemented in areas such as bedrooms, bathrooms, and de-escalation spaces. NHS guidance such as Health Building Note 03-01 outlines environmental strategies to manage risk. Other documents, such as Facilities for Child and Adolescent Mental Health Services (CAMHS), also include provisions for anti-ligature elements in specialist units.
+
+The NHS further provides guidance on fixtures such as curtain tracking systems, and the role of fire safety and infection control in product specification.
+
+Results
+
+Independent reviews of inpatient suicide prevention consistently emphasise the importance of environmental design. A 2021 rapid review from Cardiff University concluded that ligature-resistant environments significantly contribute to suicide prevention in inpatient care, particularly when combined with clinical interventions.
+
+The UK Government's 2023–2028 Suicide Prevention Strategy includes action points related to improving physical environments in both healthcare and custodial settings.

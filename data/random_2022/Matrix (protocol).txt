@@ -1,0 +1,99 @@
+Matrix is an open standard and communication protocol for real-time communication. It aims to make real-time communication work seamlessly between different service providers, in the way that standard Simple Mail Transfer Protocol email currently does for store-and-forward email service, by allowing users with accounts at one communications service provider to communicate with users of a different service provider via online chat, voice over IP, and videotelephony. It therefore serves a similar purpose to protocols like XMPP, but is not based on any existing communication protocol.
+
+From a technical perspective, it is an application layer communication protocol for federated real-time communication. It provides HTTP APIs and open source reference implementations for securely distributing and persisting messages in JSON format over an open federation of servers. It can integrate with standard web services via WebRTC, facilitating browser-to-browser applications.
+
+History
+
+The initial project was created inside Amdocs, while building a chat tool called "Amdocs Unified Communications", by Matthew Hodgson and Amandine Le Pape. Amdocs then funded most of the development work from 2014 to October 2017. Matrix was the winner of the Innovation award at WebRTC 2014 Conference & Expo, and of the "Best in Show" award at WebRTC World in 2015. The protocol received praise mixed with some cautionary notes after it launched in 2014. Reviewers noted that other attempts at defining an open instant messaging or multimedia signalling protocol of this type had difficulties becoming widely adopted—e.g. XMPP and IRCv3 —and have highlighted the challenges involved, both technological and political. Some were unclear if there was enough demand among users for services which interoperate among providers. In 2015, a subsidiary of Amdocs was created, named "Vector Creations Limited", and the Matrix staff was moved there.
+
+In July 2017, the funding by Amdocs was announced to be cut and in the following weeks the core team created their own UK -based company, "New Vector Limited", which was mainly built to support the development of Matrix and Riot, which was later renamed to Element. During this time period, there were multiple calls for support to the community and companies that build on Matrix, to help pay for the wages of at least part of the core team. Patreon and Liberapay crowdfunding accounts were created, and the core team started a video podcast, called Matrix "Live" to keep the contributors up to speed with ongoing developments. This was expanded by a weekly blog format, called "This Week in Matrix", where interested community members could read, or submit their own, Matrix-related news. The company was created with the goal of offering consultancy services for Matrix and paid hosting of Matrix servers (as a platform called modular.im, which was later renamed to Element matrix services) to generate income.
+
+In the early weeks after its creation, the Matrix team and the company Purism published plans to collaborate in the creation of the Librem 5 phone. The Librem 5 was intended to be a Matrix native phone, where the default pre-installed messaging and caller app should use Matrix for audio and video calls and instant messaging.
+
+In 2017, KDE announced it was working on including support for the protocol in its IRC client Konversation.
+
+In late January 2018, the company received an investment of US$5 million from Status, an Ethereum based startup.
+
+In April 2018, the French Government announced plans to create their own instant messaging tool. Work on the application based on Riot and Matrix protocol—called Tchap after French scientists Claude Chappe —had started in early 2018 and the program was open-sourced and released on iOS and Android in April 2019.
+
+In October 2018, a Community Interest Company called "The Matrix.org Foundation C.I.C." was incorporated, to serve as a neutral legal entity for further development of the standard.
+
+In February 2019, the KDE community announced plans to adopt Matrix for its internal communications needs, as a decentralized alternative to other instant messaging servers like Telegram, Slack, and Discord, and operate its own server instance.
+
+In April 2019, Matrix.org suffered a security breach in which the production servers were compromised. This breach was not an issue with the Matrix protocol and did not directly affect home servers other than matrix.org.
+
+In June 2019, the Matrix protocol is out of beta with the version 1.0 across all APIs (and Synapse, at the time the reference home server), and the Matrix foundation is officially launched.
+
+In October 2019, New Vector raised an additional US$8.5 million to develop Matrix.
+
+In December 2019 German Ministry of Defense announced a pilot project called BwMessenger for secure instant messaging tool based on Matrix protocol, Synapse server and Riot application. This is modeled after French Tchap project. The long-term goal of the Federal Government is the secure use of messenger services that covers all ministries and subordinate authorities.
+
+In December 2019 Mozilla announced that it would begin to use Matrix as a replacement for IRC. In the announcement, they said that they would be completing the move in late January 2020. The Mozilla IRC server, irc.mozilla.org, is said to be removed "no later than March of next year [2020]". In March 2020 the IRC server was turned off and users were directed to join chat.mozilla.org, Mozilla's Element instance.
+
+In May 2020 Matrix enabled end-to-end encryption by default for private conversations.
+
+In October 2020 Element acquired Gitter from GitLab. This meant that all Gitter users would be transitioned over to Matrix.
+
+In March 2021, matrix.org announced that there are 28 million global visible accounts.
+
+In June 2021, the Fourth Estate announced the development of Ceriph, a pilot project that creates a secure messaging and communications service for news organizations and journalists based on the Matrix protocol.
+
+Protocol
+
+Matrix targets use cases like voice over IP, Internet of Things and instant messaging, including group communication, along with a longer-term goal to be a generic messaging and data synchronization system for the web. The protocol supports security and replication, maintaining full conversation history, with no single points of control or failure. Existing communication services can integrate with the Matrix ecosystem.
+
+Client software is available for open-federated Instant Messaging (IM), voice over IP (VoIP) and Internet of Things (IoT) communication.
+
+The Matrix standard specifies RESTful HTTP APIs for securely transmitting and replicating JSON data between Matrix-capable clients, servers and services. Clients send data by PUTing it to a ‘room’ on their server, which then replicates the data over all the Matrix servers participating in this ‘room’. This data is signed using a git-style signature to mitigate tampering, and the federated traffic is encrypted with HTTPS and signed with each server's private key to avoid spoofing. Replication follows eventual consistency semantics, allowing servers to function even if offline or after data-loss by re-synchronizing missing history from other participating servers.
+
+The Olm library provides for optional end-to-end encryption on a room-by-room basis via a Double Ratchet Algorithm implementation. It can ensure that conversation data at rest is only readable by the room participants. With it configured, data transmitted over Matrix is only visible as ciphertext to the Matrix servers, and can be decrypted only by authorized participants in the room. The encryption protocol is called Olm; Megolm is an expansion of Olm to better suit the need for bigger rooms. There are two main implementations:
+
+* vodozemac, the current reference implementation, written in Rust. In 2022, it has been audited by Least Authority, whose findings are publicly available and have been addressed by the Matrix team. The review was partially funded by Germany's national agency for the healthcare system digitalisation (Gematik).
+* libolm, the former reference implementation, has been subject of a cryptographic review by NCC Group, whose findings are publicly available, and have been addressed by the Matrix team. The review was sponsored by the Open Technology Fund.
+
+Bridges
+
+Matrix supports bridging messages from different chat applications into Matrix rooms. These bridges are programs that run on the server and communicate with the non-Matrix servers. Bridges can either be acting as puppets or relays, where in the former the individual user's account is visibly posting the messages, and in the latter a bot posts the messages for non-puppeteered user accounts.
+
+Currently there are official bridges for:
+
+* Gitter
+* IRC
+* Slack / Mattermost
+* XMPP
+
+Bridges for the following notable applications are maintained by the community:
+
+* Apple iMessage
+* Discord
+* Email
+* Facebook Messenger
+* Google Hangouts
+* GroupMe
+* Mastodon
+* RSS / Twitter feeds
+* Signal
+* Skype
+* Telegram
+* SMS
+* WeChat
+* Whatsapp
+* LinkedIn
+
+Clients
+
+Element is the reference implementation of a client. The following client implementations exist; a possibly more complete list can be found on Matrix's website:
+
+Servers
+
+Synapse is the reference implementation of a Matrix home server, written in Python. A "second generation Matrix home server" called Dendrite is being developed by the Matrix core team. Dendrite is in beta.
+
+The following server implementations exist; a possibly more complete list can be found on Matrix's website:
+
+Adoption
+
+Germany's national healthcare system's internal communication network uses a Matrix-based system (Ti-Messenger) for real-time communication among Germany's healthcare organizations and sharing of sensitive patient data, and is developed by the national agency for the digitalisation of the healthcare system (Gematik GmbH).
+
+Employees of the Bundeswehr (Germany's armed forces) communicate with each other, and share classified documents (German VS-NfD), on a private Matrix network, with a customized version of the Matrix Element app.
+
+The FOSDEM was held on Matrix in 2021 and 2022.

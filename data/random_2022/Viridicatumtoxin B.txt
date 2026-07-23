@@ -1,0 +1,21 @@
+Viridicatumtoxin B is a fungus -derived tetracycline -like antibiotic discovered in 2008. It was isolated from small amounts of penicillium fungi. A synthetic structure matching that of natural viridicatumtoxin B makes possible synthetic variants that match or surpass its antibiotic potency.
+
+Analogs lacking a hydroxyl group were even more effective than the original against Gram-positive bacteria.
+
+Concerns about solubility, biodegradation, availability and other issues must be resolved before clinical development begins.
+
+History
+
+The substance was first isolated from the mycelium of liquid fermentation cultures of Penicillium species FR11.
+
+Structure
+
+Based on mass spectrometry and nuclear magnetic resonance data, the substance was originally thought to be the 11a',12'- epoxide, but the structure was later revised.
+
+Effects
+
+Viridicatumtoxin B inhibited the growth of Staphylococcus aureus, including methicillin resistant S. aureus and quinolone -resistant S. aureus with a minimum inhibitory concentration of 0.5 μg/ml. That effect is similar to that of vancomycin, but 8 to 64 times greater than that of tetracycline.
+
+Total synthesis
+
+A complete total synthesis of viridicatumtoxin B, in racemic form, was completed in 2013 by the group of K. C. Nicolaou.
