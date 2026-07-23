@@ -15,6 +15,13 @@ Articles already generated for a given model are skipped, not regenerated.
 Each generated article's title, model, model slug, prompt, and generation
 date are also appended to data/generated_articles.csv.
 
+Sometimes a model declines or asks a clarifying question instead of writing
+an article (e.g. for an obscure title it isn't confident about) -- this is
+detected (see looks_like_refusal) and retried a couple of times, since it
+seems to be sampling-variance more than a hard block. If every attempt still
+looks like a refusal, nothing is written for that title/model, so a later
+run will simply try it again instead of a bad file sitting in the dataset.
+
 "See also", "References", "Notes", and other appendix sections
 (get_test_wiki_pages.py's own EXCLUDED_SECTION_HEADINGS) are stripped from
 every generated article, matching how real Wikipedia articles are cleaned.
@@ -94,9 +101,7 @@ def call_openrouter(
     backoff: float = 2.0,
     max_backoff: float = 120.0,
 ) -> str:
-    """POSTs a chat completion request to OpenRouter, retrying on transient
-    failures (429/5xx/timeouts) with exponential backoff, and returns the
-    assistant's reply text."""
+    """POSTs a request to OpenRouter, retrying on transient failures, and returns the reply text."""
     while True:
         limiter.wait()
         try:
@@ -124,25 +129,63 @@ def call_openrouter(
         return data["choices"][0]["message"]["content"]
 
 
+def looks_like_refusal(text: str) -> bool:
+    """Whether generated text looks like the model declined or asked a
+    clarifying question instead of writing an article."""
+
+    # Curated from common documented LLM refusal/hedging phrasing
+    REFUSAL_PHRASES = [
+        r"i'?m sorry", r"i am sorry", r"i apologi[sz]e",
+        r"as an ai\b", r"as a language model", r"as an assistant",
+        r"i cannot\b", r"i can'?t\b",
+        r"i am unable to", r"i'?m unable to", r"i am not able to", r"i'?m not able to",
+        r"i won'?t\b", r"i will not\b", r"i (?:must|have to) decline",
+        r"i (?:don'?t|do not) have\b.{0,40}\b(?:information|details)",
+        r"i'?m not familiar with", r"i am not familiar with",
+        r"i (?:could not|couldn'?t) find", r"i have no information",
+        r"let me know (?:how|if)", r"please (?:provide|share|specify|clarify)",
+        r"could you (?:clarify|provide|share|confirm)",
+        r"can you (?:clarify|provide|tell me|confirm)",
+        r"if you (?:can|could) (?:share|provide|clarify)",
+        r"feel free to", r"i'?d be (?:glad|happy) to help",
+    ]
+    REFUSAL_RE = re.compile("|".join(REFUSAL_PHRASES), re.IGNORECASE)
+    # Real encyclopedic prose is strictly third-person
+    FIRST_PERSON_RE = re.compile(r"\bi\b|\bi'm\b|\bi'd\b|\bi've\b|\bi'll\b|\bmy\b|\bme\b|\bmine\b|\bwe\b|\bour\b", re.IGNORECASE)
+    SECOND_PERSON_RE = re.compile(r"\byou\b|\byour\b", re.IGNORECASE)
+
+    return bool(REFUSAL_RE.search(text) and (FIRST_PERSON_RE.search(text) or SECOND_PERSON_RE.search(text)))
+
+
+def generate_non_refusing(
+    session: requests.Session,
+    limiter: RateLimiter,
+    model: str,
+    prompt: str,
+    title: str,
+    max_retries: int = 2,
+) -> str | None:
+    """Calls OpenRouter, retrying up to max_retries times if the reply
+    looks like a refusal to make an article."""
+    for attempt in range(1, max_retries + 2):
+        text = call_openrouter(session, limiter, model, prompt)
+        if not looks_like_refusal(text):
+            return text
+        print(f"    [refused] {title!r} looks like a refusal/clarifying "
+              f"question (attempt {attempt}/{max_retries + 1})")
+    return None
+
+
 def strip_dividers(text: str) -> str:
-    """Removes standalone "---" section-divider lines Gemini tends to emit
-    between headings, collapsing the blank lines left around them back down
-    to a single one."""
+    """Removes "---" section-divider lines Gemini likes"""
     lines = [line for line in text.split("\n") if line.strip() != "---"]
     return re.sub(r"\n{3,}", "\n\n", "\n".join(lines))
 
 
-MARKDOWN_HEADING_RE = re.compile(r"^(#{1,6})\s+(.*)$")
-
-
 def strip_excluded_sections(text: str) -> str:
-    """Removes "See also"/"References"/"Notes"/etc. Markdown sections
-    (get_test_wiki_pages.py's own EXCLUDED_SECTION_HEADINGS) and everything
-    nested under them until the next heading of equal or higher level --
-    the same handling extract_cleaned_prose() gives those sections in real
-    Wikipedia HTML, but for the '#'-heading Markdown most models return
-    instead of wikitext (a no-op on wikitext/already-rendered text, which
-    has no '#'-prefixed headings)."""
+    """Removes "See also"/"References"/"Notes"/etc."""
+    MARKDOWN_HEADING_RE = re.compile(r"^(#{1,6})\s+(.*)$")
+
     kept: list[str] = []
     skip_level: int | None = None
     for line in text.split("\n"):
@@ -165,14 +208,10 @@ def strip_excluded_sections(text: str) -> str:
     return re.sub(r"\n{3,}", "\n\n", "\n".join(kept))
 
 
-TITLE_HEADING_RE = re.compile(r"^#{1,6}\s+(.*)$")
-
-
 def strip_leading_title_heading(text: str, title: str) -> str:
-    """Removes a leading heading that just repeats the article's own title
-    (e.g. "# Adegboyega Folaranmi Adedoyin") before the lead paragraph --
-    real Wikipedia's cleaned prose never has this, since the title lives in
-    page metadata, not the body."""
+    """Removes a leading heading that just repeats the title."""
+    TITLE_HEADING_RE = re.compile(r"^#{1,6}\s+(.*)$")
+
     lines = text.split("\n")
     if not lines:
         return text
@@ -185,17 +224,13 @@ def strip_leading_title_heading(text: str, title: str) -> str:
     return "\n".join(rest)
 
 
-BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
-ITALIC_RE = re.compile(r"(?<!\*)\*([^*\n]+?)\*(?!\*)")
-BULLET_PREFIX_RE = re.compile(r"^(\s*)\*(\s+)(.*)$")
-
-
 def strip_markdown_emphasis(text: str) -> str:
-    """Removes literal, un-rendered Markdown emphasis (**bold**, *italic*)
-    down to plain text -- real Wikipedia's cleaned prose has no such
-    syntax, since HTML <b>/<i> tags never survive .get_text(). A line's
-    leading "* " bullet marker (if any) is protected first so it doesn't
-    get eaten as the opening half of a bold/italic pair."""
+    """Removes Markdown **bold**, *italic*"""
+
+    BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
+    ITALIC_RE = re.compile(r"(?<!\*)\*([^*\n]+?)\*(?!\*)")
+    BULLET_PREFIX_RE = re.compile(r"^(\s*)\*(\s+)(.*)$")
+
     lines = []
     for line in text.split("\n"):
         bullet = BULLET_PREFIX_RE.match(line)
@@ -211,34 +246,25 @@ def strip_trailing_whitespace(text: str) -> str:
     return "\n".join(line.rstrip() for line in text.split("\n"))
 
 
-CODE_FENCE_RE = re.compile(r"```(?:\w+)?\n(.*?)\n```", re.DOTALL)
-
-
 def strip_code_fence(text: str) -> str:
-    """Strips a wrapping ```-fenced code block (and any commentary outside
-    it, e.g. "Below is an original Wikipedia-style draft...") down to just
-    the fenced content, since some models wrap their output that way
-    instead of returning just the article text as asked."""
+    """Strips a wrapping ```-fenced code block (and any content outside it"""
+    CODE_FENCE_RE = re.compile(r"```(?:\w+)?\n(.*?)\n```", re.DOTALL)
+
     match = CODE_FENCE_RE.search(text)
     return match.group(1) if match else text
 
 
-WIKITEXT_MARKERS_RE = re.compile(r"\{\{|\[\[|^==.+==\s*$|^\{\|", re.MULTILINE)
-
-
 def looks_like_wikitext(text: str) -> bool:
-    """Whether generated text uses real MediaWiki wikitext syntax (templates,
-    wikilinks, == headings ==, wikitables) rather than plain prose -- some
-    models produce actual wikitext despite being asked for an article, not
-    markup."""
+    """Whether generated text uses MediaWiki wikitext syntax; checks for ==, [[, or {{}}."""
+    WIKITEXT_MARKERS_RE = re.compile(r"\{\{|\[\[|^==.+==\s*$|^\{\|", re.MULTILINE)
+
     return bool(WIKITEXT_MARKERS_RE.search(text))
 
 
 def render_wikitext_to_prose(session: requests.Session, limiter: RateLimiter, wikitext: str) -> str:
-    """Renders raw wikitext through the same live MediaWiki parser used for
-    real articles and runs the result through get_test_wiki_pages.py's own
-    extract_cleaned_prose(), so generated wikitext (templates, wikilinks,
-    tables, category tags) is cleaned exactly the same way real Wikipedia
+    """Renders wikitext through the same MediaWiki parser used for
+    real articles and runs the result through get_test_wiki_pages.py's
+    extract_cleaned_prose(), so it's cleaned exactly the same way real Wikipedia
     articles are."""
     data = api_get(session, limiter, {
         "action": "parse",
@@ -257,8 +283,7 @@ def render_wikitext_to_prose(session: requests.Session, limiter: RateLimiter, wi
 
 
 def append_generated_row(csv_path: Path, row: dict[str, Any]) -> None:
-    """Appends one row to data/generated_articles.csv, writing the header
-    first if the file doesn't exist yet (or is empty)."""
+    """Appends one row to data/generated_articles.csv."""
     write_header = not csv_path.exists() or csv_path.stat().st_size == 0
     csv_path.parent.mkdir(parents=True, exist_ok=True)
     with open(csv_path, "a", newline="", encoding="utf-8") as f:
@@ -270,9 +295,7 @@ def append_generated_row(csv_path: Path, row: dict[str, Any]) -> None:
 
 def load_titles_by_filename(csv_path: Path) -> dict[str, str]:
     """Maps each article's sanitized ".txt" filename back to its original,
-    unsanitized title, from a get_test_wiki_pages.py CSV -- so the prompt
-    can use the real title even where the filename had to have characters
-    like ":" stripped."""
+    unsanitized title, from a get_test_wiki_pages.py CSV."""
     with open(csv_path, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
     return {sanitize_title(row["title"]) + ".txt": row["title"] for row in rows}
@@ -311,7 +334,6 @@ def main() -> None:
     ap.add_argument("--claude-model", default=DEFAULT_MODELS["claude"], help="OpenRouter slug used for --models claude")
     ap.add_argument("--gemini-model", default=DEFAULT_MODELS["gemini"], help="OpenRouter slug used for --models gemini")
     ap.add_argument("--gpt-model", default=DEFAULT_MODELS["gpt"], help="OpenRouter slug used for --models gpt")
-    ap.add_argument("--min-interval", type=float, default=0.5, help="minimum seconds between OpenRouter requests")
     ap.add_argument(
         "--generated-csv",
         default=DEFAULT_GENERATED_CSV,
@@ -361,7 +383,7 @@ def main() -> None:
 
     session = requests.Session()
     session.headers.update({"Authorization": f"Bearer {api_key}"})
-    limiter = RateLimiter(min_interval=args.min_interval)
+    limiter = RateLimiter(min_interval=0.5)
 
     # Only created if some model actually returns raw wikitext -- most don't.
     wiki_session: requests.Session | None = None
@@ -376,9 +398,13 @@ def main() -> None:
         prompt = PROMPT_TEMPLATE.format(title=title)
         print(f"[{i}/{len(to_generate)}] {model_key} ({model}): {title}")
         try:
-            text = call_openrouter(session, limiter, model, prompt)
+            text = generate_non_refusing(session, limiter, model, prompt, title)
         except Exception as e:
             print(f"  [error] {e}; skipping")
+            continue
+        if text is None:
+            print(f"  [skip] {model_key} kept declining {title!r}; not writing a "
+                  f"file -- rerun later to retry")
             continue
         if model_key == "gemini":
             text = strip_dividers(text)

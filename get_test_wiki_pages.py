@@ -69,6 +69,9 @@ RANDOM_SOURCE_LABEL = f"Random; {time.strftime('%b %Y', time.strptime(OCT_SNAPSH
 # rendered, and can be discarded without ever calling action=parse.
 MIN_WIKITEXT_BYTES = 550
 
+# Random titles pulled per round before filtering
+BATCH_SIZE = 100
+
 LIST_TITLE_RE = re.compile(
     r"^(List|Lists|Index|Indices|Outline|Outlines|Glossary|Glossaries|"
     r"Timeline|Timelines|Bibliography|Filmography|Discography) of\b",
@@ -80,9 +83,7 @@ LIST_CATEGORY_RE = re.compile(
     re.IGNORECASE,
 )
 
-# Hidden maintenance container category for suspected-AI-generated text. Its
-# actual tagged articles live in monthly dated subcategories (e.g. "...from
-# May 2025"), not directly in this page -- see get_category_members().
+# Hidden maintenance container category for suspected-AI-generated text.
 AI_SUSPECTED_CATEGORY = "Category:Articles containing suspected AI-generated texts"
 
 # Elements that are not "readable prose" -- infoboxes, navboxes, tables, references, images/galleries, TOC, etc.
@@ -116,7 +117,7 @@ def make_session(contact: str) -> requests.Session:
 
 class RateLimiter:
     """Minimum-interval throttle between successive API requests."""
-    def __init__(self, min_interval: float = 0.05) -> None:
+    def __init__(self, min_interval: float = 0.5) -> None:
         self.min_interval = min_interval
         self.last = 0.0
 
@@ -566,15 +567,14 @@ def collect_sample(
     label: str,
     source: Callable[[str], str],
 ) -> list[dict[str, Any]]:
-    """Pulls candidate titles from `batches` (an iterable of title-list
-    batches) until `target_n` qualifying articles are written to `out_path`
+    """Pulls candidate titles from `batches` until `target_n` articles are written to `out_path`
     (CSV) and `run_dir` (one .txt per article), or `batches` is exhausted.
 
     When `rvstart` is given, each survivor's revision is looked up at that
     snapshot date via get_revision_ids (one request per title -- required
     for a historical revision). When `rvstart` is None, the current
     (revid, size) pairs filter_navigational_and_redirects already returns
-    are reused directly, skipping that entire extra request stage.
+    are reused directly.
 
     `source(title)` becomes each row's "source" column -- a callable so
     both a constant value (e.g. `lambda _: "some label"`) and a per-title
@@ -682,7 +682,7 @@ def collect_ai_suspected(
     run_dir = ai_articles_dir
     run_dir.mkdir(parents=True, exist_ok=True)
 
-    batches = (candidates[i:i + args.batch_size] for i in range(0, len(candidates), args.batch_size))
+    batches = (candidates[i:i + BATCH_SIZE] for i in range(0, len(candidates), BATCH_SIZE))
     collect_sample(session, limiter, run_dir, args.ai_out, batches,
                     fieldnames=AI_FIELDNAMES,
                     target_n=args.ai_n, rvstart=None, label="suspected-AI articles",
@@ -695,28 +695,16 @@ def collect_ai_suspected(
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--n", type=int, default=20, help="number of qualifying articles to collect")
-    ap.add_argument("--out", default=DEFAULT_OUT,
-                     help="CSV path for the dated sample")
-    ap.add_argument("--articles-dir", default=DEFAULT_ARTICLES_DIR,
-                     help="directory to write the dated sample's cleaned article "
-                          "text into -- articles accumulate here across runs; a "
-                          "title collecting again overwrites its previous .txt "
-                          "file (and CSV row), with a warning")
-    ap.add_argument("--batch-size", type=int, default=100,
-                     help="random titles pulled per round before filtering")
-    ap.add_argument("--min-interval", type=float, default=0.5,
-                     help="minimum seconds between successive API requests "
-                          "(raise this if you're seeing 429s)")
     ap.add_argument("--contact", required=True,
                      help="email or URL to include in the User-Agent, per WMF API etiquette")
-    ap.add_argument("--max-rounds", type=int, default=200,
-                     help="safety cap on number of sampling rounds")
     ap.add_argument("--from-csv",
-                     help="reuse the (title, revision_id) pairs from an existing "
-                          "output CSV instead of drawing a fresh random sample -- "
-                          "skips steps 1-4 and just re-fetches/re-cleans text for "
-                          "that exact article list")
+                     help="reuse the articles from an existing "
+                          "output CSV instead of drawing a fresh random sample")
+    ap.add_argument("--n", type=int, default=25, help="number of articles to collect")
+    ap.add_argument("--out", default=DEFAULT_OUT,
+                     help="CSV path for the random 2022 sample")
+    ap.add_argument("--articles-dir", default=DEFAULT_ARTICLES_DIR,
+                     help="directory to write the random 2022 sample's cleaned articles to ")
     ap.add_argument("--ai-n", type=int, default=0,
                      help="also collect this many random articles from "
                           f"{AI_SUSPECTED_CATEGORY!r} (current revision, no "
@@ -731,7 +719,7 @@ def main() -> None:
     args = ap.parse_args()
 
     session = make_session(args.contact)
-    limiter = RateLimiter(min_interval=args.min_interval)
+    limiter = RateLimiter()
 
     run_dir = Path(args.articles_dir)
     run_dir.mkdir(parents=True, exist_ok=True)
@@ -747,7 +735,7 @@ def main() -> None:
             collect_ai_suspected(session, limiter, args, Path(args.ai_articles_dir))
         return
 
-    batches = (get_random_titles(session, limiter, args.batch_size) for _ in range(args.max_rounds))
+    batches = (get_random_titles(session, limiter, BATCH_SIZE) for _ in range(200)) # limit to 200 rounds for safety; lift this if deliberately doing very large run
     collect_sample(session, limiter, run_dir, args.out, batches,
                     fieldnames=fieldnames,
                     target_n=args.n, rvstart=OCT_SNAPSHOT, label="articles",
