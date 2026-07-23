@@ -1,12 +1,20 @@
+This is a collection of data gathering and processing scripts designed to compare verified AI, suspect AI, and definitely human Wikipedia article's evaulations in Pangram, an AI detection tool.
 
-`get_test_wiki_pages.py` fetches random wikipedia articles from October 2022 or before, which cannot be AI generated. It also fetches random articles from "Category:Articles containing suspected AI-generated texts". It dumps a list of those articles into two CSVs, and then outputs a cleaned version of the prose of those articles to folders in data/.
 
-`generate_ai_articles.py` uses OpenRouter to generate articles about the subjects in `wikipedia_sample.csv` using Claude, Gemini, and ChatGPT, cleans the formatting to match the cleaning used on the real wikipedia articles, and writes them to the corresponding folders in data/ and metadata to `generated_articles.csv`.
+* `get_test_wiki_pages.py` fetches random English Wikipedia articles from October 2022 or before, which cannot be AI generated. It also fetches random articles from [Category:Articles containing suspected AI-generated texts](https://en.wikipedia.org/wiki/Category:Articles_containing_suspected_AI-generated_texts). It dumps a list of those articles into two CSVs, and then outputs a cleaned version of the prose of those articles to folders in data/.
 
-`run_pangram.py` runs the articles in data/ through Pangram, an AI detection tool, and outputs `pangram_results.csv`.
+Usage: `python get_test_wiki_pages.py --n 25 --ai-n 25 --out wikipedia_sample.csv --ai-out wikipedia_ai_sample.csv --contact your_email@example.com`
+
+* `generate_ai_articles.py` uses OpenRouter to generate articles about the subjects in `wikipedia_sample.csv` using Claude, Gemini, and ChatGPT, cleans the formatting to match the cleaning used on the real wikipedia articles, and writes them to the corresponding folders in data/ and metadata to `generated_articles.csv`.
+
+Usage: `python generate_ai_articles.py --limit 10`
+
+* `run_pangram.py` runs the articles in data/ through Pangram, an AI detection tool, and outputs `pangram_results.csv`.
+
+Usage: `python run_pangram.py --folder data/random_2022 --source-csv data/wikipedia_sample.csv --contact your_email@example.com`
 
 
 ## Notes
-This is very vibe coded. I've been sanity-checking it and verifying the outputs but code is almost entirely Claude Sonnet 5.
+This is very vibe coded. I've been sanity-checking it and verifying the outputs but code is almost entirely Claude Sonnet 5. Further Claude-generated documentation is in the docstring for each script; I have not necessarily checked it for accuracy.
 
-To run, you will need an API key for Pangram and OpenRouter. Pangram runs are 5c/article or every 1,000 words, whichever is greater; OpenRouter prices vary but seems to be a couple cents an article. While I have tested and do not expect any problems there is NO GUARANTEE THAT THIS CODE WILL NOT EAT ALL YOUR TOKENS. Set sane limits and/or turn off auto-reload.
+To run, you will need an API key for Pangram and OpenRouter. Set them in the shell with `export PANGRAM_API_KEY=... ` and `export OPENROUTER_API_KEY=...`. Pangram runs are 5c/article or every 1,000 words, whichever is greater; OpenRouter prices vary but seems to be a couple cents an article. While I have tested and do not expect any problems there is NO GUARANTEE THAT THIS CODE WILL NOT EAT ALL YOUR TOKENS. Set sane limits and/or turn off auto-reload.
