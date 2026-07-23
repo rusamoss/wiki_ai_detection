@@ -1,0 +1,22 @@
+Unzer Group GmbH is a German payment service provider headquartered in Berlin. The company offers payment processing and related software solutions for merchants in Europe. It is supervised by the Danish Financial Supervisory Authority, the German Federal Financial Supervisory Authority (BaFin) and the Commission de Surveillance du Secteur Financier in Luxembourg.
+
+## History
+
+Unzer Group was founded in 2003 in Heidelberg under the name of Heidelpay. This entity focused on online payment processing and was the first company in Germany to be certified as a payment institution by the German Federal Financial Supervisory Authority (BaFin) in 2011. It was also the first company to offer the Dutch payment method iDEAL to German merchants.
+
+In 2019, Heidelpay was acquired by the global investment firm Kohlberg Kravis Roberts & Co. (KKR) from AnaCap Financial Partners. The company rebranded as Unzer in 2020. Between 2019 and 2021, Unzer acquired several payment service providers, including Clearhaus, QuickPay, and the POS software company Tillhub
+
+Ownership changed again in 2024, when Goldman Sachs, Alcentra and Partners Group became majority shareholders. This was a result of a restructuring agreement with creditors and the withdrawal of KKR.
+
+## Regulatory Review
+
+On 8 July 2021, the Federal Financial Supervisory Authority (BaFin) announced that they had initiated a special audit against the subsidiary Unzer E-Com GmbH (former Heidelpay). As findings BaFin had identified deficiencies in customer onboarding and anti-money laundering procedures for the period up to mid-2021. As a result, they imposed a temporary ban on onboarding new customers and appointed an external monitor to supervise the remediation efforts. In 2024, BaFin lifted the monitorship and the onboarding ban after the company implemented corrective measures.
+
+## Operations
+
+Unzer provides payment processing services for online and in-store merchants, including payment gateways, credit card processing, and software solutions to support merchant operations. The company also offers debt collection. As of the latest available data, Unzer operates offices in Germany, Austria, Denmark, and Luxembourg and employs approximately 750 people.
+
+## Sources
+
+* Payment service providers
+* Acquiring

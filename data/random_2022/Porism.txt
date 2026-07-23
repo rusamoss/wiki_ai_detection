@@ -1,0 +1,40 @@
+A porism is a mathematical proposition or corollary. It has been used to refer to a direct consequence of a proof, analogous to how a corollary refers to a direct consequence of a theorem. In modern usage, it is a relationship that holds for an infinite range of values but only if a certain condition is assumed, such as Steiner's porism. The term originates from three books of Euclid that have been lost. A proposition may not have been proven, so a porism may not be a theorem or true.
+
+## Origins
+
+The book that talks about porisms first is Euclid 's Porisms. What is known of it is in Pappus of Alexandria 's Collection, who mentions it along with other geometrical treatises, and gives several lemmas necessary for understanding it. Pappus states:
+
+Pappus said that the last definition was changed by certain later geometers, who defined a porism as an accidental characteristic as τὸ λεῖπον ὑποθέσει τοπικοῦ θεωρήματος (to leîpon hypothései topikoû theōrḗmatos), that which falls short of a locus-theorem by a (or in its) hypothesis. Proclus pointed out that the word porism was used in two senses: one sense is that of "corollary", as a result unsought but seen to follow from a theorem. In the other sense, he added nothing to the definition of "the older geometers", except to say that the finding of the center of a circle and the finding of the greatest common measure are porisms.
+
+## Pappus on Euclid's porism
+
+Pappus rejected Euclid's definition of porism. A porism, expressed in modern language, asserts that given four straight lines, of which three turn about the points in which they meet the fourth if two of the points of intersection of these lines lie each on a fixed straight line, the remaining point of intersection will also lie on another straight line. The general definition applies to any number, n, of straight lines, of which n can turn about as many points fixed on the (n + 1)th. These n straight lines cut two and two into 1 ⁄ 2 n (n − 1) points, 1 ⁄ 2 n (n − 1) being a triangular number whose side is n − 1. If they are made to turn about the n fixed points so that any n − 1 of their 1 ⁄ 2 n (n − 1) points of intersection, chosen subject to a certain limitation, lie on n − 1 given fixed straight lines, then each of the remaining points of intersection, 1 ⁄ 2 n (n − 1)(n − 2) in number, describes a straight line.
+
+The above can be expressed as: If about two fixed points, P and Q, one makes the turn two straight lines meeting on a given straight line, L, and if one of them cuts off a segment, AM, from a fixed straight line, AX, given in position, another fixed straight line BY, and a point B fixed on it can be determined, such that the segment BM' made by the second moving line on this second fixed-line measured from B has a given ratio X to AM. The lemmas which Pappus gives in connection with the porisms are:
+
+* the fundamental theorem that the cross or anharmonic ratio of a pencil of four straight lines meeting in a point is constant for all transversals;
+* the proof of the harmonic properties of a complete quadrilateral;
+* the theorem that, if the six vertices of a hexagon lie three and three on two straight lines, the three points of the concourse of opposite sides lie on a straight line.
+
+## Later analysis
+
+Robert Simson explained the only three propositions which Pappus indicates with any completeness, which was published in the Philosophical Transactions in 1723. Later he investigated the subject of porisms generally in a work entitled De porismatibus traclatus; quo doctrinam porisrnatum satis explicatam, et in posterum ab oblivion tutam fore sperat auctor, and published after his death in a volume, Roberti Simson opera quaedam reliqua (Glasgow, 1776).
+
+Simson's treatise, De porismatibus, begins with the definitions for theorem, problem, datum, porism, and locus. Simon wrote that Pappus's definition is too general, and that he substituted it as:
+
+Porisma est propositio in qua proponitur demonstrare rem aliquam, vel plures datas esse, cui, vel quibus, ut et cuilibet ex rebus innumeris, non quidem datis, sed quae ad ea quae data sunt eandem habent rationem, convenire ostendendum est affectionem quandam communem in propositione descriptam. Porisma etiam in forma problematis enuntiari potest, si nimirum ex quibus data demonstranda sunt, invenienda proponantur.
+
+Simson said that a locus is a species of porism. Then follows a Latin translation of Pappus's note on the porisms, and the propositions which form the bulk of the treatise.
+
+John Playfair 's memoir (Trans. Roy. Soc. Edin., 1794, vol. iii.), a sort of sequel to Simson's treatise, explored the probable origin of porisms, or the steps that led ancient geometers to discover them. Playfair remarked that the careful investigation of all possible particular cases of a proposition would show that
+
+* under certain conditions a problem becomes impossible;
+* under certain other conditions, indeterminate or capable of an infinite number of solutions.
+
+These cases could be defined separately, were in a manner intermediate between theorems and problems, and were called "porisms." Playfair defined a porism as "[a] proposition affirming the possibility of finding such conditions as will render a certain problem indeterminate or capable of innumerable solutions."
+
+Although Playfair's definition of a porism appears to be most favoured in England, Simson's view has been most generally accepted abroad, and had the support of Michel Chasles. However, in Liouville 's Journal de mathematiques pures et appliquées (vol. xx., July, 1855), P. Breton published Recherches nouvelles sur les porismes d'Euclide, in which he gave a new translation of the text of Pappus, and sought to base a view of the nature of a porism that conforms more closely to Pappus's definition. This was followed in the same journal and in La Science by a controversy between Breton and A. J. H. Vincent, who disputed the interpretation given by the former of Pappus's text, and declared himself in favour of Frans van Schooten 's idea, put forward in his Mathematicae exercitationes (1657). According to Schooten, if the various relations between straight lines in a figure are written down in the form of equations or proportions, then the combination of these equations in all possible ways, and of new equations thus derived from them leads to the discovery of innumerable new properties of the figure.
+
+The discussions between Breton and Vincent, which C. Housel joined, did not carry forward the work of restoring Euclid's Porisms, which was left for Chasles. His work (Les Trois livres de porismes d'Euclide, Paris, 1860) makes full use of all the material found in Pappus.
+
+An interesting hypothesis about porisms was put forward by H. G. Zeuthen (Die Lehre von den Kegelschnitten im Altertum, 1886, ch. viii.). Zeuthen observed, for example the intercept-porism is still true if the two fixed points are points on a conic, and the straight lines drawn through them intersect on the conic instead of on a fixed straight line. He conjectured that the porisms were a by-product of a fully developed projective geometry of conics.

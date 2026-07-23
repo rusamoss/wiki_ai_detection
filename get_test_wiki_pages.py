@@ -15,15 +15,19 @@ Generates a random sample of English Wikipedia articles that satisfy:
 Usage:
     python get_test_wiki_pages.py --n 25 --out sample.csv
 
-Optionally, with --ai-n, also collects a separate random sample of articles
-from Category:Articles containing suspected AI-generated texts (a Wikipedia
-maintenance category for articles human editors have flagged as likely
-AI-generated). These are processed the same way, except there's no
-creation-date cutoff and each article's *current* revision is used instead
-of its Oct-2022 one. Written to their own --ai-articles-dir folder and
---ai-out CSV so they're never mixed with the dated sample:
+Optionally, with --ai-n and/or --ai-drafts-n, also collects separate random
+samples from two Wikipedia maintenance categories of likely-AI-generated
+text: Category:Articles containing suspected AI-generated texts (--ai-n,
+mainspace articles human editors have flagged) and Category:AfC submissions
+declined as a large language model output (--ai-drafts-n, Draft-namespace
+submissions a reviewer explicitly declined as LLM output). Both are
+processed the same way as each other, except there's no creation-date
+cutoff and each article's *current* revision is used instead of its
+Oct-2022 one. Each is written to its own folder/CSV pair
+(--ai-articles-dir/--ai-out and --ai-drafts-articles-dir/--ai-drafts-out)
+so neither is ever mixed with the dated sample or with each other:
 
-    python get_test_wiki_pages.py --n 25 --ai-n 25 --out sample.csv --ai-out ai_sample.csv
+    python get_test_wiki_pages.py --n 25 --ai-n 25 --ai-drafts-n 25 --out sample.csv --ai-out ai_sample.csv --ai-drafts-out ai_drafts_sample.csv
 
 Articles land in --articles-dir/--ai-articles-dir, and both that folder and its CSV accumulate across
 runs -- collecting a title that's already there overwrites its .txt file
@@ -56,6 +60,8 @@ DEFAULT_ARTICLES_DIR = f"{DATA_DIR}/random_2022"
 DEFAULT_OUT = f"{DATA_DIR}/wikipedia_sample.csv"
 DEFAULT_AI_ARTICLES_DIR = f"{DATA_DIR}/random_AI_suspected"
 DEFAULT_AI_OUT = f"{DATA_DIR}/wikipedia_ai_sample.csv"
+DEFAULT_AI_DRAFTS_ARTICLES_DIR = f"{DATA_DIR}/random_AI_suspected_drafts"
+DEFAULT_AI_DRAFTS_OUT = f"{DATA_DIR}/wikipedia_ai_drafts_sample.csv"
 
 # "source" column value for the dated sample
 RANDOM_SOURCE_LABEL = f"Random; {time.strftime('%b %Y', time.strptime(OCT_SNAPSHOT, '%Y-%m-%dT%H:%M:%SZ'))} revision"
@@ -85,6 +91,8 @@ LIST_CATEGORY_RE = re.compile(
 
 # Hidden maintenance container category for suspected-AI-generated text.
 AI_SUSPECTED_CATEGORY = "Category:Articles containing suspected AI-generated texts"
+# Draft-namespace submissions an AfC reviewer explicitly declined as LLM output.
+AI_SUSPECTED_DRAFTS_CATEGORY = "Category:AfC submissions declined as a large language model output"
 
 # Elements that are not "readable prose" -- infoboxes, navboxes, tables, references, images/galleries, TOC, etc.
 STRIP_SELECTORS = [
@@ -103,8 +111,16 @@ STRIP_SELECTORS = [
     "style", "script",
     ".noprint",
     ".mw-empty-elt",
+    '[class*="afc-submission"]',  # AfC review banners/comment boxes on Draft: pages
     # Note: headings (h1-h6) are deliberately NOT stripped
 ]
+
+# Older-style AfC review comments aren't wrapped in an afc-submission-* box --
+# they're a plain "* '''Comment:''' ... ~~~~" bullet, indistinguishable by
+# markup from a real list item. But real article prose never ends in a
+# MediaWiki auto-signature timestamp, so matching that is a reliable,
+# content-based way to catch them instead.
+SIGNATURE_TIMESTAMP_RE = re.compile(r"\d{1,2}:\d{2},\s+\d{1,2}\s+\w+\s+\d{4}\s+\(UTC\)\s*$")
 
 
 def make_session(contact: str) -> requests.Session:
@@ -212,7 +228,7 @@ def filter_navigational_and_redirects(
     get_revision_ids lookup."""
     survivors: dict[str, tuple[int, int]] = {}
     for chunk in chunked(titles, 50):
-        chunk = [t for t in chunk if not LIST_TITLE_RE.search(t)]
+        chunk = [t for t in chunk if not LIST_TITLE_RE.search(strip_draft_prefix(t))]
         if not chunk:
             continue
         data = api_get(session, limiter, {
@@ -422,7 +438,10 @@ def extract_cleaned_prose(html: str) -> tuple[int, str]:
         if el.name in ("ul", "ol"):
             if el.find_parent("li") is not None:
                 continue  # nested list; already handled by its ancestor
-            list_lines = extract_list_lines(el)
+            list_lines = [
+                (depth, text) for depth, text in extract_list_lines(el)
+                if not SIGNATURE_TIMESTAMP_RE.search(text)
+            ]
             words += sum(len(re.findall(r"\b[\w'-]+\b", text, flags=re.UNICODE)) for _, text in list_lines)
             lines = [f"{'*' * depth} {text}" for depth, text in list_lines]
             if lines:
@@ -430,7 +449,7 @@ def extract_cleaned_prose(html: str) -> tuple[int, str]:
             continue
 
         text = normalize_prose_whitespace(el.get_text(" ", strip=True))
-        if not text:
+        if not text or SIGNATURE_TIMESTAMP_RE.search(text):
             continue
         words += len(re.findall(r"\b[\w'-]+\b", text, flags=re.UNICODE))
         parts.append(text)
@@ -461,12 +480,22 @@ def safe_filename(title: str) -> str:
     return sanitize_title(title) + ".txt"
 
 
-def make_row(title: str, revid: int | str) -> dict[str, Any]:
+def strip_draft_prefix(title: str) -> str:
+    """Strips a leading "Draft:" namespace prefix -- that's the namespace,
+    not part of the article's actual title."""
+    return title.removeprefix("Draft:")
+
+
+def make_row(title: str, revid: int | str, wiki_title: str | None = None) -> dict[str, Any]:
+    """`wiki_title` is the real page title, namespace prefix included (e.g.
+    "Draft:X"), used for pageid_url_slug/url so the link still resolves;
+    defaults to `title` when there's no prefix to strip in the first place."""
+    wiki_title = wiki_title if wiki_title is not None else title
     return {
         "title": title,
-        "pageid_url_slug": title.replace(" ", "_"),
+        "pageid_url_slug": wiki_title.replace(" ", "_"),
         "revision_id": revid,
-        "url": f"https://en.wikipedia.org/wiki/{title.replace(' ', '_')}?oldid={revid}",
+        "url": f"https://en.wikipedia.org/wiki/{wiki_title.replace(' ', '_')}?oldid={revid}",
         "date_fetched": time.strftime(TIMESTAMP_FORMAT),
     }
 
@@ -529,13 +558,16 @@ def run_from_csv(
     for row in rows_in:
         title = row["title"]
         revid = row["revision_id"]
+        # pageid_url_slug retains any namespace prefix (e.g. "Draft:") that
+        # was stripped from "title" -- recover it so the URL still resolves.
+        wiki_title = row.get("pageid_url_slug", title).replace("_", " ")
         try:
             word_count, text = fetch_cleaned_prose(session, limiter, int(revid))
         except Exception as e:
             print(f"  [warn] {title}: {e}", file=sys.stderr)
             continue
 
-        out_row = make_row(title, revid)
+        out_row = make_row(title, revid, wiki_title=wiki_title)
         out_row["prose_word_count"] = word_count
         out_row["source"] = row.get("source") or RANDOM_SOURCE_LABEL
         results.append(out_row)
@@ -624,22 +656,23 @@ def collect_sample(
         if not revid_map:
             continue
 
-        for title, revid in revid_map.items():
+        for wiki_title, revid in revid_map.items():
             try:
                 word_count, text = fetch_cleaned_prose(session, limiter, revid)
             except Exception as e:
-                print(f"  [warn] {title}: {e}", file=sys.stderr)
+                print(f"  [warn] {wiki_title}: {e}", file=sys.stderr)
                 continue
             if word_count <= MIN_WORDS:
-                print_discarded([title], f"too short ({word_count} words)")
+                print_discarded([wiki_title], f"too short ({word_count} words)")
                 continue
             if word_count > MAX_WORDS:
-                print_discarded([title], f"too long ({word_count} words)")
+                print_discarded([wiki_title], f"too long ({word_count} words)")
                 continue
 
-            row = make_row(title, revid)
+            title = strip_draft_prefix(wiki_title)
+            row = make_row(title, revid, wiki_title=wiki_title)
             row["prose_word_count"] = word_count
-            row["source"] = source(title)
+            row["source"] = source(wiki_title)
             results.append(row)
             emit_row(run_dir, row, text, f"{len(results)}/{target_n}", title in all_rows)
             all_rows[title] = row
@@ -654,38 +687,55 @@ def collect_sample(
 
 
 # ---------------------------------------------------------------------
-# Suspected-AI-text sample: same pipeline as the dated snapshot, but
-# candidates come from AI_SUSPECTED_CATEGORY instead of list=random, and
+# Category-sourced samples: same pipeline as the dated snapshot, but
+# candidates come from a maintenance category instead of list=random, and
 # each article's *current* revision is used (rvstart=None) with no
-# creation-date cutoff. Written to its own --ai-articles-dir folder and
-# CSV, kept entirely separate from the dated sample.
+# creation-date cutoff. Written to their own folder and CSV, kept entirely
+# separate from the dated sample. Used for both AI_SUSPECTED_CATEGORY
+# (mainspace articles tagged as suspected AI text) and
+# AI_SUSPECTED_DRAFTS_CATEGORY (Draft-namespace AfC submissions a reviewer
+# declined as LLM output) -- get_category_members and collect_sample are
+# namespace-agnostic, so the same pipeline covers both.
 # ---------------------------------------------------------------------
 
 AI_FIELDNAMES = ["title", "pageid_url_slug", "revision_id", "prose_word_count",
                  "url", "source", "date_fetched"]
 
 
-def collect_ai_suspected(
-    session: requests.Session, limiter: RateLimiter, args: argparse.Namespace, ai_articles_dir: Path
+def collect_from_category(
+    session: requests.Session,
+    limiter: RateLimiter,
+    category: str,
+    target_n: int,
+    out_csv: str,
+    articles_dir: Path,
+    label: str,
+    require_prefix: str | None = None,
 ) -> None:
-    print(f"\n--- Collecting {args.ai_n} suspected-AI-text articles from "
-          f"{AI_SUSPECTED_CATEGORY} ---", file=sys.stderr)
+    print(f"\n--- Collecting {target_n} {label} from {category} ---", file=sys.stderr)
 
     # {title: source_category} -- candidate_map.get is already exactly the
     # per-title "source" lookup collect_sample needs (which monthly subcat a
     # title came from).
-    candidate_map = get_category_members(session, limiter, AI_SUSPECTED_CATEGORY)
+    candidate_map = get_category_members(session, limiter, category)
     print(f"  category pool: {len(candidate_map)} articles", file=sys.stderr)
+    if require_prefix is not None:
+        # e.g. AI_SUSPECTED_DRAFTS_CATEGORY also tags stray User:.../sandbox
+        # pages alongside real Draft: submissions -- those don't have a
+        # corresponding "article title" to extract, so drop them.
+        off_prefix = {t for t in candidate_map if not t.startswith(require_prefix)}
+        print_discarded(off_prefix, f"not in {require_prefix!r} namespace")
+        for title in off_prefix:
+            del candidate_map[title]
     candidates = list(candidate_map)
     random.shuffle(candidates)
 
-    run_dir = ai_articles_dir
-    run_dir.mkdir(parents=True, exist_ok=True)
+    articles_dir.mkdir(parents=True, exist_ok=True)
 
     batches = (candidates[i:i + BATCH_SIZE] for i in range(0, len(candidates), BATCH_SIZE))
-    collect_sample(session, limiter, run_dir, args.ai_out, batches,
+    collect_sample(session, limiter, articles_dir, out_csv, batches,
                     fieldnames=AI_FIELDNAMES,
-                    target_n=args.ai_n, rvstart=None, label="suspected-AI articles",
+                    target_n=target_n, rvstart=None, label=label,
                     source=candidate_map.get)
 
 
@@ -700,7 +750,10 @@ def main() -> None:
     ap.add_argument("--from-csv",
                      help="reuse the articles from an existing "
                           "output CSV instead of drawing a fresh random sample")
-    ap.add_argument("--n", type=int, default=25, help="number of articles to collect")
+    ap.add_argument("--n", type=int, default=0,
+                     help="number of dated (random_2022) articles to collect -- "
+                          "each of --n/--ai-n/--ai-drafts-n is independently "
+                          "opt-in, so only the ones actually given run")
     ap.add_argument("--out", default=DEFAULT_OUT,
                      help="CSV path for the random 2022 sample")
     ap.add_argument("--articles-dir", default=DEFAULT_ARTICLES_DIR,
@@ -715,6 +768,16 @@ def main() -> None:
                           "overwrite behavior as --articles-dir")
     ap.add_argument("--ai-out", default=DEFAULT_AI_OUT,
                      help="CSV path for the suspected-AI sample (see --ai-n)")
+    ap.add_argument("--ai-drafts-n", type=int, default=0,
+                     help="also collect this many random articles from "
+                          f"{AI_SUSPECTED_DRAFTS_CATEGORY!r} (current revision, "
+                          "no creation-date cutoff), written to --ai-drafts-articles-dir")
+    ap.add_argument("--ai-drafts-articles-dir", default=DEFAULT_AI_DRAFTS_ARTICLES_DIR,
+                     help="directory to write the AfC-declined-as-LLM sample's cleaned "
+                          "article text into -- see --ai-drafts-n; same accumulate/"
+                          "overwrite behavior as --articles-dir")
+    ap.add_argument("--ai-drafts-out", default=DEFAULT_AI_DRAFTS_OUT,
+                     help="CSV path for the AfC-declined-as-LLM sample (see --ai-drafts-n)")
 
     args = ap.parse_args()
 
@@ -732,17 +795,32 @@ def main() -> None:
         print(f"\nDone. Wrote {len(results)} articles to {args.out} and {run_dir}/ "
               f"(reused titles from {args.from_csv}).")
         if args.ai_n > 0:
-            collect_ai_suspected(session, limiter, args, Path(args.ai_articles_dir))
+            collect_from_category(session, limiter, AI_SUSPECTED_CATEGORY, args.ai_n,
+                                   args.ai_out, Path(args.ai_articles_dir), "suspected-AI articles")
+        if args.ai_drafts_n > 0:
+            collect_from_category(session, limiter, AI_SUSPECTED_DRAFTS_CATEGORY, args.ai_drafts_n,
+                                   args.ai_drafts_out, Path(args.ai_drafts_articles_dir),
+                                   "AfC-declined-as-LLM drafts", require_prefix="Draft:")
         return
 
-    batches = (get_random_titles(session, limiter, BATCH_SIZE) for _ in range(200)) # limit to 200 rounds for safety; lift this if deliberately doing very large run
-    collect_sample(session, limiter, run_dir, args.out, batches,
-                    fieldnames=fieldnames,
-                    target_n=args.n, rvstart=OCT_SNAPSHOT, label="articles",
-                    source=lambda _title: RANDOM_SOURCE_LABEL)
+    if not (args.n > 0 or args.ai_n > 0 or args.ai_drafts_n > 0):
+        raise SystemExit("Nothing to do -- pass --n, --ai-n, and/or --ai-drafts-n "
+                          "(or --from-csv to reuse an existing sample).")
+
+    if args.n > 0:
+        batches = (get_random_titles(session, limiter, BATCH_SIZE) for _ in range(200)) # limit to 200 rounds for safety; lift this if deliberately doing very large run
+        collect_sample(session, limiter, run_dir, args.out, batches,
+                        fieldnames=fieldnames,
+                        target_n=args.n, rvstart=OCT_SNAPSHOT, label="articles",
+                        source=lambda _title: RANDOM_SOURCE_LABEL)
 
     if args.ai_n > 0:
-        collect_ai_suspected(session, limiter, args, Path(args.ai_articles_dir))
+        collect_from_category(session, limiter, AI_SUSPECTED_CATEGORY, args.ai_n,
+                               args.ai_out, Path(args.ai_articles_dir), "suspected-AI articles")
+    if args.ai_drafts_n > 0:
+        collect_from_category(session, limiter, AI_SUSPECTED_DRAFTS_CATEGORY, args.ai_drafts_n,
+                               args.ai_drafts_out, Path(args.ai_drafts_articles_dir),
+                               "AfC-declined-as-LLM drafts", require_prefix="Draft:")
 
 
 if __name__ == "__main__":

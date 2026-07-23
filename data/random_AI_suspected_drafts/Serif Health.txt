@@ -1,0 +1,33 @@
+## Overview
+
+Serif Health is an American health technology company that aggregates and standardizes U.S. health care price transparency data, including machine-readable files published by health insurers under the federal Transparency in Coverage (TiC) regulations and corresponding data published by hospitals under hospital price transparency rules.
+
+## History
+
+Serif Health was founded in 2020 by Rafiq Ahmed and Matthew Robben. In March 2023, the company announced a $2.5 million seed funding round.
+
+## Products and services
+
+Serif Health’s products include:
+
+* Signal, a web-based rate search and analytics product for exploring negotiated rates from price transparency files.
+* APIs intended to support programmatic access to price transparency-derived data in downstream applications.
+* Data delivery, including bulk data extracts delivered for analytics workflows.
+
+## Data sources
+
+According to the company, Serif Health processes insurer-published TiC machine-readable files and supplements them with hospital price transparency data, insurance claims data, and related reference datasets. The company also publishes an inventory intended to summarize payer price transparency file coverage and characteristics of underlying payer disclosures.
+
+## Use in research and policy
+
+Serif Health’s datasets have been referenced by health services research organizations and policy discussions about the usability of price transparency data.
+
+AcademyHealth’s Health Data for Action (HD4A) program materials describe a “national repository” of Transparency in Coverage price transparency data made available by Serif Health for research use, including documentation such as a data dictionary.
+
+A 2025 Baker Institute report on employer use of hospital pricing data states that insurer price transparency files were accessed using Serif Health’s Signal platform and describes the platform as scanning, aggregating, and standardizing insurer disclosures.
+
+Serif Health is cited in the December 2025 “Transparency in Coverage” proposed rule, including citations to Serif Health blog posts and mention of Serif Health as an external source in discussion of file usability and rate filtering approaches.
+
+## Compliance
+
+In November 2025, Serif Health stated that it completed a SOC 2 Type II audit.

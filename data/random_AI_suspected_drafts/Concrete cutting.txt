@@ -1,0 +1,25 @@
+Concrete cutting is a process of controlled sawing, drilling, and removal of concrete performed by skilled operators using special saws that use diamond -impregnated blades. Unlike traditional dusty demolition methods like jack hammering, modern concrete cutting provides a smooth, attractive finish and utilizes water so that no dust is created.
+
+## Methods
+
+Different applications require different methods of concrete cutting.
+
+### Wall sawing
+
+Wall sawing employs a circular diamond blade on a track-mounted machine. This machine can be placed on vertical walls or steep inclines, as well as on floors. Wall sawing allows for precise cuts in both concrete and masonry structures. It is typically used for cutting door, window, and mechanical openings.
+
+### Core drilling
+
+Core drilling is the process of drilling perfectly round holes through concrete walls and floors. The diameter of the holes can range from 1/2" to an unlimited diameter. Core drilling is used for plumbing, electrical, and HVAC installations.
+
+### Slab sawing
+
+Slab sawing (also known as flat sawing) is used to cut horizontal flat surfaces such as floors, bridge decks, and pavement. Slab saws are typically walk-behind machines that require a single operator. They are used to cut expansion joints, remove damaged pavement sections, and create trenches for utility installation.
+
+### Chain sawing
+
+Concrete chain saws are used for deep cuts where circular blades cannot reach. This method allows for square corners without over-cuts and can penetrate reinforced concrete to significant depths (up to 36 inches or 90 cm) using hydraulic power.
+
+## Safety
+
+Concrete cutting generates respirable crystalline silica, which can be hazardous if inhaled. Modern standards require wet-cutting techniques or HEPA vacuum systems to control airborne dust and comply with OSHA regulations.

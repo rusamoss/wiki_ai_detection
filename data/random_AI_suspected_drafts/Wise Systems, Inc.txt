@@ -1,0 +1,41 @@
+Wise Systems, Inc. is an American software company headquartered in Cambridge, Massachusetts, that develops artificial intelligence software for last-mile delivery and logistics operations. Founded in 2014 by a team of MIT and Harvard graduates, the company developed an autonomous dispatch and routing platform to automate delivery scheduling and adapt to real-time to changing traffic and operational conditions. Wise Systems has raised **$73 million** in venture funding, including a **$7 million Series A** round backed by Google’s GV fund, a **$15 million Series B** led by Valo Ventures, and a **$50 million Series C** led by Tiger Global Management.
+
+## History
+
+Wise Systems was founded in 2014 by MIT graduates Chazz Sims, Layla Shaikley, and Ali Kamil, along with Harvard graduate Jemel Derbali. The founders began developing the dispatch platform during research for a course at the **MIT Media Lab** called Development Ventures. The company was initially backed by the **E14 Fund**, which invests in MIT-affiliated startups.
+
+By 2017, Wise Systems had begun working with **"multiple global 500 companies in different industries,"** according to the MIT Startup Exchange. The company’s early work included collaborations with delivery fleets in food, beverage, and courier companies.
+
+CEO Chazz Sims was named to the Forbes 30 Under 30 list in 2020 in the Enterprise Technology category.
+
+## Products and services
+
+Wise Systems offers an AI dispatch and routing platform for last-mile logistics that uses machine learning to cut down delivery times and operational costs. The software automates route planning, monitors in-route performance, and adapts in real time to traffic and delivery conditions.
+
+The platform includes the web-based **Dispatcher** application, a **Customer Portal**, the **Driver App**, and the **Mobile Manager** app. Co-founder Layla Shaikley stated that the system was intentionally designed to be easy for drivers to use, based on founders' research and direct experience with drivers. The mobile app enables drivers to manage routes, collect proof of delivery (including signatures, photos, and barcode scans), and access stop-specific notes.
+
+The system supports autonomous dispatching, which has been described as operating at **Level 3 autonomy**.
+
+The system is used by major global delivery fleets. For instance, **Anheuser-Busch, Lyft, and DHL** are customers. DHL specifically noted that the software allows them to **"take a route with 120 stops and order the sequence based on parameters such as an urgent medical express delivery."** Companies using the platform have reported results cited in logistics media, including 80% fewer late deliveries and mileage reductions.
+
+## Partnerships
+
+Wise Systems has established technology partnerships and integrations across logistics software and commercial vehicle sectors.
+
+A commercial agreement was signed in 2021 with Mitsubishi Fuso Truck and Bus Corporation to launch AI-driven routing and dispatching solutions in Japan.
+
+The company has integrated its platform with various enterprise resource planning (ERP) and telematics systems. Notable integration partners include **Samsara**, **IntelliShift**, **CXT Software**, and **Encompass Technologies**. Wise Systems is also listed as a partner in **SAP’s supply chain ecosystem** and with **Intempo Software** for rental fleet solutions.
+
+## Funding
+
+Wise Systems has raised multiple funding rounds:
+
+* In 2018, the company raised a **$7 million Series A round**, backed by Google’s GV fund.
+* In June 2020, Wise Systems closed a **$15 million Series B** round led by Valo Ventures and Gradient Ventures, Google’s AI-focused investment arm.
+* In October 2021, Wise Systems secured **$50 million in Series C funding**, led by Tiger Global Management.
+
+## Industry recognition
+
+Wise Systems has been noted by logistics and technology media for its role in applying artificial intelligence and machine learning to last-mile delivery operations. The company was featured by FreightWaves as a startup utilizing AI for dispatching and routing.
+
+In 2019, Wise Systems was named the **Techstars Startup of the Year** at the North American International Auto Show's AutoMobili-D event by **PlanetM**.

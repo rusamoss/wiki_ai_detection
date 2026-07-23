@@ -1,0 +1,56 @@
+# William David Volk
+
+William David Volk (born December 16, 1956) is an American video game developer and industry veteran whose career spans more than four decades. Volk has been recognized for his technical leadership in navigating the evolution of industry technology, markets and business during turbulent era of the 1980s-90s.
+
+## Early life and education
+
+William Volk grew up on Long Island, New York, and began studying Physics and Astronomy at the University of Pennsylvania before doing graduate work in Physics, Astronomy, and Computer Engineering. During his time in graduate school he took an entry-level job testing video games, which launched his career in the industry.
+
+## Career
+
+### Avalon Hill and early game development
+
+Volk began his career in late 1979 at Avalon Hill, a tabletop game publisher that had just entered the personal-computer game business. Initially hired as a playtester, he transitioned to designing and programming games, including early titles published on platforms like the Apple II and TRS-80.
+
+### Activision and multimedia games
+
+In 1988 Volk joined Activision, where he played a key role in the company’s transition into CD-ROM multimedia games. During that era, Activision released Return to Zork (1993), a revival of the classic Zork adventure series that became one of the first CD-ROM graphic adventure games. Return to Zork sold over a million copies and helped stabilize Activision’s business in the early 1990s.
+
+The Video Game History Foundation notes that Volk’s technical leadership came at a pivotal moment when Activision was recovering from near financial collapse and needed to modernize its game technologies.
+
+### Innovation in mobile and interactive gaming
+
+Following his work in CD-ROM and console games, Volk identified and helped create the frameworks for creating games for mobile platforms. In the mid-2000s he co-founded mobile game companies and is credited in helping pioneer early mobile game design, bridging the divide between current and next-gen technologies.
+
+## Video game credits (Development / Technical / Design Roles)
+
+### Early personal-computer era (Avalon Hill and independent)
+
+* Conflict 2500 (1981) — Designer
+* Voyager I: Sabotage of the Robot Ship (1981–1982) — Designer, Programmer
+* Controller (1982) — Programmer
+* The Pyramid of Peril (1985, Macintosh) — Designer/Writer
+
+### CD-ROM and multimedia era (Activision)
+
+* The Manhole (1989–1992) — Technical direction / system architecture
+* Rodney’s Funscreen (1992) — Engineering
+* Leather Goddesses of Phobos! 2: Gas Pump Girls Meet the Pulsating Inconvenience from Planet X (1992) — Technical direction / programming
+* Return to Zork (1993; later ports) — Technical Producer / Technical Director
+
+### Educational and console titles (Lightspan Partnership)
+
+(Volk served in senior technical leadership; credits reflect technology and production oversight rather than single-game authorship)
+
+* K9.5 series (1997–1999) — Director of Software Technology
+* The Secret of Googol series (1997–1998) — Director of Software Technology
+* Faire Games: Language Arts & Mathematics (1998) — Director of Software Technology
+
+### Mobile and modern independent games
+
+* iWhack (2007) — Co-creator (early iPhone game)
+* The Dozens (mid-2000s) — Co-designer (social/mobile adaptation of the Wayans Brothers card game)
+* The Climate Trail (2019) — Developer
+* WordTopics / Word Carnivale / Impossible Hex (2019–2021) — Concept and design
+
+Together, these credits illustrate Volk as a bridge figure across multiple eras of video game development, from the earliest home computers to CD-ROM, consoles, smartphones, social gaming and contemporary games.

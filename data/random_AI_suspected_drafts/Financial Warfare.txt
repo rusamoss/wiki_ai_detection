@@ -1,0 +1,21 @@
+Financial warfare refers to the deliberate use of financial market mechanisms, capital flows, payment systems, and credit networks as instruments of statecraft to produce coercive, disruptive, or degradative effects on an adversary.
+
+Financial warfare is typically distinguished from economic warfare, which operates through institutional instruments such as sanctions, tariffs, and export controls administered by government agencies. Financial warfare instead operates at the market and tactical level, often with greater speed and potential deniability. The concept draws on Juan Zarate's analysis of the US Treasury 's post- 9/11 financial campaigns, and on weaponized interdependence theory, which describes how states controlling central nodes in global economic networks can exploit those positions for strategic advantage.
+
+## Methods
+
+Financial warfare methods include:
+
+* Payment system exclusion – Disconnecting adversary institutions from international payment networks such as SWIFT, as applied to Russian banks following the 2022 Russian invasion of Ukraine.
+* Reserve and asset freezes – Immobilising an adversary's foreign exchange reserves or other financial assets held in foreign jurisdictions, as with the approximately US$300 billion in Russian central bank reserves frozen in 2022.
+* Liquidity denial – Coordinated withdrawal of correspondent banking, trade credit, or short-term financing to induce distress.
+* Insurance withdrawal – Removal of commercial insurance coverage from strategic sectors, as occurred during the 2026 Strait of Hormuz crisis when P&I Clubs withdrew coverage from the Persian Gulf, causing tanker traffic to collapse.
+* Market-based pressure – Use of short selling, derivatives, or coordinated capital repositioning to destabilise adversary currencies, sovereign debt, or critical industries.
+
+## Actors
+
+Financial warfare involves a broader range of actors than conventional economic warfare. In addition to state agencies, participants may include sovereign wealth funds, state-aligned financial institutions, and private sector actors whose commercial decisions produce strategic effects. China's Military-Civil Fusion doctrine and Russia's use of oligarch networks as instruments of state policy are cited as examples of blurred boundaries between state authority and private capital in financial warfare.
+
+## Institutional responses
+
+Some analysts have called for dedicated government capabilities to address financial warfare, arguing that institutions designed for financial regulation or sanctions administration are not equipped to detect or counter financial warfare conducted through market mechanisms at market speed.

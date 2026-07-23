@@ -1,0 +1,16 @@
+The British standard ordnance weights and measurements for the artillery were established by the Master General of Ordnance in 1764, and these were not altered until 1919 when the metric system was additionally introduced.
+
+This system has largely been replaced by defining the weapon in terms of the measurement of the calibre, which is the standard today for most weapon systems in use by the world's armed forces.
+
+The 18th century standards were based on projectile weight, and dated back to use of muzzle loaded cannons which fired solid cannonballs. The designations bore only an approximate relationship to the actual weight of the projectile when it was applied to modern artillery.
+
+The table below lists the metric and Imperial calibres of various British weapons, which utilised the standard after 1919:
+
+## Terminology
+
+When used with British standard nomenclature:
+
+* BL is short for "Breech Loading", but generally means not QF, i.e. separate cordite bags rather than a cartridge case.
+* ML is short for "Muzzle Loading".
+* PR is short for "Pounder", e.g. 20 Pounder can be shortened to "20-PR". pdr is also a common shortening of "pounder", e.g. 17pdr.
+* QF is short for "Quick Firing", indicating the weapon is breech-loaded with the propellant in a cartridge case which also made the breech seal, allowing faster loading and firing.

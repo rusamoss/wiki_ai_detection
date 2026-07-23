@@ -53,6 +53,8 @@ from pangram import Pangram
 from get_test_wiki_pages import (
     DATA_DIR,
     DEFAULT_AI_ARTICLES_DIR,
+    DEFAULT_AI_DRAFTS_ARTICLES_DIR,
+    DEFAULT_AI_DRAFTS_OUT,
     DEFAULT_AI_OUT,
     DEFAULT_ARTICLES_DIR,
     DEFAULT_OUT,
@@ -149,6 +151,7 @@ def default_label(folder: Path) -> str:
 DEFAULT_SOURCE_CSV_BY_LABEL = {
     Path(DEFAULT_ARTICLES_DIR).name: DEFAULT_OUT,
     Path(DEFAULT_AI_ARTICLES_DIR).name: DEFAULT_AI_OUT,
+    Path(DEFAULT_AI_DRAFTS_ARTICLES_DIR).name: DEFAULT_AI_DRAFTS_OUT,
 }
 
 

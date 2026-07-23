@@ -1,0 +1,19 @@
+GlobalESIM is a global digital marketplace providing eSIM (embedded SIM) services for international travelers. Headquartered in Israel, the company offers data plans in over 150 countries, aiming to provide a cost-effective alternative to traditional international roaming fees.
+
+## Services and Technology
+
+GlobalESIM operates as a marketplace that aggregates data plans from various telecommunications providers. The service allows users to purchase and activate data plans digitally through an activation code (QR code), eliminating the need for physical SIM cards.
+
+The company utilizes infrastructure from major global telecommunications carriers to ensure high-speed connectivity. Its network partners include tier-1 providers such as:
+
+* Vodafone
+* Orange
+* T-Mobile
+* Tele2
+* Telefonica
+
+## Market Presence
+
+The company provides specialized data solutions for major travel destinations including the United States, Canada, Europe, and Asia. Its services have been featured and analyzed in various travel and technology publications, focusing on the transition from physical roaming to digital connectivity solutions.
+
+Industry coverage has noted the platform's role in the increasing trend of travelers adopting eSIM technology for international connectivity. In late 2024, the platform's utility for North American travelers was highlighted in travel guides focusing on regional eSIM adoption. Further analysis has cited the platform as part of the shift toward online pre-departure connectivity purchases.

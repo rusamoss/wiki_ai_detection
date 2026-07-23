@@ -1,0 +1,33 @@
+Watson Atwine (born 3 March 1989) is a Ugandan software engineer and entrepreneur. He is the founder of Ibabaza Media Ltd, a software development company based in Kampala, Uganda. His work has involved building digital systems used by government agencies and private organisations, particularly in areas such as monitoring and evaluation, tourism classification, and digital services for agriculture.
+
+## Early life and education
+
+Atwine was born on 3 March 1989 in Kashari, in present-day Mbarara District in southwestern Uganda. He attended Nganwa High School in Kabwohe for his secondary education.
+
+He later enrolled at Makerere University, where he studied software engineering and graduated with a Bachelor of Science degree in 2015.
+
+In 2019 he participated in the African Presidential Leadership Program at the National Training Academy in Cairo, Egypt.
+
+## Career
+
+After graduating from university, Atwine worked at Endeavour Africa Uganda Ltd as a software support engineer, where he was involved in implementing enterprise software systems. He later joined FIT Uganda Limited, serving as Information Systems and Devices Manager until 2016. In that role he oversaw ICT systems used in the company's agricultural field operations.
+
+### Ibabaza Media
+
+In 2016 Atwine founded Ibabaza Media Ltd, a software development company based in Kampala. The company develops digital platforms for public institutions, businesses and development organisations.
+
+Among its projects was a web-based monitoring and evaluation system for the Uganda Investment Authority designed to track investment projects and performance indicators. The launch of the system was reported in a broadcast by UBC Television.
+
+Ibabaza Media has also developed digital tools for the tourism sector, including an online grading and classification platform for accommodation facilities used by the Uganda Tourism Board.
+
+### Startup ecosystem involvement
+
+Atwine has also been involved in Uganda's startup community. He contributed to the development of Agro Supply Uganda, an agritech venture that created a mobile layaway platform allowing farmers to save and pay gradually for agricultural inputs.
+
+In 2018 Agro Supply Uganda won the Kampala round of the global Seedstars startup competition and went on to represent Uganda at the Seedstars Summit in Switzerland.
+
+Atwine has also worked as a technology partner for Ntuha Ride, a transport and logistics platform operating in southwestern Uganda that connects passengers, farmers and transport providers using mobile and USSD technology.
+
+## Media appearances
+
+Atwine has appeared on Ugandan television to discuss issues related to technology and digital finance. In 2021 he appeared on NTV Uganda during coverage of the debate on mobile money taxation.

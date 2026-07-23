@@ -1,0 +1,51 @@
+The Cybersecurity industry in Singapore has assumed a more prominent role in safeguarding critical systems in Singapore with the addition of Digital Defence as the sixth Total Defence pillar against online threats.
+
+### History & Development
+
+In 2015, the Cyber Security Agency of Singapore (CSA) was formed to provide centralized oversight and coordinated national cybersecurity functions.
+
+Key Milestones:
+
+* Pre-2015 foundations: Singapore's cybersecurity journey kickstarted in 2005 with the first Infocomm Security Masterplan, which focused on building new capabilities within the public sector to manage internal and external cyber threats
+* 2015 - 2016: CSA's creation in April 2015 and the launch of Singapore's Cybersecurity Strategy in October 2016 by then-Prime Minister Lee Hsien Loong
+* Post-2016 intensification: Followed by the 2018 Cybersecurity Act for critical infrastructure protection and the 2021 strategy update, driven by incidents like SingHealth breach
+
+### Industry & Market Trends
+
+Singapore's cybersecurity is valued at approximately 2.65 billion in 2025, and is expected to grow USD 5.60 billion by 2030, represetning a CAGR of 14.14%. The industry includes multi-national technology vendors, managed security service providers, and locally founded cybersecurity firms. Demand for cybersecurity products and services has been associated with the rapid adoption of aritifical intelligence and increased cybercrime incidents.
+
+#### Notable homegrown companies
+
+The following are some Singapore-based firms. The descriptions focus on what the respective companies specializes in.
+
+##### Notable Industry Developments
+
+###### 1) Post-Quantum Security
+
+CSA has launched two critical resources to help organizations prepare for quantum computing threats: A Quantum-Safe Handbook and Quantum Readiness Index. It aims to guide critical infrastructure owners and government agencies through the complex transition to quantum-safe cryptography.
+
+###### 2) Agentic AI
+
+In January 2026, Singapore annouced the launch of the Model AI Governance Framework for Agentic AI at the World Economic Forum in Davos, Switzerland. This framework provides organizations with guidance on technical and non-technical measures that need to be put in place when deploying AI agents.
+
+##### 3) Cloud Security and Digital Infrastrcture
+
+Coverage of major technology firms expanding cloud infrastructure into Singapore, such as Amazon Web Services’ $9 billion investment, has referred to the country's regulatory framework and digital reliability as factors supporting data-intensive operations.
+
+##### 4) Zero Trust Arhcitecture
+
+Since 2021, regulators have adopted the Government Zero Trust Architecture (GovZTA) to strengthen cybersecurity posture and reduce the impact of breaches.
+
+### Research, Funding, and Government Initiatives
+
+The Singapore government supports cybersecurity research and industry development through funding programmes and public-private initiatives. In 2025, CSA awarded S$16 million to 18 research and innovation projects under CyberSG programmes, including S$13.2 million for 13 research efforts via the Translation and Innovation grant and S$3 million for five companies under CyberCall 2024.
+
+Singapore-based cybersecurity startups like CYFIRMA (threat intelligence) and Blackpanda (incident response) have secured venture funding to innovate in identity security (IAM), cloud security, and threat detection amid a robust ecosystem with over SGD 3 billion in tech investments in 2025. Government-supported research centres, innovation hubs, and accelator programmes have contributed to workforce development and early-stage company support. Furthermore, tripartite programmes like Singtel’s Cyber Protect provide workshops and subsidies for SMEs.
+
+### Cyber Incidents
+
+Singapore has experienced several cyber incidents that have shaped its cybersecurity landscape:
+
+* Breaches to the IT systems of the National University of Singapore (NUS) and Nanyang Technological University (NTU) in 2017
+* The 2018 SingHealth breach that affected at least 1.5 million patients
+* Attacked by a state-sponsored cyber espionage group, UNC3886
