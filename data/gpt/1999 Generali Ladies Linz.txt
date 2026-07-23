@@ -1,0 +1,67 @@
+Below is an original Wikipedia-style draft, written without copying or relying on the existing Wikipedia article.
+
+```wiki
+{{Infobox tennis tournament event
+| name = 1999 Generali Ladies Linz
+| date = 25–31 October 1999
+| edition = 13th
+| category = Tier II
+| draw = 28S / 16D
+| prize_money = $520,000
+| surface = Hard / indoors
+| location = Linz, Austria
+| venue = Intersport Arena
+| champs = Mary Pierce
+| champd = Barbara Schett / Patty Schnyder
+}}
+
+The '''1999 Generali Ladies Linz''' was a women's professional tennis tournament played in [[Linz]], Austria. It was part of the [[1999 WTA Tour]] and was classified as a Tier II event. The tournament was held indoors at the Intersport Arena from 25 to 31 October 1999.
+
+[[Mary Pierce]] won the singles title, defeating fellow French player [[Sandrine Testud]] in the final. The doubles title was won by [[Barbara Schett]] and [[Patty Schnyder]], who defeated [[Alexandra Fusai]] and [[Nathalie Tauziat]].
+
+== Finals ==
+
+=== Singles ===
+{{flagicon|FRA}} [[Mary Pierce]] defeated {{flagicon|FRA}} [[Sandrine Testud]], 7–6, 6–1
+
+* It was Pierce's first singles title at Linz.
+
+=== Doubles ===
+{{flagicon|AUT}} [[Barbara Schett]] / {{flagicon|SUI}} [[Patty Schnyder]] defeated {{flagicon|FRA}} [[Alexandra Fusai]] / {{flagicon|FRA}} [[Nathalie Tauziat]]
+
+== Tournament details ==
+
+The event was one of the late-season indoor tournaments on the WTA Tour calendar. As a Tier II tournament, it attracted several highly ranked players and served as an important stop in the closing weeks of the 1999 season. The singles draw consisted of 28 players, while the doubles competition featured 16 teams.
+
+Pierce's victory in the singles final came against Testud in an all-French championship match. In doubles, the Austrian-Swiss pairing of Schett and Schnyder won the title, giving Schett a tournament victory on home soil.
+
+== Champions ==
+
+{| class="wikitable"
+! Event
+! Champion
+! Runner-up
+|-
+| Singles
+| {{flagicon|FRA}} [[Mary Pierce]]
+| {{flagicon|FRA}} [[Sandrine Testud]]
+|-
+| Doubles
+| {{flagicon|AUT}} [[Barbara Schett]] / {{flagicon|SUI}} [[Patty Schnyder]]
+| {{flagicon|FRA}} [[Alexandra Fusai]] / {{flagicon|FRA}} [[Nathalie Tauziat]]
+|}
+
+== See also ==
+
+* [[1999 WTA Tour]]
+* [[Upper Austria Ladies Linz]]
+
+== References ==
+
+{{reflist}}
+
+[[Category:1999 WTA Tour]]
+[[Category:1999 in Austrian sport]]
+[[Category:Generali Ladies Linz]]
+[[Category:October 1999 sports events in Europe]]
+```

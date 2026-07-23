@@ -1,0 +1,16 @@
+file,label,title,model_slug,prompt,date_generated
+1999 Generali Ladies Linz.txt,claude,1999 Generali Ladies Linz,anthropic/claude-sonnet-5,Write a wikipedia article about 1999 Generali Ladies Linz. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:34:48
+1999 Generali Ladies Linz.txt,gemini,1999 Generali Ladies Linz,google/gemini-3.6-flash,Write a wikipedia article about 1999 Generali Ladies Linz. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:34:57
+1999 Generali Ladies Linz.txt,gpt,1999 Generali Ladies Linz,openai/gpt-5.5,Write a wikipedia article about 1999 Generali Ladies Linz. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:42:24
+2013 Norwegian Second Division.txt,claude,2013 Norwegian Second Division,anthropic/claude-sonnet-5,Write a wikipedia article about 2013 Norwegian Second Division. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:44:55
+2013 Norwegian Second Division.txt,gemini,2013 Norwegian Second Division,google/gemini-3.6-flash,Write a wikipedia article about 2013 Norwegian Second Division. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:45:09
+2013 Norwegian Second Division.txt,gpt,2013 Norwegian Second Division,openai/gpt-5.4,Write a wikipedia article about 2013 Norwegian Second Division. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:45:29
+Abraham Bentes.txt,claude,Abraham Bentes,anthropic/claude-sonnet-5,Write a wikipedia article about Abraham Bentes. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:45:38
+Abraham Bentes.txt,gemini,Abraham Bentes,google/gemini-3.6-flash,Write a wikipedia article about Abraham Bentes. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:45:52
+Abraham Bentes.txt,gpt,Abraham Bentes,openai/gpt-5.4,Write a wikipedia article about Abraham Bentes. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:46:03
+Abraham Van Helsing.txt,claude,Abraham Van Helsing,anthropic/claude-sonnet-5,Write a wikipedia article about Abraham Van Helsing. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:49:04
+Abraham Van Helsing.txt,gemini,Abraham Van Helsing,google/gemini-3.6-flash,Write a wikipedia article about Abraham Van Helsing. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:49:20
+Abraham Van Helsing.txt,gpt,Abraham Van Helsing,openai/gpt-5.6-terra,Write a wikipedia article about Abraham Van Helsing. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:49:40
+Ahmed Abdisalam Adan.txt,claude,Ahmed Abdisalam Adan,anthropic/claude-sonnet-5,Write a wikipedia article about Ahmed Abdisalam Adan. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:49:56
+Ahmed Abdisalam Adan.txt,gemini,Ahmed Abdisalam Adan,google/gemini-3.6-flash,Write a wikipedia article about Ahmed Abdisalam Adan. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:50:05
+Ahmed Abdisalam Adan.txt,gpt,Ahmed Abdisalam Adan,openai/gpt-5.6-terra,Write a wikipedia article about Ahmed Abdisalam Adan. Do not copy the existing wikipedia article or use it as a source.,2026-07-22 23:50:18

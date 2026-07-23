@@ -6,18 +6,20 @@ Runs Pangram AI-text detection (https://pangram.com) against every .txt
 article in a folder (or just the first --limit of them, by filename). With
 --all-dirs, runs this once per directory under data/ that directly
 contains .txt files (--limit still applies to each one individually)
-instead of a single folder. Without --folder or --all-dirs,
-falls back to the most recently modified subfolder of --articles-dir (only
-relevant if --articles-dir actually has subfolders -- rarely true for the
-two conventional categories now). Uses Pangram's Bulk API, which is
+instead of a single folder. Uses Pangram's Bulk API, which is
 cheaper than one predict() call per file.
 
 Before submitting, each article's (title, --label, revision ID) is checked
 against rows already in the destination CSV; anything already scored there
-is skipped rather than re-submitted. Results are appended to that CSV (default: data/pangram_results.csv, shared across every folder/category
-unless --out says otherwise), so running this repeatedly against different
-category folders builds one combined results file. If --label isn't given,
-it defaults to the folder's name (e.g. data/random_2022 -> "random_2022").
+is skipped rather than re-submitted. --label is part of that identity so
+same-titled articles from different folders -- e.g. a Claude-generated
+"X.txt" vs. a GPT-generated "X.txt" vs. the real Wikipedia "X.txt" -- are
+never mistaken for each other just because they share a title. Results are
+appended to that CSV (default: data/pangram_results.csv, shared across every
+folder/category unless --out says otherwise), so running this repeatedly
+against different category folders builds one combined results file. If
+--label isn't given, it defaults to the folder's name (e.g. data/random_2022
+-> "random_2022").
 
 The revision ID, word count, and URL come from --source-csv: the CSV
 get_test_wiki_pages.py wrote alongside this folder (it has "title",
@@ -26,7 +28,7 @@ omitted, this is guessed from the label ("random_2022" ->
 data/wikipedia_sample.csv, "random_AI_suspected" ->
 data/wikipedia_ai_sample.csv) when that file exists. Otherwise -- e.g.
 self-generated content, which has no such CSV -- articles are deduped by
-title alone.
+title and label.
 
 Before each bulk submission, prints an estimated cost (5c per 1000 words,
 with a 1-credit-per-article minimum) and asks for confirmation. If Pangram
@@ -142,10 +144,8 @@ def default_label(folder: Path) -> str:
     return folder.name
 
 
-# get_test_wiki_pages.py's own --articles-dir/--out defaults (imported, not
+# get_test_wiki_pages.py's own --out defaults (imported, not
 # retyped), keyed by the label its folders resolve to via default_label()
-# -- lets --source-csv be inferred instead of required, for the two
-# conventional categories, and can't drift out of sync with those defaults.
 DEFAULT_SOURCE_CSV_BY_LABEL = {
     Path(DEFAULT_ARTICLES_DIR).name: DEFAULT_OUT,
     Path(DEFAULT_AI_ARTICLES_DIR).name: DEFAULT_AI_OUT,
@@ -190,11 +190,7 @@ def estimate_cost(
 ) -> tuple[int, int, float]:
     """Returns (total_words, total_credits, total_cost_dollars) for a dict
     of {name: text}, at Pangram's pricing: 5 cents per 1000 words, with a
-    1-credit minimum per article even if it's under 1000 words. Uses each
-    file's word count from `word_counts` (get_test_wiki_pages.py's own
-    prose_word_count, when available -- see load_source_metadata) instead
-    of a raw whitespace split, since that's the truer prose count; falls
-    back to splitting the text for anything not in there."""
+    1-credit minimum per article even if it's under 1000 words."""
     word_counts = word_counts or {}
     total_words = 0
     total_credits = 0
@@ -243,8 +239,7 @@ def read_existing_results(out_path: Path) -> tuple[list[dict[str, Any]], list[st
 
 def process_folder(folder: Path, out_path: Path, args: argparse.Namespace) -> None:
     """Runs the full scan/dedup/cost-estimate/submit/append pipeline against
-    one folder of .txt articles. Used both for a single --folder run and,
-    once per discovered directory, for --all-dirs."""
+    one folder of .txt articles."""
     label = args.label or default_label(folder)
 
     txt_files = sorted(folder.glob("*.txt"))
@@ -263,9 +258,7 @@ def process_folder(folder: Path, out_path: Path, args: argparse.Namespace) -> No
             f"  existing: {existing_header}\n  expected: {FIELDNAMES}\n"
             "Rename/move it aside (or delete it) before appending to it."
         )
-    # Keyed by (file, label, revision_id) -- label is part of the identity so
-    # e.g. a Claude-generated "X.txt" isn't mistaken for an already-scored
-    # real Wikipedia "X.txt" just because they share a title.
+    # Keyed by (file, label, revision_id)
     already_scored: set[tuple[str, str, str]] = {
         (row["file"], row.get("label", ""), row.get("revision_id", ""))
         for row in existing_rows
@@ -352,15 +345,8 @@ def main() -> None:
     )
     ap.add_argument(
         "--folder",
-        help="folder of .txt articles to scan (default: most recently modified "
-             "subfolder of --articles-dir, if it has any). Ignored if --all-dirs "
+        help="folder of .txt articles to scan. Ignored if --all-dirs "
              "is given -- prefer that over this for covering every category.",
-    )
-    ap.add_argument(
-        "--articles-dir",
-        help="base directory to look for a subfolder in when --folder isn't given "
-             "(rarely useful now that get_test_wiki_pages.py's categories are flat "
-             "folders, not subfolders -- see --all-dirs)",
     )
     ap.add_argument(
         "--all-dirs",
