@@ -1,0 +1,5 @@
+A roofing filter is a type of filter used in a HF radio receiver. It is usually found after the first receiver mixer. The goal of a roofing filter is to limit the passband of the first intermediate frequency (IF) stage. Strong signals outside the channel which may cause overloading and distortion by the following amplifier stages and mixers are blocked.
+
+For general purpose HF radio reception, a passband of about 6-20 kHz is acceptable. The receiver's overall bandwidth is not determined by the roofing filter but by a following crystal filter, mechanical filter or DSP filter. These allow a much better filtering curve than a roofing filter, which often uses a high first IF above 40 MHz. Roofing filters are usually crystal or ceramic filter types.
+
+For more demanding uses like listening to weak CW or SSB signals, a roofing filter is required that gives a smaller passband appropriate to the reception mode in use. 250 Hz, 500 Hz, or 1.8 kHz (for SSB) would be acceptable values. These narrow filters require that the receiver uses a first IF well below VHF range, perhaps 9 or 11 MHz.
