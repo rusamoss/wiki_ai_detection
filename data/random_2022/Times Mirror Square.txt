@@ -1,6 +1,6 @@
 Times Mirror Square is a complex of buildings on the block bounded by Spring, Broadway, First and Second streets in the Civic Center district of Downtown Los Angeles. It was headquarters of the Los Angeles Times until 2018. It is currently vacant, with plans being proposed regarding how to best utilize the existing buildings and the total ground area of the site.
 
-Components
+## Components
 
 Times Mirror Square includes:
 
@@ -11,9 +11,9 @@ Times Mirror Square includes:
 
 The parking garage at 213 S. Spring, stretching from the west side of Spring to the east side of Broadway between 2nd and 3rd streets, is sometimes referred to as the "Los Angeles Times Parking Garage", but is not actually part of Times Mirror Square. On both sides there are relief sculptures by Tony Sheets, Evolution of Printing and Evolution of Los Angeles, respectively, created in 1988–1989.
 
-Gallery
+## Gallery
 
-History
+## History
 
 Times Mirror Square is located on a major portion of what was in the 1880s and 1890s, the central business district of Los Angeles.
 
@@ -23,7 +23,7 @@ Onni Group, a Canadian developer which became the owner after Tribune Publishing
 
 The vacant building is currently underused, with vacant space being used for movie shoots, earning the company as much as $4 million one year. The original building, despite its historic and architecturally significance, is not listed as a historical landmark. It is not in the listings of Los Angeles Historic-Cultural Monuments, California Historical Landmarks, or U.S. Registered Historic Landmarks in Los Angeles. Omni has planned to redevelop the site.
 
-Redevelopment
+### Redevelopment
 
 The Onni Group, a real estate development company, has proposed to expand and renovate the adjacent 1973 Times Mirror complex with residential units and retail. Two residential towers were proposed, a 37-story tower rising 365 feet. A taller 53 story building rising 655 feet. They will include 1,100 apartments with 24 moderate-income units and 10 low-income units. The design emphasis walkability and retail around the Civic Center area of DTLA.
 

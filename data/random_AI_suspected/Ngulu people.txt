@@ -1,12 +1,12 @@
 The Ngulu people, also known as the Nguu, Kingulu, Nguru, Geja, Wayomba, (Swahili collective: Wangulu) are a Bantu, matrilineal ethnic and linguistic group native to Kilindi District in western Tanga Region and historically also lived in Mvomero District, Gairo District and Kilosa District of Morogoro Region in Tanzania. The Ngulu population is around 390,000 people. The Ngulu Mountains are named after the Ngulu people.
 
-Population and geography
+## Population and geography
 
 Mountain streams from the west feed the high plains and undulating hills that make up Eastern Ungulu, which is more than 1,000 feet above sea level. It has a single rainy season that lasts from October to May, with October through December seeing the most rainfall. In the mountainous regions, considerable rainfall—some surpassing 70-80 inches—allows for year-round agriculture, while the lower sections receive just over 30 inches, which is plenty for safe farming.
 
 52,877 Ngulu people lived in 1957 under the British colonial occupation, primarily in the western portion of the former western Handeni District (currently Kilindi District) and the northwest portion of Morogoro Region, with minor settlements in Mvomero District and Kilosa District. Additionally, some can be found in the northern Mpwapwa District of the southwestern Dodoma Region. They occupy an area of around 3,000 square miles, mostly in the lush Ngulu Mountains and the foothills around them in the districts of Morogoro and the Tanga Region. Many Ngulu are known to operate as nomadic small traders outside of their country; however, there is little comprehensive information available about them. Interms of clothing, girls wore bark cloth aprons called sambalas, while boys wore nothing at all. The two front teeth of Ngulu were likewise filed to points.
 
-Matriarchy
+## Matriarchy
 
 Although the most frequently recognised story is that the Ngulu are descendants of the Zigula, who fled to the Ngulu Mountains to avoid repeated attacks, other Ngulu people trace their roots from alternative directions, such as the west, south, or north of modern-day Tanzania. The Ngulu are divided into more than fifty exogamous matri-clans, sometimes known as kungugo or lukolo, and share names and traditions with the Kaguru, Luguru, and Zigula, who are their neighbours. Some clans have ritual connections known as watani, while others are related and prohibited from marrying. In order to grant power to honour ancestors, each matri-clan is further subdivided into many matrilineages (mlango), which are ordered by seniority.⁣
 
@@ -16,7 +16,7 @@ According to the Ngulu, kinship is primarily focused on one's mother's lineage f
 
 While interactions between close relatives or those of the same generation are often more formal and constrained, the Ngulu have lively joking connections (utani) with cross-cousins of various generations. Traditional power was originally centred in matrilineal kin, and authority links are strong between fathers and sons as well as between a mother's brother and his sister's son. Maternal and paternal relatives now share kin responsibilities, which frequently results in disputes as members vie for allegiance based on traditional ancestry versus contemporary family relationships. To please ancestors and avoid harm, Ngulu frequently name their children after their grandparents. In the past, men avoided their mothers-in-law, but they also typically did not act very politely toward married relatives.
 
-Religion
+## Religion
 
 The Ngulu adhere to a supreme god, commonly referred to as Mlungu or Mnungu, with a variety of additional names that represent different facets of this God, both good and bad. The god is said to possess male qualities and is connected to rain and cosmic occurrences. He occasionally has a wife named Mlamungu. Nonetheless, the primary goal of Ngulu ceremonies is to appease ancestral spirits, or wazimu, who serve as a bridge between people and God.
 
@@ -26,7 +26,7 @@ Rites to avoid or cure bad luck, such as disease or death, and yearly festivitie
 
 Rituals for sanctifying the land, beer and wheat gifts, and prayers for the ancestors' repose are all part of these celebrations. Before harvest, similar rituals are carried out at first fruits, where participants don unique anklets and armlets fashioned from the skins of sacrificed animals. Some of these rituals are performed by the individual's matrilineage or the main lineage in the area, while others include the entire community or certain kin groupings.
 
-Rites
+### Rites
 
 When Ngulu people experience disease or misfortune, they seek the advice of diviners (mlambo or mlamulo) to ascertain the cause—such as troubled ancestors—and the best course of action. Joking couples undertake a cleansing rite (kusenghera) if violating sexual taboos leads to impurity. Before ceremonies can begin, people concerned must make amends when disagreements among relatives are thought to be problematic. Disputes are resolved and minor infractions are cleansed with water and herbs. Divinators occasionally use signs or omens (minjo or mauliso) to forecast future problems. The Ngulu also think that current events may be predicted by tiny supernatural indications called ndege.
 
@@ -36,15 +36,15 @@ Men blow kudu horns (sikiro) and dance during Ngulu celebrations known as kisasa
 
 Many Ngulu still hold onto their ancient beliefs today, although many, particularly in lowland regions, have converted to Islam or Roman Catholicism. Protestantism has been adopted by few. In addition to their traditional pagan customs, the majority of Ngulu adhere to a combination of these religions.
 
-Traditional lifestyle
+## Traditional lifestyle
 
-Governmeent
+### Governmeent
 
 The Ngulu historically had no centralised governmental structure; instead, each small group was run autonomously by a notable matrilineage and was mostly linked via affinal ties and marriage alliances. These family relationships were reflected in the strong social ties of some matrilineages. A senior member of the primary matrilineage or the founder of the community, known as a kaya or mzi, served as its leader. Although they are currently referred to as tnfurna or mndewa, formerly local leaders known as zumbe held office. Although sons of former leaders occasionally held temporary positions, the majority of leadership succession was matrilineal.
 
 A reputation for involvement in slavery was bolstered by the fact that many Ngulu people actively participated in trade during the Arab trade period and occasionally took part in armed expeditions, which included the purchase and selling of captives. More ambitious but erratic leadership was fostered by this period of commerce and fighting, including a weak chief who was well-known in the area at Maskati in southern Ungulu. Much of the Ngulu lowlands was later conquered by a strong Lufuru, self-made leader-raider from Morogoro who demanded tribute from the other regions.⁣
 
-Agriculture
+### Agriculture
 
 The Ngulu are mostly hoe farmers but also raise poultry, livestock and goats. In the northwest, some Ngulu raise cattle. Their agriculture is based on a variety of land uses: valley land is continually cultivated, higher portions are utilised for shifting cultivation, and smaller gardens are close to households. Some land in mountainous locations is almost always cultivated, but cultivation is sparse in plateau areas during the dry season. Maize, millet, and sorghum are their principal crops, along with beans, pigeon peas, bananas, sugarcane, cassava, castor, groundnuts, sweet potatoes, pumpkins, and fruits. Some mountainous locations cultivate rice. Cash crops include maize, beans, tobacco, and, to a lesser extent, coffee and cotton. They also practise minor irrigation in hilly areas.
 
@@ -52,7 +52,7 @@ Ngulu farmers used to farm using digging sticks and hoes, and they hunted with b
 
 In addition to being famous traders who sell tobacco, metals, crafts, and food in nearby places, they are also expert woodcarvers of stools, combs, tool handles, and musical instruments. Although nearby tribes frequently seek them out as herbalists and diviners, they typically have little interest in wage work. The homes of the Ngulu are rectangular, beehive-shaped, or sometimes traditional tembe. When they build houses, they have kuzenga, or beer celebrations. Although some formerly constructed separate raised granaries or kept grain inside sizable bark containers, the majority now store grain in granary chambers on top of their homes.
 
-Birth
+### Birth
 
 According to McVicar, it was customary for women to avoid getting pregnant within the first three or four months of marriage since it was thought that the kid would be slain. Beidelman points out that this technique was probably uncommon in the past and is no longer practiced now. It was recommended that men refrain from having sex with their spouses until the child's first teeth erupt. Because these items were believed to be harmful to the developing infant, pregnant women may avoid eating swine, sheep, eggs, and twin bananas. Additionally, they avoided contact with youngsters while pregnant.
 
@@ -60,21 +60,21 @@ To become pregnant, some Ngulu women turned to diviners for help. When pregnant 
 
 It is not until a youngster has cut its first teeth that it is considered completely human. A matrilineage elder then shaves the youngster's head and presents the child with a toy bow for boys or beads for girls. A Ngulu elder shaves the first child, while a paternal relative shaves the second, according to some Ngulu who think this "kumoga" shaving ritual is only done for the first two. Around the age of eight or nine, girls participate in a ritual known as magutwi, which also includes getting their ears pierced. Typically, little beer parties are held to commemorate all of these rituals.
 
-Intiation
+### Intiation
 
-Boys
+#### Boys
 
 Between the ages of 12 and 16, Ngulu boys go through initiation, typically in a group setting at a forest camp known as Lago. The initiation hut (kutnbi) is the inspiration behind the name of the initiation procedure. In order to represent a rebirth and purification from immaturity, the boys are shaved, bathed, and then circumcised by a healer (mwana bakwa) while naked. They are covered in ashes and taught about sexual behaviour and tribal customs by older males and peers during a time of seclusion when they are kept apart from women. Frequently, this is done through songs and riddles (mizimu). Additionally, a fake lion that is utilised in bush hideouts frightens and hazes them.
 
 The ceremonies balance masculinity and femininity by highlighting Ngulu principles of fecundity and social order. The camp supplies are set on fire after the boys recover, and they return home with new attire, new names, anointing, and festivities that include dancing and feasting (mvungu). After that, they permanenlty live apart from their parents in a bachelor hut (gane).
 
-Girls
+#### Girls
 
 For weeks or months following her first menstruation, a Ngulu girl is secluded to her grandmother's home. A washing procedure known as kuhoza (to wash) and a labiadectomy are carried out at this period. The guluwe, a rite performed exclusively by women that includes mkumbulu (headmat) and pretend pig hunts, is the main celebration of her maturity. While keeping the girl apart from men, elder women teach her through songs (mizimu), riddles, and tribal lore.
 
 These rituals, which frequently involve acts that are symbolically antagonistic against men, represent a variety of feminine attributes. During her training, a faux lion may frighten the girl, known as Mwali. She is first exposed to society in a ritual called mlao (emergence), where she openly introduces herself to men, after her training is finished and the initiation instruments are burned in a rite called kizelu (ashes). In the past, girls frequently got married shortly after this event.
 
-Marriage
+### Marriage
 
 Ngulu male adolescents start marriage talks by offering a girl beads (kasalu); if she agrees, he uses a mediator to make arrangements with her family by offering a male relative beads (kilumba). Ngolola lusona (for marriage), nemsasa (to the mother's brother, formerly a hen), mseturo (to the father, formerly a cock), and kibanyo (to the father) are some of the contributions that make up bridewealth (itundu), some of which are borrowed from nearby ethnic groups. These payments were traditionally modest, usually consisting of a few goats, poultry, and metal wire, and they mostly concerned maternal relatives. By the 1950s, the majority of payments are made in cash, sometimes amounting to several hundred shillings or twelve goats.
 
@@ -84,7 +84,7 @@ The majority of Ngulu males have always sought to live with their maternal kin. 
 
 A divorce can be filed by any spouse, and the bridewealth is always returned, less any deductions for the husband's children. The sororate technique, which only required a tiny additional payment, was only utilised in cases where a woman died early. The deceased's matrilineal kin inherited widows, and bridewealth was returned if the widows decided to return to their own kin. Matrilineal relationships were used to settle bloodwealth (kimba), which was primarily paid by the victim's family and received by the offender's family. In the past, this frequently involved huge payments of slaves and cattle. Bloodwealth payments are not made today.
 
-Offences
+#### Offences
 
 While some Ngulu maintain that originally both partners paid the fee, others maintain that only the male adulterer is accountable. The ndaa, which is paid if a woman becomes pregnant outside of marriage, is different from the fine, called henga. The woman's maternal and paternal relations retain the rights to the child born from such an act unless additional payments are made to protect those rights. In the past, adulterers may have killed a chicken and painted the woman with its blood as a purification ceremony.
 
@@ -92,7 +92,7 @@ Violating sexual or marital laws is seen as a threat to the supernatural well-be
 
 Traditionally, males would make blood covenants, or soga, by consuming each other's blood, which was applied to a dead sheep's liver. These ties were regarded as unbreakable and established solid reciprocal commitments to support and assistance. It was thought that if these agreements were broken, supernatural energies in the blood would bring death. These covenants have historically been important in social and economic ties because they were mainly created to provide assistance and refuge during commerce.
 
-Death & burial rites
+### Death & burial rites
 
 Usually soon after death, the Ngulu bury their deceased in the forest close to their dwellings, wrapping them in cloth and banana leaves. The joking partners (watani) mark the grave with stones and banana leaves, and the body is buried with its feet looking westward, with the women on the left and the men on the right. The deceased's family members stay inside and refrain from going to work for the next three days as they conduct rituals of purification over the grave.
 

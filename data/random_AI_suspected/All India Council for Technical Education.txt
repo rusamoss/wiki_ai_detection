@@ -4,36 +4,36 @@ It is assisted by 10 Statutory Boards of Studies, namely, UG Studies in Eng. & T
 
 In its 25 April 2013 judgment, the Supreme Court of India said "as per provisions of the AICTE Act and University Grants Commission (UGC) Act, the council has no authority which empowers it to issue or enforce any sanctions on colleges affiliated with the universities as its role is to provide only guidance and recommendations." Subsequently, the AICTE was getting approval from the Supreme Court to regulate technical colleges on a year to year basis till January 2016, when AICTE got blanket approval for publishing the Approval Process Handbook and approve technical colleges including management for the session 2016-17 and in all future sessions."
 
-Objectives
+## Objectives
 
 According to the All India Council for Technical Education, 1987, the AICTE is vested with statutory authority for planning, formulation and maintenance of norms and standards, quality assurance through school accreditation, funding in priority areas, monitoring and evaluation, maintaining parity of certification and awards and ensuring coordinated and integrated development and management of technical education in the country. In the words of the Act itself:
 
 To provide for establishment of an All India council for Technical Education with a view to the proper planning and co-ordinated development of the technical education system throughout the country, the promotion of qualitative improvement of such education in relation to planned quantitative growth and the regulation and proper maintenance of norms and standards in the technical education system and for matters connected therewith.
 
-AICTE bureaus
+## AICTE bureaus
 
 The AICTE is composed of the e-Governance, Approval, Planning and Coordination, Academic, University, Administration, Finance, and Research, Institutional and Faculty Development Bureaus. There are 10 additional Board Studies dealing with technician, vocational, undergraduate engineering, postgraduate engineering and research, architecture, town and country planning, pharmacy, management, applied arts and crafts, hotel management and catering technology education. For each bureau, adviser is the bureau head who is assisted by technical officers and other supporting staff. The multidiscipline technical officer and staff of the Council are on deputation (the tenure staff uses their addresses ending in aicteindia.co.in) or on contract from government departments, University Grants Commission, academic institutions, etc.
 
-Increase in approved institutions
+## Increase in approved institutions
 
 Growth of Technical Institutions in the Country
 
 Growth of Seats in different Programs in Technical Institutions
 
-Reforms
+## Reforms
 
 In 2016, three important initiatives were taken up by AICTE. First one was a responsibility given by MHRD (former name of MOE) to evolve a national MOOCs platform SWAYAM. Second one is that of launching a Smart India Hackathon-2017 challenging the young bright talented students of technical colleges to solve the 598 problems of 29 different Government departments. Third one is that of launching of an AICTE's Student Start up Policy by Hon. President on 16 Nov, during visitors conference from rashtrapati Bhavan. In 2009, the Union Minister of Education formally communicated his intentions of closing down AICTE and related body, the University Grants Commission (UGC). This later led to reforms in the way the AICTE approves institutes, and to establishing the National Board of Accreditation (NBA) as an independent body.
 
 On 6 June 2017, Prime Minister Narendra Modi announced that the AICTE along with the University Grants Commission would be scrapped and replaced by a new body called Higher Education Empowerment Regulation Agency (HEERA). The intent was to simplify the excessive regulations that exist due to both these bodies. According to the draft of law backed on the ideas of NITI Aayog and the Prime Minister Office, the National Council for Teacher Education was also planned to be subsumed by HEERA.
 
-AICTE Pragati Scholarship 2025
+## AICTE Pragati Scholarship 2025
 
 The AICTE Pragati Scholarship is a government initiative aimed at providing financial assistance to meritorious girl students pursuing technical education in India. The scheme is managed by the All India Council for Technical Education (AICTE) and is part of the Government of India's efforts to promote higher education among women.
 
-Eligibility
+## Eligibility
 
 The scholarship is open to girl students who have secured admission in AICTE-approved institutions. Applicants must belong to families with an annual income below the prescribed limit.
 
-Benefits
+## Benefits
 
 Selected candidates receive tuition fee support, contingency allowance, and other financial assistance for the entire course duration.

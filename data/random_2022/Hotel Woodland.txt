@@ -1,6 +1,6 @@
 Hotel Woodland is a historic hotel located in Woodland, California and designed by William Henry Weeks. The hotel is on the National Register of Historic Places, and is a contributing property of the Downtown Woodland Historic District.
 
-History
+## History
 
 In 1920 the idea of an upscale hotel in Woodland was discussed by a group of local businessmen, who then formed an investment group that offered stock ownership for this idea. This group approached W.H. Weeks with their preliminary plans after enough funds were raised to make the project seem possible.
 

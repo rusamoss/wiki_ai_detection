@@ -8,13 +8,13 @@ However, many mirror sites were established throughout the world (including webs
 
 Webmuseum organizes its collection both alphabetically by artist and thematically by artistic movement. The site provides educators and students with a large number of visual reproduction of artworks, contributing to the foundation for the extensive digital archives and virtual museum tours.
 
-Background: Rise of the virtual museum
+## Background: Rise of the virtual museum
 
 The idea of a " virtual museum "，a collection of art accessible outside the bounds of a physical gallery, has conceptual roots in the mid-20th century. French theorist André Malraux famously imagined a“museum without walls,” an unlimited assemblage of art reproductions that no traditional museum could ever physically house. With the rise of the World Wide Web in the 1990s, institutions and individuals began experimenting with the internet as a medium for digital exhibition and public engagement. The spread of user-friendly web browsers, such as Mosaic in 1993, made it feasible to display images and multimedia to anyone online, this period marked a transformative phase for museums outreaches.
 
 One of the defining characteristics of this first wave of museum websites was the adaptation of new technologies such as open-access databases, hyperlinking, and early forms of multimedia content. The concept “ virtual ” was of great importance to the digital development of those years, likely originating from the build-up about the first Virtual Reality applications wave starting from the late 1980s to the early 1990s.
 
-Initial skepticism and gradual adoption from museums
+### Initial skepticism and gradual adoption from museums
 
 Museum institution initially approached online platforms cautiously. Especially in France, institutions' concerns included the potential for reduced physical attendance and the challenge of adapting traditional curatorial practices to the digital realm. However, French museums were among the early adopters of the internet, establishing online presences even when the general public had limited exposure to digital technologies. This proactive approach was driven by a recognition of the internet's potential to broaden access to art and cultural heritage.
 
@@ -24,7 +24,7 @@ Art museums, on the other hand, hesitant to start their own official website, wi
 
 Moreover, coping with shortage of technicians, art museums would not prioritise the opening of their official websites. This hesitation by traditional museums created an opportunity for independent developers and art enthusiasts to fill the gap. In the mid-90s, a number of unofficial “online museums” were launched by individuals outside museum institutions. These enthusiasts began creating their own digital galleries, often scanning or uploading images of famous artwork without formal permission from the museums that owned the originals. In some cases, these grassroots virtual museums put information online even before the museums themselves did. One of the most well-known case of “virtual museum” is the WebMuseum, formerly known as the Virtual Louvre, Web Louvre, founded by French student Nicolas Pioch.
 
-Founding and early development
+## Founding and early development
 
 In March 1994, Nicolas Pioch, a 23-year-old student and computer science instructor at the École Nationale Supérieure des Télécommunications (ENST) in Paris, launched the WebMuseum. Initially part of the ENST's World Wide Web (WWW) server, the WebMuseum aimed to provide an accessible digital space for art enthusiasts worldwide. Pioch, alongside a growing network of external contributors, continually expanded the website's offerings. His motivation stemmed from a desire to introduce more artistic content to the internet, an arena then dominated by technical and commercial materials. He also saw the initiative as a form of protest against the commercialization of digital art collections, particularly by corporate entities such as Corbis Corporation, which had begun digitizing museum collections and acquiring exclusive rights to artistic images.
 
@@ -40,7 +40,7 @@ Media inquiries, the Louvre’s growing online presence and the reaction caused 
 
 Nicolas Pioch then eventually transferred the site’s database to the University of North Carolina and the Tokyo University of Science, started creating mirror websites. Even no longer hosted in France and its language became English, the website holds an important place in the early history of the digital culture and museum websites in France, despite its subsequent migration, in the brief history of allocating domain names.
 
-Innovations and contributions
+## Innovations and contributions
 
 Despite its lack of affiliation with the Louvre, the WebMuseum featured a vast array of renowned artworks, making high-quality (for the time) digital reproductions accessible to a global audience. The images, though mere digital representations, allowed art enthusiasts to engage with masterpieces that might have otherwise been inaccessible due to geographic or financial constraints.
 
@@ -50,11 +50,11 @@ During the time, Pioch estimated that about 400,000 people had toured the WebMus
 
 The WebMuseum was also a forerunner in leveraging the hypertext capabilities of the web. By interlinking artists, movements, and terminologies, it enabled users to explore art history dynamically rather than through linear or isolated narratives. This interactive, web-based approach to art education set a precedent for future digital museum projects.
 
-Content and collections
+## Content and collections
 
 The WebMuseum curates an extensive collection comprising several thousand artistic works by over 300 artists, predominantly from Europe, but also featuring select pieces from the United States and Japan. Spanning artistic movements from the 13th century Gothic period to contemporary works including pop arts, Pre-War American Painting and Abstract Expressionism from 20th century, the museum's collection provides a broad yet curated overview of Western art history. While paintings and sketches make up most of the archive, only a few examples extend beyond these mediums.
 
-Abundant and well-organised collections
+### Abundant and well-organised collections
 
 The collection is methodically organized both alphabetically by artist and thematically by artistic movement (e.g., Gothic, Romanticism, Impressionism). Each artist’s page typically included 8 to 10 representative works displayed as thumbnails, which users could enlarge for closer inspection. More renowned artists, such as Vincent van Gogh, had as many as a hundred images available. Each artist's page also contains a biographical summary that contextualized their work within the broader scope of art history, major artistic movements, and significant life events. Although Pioch's intention was never to create a Le Louvre's replica, the site did hold some of the Louvre's work. The site back then had the best reproduction of Mantegna 's classic " Saint Sebastian " to be found online.
 
@@ -64,13 +64,13 @@ Additionally, the site hosts specialized exhibitions. Notably, one focused on Pa
 
 The Très Riches Heures collection includes interpretative commentaries on the calendar and symbolic meanings of the renowned illustrations by the Limbourg brothers, which are currently not available for public viewing. The collection proved particularly effective as an educational resource, offering detailed explanations on the historical significance of illuminated manuscripts, their production techniques, and the materials used. This exhibition underscored the WebMuseum’s dedication to not just showcasing art but also fostering a deeper understanding of the cultural and historical contexts behind the works.
 
-Limitations on collections
+### Limitations on collections
 
 One major drawback of the site is that its collection is predominantly Western works. Aside from a cursory examination of Japanese art in the thematic section, there is very little focus on non‐Western movements and even fewer examples of art from different cultures. The WebMuseum’s lower update frequency after 1996 made it unlikely for the site to further introduce new artists or artworks from non-Western traditions.
 
 Also, due to the limitations on Web-based graphic resolution, the quality of art images presented alongside artists' introductions was compromised.
 
-Major contributors and resources
+### Major contributors and resources
 
 Mark Harden, devoted to scanning fine art for the online usage since 1995, was one of the major contributors to the WebMuseum. Mark then went on to launch his own online gallery site, The Artchive, in 1998. The site, considered one of the top art resources online back then, is a combination of virtual museum and digital art history book. It provides thousands of artworks, artist biographies, and art history articles and resources.
 
@@ -78,7 +78,7 @@ Carol Gerten Jackson was another key contributor to the WebMuseum early on. Also
 
 WebMuseum used resources from multiple art museum and their sites. Netherlands' Rijksmuseum was "highly recommend" in the site's credit page, it is referred to as "a perfect example of what a public service should be". Meanwhile, the site referred to other museums' statements regarding artwork copyright issues as "misleading" and their artworks were mostly "long fallen in the public domain".
 
-Impact on art accessibility and education
+## Impact on art accessibility and education
 
 The WebMuseum played a significant role in making art more accessible. By presenting many high-quality digital reproductions of significant artworks, it enabled its users worldwide to engage with art history regardless of their location or financial situation. Its groundbreaking role in online art education laid the foundation for the extensive digital archives and virtual museum tours that many institutions offer these days.
 
@@ -86,7 +86,7 @@ One of the WebMuseum’s greatest strengths was its interlinking of text within 
 
 The WebMuseum also offered additional resources beyond its art collection. The site offers a virtual tour of Paris, designed by Pioch, featuring photographs and historical commentary. It included an 'Auditorium' section, providing access to sound clips from classical compositions, although some of these links later became inactive. Additionally, the WebMuseum provided general information about the project, outlining Pioch’s objectives and development.
 
-Limitations
+### Limitations
 
 However, as the WebMuseum presented mostly Eurocentric collection, largely overlooking traditions and influences from non-Western art. This lack of representation challenged students using the site, as they had to seek in the texts, in the works themselves, or through additional research elsewhere to gain a more comprehensive understanding of global art history. Additionally, the site doesn’t have a search feature, making it difficult for users unfamiliar with specific artists or movements to navigate the collection effectively within the site.
 

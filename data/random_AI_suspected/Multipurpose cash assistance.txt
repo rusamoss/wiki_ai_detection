@@ -1,19 +1,19 @@
 Multipurpose Cash Assistance (MPCA), also known as Multipurpose Cash Transfers (MPC) or Multipurpose Cash-Based Assistance, is a form of humanitarian aid that provides cash transfers to households in crisis. The cash is intended to meet basic needs, allowing recipients to allocate the funds. Unlike other forms of aid, MPCA is not restricted to specific uses or sectors, making it a versatile tool in emergency response and recovery.
 
-Definition
+## Definition
 
 MPCA is:
 
 "A transfer (either regular or one-off) corresponding to the amount of money a household needs to cover, fully or partially, a set of basic and/or recovery needs. The term refers to transfers designed to address multiple needs, with the transfer value calculated accordingly."
 
-Characteristics
+## Characteristics
 
 * Unrestricted: MPCA is unrestricted – recipients can spend the cash as they see fit.
 * Cash-Based: MPCA comes as cash or cash equivalents, such as bank transfers or mobile money. It does not include vouchers or in-kind assistance.
 * Multipurpose: MPCA allows recipients to address sectors such as food, shelter, and healthcare.
 * Typically Unconditional: MPCA is usually provided without conditions – recipients are not required to undertake specific actions to receive the assistance.
 
-But not
+### But not
 
 MPCA is distinct from other forms of aid, including:
 
@@ -22,7 +22,7 @@ MPCA is distinct from other forms of aid, including:
 * Sector-specific – Cash transfers designed to meet needs in a single sector, such as cash for food or shelter, are not classified as MPCA.
 * In-Kind assistance – MPCA does not include in-kind aid.
 
-In Practice
+## In Practice
 
 * Needs Assessment: MPCA is estimated using assessments of household needs across multiple sectors.
 * Minimum Expenditure Basket (MEB): MEB is a tool used to calculate the minimum cost of basic needs that can be monetized. This tool helps in defining the value of the MPCA transfer.
@@ -30,7 +30,7 @@ In Practice
 * Market Analysis: Ensures that local markets can support the incremental demand created by MPCA transfers.
 * Coordination: Between stakeholders, including clusters, sectors, and the Cash Working Group.
 
-Humanitarian response
+## Humanitarian response
 
 MPCA is valued for:
 

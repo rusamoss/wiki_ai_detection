@@ -1,8 +1,8 @@
 The Pittsburgh Penguin's Foundation is a non-profit organization formed on July 20, 2010 in Pittsburgh, Pennsylvania. Sponsored by the National Hockey League (NHL)'s Pittsburgh Penguins, the foundation provides programs focused on preventive wellness, developmental support, and charitable activities. It also emphasizes teaching life skills and fostering engagement among youth and families through various activities.
 
-Programs
+## Programs
 
-HeadsUP Pittsburgh
+### HeadsUP Pittsburgh
 
 HeadsUP Pittsburgh was initiated in 2011 by the Foundation in collaboration with UPMC Sports Medicine to inform young athletes about concussions. This program aims to raise awareness among parents and children about concussion symptoms, causes, and recovery.
 
@@ -14,11 +14,11 @@ Similar to the evaluation administered to NHL players, these tests gauge various
 
 The Center for Disease Control and Prevention (CDC) and Community College of Allegheny County (CCAC) also play key roles in this program.
 
-Pens FIT
+### Pens FIT
 
 Beginning in the 2012-13 school year, the Pittsburgh Penguins Foundation launched Pens FIT, with the aim of introducing kids to hockey and promoting physical activity. They provided free ball hockey gear and lesson plans to 260 elementary schools in Allegheny County. Collaborating with the Pittsburgh Penguins and California University of Pennsylvania, they developed a street hockey curriculum suitable for schools and community centers. Pens FIT offers teacher training, instruction, and continuing education sessions with Penguins coaching staff and alumni. Funded entirely by proceeds from the 2011 Civic Arena Roof ornament sales, Pens FIT is a three-year initiative expanding beyond Allegheny County by the end of 2024
 
-Project Power Play
+### Project Power Play
 
 The Pittsburgh Penguins Foundation launched Project Power Play as a proactive measure to tackle the issue of sedentary habits among young Americans. This initiative aims to encourage enjoyable, structured physical activity. Leveraging the increasing popularity of hockey in the western Pennsylvania tri-state area, Project Power Play facilitates access to newly constructed outdoor athletic facilities. These venues offer safe environments for organized games, overseen by established organizations.
 
@@ -26,7 +26,7 @@ In collaboration with Highmark, the Pittsburgh Penguins Foundation has completed
 
 Each rink within the 12 planned facilities features a durable steel dasher board system, a sports court surface, and is enclosed by a cyclone fence. A Project Power Play start-up kit is provided, offering fundamental skills guidance and game instructions through manuals. Pittsburgh Penguins staff will organize skill sessions, instructions, and scrimmage games, with ongoing support for the facilities provided by the Penguins organization.
 
-Learn To Play
+### Learn To Play
 
 Through the combined efforts of Sidney Crosby, the Pittsburgh Penguins, Penguins Foundation, Reebok, and Dick's Sporting Goods, Sidney Crosby's Little Penguins Learn to Play Hockey program has introduced more than 4,200 Pittsburgh-area children to the game of hockey.
 
@@ -34,31 +34,31 @@ The Learn to Play program was started in the 2008–09 hockey season with the go
 
 In the 2012–13 season, 1,000 children received free head-to-toe Reebok SC87 equipment, distributed by Dick's Sporting Goods, and the opportunity to learn at one of the 26 participating facilities, including four designed specifically for girls.
 
-Hockey Is For Everyone
+### Hockey Is For Everyone
 
 Fundraising efforts in 2011 enabled the Pittsburgh Penguins Foundation to dramatically increase their grant assistance and support for Hockey is for Everyone initiatives. The Mighty Penguins, Steel City Icebergs, and Pittsburgh I.C.E. each received grants through 2011 Civic Arena Roof ornament sales.
 
-Mighty Penguins
+### Mighty Penguins
 
 Sled Hockey provides a means for physically challenged individuals to play competitive ice hockey.
 
-Steel City Icebergs
+### Steel City Icebergs
 
 An adaptive ice hockey program for both children and adults with developmental disabilities such as Autism, Down Syndrome, and traumatic brain injury.
 
-Pittsburgh I.C.E. (Inclusion Creates Equality)
+### Pittsburgh I.C.E. (Inclusion Creates Equality)
 
 Pittsburgh I.C.E. provides the opportunity to play ice hockey for children who might never have the opportunity otherwise.
 
-Explorers Series
+### Explorers Series
 
 In August 2012, the Pittsburgh Penguins Foundation invited children and parents to explore the world through their Explorers Series. The CONSOL Energy Center was transformed into a classroom as 500 families learned through education films, demonstrations and hands-on activities.
 
 Children were encouraged to explore, experience, and learn about Robotics. Future topics for the Explorers Series topics include Space Exploration, and the Environment.
 
-Signature Events
+## Signature Events
 
-Skates & Plates Charity Gala presented by Trib Total Media
+### Skates & Plates Charity Gala presented by Trib Total Media
 
 Since 1986, the Penguins have hosted an annual charity gala for the benefit of local children's charities that focus on medical research. The events have raised over $5.75 million.
 
@@ -68,35 +68,35 @@ Penguins players don tuxedos and pass plates instead of pucks as they greet gues
 
 Along with dinner, the event features a unique silent auction. Prizes are also awarded to guests for the top tips (guests’ tips are actually a donation to the event's selected charities) collected by the players.
 
-Wine Tasting Gala presented by Highmark
+### Wine Tasting Gala presented by Highmark
 
 The Pittsburgh Penguins Foundation annually hosts a Wine Tasting Gala and VIP Dinner at CONSOL Energy Center. The event benefits the Pittsburgh Penguins Foundation and helps the foundation continue its numerous efforts in the western Pennsylvania community.
 
-Charity Auction on SportsNet Pittsburgh
+### Charity Auction on SportsNet Pittsburgh
 
 The Penguins Foundation and Mario Lemieux Foundation teamed up for their second Charity Auction on ROOT Sports in March 2013. Fans attending the team's March 26 home game had an opportunity to purchase mystery bags full of Penguins memorabilia; each bag also included an autographed item from one of the players or Penguins alumni.
 
 For fans not in attendance, SportsNet Pittsburgh dedicates their broadcast to the auction by promoting the sale of the bags online, along with a variety of exciting auction items that could be bid on through the Pittsburgh Penguins Foundation website. All proceeds benefitted the Mario Lemieux Foundation for cancer research and neonatal research, as well as Pittsburgh Penguins Foundation youth charities.
 
-Hockey Fights Cancer
+### Hockey Fights Cancer
 
 Hockey Fights Cancer (HFC) is an initiative founded in December 1998 by the National Hockey League and the National Hockey League Players' Association to raise money and awareness for hockey's most important fight. To date, through the NHL's US and Canadian charitable foundations, more than $12.8 million has been raised under the HFC initiative to support national and local cancer research institutions, children's hospitals, player charities and local cancer organizations. The HFC program is also a component of the NHL's "Biggest Assist Happens Off The Ice" campaign – the League's long-standing tradition of addressing important social issues in North America and around the world.
 
 The Hockey Fights Cancer program is supported by each NHL Member Club, players, NHL Alumni, the NHL Officials' Association, Professional Hockey Trainers and Equipment Managers, corporate marketing partners, broadcast partners, and fans throughout North America.
 
-Open Practice
+### Open Practice
 
 Since 2010, the Pittsburgh Penguins and Pittsburgh Penguins Foundation have hosted an Open Hockey Practice for students at CONSOL Energy Center. The event offers a rare opportunity to more than 10,000 children from across Allegheny County and in grades one through eight to see the Penguins at work.
 
 Students are entertained leading up to the start of practice with informational videos about behind-the-scenes aspects of the team and facility. Students are given the opportunity to ask questions of the players and coaches during and after practice. The Open Practice incorporates educational themes (math, geography, etc.) and each student is given an activity book focused on education, health and nutrition to take home.
 
-Summer Sticks presented by UPMC
+### Summer Sticks presented by UPMC
 
 Every autumn, the Pittsburgh Penguins host a golf tournament and spend a day on the links for charity. The scramble-style tournament features teams of three, each accompanied by a Penguins celebrity captain, competing for tournament prizes. Proceeds from this event benefit the Pittsburgh Penguins Foundation.
 
-Fundraising
+## Fundraising
 
-Pittsburgh Penguins Foundation 50/50 RAFFLE
+### Pittsburgh Penguins Foundation 50/50 RAFFLE
 
 After the Commonwealth of Pennsylvania passed a measure legalizing 50/50 drawings in 2013, the Pittsburgh Penguins Foundation began hosting a 50/50 RAFFLE to help local charities raise funds.
 

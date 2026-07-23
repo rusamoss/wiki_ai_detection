@@ -1,10 +1,10 @@
 Edgar M. (Marc) Parmentier (born June 15, 1945) is an American geophysicist and professor emeritus in the Department of Earth, Environmental and Planetary Sciences at Brown University. He worked on mantle convection, planetary evolution, and the thermal history of terrestrial planets and moons.
 
-Early life and education
+## Early life and education
 
 Marc Parmentier was born on June 15, 1945. He earned his Bachelor of Science (B.S.) degree in Engineering and Mathematics from West Virginia University in 1967. He then pursued graduate studies at Cornell University, where he obtained a Master of Engineering (M.Eng.) in 1969 and a Ph.D. in Geophysics in 1975. His doctoral dissertation focused on "Studies of Thermal Convection with Application to Convection in the Earth's Mantle."
 
-Academic career
+## Academic career
 
 Parmentier began his career as a research scientist at AVCO-Everett Research Laboratory from 1969 to 1972 before completing a research fellowship at Oxford University between 1975 and 1977.
 
@@ -12,7 +12,7 @@ In 1977, he joined Brown University as an assistant professor of research in geo
 
 During his tenure at Brown, Parmentier held research appointments at institutions such as the Lamont-Doherty Earth Observatory at Columbia University and the Scripps Institution of Oceanography.
 
-Research contributions
+## Research contributions
 
 Parmentier's research has worked on mantle convection, melt migration, and planetary evolution. His work has addressed questions about:
 
@@ -22,11 +22,11 @@ Parmentier's research has worked on mantle convection, melt migration, and plane
 
 He has also contributed to understanding volcanic processes on Mars, Venus, and Mercury through numerical modeling of planetary interiors.
 
-Selected publications
+## Selected publications
 
 * "Numerical experiments on the structure of mantle plumes" (*Journal of Geophysical Research*, 1975).
 
-Awards and honors
+## Awards and honors
 
 Parmentier has been recognized for his contributions to geophysics with several honors:
 

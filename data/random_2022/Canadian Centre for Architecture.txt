@@ -6,7 +6,7 @@ The CCA contains a large library and archives, and is host to various exhibits t
 
 The CCA also has an architectural garden located on the southern side of René Lévesque Boulevard. The sculpture garden was designed by architect Melvin Charney.
 
-History
+## History
 
 The CCA was founded in 1979 by Montreal architect Phyllis Lambert. The purpose of the centre was to promote public awareness of the role architecture plays in society, as well as to encourage scholarly architectural research and to foster innovative design practices.
 
@@ -14,7 +14,7 @@ The CCA was designed and constructed between 1985 and 1989 by Montreal architect
 
 The CCA received the Honor Award for Architecture from the American Institute of Architects and the Governor General's Medals in Architecture in 1992.
 
-Building
+## Building
 
 The current building, which opened in 1989, surrounds Shaughnessy House and was designed by Peter Rose, in collaboration with Phyllis Lambert and Erol Argun. The historic Shaughnessy House, located at 1923 Dorchester Street West (today René Lévesque Boulevard), was built in 1874 according to plans by William Tutin Thomas. It is one of the few nineteenth-century mansions in Montreal that is accessible to the public.
 
@@ -24,7 +24,7 @@ Due to its size, location and use of traditional and modern materials, combining
 
 The "Van Horne / Shaughnessy House" was listed as a National Historic Site of Canada in 1973, and as a Historical Monument of Quebec on 6 February 1974.
 
-Collection and exhibits
+## Collection and exhibits
 
 The CCA has largest collections of books and artifacts touching on the built environment and certain aspects of industrial design. Within the general collections it has special collections such as those pertaining to architectural games for children, universal exhibitions and their architecture, and significant architects including Ernest Cormier, Peter Eisenman, Arthur Erickson, John Hejduk, Cedric Price, Aldo Rossi, James Stirling, and the artist Gordon Matta-Clark.
 
@@ -32,14 +32,14 @@ The centre mounts regular shows made up of research on thematic subjects, differ
 
 The centre's research library is open to the public by appointment. It celebrated its 20th anniversary in 2009.
 
-Lectures series
+## Lectures series
 
 Over the years, CCA has organized a variety of lectures and presentations, for example by Evgeny Morozov and Johannes Grenzfurthner.
 
-Sculpture garden
+## Sculpture garden
 
 The mansion faces a sculpture garden by Melvin Charney on the south side of René Lévesque Boulevard. Located in between René-Lévesque Boulevard and the Ville-Marie Expressway, it is a park, Esplanade Ernest Cormier, in an area of heavy traffic and is at the edge of a cliff. The park contains a set of sculptures that depict aspects of architecture, and include a reproduction of the base of the facade and size of Shaughnessy House. The vegetation is mixed with sections of open walls. Architectural fixtures and furniture items are placed on pedestals.
 
-Affiliations
+## Affiliations
 
 The Museum is affiliated with: CMA, CHIN, and Virtual Museum of Canada.

@@ -1,10 +1,10 @@
 Mosaics in Asia reflect a diverse range of artistic traditions, techniques, and cultural influences across the continent. From the ancient civilizations of Mesopotamia to the intricate geometric patterns of Islamic art, mosaic work in Asia has served both decorative and symbolic purposes in religious, royal, and public architecture. This article explores the historical development, regional characteristics, and enduring significance of mosaics throughout Asia.
 
-Ancient origins and influences
+## Ancient origins and influences
 
 The earliest origins of mosaics can be traced back to Mesopotamia, approximately 3,000 BCE, where coloured stones, shells, and ivory were used. From Mesopotamia, the art of mosaic-making extended to the Byzantine Empire, Ancient Greece, and Ancient Rome, among other surrounding regions. These regions' influence expanded eastward, contributing to defining mosaic traditions across Asia. Following Alexander the Great's conquests, Hellenistic civilisation extended eastward, introducing Greco-Roman mosaic methods and styles to portions of Asia and fostering cultural exchange between the West and the East. Although each culture has cultivated its unique methods in the art of mosaic creation, various common characteristics can be recognised broadly.
 
-Characteristics of Asian mosaics
+## Characteristics of Asian mosaics
 
 Asian mosaics can be seen in mosques, temples, and shrines. They serve as an expression of devotion and spiritual significance by frequently displaying religious figures, symbols, and narratives. Mosaics found in palatial structures and historical sites frequently narrate the history of rulers, military conflicts, battles or significant occurrences, thereby preserving cultural heritage and historical events. Mosaic traditions vary across Asia, influenced by local materials, artistic styles, and cultural exchanges.
 
@@ -12,78 +12,78 @@ Persian mosaics are renowned for their complex geometric designs, whereas Indian
 
 Asian mosaics use a variety of ceramic tiles, glass, stone, and even precious metals. Local availability and cultural preferences frequently influence material selection. The colour palettes used are vibrant, usually rich blues, reds, greens, and yellows commonly found in Persian and Islamic mosaics. Modern mosaic artists in Asia are innovating methods of self-expression through this medium. They may integrate contemporary ideas, materials, and techniques into their work while continuing to take inspiration from traditional styles. Community-based mosaic initiatives are gaining significant popularity in Asia, uniting individuals from diverse backgrounds to collaboratively produce artworks that reflect their collective experiences and identities.
 
-West Asia
+## West Asia
 
-Persian mosaics
+### Persian mosaics
 
 Iran has a rich history of mosaic art in palaces, mosques, and mausoleums. Persian mosaics are defined by their vivid colours and intricate geometric motifs. Persian mosaic is distinguished most by the glazed tile work. Persians integrated, influenced, and were influenced by many cultures, including Greeks, Arabs, Turks, Mongols, Indians, and Chinese. Many mediaeval buildings adorned by sophisticated geometric patterns demonstrate the devotion of the Persian craftsmen to the growth of the geometric design language. Other creative expressions, such as miniature and tazhib, were incorporated into tiling designs utilised for ornate constructions created during the Safavid era (16th to 18th centuries), completing a process now known as Persian Traditional Mosaic Design.
 
-Minbars mosaics
+### Minbars mosaics
 
 In Central Iran, mosques that feature tiled minbars dating from the period between approximately 1445 and 1535 CE. They are noteworthy not only for their distinctive decorative style but also for the epigraphic evidence they provide regarding the chronology of the structures in which they are located, which also raises questions about the utilisation of the minbar in mediaeval Iran.
 
-Shah Cheragh mosque
+### Shah Cheragh mosque
 
 The Shah Cheragh mosque, also known as “The King of Light,” has mosaics made from mirrors that represent traditional techniques under the Persian Empire. Shah Cheragh is a groundbreaking masterwork, completely ornamented with intricate motifs. The interior sacred space is created with glass and mirrors that reflect an astonishing luminous effect. In the holy buildings, bright materials such as gold, steel, silver, and mirrors are used to reflect the light. To enhance this effect, mirrors are cut and positioned at various angles, allowing the pilgrim to receive abundant light and reflections. This arrangement reflects diverse angles of the face, which interpreted that the selfish aspect of a human being is broken. The combination of light and colour, especially green light, increases the heavenly atmosphere of the place. It was created with stars and constellations with a monotheistic perspective in their geometric forms. The divine structures adorned with mirrorwork reflect the unity of God and His grandeur and beauty.
 
-South Asia
+## South Asia
 
-Mughal mosaics
+### Mughal mosaics
 
 During the Mughal Empire, a style of architecture emerged in the Indian subcontinent that is renowned for its lavish ornamentation, symmetrical patterns, immense gardens, and extensive use of marble and red sandstone for its colossal constructions, including mausoleums, gardens, mosques, and forts. It is an integration of Islamic, Persian, Turkic, and Indian architectural influences. Not only were these buildings practical, but they were also evidence of royal dominance and divine authority. The famous Taj Mahal, constructed by Emperor Shah Jahan, the fifth Mughal emperor, is an example of showcasing the Mughal era's architectural wonder; it also exemplifies the integration of Indian and Persian architectural styles. Shah Jahan's lasting legacy encompasses landmarks such as the Agra and Lahore forts, as well as Shahjahanabad in Delhi, characterised by flowering plant motifs. White marble sourced from Rajasthan was utilised at Agra and Delhi, intricately carved in low relief or inlaid with semi-precious stones, reflecting a new Mughal style influenced by imported Florentine panels inlaid with pietre dure. The mosaics, with their polished stones and meticulous craftsmanship, exhibit precision and elegance, likely symbolising the affection for their queen. Additionally, they convey profound significance or intense emotion. Another example is the tomb of the fourth Mughal emperor, Jahangir, which exhibits a symmetrical mosaic design on the dadoes and corridor leading to the cenotaph. It uses a motif derived from pietra dura, which differentiates the top and lower sections through varying tile hues.
 
-Pakistan mosaics
+### Pakistan mosaics
 
 The Islamic heritage of Pakistan has resulted in a rich tradition of the use of mosaics in architectural decoration, particularly in mosques and religious structures. These mosaics feature geometric patterns, floral motifs, and calligraphic inscriptions. Faisal Mosque, built in 1987, is located on the foothills of the Margalla Hills in Islamabad, Pakistan. It is the fifth-largest mosque in the world and the largest within South Asia. The building portrays how tile mosaics have reflected contemporary mosques, acknowledging traditional themes and geometrical designs influenced by ancient Romans with conceptual representations from a historical perspective.
 
 Faisal Mosque uses the latest Turkish industrial method for tile manufacturing instead of adopting traditional methods, making it unique and innovative compared to other monuments. The presentation of the tile mosaic with multi-coloured glazed tile mosaic work is shown in abstract symbolic landscape form and rectangular Kufic calligraphy in a modern way. Ablution is a significant act before performing prayers. The design of the tile decoration on the walls of the ablution area reflects its ritual importance. The intricate geometric patterns exemplify the Islamic concern for symmetry and the continuous generation of patterns. The harmonious combination of diagonal, horizontal, and vertical lines through harmony of colours, lines, and complexity of design. Colours are viewed as effective tools for expressing emotions, delivering philosophical and symbolic meanings, and adding dimensions that enhance the overall aesthetically strong view of a place.
 
-East Asia
+## East Asia
 
-Chinese mosaics
+### Chinese mosaics
 
 Early Chinese mosaics were composed of materials of stone, clay, ceramics, or jade. Chinese mosaic tiles descend from old artistic traditions, including frescoes and mosaics discovered in tombs from the Han Dynasty (206 BC-220 AD). Throughout this era, mosaics were frequently employed in religious architecture, including temples and palaces, to decorate walls or floors. During the Tang Dynasty (618-907 AD), Chinese mosaic tiles gained popularity as decorative elements in wealthy households. By the Ming Dynasty (1368–1644) and Qing Dynasty (1644–1912), they became more elaborate, using detailed designs and multiple colours. They are still well-liked today because of their adaptability and aesthetic effects.
 
-Chinese tombs
+### Chinese tombs
 
 A common construction of tombs in Szechwan and North China is the art of the stamped clay tile; it is more lasting and less costly than painting. The inner face of the bricks stamped a lively scene, and the tomb wall repeated hand-coloured scenes that preserved the artwork. In the study of Chinese cultural and artistic interaction based on the Liao dynasty (916-1125), the intricate murals on the Liao tombs, which depict subjects including history, religion, and folklore, highlight the rich cultural past of the Chinese people. By emphasising the interchange and synthesis of various cultural aspects, they offer a distinctive viewpoint on cross-cultural relations in China.
 
-Mosaic murals
+### Mosaic murals
 
 Mosaic murals in Beijing began in the 1960s, with more ceramic mosaic murals by Chinese artists emerging in the 1980s, serving as a window into the city's history and culture. In Jinzhou, China, the Mosaic Park and Ceramic Museum blend art, architecture, and landscape to create a distinctive and multipurpose urban park. Inspired by the European mosaic tradition, the park's pavement and seats are constructed from broken local pottery fragments. Designed as an extension of the park's crackling geometry, the Ceramic Museum promotes contemporary design and the local creative industry by showcasing local artists, designers, and craftspeople. The initiative intends to revive the city's cultural life and the park's public use.
 
 During the 1980s and 1990s, ceramic mosaic tiles became increasingly popular in the construction industry of China. Murals are essential public art components that contribute to the identity of a city, add vibrancy to buildings, educate the public about the city's culture, and promote societal values. It recognises the importance of public art and is converting its city walls into vibrant mosaic murals. At Beijing's Dongsi Shitiao metro station, the largest mural, made in 1985, titled "Towards the World," is 70 meters long and 3 meters high, and it depicts 30 sportsmen from 22 different sports. The mural was designed by Li Huaji and Quan Zhenghuan. Thousands of ceramic tiles compose the mural, showcasing a variety of sports. Examples are archery, discus throwing, cycling, fencing, and swimming, which are all represented in the mural. It extends good wishes to the Asian Games and commemorates the international honours of Chinese athletes, bringing glory to the country.
 
-Japanese Mosaics
+### Japanese Mosaics
 
 Mosaic art in Japan emerged in the post-Meiji era, with a multitude of artworks on walls and flooring being produced in the 1960s. Mosaic Tile Museum is located in Kasahara Town, Tajimi. The museum structure is an artistic creation, designed by the innovative Japanese architect, Terunobu Fujimori. Kasahara, a town in Tajimi, Japan's largest producer of mosaic tiles, had over 100 factories in the mid-1900s. The region's ceramic production history dates back 1,300 years, and the museum showcases the local love for this art form. The museum is home to more than 10,000 artefacts and materials, such as tile samples, journals, past products, and tools. Its objective is to utilise its location in a top tile-producing region to exhibit objects and materials and to connect individuals from diverse backgrounds through tiles.
 
-Eggshells Mosaics
+### Eggshells Mosaics
 
 Eggshell mosaics, a distinctive art form originating from Yamanashi Prefecture in the 1930s, use eggshells and traditional Japanese Suihi pigment to tint the eggshells, which are subsequently fragmented into diverse shapes and affixed to a substrate with glue. This conventional craft demands a high level of proficiency and is uncommon. Egg decorating is an ancient art form that originated in pre-Christian times. It is presently associated with the Easter season. The use of eggshell fragments for the production of mosaics is a rarely used art form that dates back to the old masters of 15th-century Italy. In Japan, it is considered a traditional art form and is commonly known as "Rankaku”.
 
 The Art Deco furniture is directly influenced by Oriental art, using forms and motifs that are derived from Eastern art. These forms and motifs present the most obvious reference. Jean Dunand was one of the most renowned French Art Déco artists; he revived the Oriental technique of inlaying crushed eggshell particles, creating white areas on large surfaces and screens, a technique previously used by the Japanese for decorative details.
 
-Southeast Asia
+## Southeast Asia
 
-Vietnam
+### Vietnam
 
 The Imperial City, in Hue, Vietnam, showcases mosaics composed of porcelain, earthenware, and coloured glass. The mosaics are a significant aspect of Nguyen Dynasty architecture, located in palaces, entrances, and pavilions. The Nguyen Dynasty's artistic accomplishment is represented by the mosaics, which provide insight into the spiritual and ceremonial lives of the city's inhabitants. Khai Dinh Tomb, a porcelain mosaic art masterpiece in Hue, is a unique architectural work of the 12th King of the Nguyen dynasty. Located on Chau Chu mountain, the tomb showcases Hue's renowned porcelain mosaic art and currently belongs to Thuy Bang commune, Huong Thuy. Khai Dinh's tomb's unique charm lies in its inner palace, which showcases the art of porcelain mosaic. The tomb-inside parasol, a masterpiece of mosaic art, covers the bronze statue of King Khai Dinh, weighing nearly 1 tonne. The intricate design creates a silky, velvet-like texture that resembles silk.
 
-An Bang Cemetery
+### An Bang Cemetery
 
 The An Bang cemetery, also known as “City of Ghosts,” is located in the Phu Vang district of Thua Thien Hue province, where there are thousands of lavish and elaborate tombs, which are especially built by mosaic architecture, covering around 250 hectares. It has since attracted tourists to admire the architecture and cultural significance of the village. The history of An Bang Cemetery is linked with the emigration of its residents to Europe and the US following Vietnam's reunification in 1975. The emigrants progressed and remitted funds to their family, making An Bang one of the most affluent villages in the nation.
 
 Beginning in the 1990s, the village changed rapidly as life improved; the people restored and modified their ancestors’ tombs into a magnificent outlook. In addition to protecting the deceased's body, the tomb serves as a symbol of his social identity. The tomb particularly reflects the owner's wealth and social standing. Most of the tombs were constructed on the design concept of King Khai Dinh's tomb. The cemetery has a diverse variety of architectural styles, integrating Buddhist, Taoist, Christian, Vietnamese, Chinese, and Western influences. They were commonly decorated with porcelain mosaics, depicting motifs from dragons to phoenixes, mystical creatures, and ornamental details.
 
-Thailand
+### Thailand
 
 From the early 1900s, palaces, temples, and buildings have been ornamented with Thai mosaics. Benjarong shards, glass, and gold leaf have also been incorporated into the work. During Thailand's Ayutthaya Kingdom, Benjarong was imported from China and was influenced by its colour scheme, which also featured Chinese motifs such as florals, fish, and mountains. This resulted in a distinctive Thai influence on Chinese ceramics; the Thai royal court requested the same palette for all Chinese ceramics. Historically, Buddhism has had a significant influence on Thai art, architecture, sculpture, and painting.
 
-Temple of Emerald Buddha
+### Temple of Emerald Buddha
 
 See Also: Wat Phra Kaew The Temple of Emerald Buddha also known as Wat Phra Kaew was completed in 1783 under the patronage of King Rama I, is a temple complex that is dedicated to the enshrinement of the Emerald Buddha. The complex is composed of a variety of structures rather than a single building. The ordination hall is one of the most ornate structures in the temple complex. The structure features a three-tiered roof and a marble foundation, embellished with Chinese porcelain tiles and Garuda statues. The exterior of the building is covered entirely in gilding and glass mosaic in a floral motif. The interior features painted murals or ornamental themes on every surface of the walls and ceilings. The ceiling features red and gold kanok motifs and is detailed with silver glass mosaics. The exterior walls and columns of the hall housing the Emerald Buddha shine with mirrored glass mosaics. Red, blue, green, yellow, and colourless ornamental tiles were incorporated into the temple during renovations in the 1830s. However, over the past 50 years, the natural latex adhesive has been weakened by pollution. The mosaics have been restored by conservators using contemporary glass; however, the aesthetic distinctions pose a significant obstacle. The temple's conservators are seeking restoration to resemble the original visual appearance of its Kriab mosaic mirror pieces, as scientists at Thailand's Synchrotron Light Research Institute investigate the composition of these modern pieces to aid reconstruction more closely resembling the original visual appearance.
 
-Sri Mariamman Temple
+### Sri Mariamman Temple
 
 The Sri Mariamman Temple, also known as Wat Khaek in Bangkok, was constructed in 1879 and is the largest Hindu shrine globally outside of India and draws thousands of visitors each year. At the entrance is a six-metre-tall gopura, and the facade is decorated with figures of deities and a spectrum of colours. Hindu deity statues are housed inside three sacred buildings: Sri Maha Mariamman, Kartik, and Ganesh. The mosaic is known as an "eternal painting," meaning that it endures over time and retains the beauty of the colours and the vitality of the characters it depicts. The intricate restoration assignment was delegated to SICIS to replace the existing paintings with mosaics; it aimed to capture every detail, from the arrangement of objects to the precise colours of the original paintings. A team of over 80 mosaic experts from the SICIS Lab has collaborated with the temple commission on this project. Over six million mosaic tiles have been used at present. The process involved using the company's patented double indirect method, a highly skilled mosaic technique developed by company president Maurizio Placuzzi in the 1980s, which skillfully crafted these pieces utilising gold and Murano glass tesserae.

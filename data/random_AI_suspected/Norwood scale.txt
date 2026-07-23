@@ -4,7 +4,7 @@ The classification was first introduced by James B. Hamilton in 1951, who descri
 
 The scale is regularly used by dermatologists and hair restoration surgeons to assess the severity of baldness, plan treatment, and track progression over time. However, its reliability has been questioned, as inter-examiner agreement can vary.
 
-Overview
+## Overview
 
 Androgenetic alopecia follows a defined pattern of hair loss, beginning with bitemporal recession of the frontal hairline. Eventually, diffuse thinning over the vertex (top) of the scalp occurs. With progression, complete hair loss in this region is common. The bald patch progressively enlarges and eventually joins the receding frontal hairline.
 
@@ -12,43 +12,43 @@ This measurement scale was first introduced by James B. Hamilton in the 1951 and
 
 The scale is regularly used by doctors to assess the severity of baldness, but it is not considered very reliable since examiners' conclusions can vary.
 
-Stages
+## Stages
 
 The Hamilton–Norwood scale describes seven primary stages of male pattern hair loss, progressing from no visible hair loss to extensive baldness. O'Tar Norwood's 1975 revision also introduced Type A variants (stages 2A through 5A) to classify patterns where hair recedes uniformly from front to back without a distinct bald area forming at the vertex.
 
-Stage 1
+### Stage 1
 
 Stage 1 represents a full head of hair with no clinically significant hair loss or hairline recession. The hairline sits at or near its original position. This stage serves as the baseline against which all subsequent stages are measured.
 
-Stage 2
+### Stage 2
 
 Stage 2 is characterised by slight recession of the hairline at the temples, often forming small triangular areas of hair loss on one or both sides. The recession is typically symmetrical and may be subtle enough that it is only noticeable on close examination. Stage 2 is sometimes referred to as a "mature hairline" and is considered by some clinicians to fall within the range of normal adult male hairline variation rather than representing pathological hair loss.
 
-Stage 3
+### Stage 3
 
 Stage 3 marks the earliest stage that is generally considered to represent clinically significant baldness. The temporal recession deepens beyond what would be expected of a mature hairline, forming a clearly visible M-shaped or V-shaped pattern. Hair loss at this stage is primarily frontal.
 
-Stage 3 vertex
+#### Stage 3 vertex
 
 A variant designated Stage 3 vertex (or 3V) describes patients who exhibit the frontal recession of Stage 3 along with early thinning or hair loss at the vertex (crown) of the scalp. The two areas of loss remain separated by a band of hair across the mid-scalp.
 
-Stage 4
+### Stage 4
 
 At Stage 4, the frontal hairline has receded further than in Stage 3, and a distinct bald or significantly thinned area has developed at the vertex. A moderately dense band of hair still separates the two regions of loss, running across the top of the scalp between the frontal and vertex zones.
 
-Stage 5
+### Stage 5
 
 Stage 5 is similar to Stage 4, but the areas of hair loss at the front and the vertex are larger and the band of hair separating them has become narrower and sparser. The two regions are beginning to merge but remain partially separated.
 
-Stage 6
+### Stage 6
 
 At Stage 6, the frontal and vertex bald areas have merged into a single large region of hair loss. The hair that remains forms a horseshoe-shaped fringe around the sides and back of the head. Some sparse, fine hair may persist across the top of the scalp, but it does not provide meaningful coverage.
 
-Stage 7
+### Stage 7
 
 Stage 7 is the most advanced form of male pattern baldness on the scale. Only a narrow band of hair remains in a horseshoe pattern around the sides and back of the scalp, and this remaining hair may itself be thin and fine. The band of remaining hair typically extends from ear to ear across the occipital region.
 
-Type A Variants
+## Type A Variants
 
 Norwood's 1975 revision introduced the Type A classification to describe an alternative progression pattern observed in a subset of men. In Type A hair loss, the hairline recedes uniformly from front to back across the entire scalp without developing a distinct bald spot at the vertex. Instead, the anterior border of the remaining hair moves progressively rearward.
 
@@ -64,7 +64,7 @@ Stage 5A — The bald area extends from the frontal region to the vertex in a co
 
 Type A patterns are less common than the standard progression and are estimated to account for approximately 3–4% of cases of male pattern baldness.
 
-Limitations
+## Limitations
 
 The Hamilton–Norwood scale has been criticised on several grounds. Studies examining inter-rater reliability have found only moderate agreement among dermatologists classifying the same patients, suggesting that the boundaries between adjacent stages are not always clear-cut.
 
@@ -74,7 +74,7 @@ The scale does not account for differences in hair characteristics such as calib
 
 Several alternative and supplementary classification systems have been proposed to address these limitations, including the BASP (Basic and Specific) classification system, which provides a more detailed categorisation by combining basic shape patterns with specific density patterns.
 
-History
+## History
 
 The classification of male pattern hair loss was first systematised by American anatomist James B. Hamilton in 1951. Working at the State University of New York, Hamilton published a study identifying distinct patterns of hair loss in men and demonstrated the role of androgens in the process. His original classification described several types of patterned baldness based on the areas of the scalp affected.
 
@@ -82,6 +82,6 @@ In 1975, dermatologist O'Tar Norwood published a revised and expanded version of
 
 The combined system has since been adopted internationally as the standard classification for male androgenetic alopecia in both clinical practice and research. It is referenced in treatment guidelines published by organisations including the American Academy of Dermatology, the European Academy of Dermatology and Venereology, and the International Society of Hair Restoration Surgery.
 
-Diagnostic
+## Diagnostic
 
 Dermatologists might use the Norwood Scale on patients to assess male pattern baldness. It is especially used to check if hair loss treatments are helping patients regaining hair.

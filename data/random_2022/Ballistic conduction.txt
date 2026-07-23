@@ -6,9 +6,9 @@ Ballistic conduction is typically observed in quasi-1D structures, such as carbo
 
 Ballistic conduction differs from superconductivity due to the absence of the Meissner effect in the material. A ballistic conductor would stop conducting if the driving force is turned off, whereas in a superconductor current would continue to flow after the driving supply is disconnected.
 
-Theory
+## Theory
 
-Scattering mechanisms
+### Scattering mechanisms
 
 In general, carriers will exhibit ballistic conduction when L ≤ λ M F P {\displaystyle L\leq \lambda _{\rm {MFP}}} where L {\displaystyle L} is the length of the active part of the device (e.g., a channel in a MOSFET). λ M F P {\displaystyle \lambda _{\rm {MFP}}} is the mean free path for the carrier which can be given by Matthiessen's rule, written here for electrons:
 
@@ -24,7 +24,7 @@ where
 
 In terms of scattering mechanisms, optical phonon emission normally dominates, depending on the material and transport conditions. There are also other scattering mechanisms which apply to different carriers that are not considered here (e.g. remote interface phonon scattering, Umklapp scattering). To get these characteristic scattering rates, one would need to derive a Hamiltonian and solve Fermi's golden rule for the system in question.
 
-Landauer–Büttiker formalism
+### Landauer–Büttiker formalism
 
 In 1957, Rolf Landauer proposed that conduction in a 1D system could be viewed as a transmission problem. For the 1D graphene nanoribbon field effect transistor (GNR-FET) on the right (where the channel is assumed to be ballistic), the current from A to B, given by the Boltzmann transport equation, is
 
@@ -38,7 +38,7 @@ Thus the quantum conductance is approximately the same if measured at A and B or
 
 The Landauer–Büttiker formalism holds as long as the carriers are coherent (which means the length of the active channel is less than the phase-breaking mean free path) and the transmission functions can be calculated from Schrödinger's equation or approximated by semiclassical approximations, like the WKB approximation. Therefore, even in the case of a perfect ballistic transport, there is a fundamental ballistic conductance which saturates the current of the device with a resistance of approximately 12.9 kΩ per mode (spin degeneracy included). There is, however, a generalization of the Landauer–Büttiker formalism of transport applicable to time-dependent problems in the presence of dissipation.
 
-Importance
+## Importance
 
 Ballistic conduction enables use of quantum mechanical properties of electron wave functions. Ballistic transport is coherent in wave mechanics terms. Phenomena like double-slit interference, spatial resonance (and other optical or microwave -like effects) could be exploited in electronic systems at nanoscale in systems including nanowires and nanotubes.
 
@@ -46,7 +46,7 @@ The widely encountered phenomenon of electrical contact resistance or ECR, arise
 
 This term, where ρ 1 {\displaystyle \rho _{1}} and ρ 2 {\displaystyle \rho _{2}} correspond to the specific resistivity of the two contacting surfaces, is known as Sharvin resistance. Electrical contacts resulting in ballistic electron conduction are known as Sharvin Contacts. When the radius of a contact spot is larger than the mean free path of electrons, the contact resistance can be treated classically.
 
-Optical analogies
+## Optical analogies
 
 A comparison with light provides an analogy between ballistic and non-ballistic conduction. Ballistic electrons behave like light in a waveguide or a high-quality optical assembly. Non-ballistic electrons behave like light diffused in milk or reflected off a white wall or a piece of paper.
 
@@ -61,18 +61,18 @@ For correct usage of this analogy consideration of several facts is needed:
 * it is more likely that an electron would lose more energy than a photon would, because of the electron's non-zero rest mass;
 * electron interactions with the environment, each other, and other particles are generally stronger than interactions with and between photons.
 
-Examples
+## Examples
 
 As mentioned, nanostructures such as carbon nanotubes or graphene nanoribbons are often considered ballistic, but these devices only very closely resemble ballistic conduction. Their ballisticity is nearly 0.9 at room temperature.
 
-Carbon nanotubes and graphene nanoribbon
+### Carbon nanotubes and graphene nanoribbon
 
 The dominant scattering mechanism at room temperature is that of electrons emitting optical phonons. If electrons don't scatter with enough phonons (for example if the scattering rate is low), the mean free path tends to be very long (λ M F P ≈ 1 μ {\displaystyle \lambda _{MFP}\approx 1{\mu }} m). So a nanotube or graphene nanoribbon could be a good ballistic conductor if the electrons in transit don't scatter with too many phonons and if the device is about 100 nm long. Such a transport regime has been found to depend on the nanoribbon edge structure and the electron energy.
 
-Silicon nanowires
+### Silicon nanowires
 
 It is often incorrectly thought that Si nanowires are quantum confined ballistic conductors. There are major differences between carbon nanotubes (which are hollow) and Si nanowires (which are solid). Nanowires are about 20–50 nm in diameter and are 3D solid while carbon nanotubes have diameters around the wavelength of the electrons (2–3 nm) and are essentially 1D conductors. However it is still possible to observe ballistic conduction in Si nanowires at very low temperatures (2–3 K).
 
-Isotopically enriched diamond
+### Isotopically enriched diamond
 
 Isotopically pure diamond can have a significantly higher thermal conductivity. See List of thermal conductivities.

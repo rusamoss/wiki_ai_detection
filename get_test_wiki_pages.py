@@ -378,6 +378,12 @@ def extract_cleaned_prose(html: str) -> tuple[int, str]:
     items, and paragraphs alike -- since it's used (via MIN_WORDS/MAX_WORDS
     and run_pangram.py's cost estimate) to size what's actually submitted
     to Pangram, not to approximate the Prosesize gadget's prose-only count.
+
+    Headings are written back out in Markdown form ("##"/"###"/... per
+    h2/h3/... level) rather than as bare text, since MediaWiki articles
+    start their sections at h2 -- so a top-level "== Section ==" becomes
+    "## Section", matching the heading style most models already use for
+    generated articles (see generate_ai_articles.py).
     """
     soup = BeautifulSoup(html, "html.parser")
     content = soup.select_one(".mw-parser-output") or soup
@@ -406,7 +412,7 @@ def extract_cleaned_prose(html: str) -> tuple[int, str]:
                 continue
             if heading_text:
                 words += len(re.findall(r"\b[\w'-]+\b", heading_text, flags=re.UNICODE))
-                parts.append(heading_text)
+                parts.append(f"{'#' * level} {heading_text}")
             continue
 
         if skip_level is not None:

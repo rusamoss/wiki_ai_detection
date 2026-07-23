@@ -2,7 +2,7 @@ The royal stars, also known as the Royal Stars of Persia, are Aldebaran, Regulus
 
 The idea of these stars as "guardians" can be traced back to Babylonian astronomy, which significantly influenced Persian cosmology. The Persians further incorporated these stars into their Zoroastrian worldview, assigning them roles as watchers of the sky and associating them with seasonal transitions and divine entities.
 
-Babylonian and Assyrian Origins
+## Babylonian and Assyrian Origins
 
 The concept of the Four Royal Stars predates the Persian Empire and originates in ancient Babylonian and Assyrian astronomy. By 747 BCE, the Babylonian King Nabonassar implemented a calendar system based on the motions of the moon relative to these four stars.
 
@@ -15,7 +15,7 @@ The four stars were tied to specific constellations:
 * Antares in Scorpius
 * Fomalhaut in Piscis Austrinus
 
-Persian Cosmology and Zoroastrian Integration
+## Persian Cosmology and Zoroastrian Integration
 
 With the rise of the Persian Empire, these stars became deeply embedded in Zoroastrian cosmology. In Persian tradition, the stars were associated with seasonal transitions and were considered watchers of the cardinal directions:
 
@@ -31,11 +31,11 @@ The Bundahishn, a Zoroastrian text of cosmogony and cosmology, describes these s
 * Satevis (Antares): A celestial entity associated with balance and the autumnal harvest, mentioned in the Bundahishn.
 * Haftorang (Fomalhaut): Symbolizing cosmic order and often linked to Ursa Major as "Seven Thrones," representing stability and guidance.
 
-Names of the Four Royal Stars
+## Names of the Four Royal Stars
 
 The following table illustrates the evolution of the names of the Four Royal Stars in different stages of Persian history:
 
-Uses
+## Uses
 
 The Royal Stars were used for:
 
@@ -43,6 +43,6 @@ The Royal Stars were used for:
 * Calendar Systems: Tracking lunar and solar cycles for agricultural and religious purposes.
 * Astrology: Interpreting celestial alignments to predict major events. Regulus, in particular, was associated with kingship and power, symbolizing strength and divine favor.
 
-Criticism
+## Criticism
 
 Modern scholars, such as George A. Davis Jr., have questioned the connection between the "Four Royal Stars" and ancient Persian cosmology. While the stars were significant in Persian astronomy, Davis noted discrepancies between the Zoroastrian naming scheme and the modern identification of the Royal Stars.

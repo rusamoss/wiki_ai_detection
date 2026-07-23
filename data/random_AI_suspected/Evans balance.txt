@@ -1,6 +1,6 @@
 An Evans balance, also known as a Johnson Matthey magnetic susceptibility balance, is a scientific instrument used to measure the magnetic susceptibility of solids and liquids. Magnetic susceptibility quantifies the extent to which a material becomes magnetized in an applied magnetic field. It can be measured using various devices that modify the shape of the magnetic field and measure resulting forces. The Evans balance operates by measuring the force exerted on a magnet within a magnetic field shared with a sample as an indirect proxy for the magnetization of a sample, rather than by measuring the force exerted on the sample directly.
 
-Mechanism
+## Mechanism
 
 The Evans balance operates by measuring the forces necessary to maintain the positional equilibria of suspended permanent magnets as their magnetic fields interact with a sample. These forces to suspend the permanent magnets are provided by electric currents from a coil near to the magnets. As the electric currents vary to maintain the equilibria, those variations in the electrical current provide a measure of variations of the force required to maintain the permanent magnets in suspension. The balance consists of magnets positioned on one end of a beam that shift in position upon interaction with the sample. This displacement is detected by photodiodes located opposite the equilibrium point of the beam. These photodiodes transmit signals to an amplifier that alters the electrical current in a coil interacting with the magnets to counteract the force of interaction between the permanent magnets and the sample, thereby restoring the beam to its initial position. The current flowing through the coil is easily measured, for instance by a voltmeter with leads attached to a precision resistor in series with the coil.
 
@@ -8,11 +8,11 @@ The original Evans balance, devised by Dennis F. Evans in 1973, was based on a t
 
 The original design was later modified, with assistance from Johnson Matthey, to place two pairs of magnets within an H-frame. The sample would be inserted between one pair of magnets while a small coil was positioned between the second pair. This entire assembly pivoted horizontally around a torsion strip. When a sample tube would be introduced between the magnets, the torsional force would be counterbalanced by the current passing through the coil, providing a reading on the display instead of using a potentiometer.
 
-Comparison to alternative magnetic balances
+### Comparison to alternative magnetic balances
 
 In contrast to other magnetic balances, the Evans balance does not require a precision weighing component. It offers faster measurements compared to a Gouy balance or a Faraday balance, albeit with reduced accuracy and sensitivity. The Evans balance is capable of measuring within a range of 0.001 × 10 −7 to 1.99 × 10 −7 CGS volume susceptibility units. The original model demonstrated an accuracy within 1% of literature values for diamagnetic solutions and within 2% for paramagnetic solids. The device facilitates measurements across solid, liquid, and gaseous forms of a wide spectrum of paramagnetic and diamagnetic materials, typically requiring approximately 250 mg of sample for each measurement.
 
-Calibration
+## Calibration
 
 The Evans balance determines susceptibility by referencing a calibration standard with a known susceptibility. A commonly used calibration compound is mercury cobalt thiocyanate, HgCo(NCS) 4, which has a susceptibility of 16.44×10 −6 (±0.5%) CGS at 20°C. Another frequently used standard is [Ni(en) 3]S 2 O 3, with a susceptibility of 1.104 × 10 −5 erg G −2 cm −3. Calibration involves taking three readings: one with an empty tube R 0, one with a tube filled with the calibration reference material, and one with the tube filled with the sample R s. Some balances feature an auto-tare function that eliminates the need for the R 0 measurement. The first two readings provide a calibration constant (C). A solid sample's mass susceptibility (χg) in grams is calculated using the simplified formula:
 

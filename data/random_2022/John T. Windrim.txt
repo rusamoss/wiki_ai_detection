@@ -10,9 +10,9 @@ Windrim was a member of the AIA, the Architectural League of New York, the Phila
 
 Windrim's papers are at the Athenaeum of Philadelphia.
 
-Works
+## Works
 
-Philadelphia
+### Philadelphia
 
 * A group of dormitories at Girard College.
 * Bank of North America.
@@ -35,7 +35,7 @@ Philadelphia
 * Wills Eye Hospital (now Colonnade Apartments), 1601 Spring Garden St. (1931–32).
 * Franklin Institute (1934) and Benjamin Franklin National Memorial (1938).
 
-Elsewhere
+### Elsewhere
 
 * Ryan Legislative Office Building, Harrisburg, Pennsylvania (1893)
 * "Fairlawn", John T. Windrim Residence, Fairfield Avenue and Sugartown Road, Devon, Pennsylvania (completed 1902).

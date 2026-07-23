@@ -2,10 +2,10 @@ Gmina Galewice is a rural gmina (administrative district) in Wieruszów County, 
 
 The gmina covers an area of 135.79 square kilometres (52.4 sq mi), and as of 2011 its total population was 6,244.
 
-Villages
+## Villages
 
 Gmina Galewice contains the villages and settlements of Biadaszki, Brzeziny, Brzózki, Dąbie, Dąbrówka, Foluszczyki, Galewice, Gąszcze, Grądy, Jeziorna, Kaski, Kaźmirów, Konaty, Kostrzewy, Kużaj, Niwiska, Okoń, Osiek, Osowa, Ostrówek, Pędziwiatry, Plęsy, Przybyłów, Rybka Lututowska, Rybka Sokolska, Spóle, Węglewice, Załozie and Żelazo.
 
-Neighbouring gminas
+## Neighbouring gminas
 
 Gmina Galewice is bordered by the gminas of Czajków, Doruchów, Grabów nad Prosną, Klonowa, Lututów, Sokolniki and Wieruszów.

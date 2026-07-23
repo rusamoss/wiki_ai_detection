@@ -2,7 +2,7 @@ A panchāngam (Template:Lang-sa; IAST: pañcāṅgam) is a Hindu calendar and al
 
 In Nepal and Eastern India, including Assam, Bengal and Odisha, the Panchangam is referred to as Panjika.
 
-Overview
+## Overview
 
 Panchāngams are published in India by many authors, societies, academies, and universities. Different publications differ only minutely, at least for a casual or not yet trained reader. They forecast celestial phenomena such as solar eclipses, forecasting weather (rain, dry spells) as well as more mundane occurrences.
 
@@ -20,7 +20,7 @@ The Grahalaghava was compiled about 600 years ago and Surya Siddhanta was availa
 
 Thus, the Government of India has prepared the National Panchānga or the Indian national calendar in 1957 (was proposed by Meghnad Saha and Lahiri in 1952), which is used in predictive astrology. The Lahiris Ephemeris published annually is the most widely used English almanac in Vedic astrology, many Panchāngas are published in local languages, which are mostly based on the National Panchānga.
 
-Etymology
+## Etymology
 
 Accuracy of attributes depending upon the Moon's motions were considered most crucial for the reliability of a panchāngam, because the Moon is the fastest among all heavenly entities shown in traditional panchāngas. Tithi, Nakshatra, Rāśi, Yoga, and Karana depend upon Moon's motions, which are five in number. Panchānga is a Sanskrit word, literally meaning "having five limbs". If these five limbs, for example, the five attributes depending upon Moon, are accurate, an almanac is held to be reliable, because other elements are not so difficult to compute due to their slow rates of change.
 
@@ -71,7 +71,7 @@ The nine taras (star groups) by their individual names are listed below.
 * Mitra Tara – The 8th, the 17th and the 26th nakshatras from Janma nakshatra constitute this tara.
 * Ati or Parama Mitra Tara – The 9th, the 18th and the 27th nakshatras from Janma nakshatra constitute this tara.
 
-Usage
+## Usage
 
 The basic purpose of Hindu Panchāngam is to check various Hindu festivals and auspicious time (election- Muhurta). In the Hindu system of election, various element of Panchāngam constitute auspicious and inauspicious moments (Yogas) by combination of weekday-Tithi, weekday-constellation, weekdays-Tithis-constellations. In addition, individual weekdays, Tithis, constellations, Yoga and Karanas have been prescribed for specific activities which fructify during their currency.
 

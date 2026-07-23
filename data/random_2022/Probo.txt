@@ -2,7 +2,7 @@ Probo is a User Automated Testing tool that provides continuous integration, wor
 
 Probo expands upon the automated testing functionality of many other CI tools by providing a quality assurance environment where users can manually review the look and feel of changes before committing them.
 
-History
+## History
 
 Probo was initially developed as a tool for internal use by its parent company, Zivtech, to improve upon the offerings of other CI tools. Once the founders realized that it filled a gap in the industry, they expanded it into a separate offering as a better way to automate the process, involve clients and project managers in the earliest stages, and reduce the cycle of testing and approval.
 
@@ -10,7 +10,7 @@ Probo (by definition: demonstrate, test, approve) is an open source tool that ha
 
 Probo was the first CI tool to provide a quality assurance environment where users can manually review their changes.
 
-Other frameworks
+## Other frameworks
 
 Based on the original Jenkins for Java, there are now similar tools for other programming frameworks such as:
 

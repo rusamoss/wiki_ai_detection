@@ -2,15 +2,15 @@ Soyuz TM-4 was a crewed Soyuz spaceflight to Mir. It was launched on 21 December
 
 It was the fourth Soyuz TM spacecraft to be launched (one of which was uncrewed), and like other Soyuz spacecraft, it was treated as a lifeboat for the station's crew while docked. In June 1988, part way through EO-3, Soyuz TM-4 was swapped for Soyuz TM-5 as the station's lifeboat. The mission which swapped the spacecraft was known as Mir EP-2, and had a three-person crew.
 
-Crew
+## Crew
 
 Titov and Manarov were members of the long duration mission Mir EO-3, and returned to Earth just over a full year later, in Soyuz TM-6. Levchenko, on the other hand, returned to Earth about a week later in Soyuz TM-3.
 
 In June 1988, Soyuz TM-4 landed the three-man crew of Mir EP-2, after their 9-day stay on the station; that crew included the second Bulgarian astronaut Aleksandr Panayotov Aleksandrov.
 
-Backup crew
+### Backup crew
 
-Mission parameters
+## Mission parameters
 
 * Mass: 7070 kg
 * Perigee: 337 km
@@ -18,7 +18,7 @@ Mission parameters
 * Inclination: 51.6°
 * Period: 91.5 minutes
 
-Mission highlights
+## Mission highlights
 
 Fourth crewed spaceflight to Mir. Manarov and Titov (known by their callsign as the "Okeans") replaced Romanenko and Alexandrov. Anatoli Levchenko was a cosmonaut in the Buran shuttle program. Levchenko returned with Romanenko and Alexandrov in Soyuz TM-3.
 

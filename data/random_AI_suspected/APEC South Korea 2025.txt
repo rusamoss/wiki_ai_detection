@@ -1,6 +1,6 @@
 The APEC South Korea 2025 (officially stylized as APEC 2025 Korea) was a year-long hosting of the Asia-Pacific Economic Cooperation (APEC) meetings, which concluded with the APEC Economic Leaders' Meeting on November 1, 2025. It was the second time South Korea hosted the summit, having previously hosted in 2005.
 
-Preparations
+## Preparations
 
 In March 2024, the Ministry of Foreign Affairs of South Korea formed the 2025 APEC Summit Host City Selection Committee and began the process of selecting the host city. The committee was led by Yoon Jin-sik, chairperson of the Korea International Trade Association, and had 17 members including government officials and private members. At the second meeting of the selection committee the same month, applications from each local government were reviewed, and Gyeongju, Incheon and Jeju Province were selected as the three finalists.
 
@@ -8,9 +8,9 @@ On May 28, the South Korean government held a ceremony to unveil the 2025 APEC S
 
 In June, the host city was finally confirmed as Gyeongju. In August, the Ministry of Foreign Affairs' APEC Preparatory Planning Team, including Minister of Foreign Affairs Cho Tae-yul visited Gyeongju and inspected key facilities to be used during the summit. The Gyeongju Hwabaek International Convention Center was used as the main conference hall.
 
-Global Political Context
+## Global Political Context
 
-1. Shifting Power Relations in the Asia-Pacific
+### 1. Shifting Power Relations in the Asia-Pacific
 
 The 2025 APEC Leaders' Meeting takes place at a time when political and economic relations in the Asia-Pacific region are being reshaped.
 
@@ -28,7 +28,7 @@ Amid these adjustments, APEC continues to provide a venue for dialogue among maj
 
 The 2025 Leaders' Meeting in the Republic of Korea will take place under the theme "Building a Sustainable Tomorrow: Connect, Innovate, Prosper", reflecting ongoing cooperation on matters such as supply chain transparency and digital capacity development within the region.
 
-2. Economic Security within Interdependent Economies
+### 2. Economic Security within Interdependent Economies
 
 Economic security has become an increasingly important policy priority among APEC member economies as global interdependence has deepened.
 
@@ -68,7 +68,7 @@ Alongside the ministerial discussions, capacity-building workshops and technical
 
 The 2025 APEC Leaders' Meeting, hosted by the Republic of Korea under the theme "Building a Sustainable Tomorrow: Connect, Innovate, Prosper," is expected to continue this work by highlighting innovation-driven connectivity and responsible technological governance as cross-cutting priorities. Through these discussions, APEC continues to function as a venue where member economies exchange information and coordinate practices on digital transformation—strengthening regional connectivity without imposing formal obligations.
 
-Participants
+## Participants
 
 APEC South Korea 2025 was the first Asia-Pacific Economic Cooperation (APEC) meeting for U.S. president Donald Trump in his second presidency, who re-assumed the presidency on January 20, 2025, he would have had to attend his second in-person meeting having previously attended in the 2017 summit during his first presidency; Canadian prime minister Mark Carney, who assumed the premiership on March 14; South Korean president and host Lee Jae Myung, who assumed office on June 4; and Japanese prime minister Sanae Takaichi, who assumed the premiership on October 21.
 
@@ -84,14 +84,14 @@ Thai prime minister Anutin Charnvirakul, who assumed office on September 7, was 
 
 On the other hand, this was the last APEC meeting for Chilean President Gabriel Boric following the 2025 Chilean general election.
 
-Invited Guests
+## Invited Guests
 
-Events
+## Events
 
-CEO Summit
+### CEO Summit
 
 The APEC CEO Summit was held on October 28–31 at Gyeongju Arts Center in North Gyeongsang Province. The theme of the summit was "Bridge, Business, Beyond". Notable speakers included: Antony Cook (Vice President - Microsoft), Jensen Huang, Joaquin Duato, Matt Garman (CMO - AWS APAC) and musician RM.
 
-Women and economy forum
+### Women and economy forum
 
 The APEC Women and the Economy Forum (WEF) took place on August 12 at Songdo Convensia in Incheon. The theme of the forum was "Promoting Women's Economic Participation for Sustainable Growth".

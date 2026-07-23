@@ -1,13 +1,13 @@
 Dasysyrphus tricinctus is a European species of hoverfly in the genus Dasysyrphus, a member of the family Syrphidae. It is found across Europe, although reported in highest density from the British Isles and Scandinavia. While not uncommon it is generally only seen in modest numbers, typically in lowland woods with peak numbers in late May and early June and again in late August and early September.
 
-Description
+## Description
 
 External images For terms see Morphology of Diptera Wing length 7·25-10·25 mm. Eyes hairy. Wing stigma black. Tergite 3 with yellow pattern much broader than on tergite 4 and yellow pattern on tergite 2 small or absent/ Male genitalia are figured by Hippa (1968). The larva is illustrated by Rotheray (1993).
 
-Distribution
+## Distribution
 
 Palaearctic. Iceland South to the Pyrenees and North Spain. Ireland and Fennoscandia eastwards through Central and North Europe and Russia to the Pacific coast and Japan.
 
-Biology
+## Biology
 
 Habitat: deciduous forest, coniferous forest and conifer plantations, Picea plantations, scrub Betula, tracksides, clearings, parkland. Arboreal, but descends to visit flowers of yellow composites and white umbellifers Calluna, Campanula, Convolvulus, Cornus, Euphorbia, Geranium, Parnassia, Plantago, Polygonum, Ranunculus, Sedum, Sorbus, Stellaria, Succisa, Valeriana. The flight period is April to October in two generations. The larva has been observed feeding on sawfly larvae on Picea and Lepidoptera larvae.

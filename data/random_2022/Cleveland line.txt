@@ -1,6 +1,6 @@
 The Cleveland railway line is a suburban railway line extending 37.3 kilometres (23.2 mi) east-southeast from Brisbane, the state capital of Queensland, Australia. It is part of the Queensland Rail City network.
 
-History
+## History
 
 Following the opening of the Wooloongabba Branch railway line from Corinda to Stanley Street in South Brisbane in 1884, calls were made for extending the line to Cleveland to serve the developing farming area. A line was surveyed, and took an indirect route to avoid hilly country and to serve Fort Lytton, a gun emplacement at the south entrance to the Brisbane River, then the major defence installation for the city.
 
@@ -22,7 +22,7 @@ The line was extended to the third Cleveland station (formerly Raby Bay) in 1987
 
 A third line was laid between Park Road and Lindum railway station in the 1990s as part of the Fisherman Islands line to provide a dedicated freight track to the Port of Brisbane, being dual gauge to connect to the Acacia Ridge freight Terminal and the Australian standard gauge rail network.
 
-Line guide and services
+## Line guide and services
 
 Most services stop at all stations to Bowen Hills railway station. Service originate from Cleveland, or in the interpeak, Cannon Hill. The typical travel time between Cleveland and Brisbane City is approximately 56 minutes (to Central). During weekday peak times, a few services run express between Morningside and Manly stations, for faster travel times for commuters working in the Brisbane central business district. Prior to 2014, an afternoon service on school days only operated express between Cleveland and Buranda stations, stopping only at Thorneside, Manly and Lota.
 

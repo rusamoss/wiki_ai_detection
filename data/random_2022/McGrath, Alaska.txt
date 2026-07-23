@@ -1,6 +1,6 @@
 McGrath (Tochak’ in Upper Kuskokwim, Digenegh in Deg Xinag) is a city and village on the Kuskokwim River in Alaska, United States. The population was 301 at the 2020 census. Despite its small population, the village is an important transportation and economic hub for the area.
 
-History
+## History
 
 The Old Town McGrath site, across the river from present-day McGrath, was a meeting and trading place for Big River, Nikolai, Telida, and Lake Minchumina villagers.
 
@@ -8,17 +8,17 @@ In 1904, Abraham Appel established a trading post in Old Town. In 1906, gold was
 
 After a major flood in 1933, some residents moved across the river. Changes in the course of the river eventually left the old site on a slough, making it useless as a river stop. In 1940, an airstrip was cleared, the United States Federal Aviation Administration built a communications complex, and a school was opened. McGrath became an important refueling stop for Lend-Lease equipment during World War II.
 
-Geography
+## Geography
 
 McGrath is located on the south bank of the Kuskokwim River in western Alaska.
 
 According to the United States Census Bureau, the city has a total area of 54.6 square miles (141 km 2), of which, 48.9 square miles (127 km 2) of it is land and 5.7 square miles (15 km 2) of it (10.48%) is water.
 
-Climate
+## Climate
 
 McGrath has a continental subarctic climate (Köppen Dfc).
 
-Demographics
+## Demographics
 
 McGrath first appeared on the 1920 U.S. Census as an unincorporated village. It formally incorporated in 1975.
 
@@ -30,10 +30,10 @@ In the city, the age distribution of the population shows 35.9% under the age of
 
 The median income for a household in the city was $43,056, and the median income for a family was $44,167. Males had a median income of $41,875 versus $41,389 for females. The per capita income for the city was $21,553. About 8.7% of families and 9.8% of the population were below the poverty line, including 10.8% of those under age 18 and 17.4% of those age 65 or over.
 
-Education
+## Education
 
 The Iditarod Area School District operates the McGrath School.
 
-Media
+## Media
 
 KSKO is a non-commercial NPR affiliate at 89.5 FM. KSKO simulcasts to the villages of Grayling (KGYA), Shageluk (KNKO), Holy Cross (KLOP), Nikolai (KNIB) and Anvik (KMGS). KSKO celebrated its 40th anniversary on July 1, 2021.

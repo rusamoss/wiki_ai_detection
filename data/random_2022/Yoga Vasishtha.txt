@@ -6,13 +6,13 @@ The text consists of six books. The first book presents Rama's frustration with 
 
 Yoga Vasistha teachings are structured as stories and fables, with a philosophical foundation similar to those found in Advaita Vedanta, is particularly associated with drsti-srsti subschool of Advaita which holds that the "whole world of things is the object of mind". The text is notable for expounding the principles of Maya and Brahman, as well as the principles of non-duality, and its discussion of Yoga. The short form of the text was translated into Persian by the 15th-century.
 
-Nomenclature
+## Nomenclature
 
 The name Vasistha in the title of the text refers to Rishi Vasistha. The term Yoga in the text refers to the underlying Yogic theme in its stories and dialogues, and the term is used in a generic sense to include all forms of yoga in the pursuit of liberation, in the style of Bhagavad Gita.
 
 The long version of the text is called Brihat Yoga Vasistha, wherein Brihat means "great or large". The short version of the text is called Laghu Yoga Vasishta, wherein Laghu means "short or small". The longer version is also referred to simply as Yoga Vasistha and by numerous other names such as Vasiṣṭha Ramayana.
 
-Chronology
+## Chronology
 
 Human effort can be used for self-betterment and that there is no such thing as an external fate imposed by the gods.
 
@@ -22,19 +22,19 @@ The surviving text mentions Vijnanavada and Madhyamaka schools of Buddhism by na
 
 Atreya in 1935 suggested that the text must have preceded Gaudapada and Adi Shankara, because it does not use their terminology, but does mention many Buddhist terms. Dasgupta, a contemporary of Atreya, states that the text includes verses of earlier text, such as its III.16.50 is identical to one found in Kalidasa's Kumarasambhava, thus the text must be placed after the 5th-century. Dasgupta adds that the philosophy and ideas presented in Yoga Vasistha mirror those of found in Advaita Vedanta of Adi Shankara, but neither mention the other, which probably means that the author(s) of Yoga Vasistha were scholars who lived in the same century as Shankara, placing the text in about 7th- to early 8th-century. The shorter summary version of the text is attributed to the Kashmiri scholar Abhinanda, who has been variously dated to have lived in 9th- or 10th-century.
 
-Evolving text theory
+### Evolving text theory
 
 Mainkar states that Yoga Vasistha probably evolved over time. The first work, states Mainkar, was the original ancient work of Vasistha that was an Upanishad with Brahamanical ideas, a work that is lost. This text, suggests Mainkar, was expanded into Moksopaya in or after 6th-century, which is now commonly known as Laghu-Yogavasistha. The Laghu (shorter) version was then expanded into the full editions, over time, in the centuries that followed the completion of Laghu-Yogavasistha. The syncretic incorporation of Buddhism, Jainism and Hinduism ideas happened in the Laghu-Yogavasistha edition, states Mainkar, while ideas from Kashmiri Shaivism, particularly the Trika school, were added to the growing version by the 12th-century. Similar serial expansion, revisions and interpolation is typical in Indian literature. Peter Thomi has published additional evidence in support Mainkar's theory on Yoga Vasistha's chronology.
 
 The oldest surviving manuscript of the Moksopaya (or Moksopaya Shastra) has been dated to have been composed in Srinagar in the 10th century AD.
 
-Author
+## Author
 
 The text is traditionally attributed to Maharishi Valmiki, the author of Ramayana.
 
 The author of the shorter version, the Laghu-Yogavasistha, is generally considered to be Abhinanda of Kashmir.
 
-Structure
+## Structure
 
 The text exists in many editions of manuscripts with varying number of verses, but similar message. The full editions contain over 29,000, to a few with 32,000 verses, and in some editions about 36,000 verses. An abridged version by Abhinanda of Kashmir (son of Jayanta Bhatta) is Laghu ("Little") Yogavasistha and contains 6,000 verses.
 
@@ -57,7 +57,7 @@ The text consists of six books:
 
 The Nirnaya Sagar version of Yoga Vasistha manuscript has 1146 verses in the first Book, 807 in second, 6304 verses in third, 2414 verses in the fourth book, 4322 in the fifth, while the last is longest with 14,296 verses, for a cumulative total of 29,289 verses.
 
-Content
+## Content
 
 Gentle enquiry You should either through yourself, or the aid of the exalted ones, be ceaselessly engaged in the pursuit of this gentle enquiry, Who am I? What is this universe? It is this true enquiry alone that generates Jnana (knowledge).
 
@@ -65,13 +65,13 @@ This is one of the longest Hindu texts in Sanskrit after the Mahabharata, and an
 
 The traditional belief is that reading this book leads to spiritual liberation. The conversation between Vasistha and Prince Rama is that between a great, enlightened sage and a seeker of liberation. The text discusses consciousness, cosmology, nature of the universe and consciousness, the ultimate dissolution of body, the liberation of the soul and the non-dual nature of existence.
 
-On Human Intellect
+### On Human Intellect
 
 The Yoga Vāsiṣṭha states the following on the credibility of the provider and seeker of knowledge through these magnificent words.
 
 'Even a young boy's words are to be accepted if they are words of wisdom, else, reject it like straw even if uttered by Brahmā the creator.'
 
-On who is ready for spiritual knowledge
+### On who is ready for spiritual knowledge
 
 The Yoga Vasistha states that there are four characteristics that mark someone ready for spiritual journey who:
 
@@ -80,7 +80,7 @@ The Yoga Vasistha states that there are four characteristics that mark someone r
 * Is virtuous and ethical with Sama (equality), Dama (self-restraint, temperance), Uparati (quietism), Titiksha (patience, endurance), Sandhana (uniting, peace) and Sraddha (faith, trust)
 * Has Mumukshatawa, that is longing for meaning in life and liberation
 
-On the process of spiritual knowledge
+### On the process of spiritual knowledge
 
 Yoga Vasistha teachings are divided into six parts: dispassion, qualifications of the seeker, creation, existence, dissolution and liberation. It sums up the spiritual process in the seven Bhoomikas:
 
@@ -92,11 +92,11 @@ Yoga Vasistha teachings are divided into six parts: dispassion, qualifications o
 * Padārtha abhāvana (sees Brahman everywhere): External things do not appear to exist to the yogi (now called Brahmavidvarīyas); in essence there is a non-cognition of 'objects' as the separation between subject and a distinct object is dissolved; and tasks get performed without any sense of agency (doership). Sañcita and Āgamī karma are now destroyed; only a small amount of Prārabdha karma remains.
 * Turīya (perpetual samādhi): The yogi is known as Brahmavidvariṣṭha and does not perform activities, either by his will or the promptings of others.
 
-On liberation
+### On liberation
 
 In Chapter 2 of Book VI, titled as The story of Iksvaku, the text explains the state of nirvana (liberation) as follows, "Liberation is peace. Liberation is extinction of all conditioning. Liberation is freedom from every kind of physical, psychological and psychic distress. This world is not seen by the ignorant and the wise in the same light. To one who has attained self-knowledge, this world does not appear as samsara, but as the one infinite and indivisible consciousness".
 
-On Jivanmukta
+### On Jivanmukta
 
 The Yoga Vasistha describes the Jivanmukta, or liberated person, as follows (abridged from the 1896 translation by KN Aiyer):
 
@@ -112,7 +112,7 @@ The Yoga Vasistha describes the Jivanmukta, or liberated person, as follows (abr
 * He is a child amongst children; as old men amongst the old; as the puissant amongst the puissant; as a youth amongst the young, compassionate and understanding with the grieved.
 * In him is found nobleness, benevolence, love, clearness of intellect.
 
-On Samsara and reality
+### On Samsara and reality
 
 11. There are three benefits derived from the study of books, from lectures of a preceptor, and from one's own industry, all of which are attendant on our exertions and not destiny. 12. This is the long and short of all the Shastras, that diligence preserves our minds from all evils, by employing them to whatever is good and right. 13. To apply with diligence to whatever is excellent, not low nor mean and not liable to loss or decay, is the precept of parents and preceptors to their sons and pupils. 14. I get the immediate fruit of my labor in proportion to my exertion, hence I say, I enjoy the fruit of my labor and not of fortune. 15. Activity gives us success and it is this that elevates the intelligent.
 
@@ -123,7 +123,7 @@ The Yoga Vasistha describes samsara and reality as follows:
 * Ignorance feeds samsara, self-knowledge liberates.
 * Samsara is ephemeral and unreal. With birth, death is inevitable.
 
-Commentaries
+## Commentaries
 
 The following traditional Sanskrit commentaries on the Yoga Vasistha are extant:
 
@@ -132,7 +132,7 @@ The following traditional Sanskrit commentaries on the Yoga Vasistha are extant:
 * Bhāṣya by Gaṅgādharendra
 * Pada candrikā by Mādhava Sarasvatī
 
-Influence
+## Influence
 
 The text, states David Gordon White, has served as a reference on Yoga for medieval era Advaita Vedanta scholars. The Yoga Vasistha, adds White, was one of the popular texts on Yoga that dominated the Indian Yoga culture scene before the 12th-century.
 
@@ -143,31 +143,31 @@ Indian thinker Vinayak Damodar Savarkar has praised Yoga Vasistha in his autobio
 
 The practice of atma-vichara, "self-enquiry," described in the Yoga Vasistha, has been popularised due to the influence of Ramana Maharshi, who was strongly influenced by this text.
 
-Translations
+## Translations
 
-Indian languages
+### Indian languages
 
 Originally written in Sanskrit, the Yoga Vasistha has been translated into many Indian languages, and the stories are told to children in various forms. There are multiple collections of audio, video and mini-articles available on the scripture.
 
-Telugu translations
+#### Telugu translations
 
 * Vasishtha Rama Samvaadam, Sri Yeleswarapu Hanuma Ramakrishna.
 * Yogavasishtha hridayamu in seven Parts by Kuppa Venkata Krishnamurthy, also rendered into English by Vemuri Ramesam.
 * Yoga Vasistha Ratnakaram, Swami Vidya Prakashananda Giri
 
-Malayalam Translations
+#### Malayalam Translations
 
 * Vasishtasudha - Yogavasishtasaram is a translation and commentary in Malayalam by Professor G Balakrishnan Nair
 
-Persian
+### Persian
 
 During the Mughal Dynasty the text was translated into Persian several times, as ordered by Akbar, Jahangir and Darah Shikuh. One of these translations was undertaken by Nizam al-Din Panipati in the late sixteenth century AD. This translation, known as the Jug-Basisht, which has since become popular in Persia among intellectuals interested in Indo-Persian culture. The Safavid -era mystic Mir Findiriski (d. 1641) commented on selected passages of Jug-Basisht.
 
-Russian
+### Russian
 
 The unabridged text is currently being translated into Russian and published by Swamini Vidyananda Saraswati, first five books are completed by 2017.
 
-English translations
+### English translations
 
 Yoga Vasistha was translated into English by Swami Jyotirmayananda, Swami Venkatesananda, Vidvan Bulusu Venkateswaraulu and Vihari Lal Mitra. K. Naryanaswami Aiyer translated the well-known abridged version, Laghu-Yoga-Vasistha. In 2009, Swami Tejomayananda 's Yoga Vasistha Sara Sangrah was published by the Central Chinmaya Mission Trust. In this version the Laghu-Yoga-Vasistha has been condensed to 86 verses, arranged into seven chapters. A list of all known English translations follows:
 
@@ -185,14 +185,14 @@ Yoga Vasistha was translated into English by Swami Jyotirmayananda, Swami Venkat
 * Tejomayananda, Swami: Yoga Vasishta Sara Sangraha. Central Chinmaya Mission Trust, Mumbai 1998
 * Jyotirmayananda, Swami: Yoga Vasistha. Vol. 1–5. Yoga Research Foundation, Miami 1977. http://www.yrf.org
 
-Portuguese translations
+### Portuguese translations
 
 Yoga Vasistha was translated in 2018, from English into Portuguese by Eleonora Meier for Satsang Editora (Brazilian publisher) of the version of Swami Venkatesananda and it is available at www.lojasatsangeditora.com.br - ISBN 978-85-92598-26-6 - Páginas: 848 Swami Venkatesananda.
 
-Latvian
+### Latvian
 
 Vāsišthas joga. Svami Venkatesananda, 2020, 630 pp. A Latvian translation by Inese Kausa, publisher www.svami.lv
 
-Excerpts
+## Excerpts
 
-Sources
+## Sources

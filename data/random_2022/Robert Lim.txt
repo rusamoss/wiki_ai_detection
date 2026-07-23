@@ -1,6 +1,6 @@
 Robert Kho-Seng Lim FRSE (Chinese: 林可勝; pinyin: Lín Kěshèng; 15 October 1897 – 8 July 1969), also known as Bobby Li, was a Singaporean medical doctor.
 
-Life
+## Life
 
 Lim was born in Singapore in 1897. He was the son of Lim Boon Keng, who promoted social and educational reforms in Singapore and China.
 
@@ -16,6 +16,6 @@ Lim was elected as a foreign member of United States National Academy of Science
 
 Lim died of cancer on 8 July 1969.
 
-Family
+## Family
 
 Lim married Margaret Torrance in Scotland in 1920. Following Torrance's death, he married Helen Tsing-ying Tsang in Shanghai in 1946.

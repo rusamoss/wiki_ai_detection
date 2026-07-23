@@ -1,14 +1,14 @@
 Karl Friedrich Meyer (19 May 1884 – 27 April 1974) was an American scientist of Swiss origin. He was one of the most prodigious scientists in many areas of infectious diseases in man and animals, the ecology of pathogens, epidemiology and public health [1-6]. Some called him the “ Pasteur of the 20th century”.
 
-Early life and education
+## Early life and education
 
 Meyer was born in Basel (Switzerland) to Theodor Meyer, 1852–1934, (a „Meyer zum Pfeil”), international cigar merchant, and Sophie, née Lichtenhahn, teacher, 1857-1936. Karl Friedrich had two younger sisters.
 
 Meyer began his studies in 1902 at the University of Basel and soon moved to the University of Zurich where he concentrated on biology, zoology, histology, and laboratory techniques. He was greatly fostered by Heinrich Zangger, professor of comparative anatomy (and later the first professor of Medical Law in Zurich), who sent him to work with leading scientists in Munich and Bern. Meyer was deeply impressed and influenced by Zangger's social consciousness. He received a doctorate of veterinary medicine in 1909 from the University of Zurich. – Later, in 1924, Meyer spent a sabbatical leave from the University of California in Zurich and obtained a Ph.D. in Bacteriology from the University of Zurich.
 
-Scientific career
+## Scientific career
 
-South Africa, 1908–1910
+### South Africa, 1908–1910
 
 Meyer found his first employment in South Africa. The Transvaal Department of Agriculture in the (then) Union of South Africa had just established a large, special Institute devoted to research in public health and farm animal diseases, the latter being important for the economy of the country. The first director of the institute was another Swiss veterinarian, Arnold Theiler (father of the Nobel prize winner Max Theiler), famous for having successfully combated the so-called rinderpest, African horse sickness, and many other viral and bacterial infections of livestock.
 
@@ -18,57 +18,57 @@ In addition, Meyer had to develop vaccines, one against rabies, another to prote
 
 Meyer and Theiler both were strong personalities who did not get along too well. Shortly after returning to Switzerland, Meyer was offered a position as an assistant professor at the Veterinary School of the University of Pennsylvania in Philadelphia.
 
-Pennsylvania, US, 1910–1913
+### Pennsylvania, US, 1910–1913
 
 Meyer had to teach pathology and comparative pathology at the Veterinary School of Pennsylvania. He soon got into arguments with the Dean over his rough dealing with ill-prepared students – criticism that was fell founded, however. Then, the faculty promoted Meyer to full professor, and put him in charge of the diagnostic section of the Laboratory and Experimental Farm, Pennsylvania Livestock Sanitary Board. – There, he worked on glanders, a bacterial disease in horses, mules, etc. which first affects the mucous membranes. It may be lethal, and is also dangerous to humans. – He also helped elucidating the transmission of the bacteria causing a contagious abortion disease of cattle and also infecting humans via unsterilized milk, causing (possibly lethal) fever. This is the so-called brucellosis, a disease Meyer continued working on later. – Meyer never just stayed in the laboratory. He wanted to put his expertise to practical use, to the benefit of the people. So he soon consulted with the Milk Commission working on regulation to secure milk quality.
 
-California, US, 1914–1974
+### California, US, 1914–1974
 
 In 1914 Meyer changed to the University of California (San Francisco and Berkeley) where he stayed for the rest of his life. – He was appointed to Prof. of Bacteriology and Protozoology and taught medical bacteriology at the Berkeley Medical School. He produced a textbook on pathology, collaborating with Frederick P. Gay and G.Y. Rusk.
 
 Starting in 1915, he worked at the George Williams Hooper Foundation Institute for Medical Research, University of California, devoted to medical research (whose first director was George H. Whipple, the Nobelist). At first, Meyer was acting director, and soon succeeded Whipple as director of the Hooper. Meyer’s personality, his enormous knowledge combined with his energy and extraordinary drive were just what was needed to tackle the many pioneering tasks. He contributed significantly to the understanding, treatment, and prevention of many infectious (and other) diseases. His contributions and achievements were founded on his holistic, ecological approach. He was a generalist, meaning that he always concurrently concentrated on the interactions and interdependence of the factors involved, as they are: (i) the disease agents (biology, habitat, hosts, transmission to man, infectiousness, etc.); (ii) disease in man and animals (diagnosis, therapies, pathology, epidemiology); (iii) public health; and (iv) education. His 1930s Public Health curriculum at the University of California played a large role in the creation of the UC Berkeley School of Public Health.
 
-Research and achievements
+## Research and achievements
 
 A selection of concise overviews of Meyer’s impacts on the understanding of the diseases he worked on, their diagnoses and treatments, and their prevention are presented below.
 
-Brucellosis
+### Brucellosis
 
 Meyer contributed significantly to the understanding of the broad spectrum of the disease forms of Brucellosis. He suggested classing the various species of bacteria into one family (genus), formally named Brucella, to honor the discoverer, Sir David Bruce (microbiologist and pathologist; 1855–1931). – Meyer also worked on tests and treatments of the diseases. As a member of the San Francisco State Milk Commission he helped to develop industrial food processing standards needed for upgrading the hygiene in the milk industries.
 
-Botulism
+### Botulism
 
 Meyer started his work on botulism after 1913, when home canning became popular during the war, and sterilization techniques were not sufficient. Around 1920, the entire canning industry in California (whose business in canned food then amounted to almost a billion dollars) was in jeopardy because many deaths occurred throughout the country due to lack of proper sterilization in the canneries. Meyer then convinced the National Canners Association to fund research and development of safe industrial processes. Owing to Meyer, a research institute was founded, financed by the canning industries, and directed by him from 1926 to 1930. A canning research laboratory existed in the Hooper until the 1980s. Meyer continued consulting with the industries until his death. Thus, he deserves the credit for developing safe canning procedures, for realizing effective control over industrial hygiene, and for the prevention of botulism.
 
-Equine encephalitis
+### Equine encephalitis
 
 Meyer also investigated what are called arbovirus diseases, among them equine encephalitis. Several diseases transmitted from animals to humans are due to a group of viruses carried by mosquitoes. Mosquitoes belong to the ‘animal family’ (technically a ‘ phylum ’) called arthropods; hence the viruses carried by them are ar thropod- bo rne. Different arboviruses may cause diverse diseases. Here, we summarize examples of Meyer’s outstanding discoveries in this area. In the early 1930s, thousands of horses in California suffered and died from a paralytic disease, later called western equine encephalitis. Meyer proved that it was of viral origin. Later it became clear that the virus can also infect humans causing encephalitis, sometimes with deadly complications. – Meyer and his colleagues at the Hooper later demonstrated that mosquitoes pick up the virus from chicken and (migratory) birds and transfer it to man and to horses. It also became clear that the disease is common near irrigated fields where mosquitoes abound. Meyer therefore qualified encephalitis as a man-made disease. Subsequently, a vaccine for horses was developed. And it turned out that the isolation of the virus by Meyer led to the discovery of similar kinds causing other types of encephalitis in man. (Other microbiologists found related types of viruses in other animals than horses.) – Effective mosquito control was the key to minimizing this problem.
 
-Yellow fever
+### Yellow fever
 
 During the years of World War II a vaccine against yellow fever was used in the Armed Forces that produced (unexpectedly) adverse reactions such as jaundice. Meyer stepped in, discovered mistakes in its production and helped producing a safe and effective vaccine.
 
-Plague
+### Plague
 
 Meyer conducted a great many investigations on the nature of the bacillus causing plague, on the important function of the different fleas (carrying the bacillus), the epidemiology of the rodents (infested by fleas), the influence of the location of their habitats, and its climate and vegetation, etc. His extensive work finally led him to define general ecological conditions for outbreaks of plague epidemics. This, in fact, was one of Meyer’s great contributions. Moreover, Meyer and his scientists at the Hooper developed an effective vaccine. It was actually manufactured at the Hooper when the Army needed vaccines to protect the troops in Vietnam (one endemic area where many plague cases were seen among soldiers). The results were excellent; no epidemic was observed. – Meyer went on to develop optimal, effective therapies using antibiotics, another of his contributions.
 
-Psittacosis
+### Psittacosis
 
 Psittacosis belongs to a group of infectious diseases transmitted from birds to man (so-called ornithoses). – Meyer isolated the agent of psittacosis (i.e. one of the Chlamydia bacterium) and later also defined antigens. In addition, in the early 1930s, Meyer fought for interstate embargo on the export of parakeets to stop propagation of the disease. He also was responsible for California-wide actions to liberate the majority of aviaries of infested birds. Towards this goal, the Hooper became a center for testing thousands of birds and selecting the ones free of the bacteria, with the result that germs and disease largely disappeared from local commerce. With the advent of antibiotics, the disease can be successfully treated. Meyer, together with colleagues, developed a system of quarantine and treatment for imported birds that was highly effective in minimizing psittacosis in imported pet birds. The incidence of psittacosis declined notably owing to the many discoveries in this area by Meyer.
 
-Mussel Poison
+### Mussel Poison
 
 Under Meyer’s guidance, methods of testing mussels for the presence of the poison, leading to the so-called paralytic shellfish poisoning, were developed at the Hooper. And the California State Department of Health decided (in 1929) to monitor the mussels closely, and to publicize a ban on harvesting of shellfish, when the annual appearance of the poison is detected.
 
-Valley Fever
+### Valley Fever
 
 Valley fever, i.e. coccidioidomycosis (or California Valley Fever) is caused by airborne, fungal particles dwelling in the soil in certain parts of the southwestern United States and northern Mexico. Infection is caused – in about half of the people exposed – by inhalation of the fungal particles (known as arthroconidia, a form of spore). The disease is not transmitted from person to person. – The fungal particles were isolated by Meyer who also thoroughly investigated and described the epidemiology of the disease.
 
-Leptospirosis
+### Leptospirosis
 
 The disease Leptospirosis may be transmitted to humans upon exposure to water contaminated with the urine of infected animals (such as cattle, pigs, horses, dogs, rodents, and other wild animals). Meyer’s many investigations contributed greatly to the understanding of the disease. He developed a diagnostic test as well as methods of vaccination. Among other things, Meyer found about half of all dogs in San Francisco infected. Later, after Meyer’s interventions, the dog-epidemic disappeared.
 
-Additional achievements
+### Additional achievements
 
 Meyer worked, in addition to the many fields mentioned, also on the effects of air pollution and lead on farm animals, as well as on typhoid fever (– after a spaghetti casserole served at a church dinner poisoned about 100 people). He also explored influenza and its epidemiology, looked into malaria, tetanus, viral hepatitis, anthrax, poliomyelitis, dysentery, pseudotuberculosis, common cold, and dental bacteriology. Meyer was also active against the anti-vivisectionist movement.
 
@@ -80,11 +80,11 @@ Meyer served on the editorial boards of several professional journals. Thus, he 
 
 Meyer had wide-ranging interests, including history and, in particular, history of biology. He also was an accomplished photographer and fascinated by radio in its early days. Another specialty of his was philately, where he concentrated on disinfected mail, about which he wrote a book.
 
-Teaching
+## Teaching
 
 In 1914, Meyer began teaching courses in medical bacteriology at Berkeley. His lectures, always most diligently prepared, were all brilliant, dynamic, captivating, and demanded a great deal from all students. Soon his lectures were famous and attracted great numbers of students (also from outside of medicine).
 
-Legacy
+## Legacy
 
 Many friends and colleagues concluded after his death that Meyer influenced more microbiological and epidemiological domains than any other scientist of his time; and he was driven by his deep-seated concern for the welfare of the people. He always went beyond the scientific research in order to implement practical measures of preventing and fighting the diseases. A former student and friend once put it like this: “Meyer would have won a Nobel Prize if he hadn’t worked on so many areas of discovery that nobody could keep track of all that he was doing”.
 
@@ -92,6 +92,6 @@ He was responsible, among others, for improving laws regulating hygiene in the f
 
 Meyer was honored for his outstanding work by many honorary degrees, awards, medals, fellowships, honorary memberships or honorary chairmanships of scientific associations. Nine American and European universities bestowed honorary doctorates on him. The many academic appointments, chairs, and consulting activities are also listed in the literature.
 
-Personal life
+## Personal life
 
 Meyer married Mary Elizabeth Lindsay (1883–1958) on July 16, 1913. The two had one daughter, Charlotte, born in 1918. Meyer’s second marriage (in 1960) was with Marion Grace Lewis (1916–1998). He became an American citizen in 1922.

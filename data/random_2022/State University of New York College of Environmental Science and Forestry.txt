@@ -2,9 +2,9 @@ The State University of New York College of Environmental Science and Forestry (
 
 ESF operates education and research facilities also in the Adirondack Park (including the Ranger School in Wanakena), the Thousand Islands, elsewhere in central New York, and Costa Rica. The college's curricula focus on the understanding, management, and sustainability of the environment and natural resources.
 
-History
+## History
 
-Founding
+### Founding
 
 The New York State College of Forestry at Syracuse University was established on July 28, 1911, through a bill signed by New York Governor John Alden Dix. The previous year, Governor Hughes had vetoed a bill authorizing such a college. Both bills followed the state's defunding in 1903 of the New York State College of Forestry at Cornell. Originally a unit of Syracuse University, in 1913, the college was made a separate, legal entity.
 
@@ -18,19 +18,19 @@ Most of the professors in the early years of the College of Forestry at Syracuse
 
 Fifty-two students were enrolled in the school's first year, the first 11 graduating two years later, in 1913. Research at the college commenced in 1912, with a study of New York state firms using lumber, including from which tree species and in what quantities.
 
-Expansion
+### Expansion
 
 In 1912, the college opened its Ranger School in Wanakena, New York, in the Adirondacks. The college began enrolling women as early as 1915, but the first women to complete their degrees—one majoring in landscape engineering and two in pulp and paper—graduated in the late 1940s.
 
 In January 1930, Governor Franklin D. Roosevelt, recommending an allocation of $600,000 towards construction of the college's second building, in honor of Louis Marshall, recently deceased, noted that: "under [Marshall's] leadership and the leadership of its late dean, Franklin Moon, the School of Forestry made giant strides until it became recognized as the premier institution of its kind in the United States". The cornerstone of Louis Marshall Memorial Hall was laid in 1931 by former Governor and presidential candidate Alfred E. Smith who was elected to assume the presidency of the college's board of trustees.
 
-Affiliation with SUNY
+### Affiliation with SUNY
 
 With the formation of the State University of New York (SUNY) in 1948, the college became recognized as a specialized college within the SUNY system, and its name was changed to State University College of Forestry at Syracuse University. In 1972, the college's name was changed yet again to State University of New York College of Environmental Science and Forestry. Unlike other state-supported degree-granting institutions which had been created at private institutions in New York State, the New York State College of Forestry at Syracuse University was an autonomous institution not administratively part of Syracuse University. In 2000, SUNY System Administration established ESF's "primacy" among the 64 SUNY campuses and contract colleges for development of new undergraduate degree programs in Environmental Science and Environmental Studies.
 
-Campuses
+## Campuses
 
-Syracuse
+### Syracuse
 
 ESF's main campus, in Syracuse, New York, is where most academic, administrative, and student activity takes place. The campus is made up of nine main buildings:
 
@@ -48,11 +48,11 @@ Bray Hall, Marshall Hall, Illick Hall, and Moon Library border the quad. Other b
 
 The historic Robin Hood Oak (photo below) is behind Bray Hall. The tree is said to have grown from an acorn brought back by a faculty member from the Sherwood Forest in England. It was the first tree listed on the National Registrar of Historic Trees in the United States.
 
-Wanakena
+### Wanakena
 
 Students in the forest and natural resources management curriculum may spend an academic year (48 credits) or summer at the Ranger School, in Wanakena, New York, earning an Associate of Applied Science (A.A.S.) degree in forest technology, surveying, or environmental and natural resources conservation. The campus, established in 1912, is on the east branch of the Oswegatchie River that flows into Cranberry Lake, in the northwestern part of the Adirondack Park. It includes the 3,000-acre (12 km 2) James F. Dubuar Memorial Forest, named after a former director of the Ranger School.
 
-Field stations and forests
+### Field stations and forests
 
 * Cranberry Lake: The college's environmental and forest biology summer field program is at the Cranberry Lake Biological Station, on Cranberry Lake in the Adirondack Park.
 * Newcomb: The Adirondack Ecological Center and Huntington Wildlife Forest, a 15,000-acre (6,000-hectare) field station in the central Adirondack Mountains, are near Newcomb, New York. The site includes the Arbutus Great Camp, bunkhouses, and a dining center, among other facilities.
@@ -63,7 +63,7 @@ Field stations and forests
 
 * The Arturo and Maria Sundt Field Station, ESF's first international field station, is used for research and teaching. A former farm, it is near the town of Coyolito, in the province of Guanacaste, Costa Rica, approximately one mile (1.6 km) from the Gulf of Nicoya on the country's west coast.
 
-Academics
+## Academics
 
 The ESF mission statement is "to advance knowledge and skills and to promote the leadership necessary for the stewardship of both the natural and designed environments." ESF is a "specialized institution" of the State University of New York, meaning that curricula focus primarily on one field, the college's being environmental management and stewardship. Students may supplement their education with courses taken at Syracuse University. ESF has academic departments in the fields of chemistry; environmental and forest biology; environmental resources engineering; environmental studies; sustainable resources management; landscape architecture; and chemical engineering. Environmental science programs offer students integrative degrees across the natural sciences.
 
@@ -73,11 +73,11 @@ Forbes Magazine ranked ESF #54 in its listing of "America's Best College Buys" f
 
 The Online College Database ranked ESF at No. 6 on its list of "50 Colleges Committed to Saving the Planet" for 2013. The ranking relates in part to one of the school's newest programs, Sustainable Energy Management. Launched in 2013, the program focuses on energy markets, management, and resources. Global issues such as responsible energy use and development of sustainable energy sources are critical focal points in the STEM major.
 
-Research
+## Research
 
 ESF is classified as a "Carnegie R2 Doctoral Universities: High Research Activity" institution. The first research report published in 1913 by the College of Forestry was the result of the above noted USDA Forest Service supported study of the wood-using industries of New York State. Since that time, the research initiatives of the State University of New York College of Environmental Science and Forestry (ESF) have expanded greatly as faculty and students conduct pioneering studies, many with a global reach. ESF researchers delve into topics well beyond the boundaries of central New York. Recent international sites of research interest include Madagascar, the Amazon floodplains, Mongolia and the Galapagos Islands. Vermont and the Sierra Nevada are other locales within the US where recent research has focused. Current research efforts include the Willow Biomass Project and the American Chestnut Research and Restoration Project which produced the Darling 58 chestnut tree.
 
-Campus life
+## Campus life
 
 Many students identify themselves as a "Stumpy" (or "Stumpie"). The nickname was given to students by their neighbors at Syracuse University, probably in the 1920s, and most-likely refers to forestry "stump jumpers". Although originally used as an insult, today, most students embrace the nickname with pride.
 
@@ -87,7 +87,7 @@ ESF has an agreement with adjacent Syracuse University that allows ESF students 
 
 Students also enjoy a variety of shops, restaurants, museums, and theaters in Syracuse, and nearby Marshall Street and Westcott Street.
 
-Gateway Center
+## Gateway Center
 
 ESF has launched several programs, within the confines of campus and other locations, to reduce its carbon emissions. The Gateway Center utilizes sustainable energy resources to generate power and heat utilized across the campus. The building includes a state-of-the-art, combined heat-and-power (CHP) system, producing 65% of campus heating needs along with 20% of its electrical needs. The CHP system uses biomass to drive a steam turbine and produce electricity, while natural gas is used for steam heating along with additional electricity. It has been estimated this building alone is responsible for reducing ESF's carbon footprint by 22%.
 
@@ -95,29 +95,29 @@ Increased global awareness of global warming and reduced nonrenewable resources 
 
 The Gateway Center was one of the final stages in the school's Climate Action Plan, that encompasses the vision of carbon neutrality and reduced fossil fuel dependence by 2015. Currently, the school rests in Phase III of the program and is on track to reach its goal. Included in Phase III is the opening of The Gateway Center, retrofits to Illick Hall, and rooftop greenhouse replacement. One other advancement towards carbon neutrality can be seen on top of the campus's buildings. Rooftop gardens provide reduced energy consumption and water runoff. Shrubbery, soil thickness, and moisture content all can contribute to increased energy savings. Gateway and other buildings on campus utilize rooftop gardens to reduce energy consumption and water runoff.
 
-Athletics
+## Athletics
 
 The SUNY ESF athletic teams are called the Mighty Oaks. The college is a member the United States Collegiate Athletic Association (USCAA), primary competing in the Hudson Valley Intercollegiate Athletic Conference (HVIAC) since about the 2004–05 academic year.
 
 ESF competes in 11 intercollegiate varsity sports: Men's sports include basketball, cross country, golf, soccer and track & field; while women's sports include cross country, soccer and track & field; and co-ed sports include bass fishing and timber sports.
 
-Cross country
+### Cross country
 
 The school's men's cross-country team are three-time USCAA national champions 2011 to 2013. The women's cross-country team came in second or third in the same tournaments, respectively. The men's soccer team was invited to the 2012 USCAA National Championship Tournament in Asheville, North Carolina, making it to the semifinals.
 
-Woodsmen
+### Woodsmen
 
 ESF has a long tradition of competing in intercollegiate woodsmen competitions in the northeastern US and eastern Canada. The team came in first in both the men's and women's divisions of the northeastern US and Canadian 2012 spring meet. Students at the SUNY-ESF Ranger School, in Wanakena, compete as the Blue Ox Woodsmen team.
 
-Club sports
+### Club sports
 
 In addition to the intercollegiate USCAA and woodsman teams, ESF students participate on club sports teams at both ESF and Syracuse University, including ESF's competitive bass fishing team, and SU's quidditch team. Students at the Ranger School participate in the Ranger School Hockey Club.
 
-Athletics history
+### Athletics history
 
 In one notable part of the college's history, Laurie D. Cox, professor of Landscape Architecture, was responsible for establishing Syracuse University 's renowned lacrosse program in 1916, including players from the New York State College of Forestry.
 
-Affiliation with Syracuse University
+## Affiliation with Syracuse University
 
 ESF was founded in 1911 as the New York State College of Forestry at Syracuse University, under the leadership of Syracuse University Trustee Louis Marshall, with the active support of Syracuse University Chancellor Day. Its founding followed several years after the cessation of state funding to the earlier New York State College of Forestry at Cornell.
 
@@ -125,7 +125,7 @@ ESF is an autonomous institution, administratively separate from Syracuse Univer
 
 ESF faculty, students, and students' families join those from Syracuse University (SU) in a joint convocation ceremony at the beginning of the academic year in August and combined commencement exercises in May. ESF and SU students share access to library resources, recreational facilities, student clubs, and activities at both institutions, except for the schools' intercollegiate athletics teams, affiliated with the USCAA and NCAA, respectively.
 
-Traditions
+## Traditions
 
 The best known tradition among ESF students is that walking across the quad is shunned. The tradition, which dates back to at least the early 1960s, is intended to inhibit tracks from being worn into the lawn. Hecklers have been known to yell and even tackle people walking across the quad. However, other activities such as frisbee and soccer are encouraged on the Quad.
 
@@ -150,7 +150,7 @@ Traditional events include:
 * ESF Day of Service
 * Quadstock Music and Arts Festival
 
-Notable alumni
+## Notable alumni
 
 More than 19,000 have graduated from ESF since its founding in 1911. The college's Alumni Association was founded 14 years later, in 1925. Notable alumni include:
 
@@ -186,7 +186,7 @@ More than 19,000 have graduated from ESF since its founding in 1911. The college
 * Earl Lewis Stone, Jr., BS '38, In 1948, he became the first endowed Charles Lathrop Pack Professor of forest soils at Cornell University. Retired 1979
 * Lissa Widdoff, BS '79, executive director, Robert and Patricia Switzer Foundation
 
-Environmental leadership
+## Environmental leadership
 
 From soon after its founding, ESF affiliated individuals have been responsible for establishing and leading prominent scientific and advocacy organizations around the world focused on the environment. Others have provided leadership to governmental environmental agencies.
 

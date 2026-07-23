@@ -2,7 +2,7 @@ Klissoura Cave 1 is a cave in the Peloponnese region of southern Greece. From th
 
 Klissoura Cave 1 sits in an area near the Berbadiotis river. This location has not only contributed to the cave's archaeological significance but also highlights the relationship between past Paleolithic societies and their surrounding environments through periods in history. The discoveries made at this site offer a deeper look into the changing patterns of human life, technology, and social organization over tens of thousands of years, arguably elevating the Klissoura Cave 1 as an important site for understanding the past of these Paleolithic individuals.
 
-Subsistence strategy
+## Subsistence strategy
 
 The Klissoura Cave 1 provides detailed record of past human life and how these Paleolithic communities' usage of resources in the area evolved over time. Records show clear evidence that these early humans shifted their hunting focus from large to tiny and more widely available animals. This indicates an archaeological significance since there must have been a variety of factors that led to increase in human population in the region. Additionally, the layers of history in the cave show a significant jump in how much the site was used, particularly moving from the Middle Paleolithic into the Upper Paleolithic period.
 
@@ -12,13 +12,13 @@ The lifestyle changes that were found within these Paleolithic communities resid
 
 These findings are significant because they illustrate how the cave's Paleolithic communities adapted their subsistence strategies in response to the changing circumstances. As discussed previously, the stratigraphy or layering of the cave served as a chronological record. With bone remains in each layer providing insights into the dietary habits and adaptations of the past civilization during this time shift of Middle Paleolithic to the Upper Paleolithic period.
 
-Stratigraphy and site formation processes
+## Stratigraphy and site formation processes
 
 From a viewpoint of stratigraphy, when looking at Klissoura Cave 1 it reveals a complex sedimentary history that significantly contributes to our understanding of the site's archaeological record. The stratigraphy of the cave displays a distinct differentiation between the Middle Paleolithic and Upper Paleolithic layers. The Middle Paleolithic layers of the cave show that many groups of people used this site extensively. This is evidenced by these layers, which can be as thick as 6.5 meters, contain a mix of hardened sediments, bones, and stone tools. At the start of the Upper Paleolithic, there is a clear break in the layers of the cave.
 
 This differentiation is seen because the older Middle Paleolithic layer VII is sharply cut off by the newer Aurignacian layer IV at the back of the rockshelter. This indicates that newer layers from the Upper Paleolithic period directly cover the older ones, marking a distinct separation between the two periods. These layers from the Upper Paleolithic, are associated with Aurignacian culture, and formed by the activities of its Paloelithic inhabitants, such as the creation of clay hearths and the accumulation of ash from hearths that were cleaned out, spread around, or stepped on. Additionally, both layers of the cave also show signs of natural events like water flow and the buildup of materials washed down from nearby hills which have played an essential part in the formation of the complex layers of deposits that are seen at the site today.
 
-Material culture and lithic technology
+## Material culture and lithic technology
 
 The materials and lithic technology found in Klissoura Cave 1 provide insight into the practices of its Paleolithic inhabitants. Analysis of the Middle Paleolithic lithic tools shows that there is mostly a predominance of small debitage products, such as chips and flakes, alongside a wide variety of retouched tools, including scrapers and points. These findings show that the technology is marked by a blend of Levallois and non-Levallois techniques, with evidence of unidirectional and bidirectional flaking methods. This indicates a sophisticated understanding of tool-making that allowed for the production of a wide range of materials and tools for various tasks.
 

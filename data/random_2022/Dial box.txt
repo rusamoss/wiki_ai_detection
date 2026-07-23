@@ -4,7 +4,7 @@ Standard dial box has 8 dials mounted on a plate. The plate is set upright with 
 
 One of the fields of application for dial boxes was molecular graphics.
 
-Dial box models
+## Dial box models
 
 At least two different models of dial boxes were sold with the SGI brand.
 

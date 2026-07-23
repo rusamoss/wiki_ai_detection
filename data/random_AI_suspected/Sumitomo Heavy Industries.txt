@@ -1,6 +1,6 @@
 Sumitomo Heavy Industries, Ltd. (住友重機械工業株式会社, Sumitomo Jūkikai Kōgyō Kabushiki-gaisha) (SHI) is an integrated manufacturer of industrial machinery, defence products, ships, bridges and steel structure, equipment for environmental protection, including recycling, power transmission equipment, plastic molding machines, laser processing systems, particle accelerators, material handling systems, cancer diagnostic and treatment equipment and others.
 
-History
+## History
 
 In 1888, a company was formed to provide equipment repair services to the Besshi copper mine. Almost 50 years later, in 1934, the company incorporated as Sumitomo Machinery Co., Ltd. to manufacture machinery for the steel and transportation industries in support of that period of rapid economic growth.
 
@@ -10,7 +10,7 @@ In 1979, the company famously built the Seawise Giant, an Ultra Large Crude Carr
 
 In April 2021, it was reported that SHI has ceased making light machine guns for the JSDF, citing a bleak economic prospects in the arms sector.
 
-Legal
+### Legal
 
 In March 2005, Sumitomo Heavy Industries underwent an inspection by the Japan Fair Trade Commission (JFTC) for suspected collusion regarding contracts for flood control gates on rivers and dams commissioned by the Ministry of Land, Infrastructure, Transport and Tourism, the Water Resources Agency, and local governments.
 
@@ -32,11 +32,11 @@ On May 20, 2021, Sumitomo Heavy Industries revealed that design drawings for sam
 
 On May 2, 2024, it was revealed that Sumitomo Heavy Industries and its subsidiary, Sumitomo Nako Forklift, had committed inspection fraud during routine checks of forklifts. Workers had omitted necessary steps, such as removing brake components for internal inspection, leading to the discovery of four instances of inspection fraud across two vehicles. Investigations are ongoing to check for similar violations.
 
-Labour issues
+## Labour issues
 
 A male employee in his 30s, who was employed by the company in 2014 and subsequently seconded to Sumiju Forging, an affiliated company, attempted to commit suicide by jump from the roof of his dormitory in November 2016 and survived but was saved and treated for mental illness. The man appears to have been working overwork since around May 2016 due to a combination of normal work, preparation for audits and research assignments. The Labour Standards Inspection Office of Yokosuka certified the work accident as caused by the onset of adjustment disorder on 30 October 2018.
 
-Products
+## Products
 
 * Sumitomo NTK-62 Machine gun
 * Seawise Giant, the largest ship ever built

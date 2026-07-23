@@ -1,12 +1,12 @@
 Apache Cassandra is a free and open-source database management system designed to handle large volumes of data across multiple commodity servers. The system prioritizes availability and scalability over consistency, making it particularly suited for systems with high write throughput requirements due to its LSM tree indexing storage layer. As a wide-column database, Cassandra supports flexible schemas and efficiently handles data models with numerous sparse columns. The system is optimized for applications with well-defined data access patterns that can be incorporated into the schema design. Cassandra supports computer clusters which may span multiple data centers, featuring asynchronous and masterless replication. It enables low-latency operations for all clients and incorporates Amazon 's Dynamo distributed storage and replication techniques, combined with Google 's Bigtable data storage engine model.
 
-History
+## History
 
 Avinash Lakshman, a co-author of Amazon 's Dynamo, and Prashant Malik developed Cassandra at Facebook to support the inbox search functionality. Facebook released Cassandra as open-source software on Google Code in July 2008. In March 2009, it became an Apache Incubator project and on February 17, 2010, it graduated to a top-level project.
 
 The developers at Facebook named their database after Cassandra, the mythological Trojan prophetess, referencing her curse of making prophecies that were never believed.
 
-Features and limitations
+## Features and limitations
 
 Cassandra uses a distributed architecture where all nodes perform identical functions, eliminating single points of failure. The system employs configurable replication strategies to distribute data across clusters, providing redundancy and disaster recovery capabilities. The system is capable of linear scaling, which increases read and write throughput with the addition of new nodes, while maintaining continuous service.
 
@@ -14,21 +14,21 @@ Cassandra is categorized as an AP (Availability and Partition Tolerance) system,
 
 The system's query capabilities have notable limitations. Cassandra does not support advanced query patterns such as multi-table JOINs, ad hoc aggregations, or complex queries. These limitations stem from its distributed architecture, which optimizes for scalability and availability rather than complex query operations.
 
-Data model
+## Data model
 
 As a wide-column store, Cassandra combines features of both key-value and tabular database systems. It implements a partitioned row store model with adjustable consistency levels. The following table compares Cassandra and relational database management systems (RDBMS).
 
 The data model consists of several hierarchical components:
 
-Keyspace
+### Keyspace
 
 A keyspace in Cassandra is analogous to a database in relational systems. It contains multiple tables and manages configuration information, including replication strategy and user-defined types (UDTs).
 
-Tables
+### Tables
 
 Tables (formerly called column families prior to CQL 3) are containers for rows of data. Each table has a name and configuration information for its stored data. Tables may be created, dropped, or altered at run-time without blocking updates and queries.
 
-Rows and columns
+### Rows and columns
 
 Each row is identified by a primary key and contains columns. The first component of a table's primary key is the partition key; within a partition, rows are clustered by the remaining columns of the key.
 
@@ -41,19 +41,19 @@ Columns contain data belonging to a row and consist of:
 
 Unlike traditional RDBMS tables, rows within the same table can have varying columns, providing a flexible structure. This flexibility distinguishes Cassandra from relational databases, as not all columns need to be specified for each row. Other columns may be indexed separately from the primary key.
 
-Storage model
+## Storage model
 
 Cassandra uses a Log Structured Merge Tree (LSM tree) index to optimize write throughput, in contrast to the B-tree indexes used by most databases.
 
 The storage architecture consists of three main components:
 
-Core components
+### Core components
 
 * Commit Log: A write-ahead log that ensures write durability
 * Memtable: An in-memory data structure that stores writes, sorted by primary key
 * SSTable (Sorted String Table): Immutable files containing data flushed from Memtables
 
-Write and read processes
+### Write and read processes
 
 Write operations follow a two-stage process:
 
@@ -65,13 +65,13 @@ Read operations:
 * Check Memtable for latest data
 * Search SSTables from newest to oldest using bloom filters for efficiency
 
-Data management
+### Data management
 
-Tombstones
+#### Tombstones
 
 Every operation (create/update/delete) generates a new entry, with deletes handled via " tombstones ". While common in many databases, tombstones can cause performance degradation in delete-heavy workloads.
 
-Compaction
+#### Compaction
 
 Compaction consolidates multiple SSTables to:
 
@@ -79,7 +79,7 @@ Compaction consolidates multiple SSTables to:
 * Remove deleted row tombstones
 * Improve read performance
 
-Cassandra Query Language
+## Cassandra Query Language
 
 Cassandra Query Language (CQL) is the interface for accessing Cassandra, as an alternative to the traditional Structured Query Language (SQL). CQL adds an abstraction layer that hides implementation details of this structure and provides native syntaxes for collections and other common encodings. Language drivers are available for Java (JDBC), Python (DBAPI2), Node.JS (DataStax), Go (gocql), and C++.
 
@@ -87,9 +87,9 @@ The key space in Cassandra is a namespace that defines data replication across n
 
 Which gives:
 
-Distributed architecture
+## Distributed architecture
 
-Gossip protocol
+### Gossip protocol
 
 Cassandra uses a peer-to-peer gossip protocol for cluster communication. Nodes routinely exchange information about cluster state, including:
 
@@ -100,7 +100,7 @@ Cassandra uses a peer-to-peer gossip protocol for cluster communication. Nodes r
 
 The system uses vector clocks to track information currency and ignore outdated state data.
 
-Seed nodes
+### Seed nodes
 
 The architecture designates certain nodes as "seed" nodes that:
 
@@ -111,20 +111,20 @@ The architecture designates certain nodes as "seed" nodes that:
 
 This design eliminates single points of failure while maintaining cluster-wide consistency of operational knowledge.
 
-Fault tolerance
+### Fault tolerance
 
 Cassandra employs the Phi Accrual Failure Detector to manage node failures during cluster operation. Through this system, each node independently assesses the availability of other nodes during gossip communication. When a node fails to respond, it is "convicted" and removed from write operations, though it can rejoin the cluster upon resuming heartbeat signals.
 
 To maintain data integrity during node outages, Cassandra uses a "hinted handoff" mechanism. When writing to an offline node, the coordinator node temporarily stores the write data as a "hint." Once the offline node returns to service, these hints are forwarded to restore data consistency. Notably, Cassandra only permanently removes nodes through explicit administrative decommissioning or rebuilding, preventing temporary communication failures or restarts from triggering unnecessary data rebalancing.
 
-Management and monitoring
+## Management and monitoring
 
 Cassandra is a Java-based system that can be managed and monitored via Java Management Extensions (JMX). The JMX-compliant Nodetool utility, for instance, can be used to manage a Cassandra cluster. Nodetool also offers a number of commands to return Cassandra metrics pertaining to disk usage, latency, compaction, garbage collection, and more.
 
 Since the release of Cassandra 2.0.2 in 2013, measures of several metrics are produced via the Dropwizard metrics framework, and may be queried via JMX using tools such as JConsole or passed to external monitoring systems via Dropwizard-compatible reporter plugins.
 
-Releases
+## Releases
 
 Releases after graduation include:
 
-Bibliography
+## Bibliography

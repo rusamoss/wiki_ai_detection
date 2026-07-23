@@ -4,13 +4,13 @@ Crown ethers strongly bind certain cations, forming complexes. The oxygen atoms 
 
 Crown ethers have been shown to coordinate to Lewis acids through electrostatic, σ-hole (see halogen bond) interactions, between the Lewis basic oxygen atoms of the crown ether and the electrophilic Lewis acid center.
 
-History
+## History
 
 In 1967, Charles Pedersen, who was a chemist working at DuPont, discovered a simple method of synthesizing a crown ether when he was trying to prepare a complexing agent for divalent cations. His strategy entailed linking two catecholate groups through one hydroxyl on each molecule. This linking defines a polydentate ligand that could partially envelop the cation and, by ionization of the phenolic hydroxyls, neutralize the bound dication. He was surprised to isolate a by-product that strongly complexed potassium cations. Citing earlier work on the dissolution of potassium in 16-crown-4, he realized that the cyclic polyethers represented a new class of complexing agents that were capable of binding alkali metal cations. He proceeded to report systematic studies of the synthesis and binding properties of crown ethers in a seminal series of papers. The fields of organic synthesis, phase transfer catalysts, and other emerging disciplines benefited from the discovery of crown ethers. Pedersen particularly popularized the dibenzo crown ethers.
 
 Pedersen shared the 1987 Nobel Prize in Chemistry for the discovery of the synthetic routes to, and binding properties of, crown ethers.
 
-Affinity for cations
+## Affinity for cations
 
 Due to the chelate effect and macrocyclic effect, crown ethers exhibit stronger affinities for diverse cations than their divided or acyclic analogs. Hereby, the cation selectivity for alkali metal ions is mainly dependent on the size and charge density of the ion and the cavity size of the crown ether.
 

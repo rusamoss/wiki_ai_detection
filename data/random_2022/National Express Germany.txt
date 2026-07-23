@@ -1,6 +1,6 @@
 National Express Germany is a railway operator in Germany. A subsidiary of National Express, it commenced trading in December 2015.
 
-History
+## History
 
 In February 2013 National Express was awarded two regional rail contracts in Germany by the Verkehrsverbund Rhein-Ruhr, Zweckverband Nahverkehr Rheinland and Zweckverband Nahverkehr Westfalen-Lippe authorities that commenced on 13 December 2015.
 
@@ -13,8 +13,8 @@ Following the financial difficulties of Abellio GmbH, National Express was award
 * Rhein-Express (RE/RRX 1) Aachen-Hamm
 * Rhein-Express (RE11) Düsseldorf-Kassel.
 
-Services
+## Services
 
-Rolling stock
+## Rolling stock
 
 To commence operations, National Express purchased 35 Bombardier Talent 2s in 2014. These were sold back to the Rhine-Ruhr Transport Association and Westphalia-Lippe Local Transport and leased back to National Express for the duration of the contract. The Rhein-Ruhr-Express services will be operated by Siemens Desiro HCs.

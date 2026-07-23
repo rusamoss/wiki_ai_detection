@@ -1,6 +1,6 @@
 Florida West International Airways, Inc. (often abbreviated as FWIA) was an American cargo airline based at Miami, Florida. It operated scheduled and charter services worldwide, with its main markets in Latin America, the Caribbean and the United States. The airline later became a subsidiary of the Atlas Air Worldwide Holdings.
 
-History
+## History
 
 The airline was founded in 1981 as a repair station at Miami Airport named Pan Aero International. It changed its name in January 1984 to Florida West Airlines.
 
@@ -10,8 +10,8 @@ In December 2000, LAN Airlines purchased 25% stake of the airline.
 
 On April 7, 2016, Atlas Air Worldwide Holdings, along with Southern Air, acquired Florida West International. On February 28, 2017, Atlas Air Worldwide Holdings shut down Florida West International, with the U.S. Department of Transportation cancelling their cargo carrier's certificates of authority on March 27.
 
-Destinations
+## Destinations
 
-Fleet
+## Fleet
 
 Florida West International Airways operated the following aircraft:

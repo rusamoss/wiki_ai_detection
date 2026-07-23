@@ -1,6 +1,6 @@
 Freshwater swamp forests, or flooded forests, are forests which are inundated with freshwater, either permanently or seasonally. They normally occur along the lower reaches of rivers and around freshwater lakes. Freshwater swamp forests are found in a range of climate zones, from boreal through temperate and subtropical to tropical.
 
-Appearance
+## Appearance
 
 A freshwater swamp forest is a type of wetland ecosystem characterized by its unique hydrology and vegetation. These forests are typically found in low-lying areas, riverbanks, and floodplains where there is a consistent supply of freshwater. A forest that is frequently flooded with relatively fresh water rich in minerals is referred to as a freshwater swamp forest. Since tropical freshwater swamp forests are a subset of tropical rainforests, they share environmental traits with other tropical rainforest formations.
 
@@ -8,11 +8,11 @@ Beyond these shared characteristics, however, the environment in freshwater swam
 
 Rain, rivers, and groundwater are all sources of water, whereas rain is the only source of water for peat swamp forests. The hue of the water in the freshwater swamp forest is typically an indication of the quantities of plant materials present in the water and soil. Contrary to ombrotrophic swamp forests, which only absorb nutrients from rain, freshwater swamp forest soils are relatively nutrient-rich. In freshwater swamp forests, rain and changes in the water table result in the deposition of nutrients and alluvial soils. The nutrient-rich soils may support wetland rice farming and oil palm plantations.
 
-Hydrology
+### Hydrology
 
 Within aquatic ecosystems, geomorphological, biological, and biogeomorphological processes and functions are significantly influenced by the flow of water. Flow significantly affects the spatial and temporal benthic community structure. They are often associated with slow-moving or meandering rivers, oxbow lakes, and other water bodies. Macroinvertebrate assemblages were significantly influenced by hydrological connectivity, with highly connected water bodies exhibiting more macroinvertebrate diversity than isolated water bodies, which tended to have less diverse assemblages and were predominated by a small number of taxa. Similar impacts have been seen in tropical ecosystems where flooding during the wet or monsoon season has led to an increase in migratory species proportions and changes in community assemblages. On a smaller scale, modifications to the flow regime that result in changes to the physical environment can boost habitat variety and, as a result, boost species diversity. Additionally, a highly varied environment might provide as a haven for species during times of stress like flooding or drought. Freshwater swamp forests contain soft, unstable, and anoxic soil due to their waterlogged condition, which may have influenced the evolution of unique root adaptations in these trees that resemble those seen in a real mangrove forest.
 
-Flora
+## Flora
 
 The vegetation in freshwater swamp forests is adapted to survive in waterlogged conditions. Common tree species include various types of mangroves, palms, and hardwood trees like mahogany and ebony. The canopy tends to be dense and can create a shaded environment beneath.
 
@@ -22,28 +22,28 @@ Many plants in freshwater swamp forests have special adaptations to cope with wa
 
 Freshwater swamp forests offer a variety of ecosystem services. They act as natural buffers against flooding by absorbing excess water during heavy rains. They also filter water, helping to improve water quality by trapping sediments and pollutants. These forests are crucial for carbon sequestration, playing a role in mitigating climate change.
 
-Human use
+## Human use
 
 Local communities often rely on freshwater swamp forests for resources such as timber, non-timber forest products (e.g., fruits, honey), and fish. Traditional agriculture may take place in the drier, elevated areas around the swamp forest. However, unsustainable logging and land conversion can threaten these ecosystems. Freshwater swamp forests are globally important and often designated as protected areas or Ramsar wetlands because of their ecological significance. Conservation efforts aim to protect these ecosystems from degradation and promote sustainable land use practices. Freshwater swamp forests are vulnerable to habitat destruction and degradation due to urbanization, agriculture, logging, and drainage for development. Climate change, including rising sea levels, can further threaten these ecosystems by altering water levels and salinity.
 
-Ecoregions
+## Ecoregions
 
 Globally, freshwater swamp forests are found in Southeast Asia, tropical Africa, and South America, with the largest areas being part of the Amazon basin. In Southeast Asia, they are found all over the region, frequently close to major rivers like the Mekong, Chao Phraya, and Irrawaddy in Thailand and Myanmar, as well as numerous smaller systems like the Sedili rivers in Johor. Although freshwater swamp forests are frequently found in wet climates, they can also be found in areas that are seasonally drier, such as west New Guinea and east Java.
 
 Freshwater swamp forests are a relatively understudied forest type in Southeast Asia, primarily because they are difficult to access and can harbor diseases spread by insects, such as mosquitoes. In the Amazon Basin of Brazil, a seasonally flooded forest is known as a várzea, and refers to a whitewater -inundated forest. Igapó refers to blackwater -inundated forest. Mangrove and peat swamp forests, for example, have a tendency to draw more attention than other wetland habitats. Peat swamp forests are swamp forests where waterlogged soils prevent woody debris from fully decomposing, which over time creates a thick layer of acidic peat.
 
-Afrotropic
+### Afrotropic
 
 * Eastern Congolian swamp forests (Democratic Republic of the Congo)
 * Niger Delta swamp forests (Nigeria)
 * Western Congolian swamp forests (Republic of the Congo, Democratic Republic of the Congo).
 
-Australasia
+### Australasia
 
 * Northern New Guinea lowland rain and freshwater swamp forests (Indonesia, Papua New Guinea)
 * Southern New Guinea freshwater swamp forests (Indonesia, Papua New Guinea)
 
-Southeast Asia
+### Southeast Asia
 
 * Borneo peat swamp forests (Brunei, Indonesia, Malaysia)
 * Chao Phraya freshwater swamp forests (Thailand)
@@ -59,7 +59,7 @@ Southeast Asia
 * Nelapattu Bird Sanctuary (India)
 * Nee Soon Swamp Forest (Singapore)
 
-Neotropic
+### Neotropic
 
 * Cantão igapó forest (Brazil)
 * Gurupa várzea (Brazil)

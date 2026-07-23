@@ -2,7 +2,7 @@ Edgar Morin (/ m ɔː ˈ r æ n /; French: [ɛdɡaʁ mɔʁɛ̃]; né Nahoum; 8 J
 
 During his academic career, Morin was primarily associated with the École des hautes études en sciences sociales (EHESS) in Paris. Although less well known in the Anglophone world due to the limited availability of English translations of his over 60 books, Morin is renowned in the French-speaking world, Europe, and Latin America.
 
-Life and career
+## Life and career
 
 Edgar was born in Paris on 8 July 1921, to Vidal Nahoum and Luna Beressi, Sephardic Jews from Salonica of distant Italian ancestry. He was registered as David-Salomon Nahoum, a name he was never known by; his parents settled on Edgar, which he later made official through an acte de notoriété. They moved to Marseille, and later to Paris. His family was secular and had not practiced Judaism for three generations. His mother died when he was ten years old.
 
@@ -32,11 +32,11 @@ In 2013, Morin supported Chief Raoni in his fight against the Belo Monte dam in 
 
 Morin died in Paris on 29 May 2026, at the age of 104. On 3 June, he was honored by a ceremony in the south courtyard of Les Invalides. At the ceremony, President Emmanuel Macron praised his "humanist" legacy.
 
-Polycrisis and complex thought
+## Polycrisis and complex thought
 
 After leaving the Communist Party in 1951, Morin's work moved toward a new "politics of civilization", which calls for the transformation of the human species into humanity and places the solidarity between people as a fundamental goal. Morin is the originator of the concept of polycrisis, a situation where multiple crises—environmental, social, economic, and political—are interconnected and amplify one another's impacts. To address this, Morin developed a framework called complex thought (pensée complexe) that goes beyond Reductionism by integrating various dimensions of reality.
 
-Polycrisis
+### Polycrisis
 
 The term polycrisis, first introduced by Morin, describes a situation in which multiple crises—environmental, social, economic, and political—are interconnected, amplifying each other’s impacts. This concept is deeply rooted in Morin's work, particularly in Terre-Patrie (1993), as well as in Homeland Earth: A Manifesto for the New Millennium (1999), where he explores how the global ecological crisis is inseparable from broader systemic issues such as inequality, governance failures, and cultural fragmentation.
 
@@ -44,7 +44,7 @@ The term polycrisis, first introduced by Morin, describes a situation in which m
 ** Crises are not isolated but interact dynamically, creating feedback loops (Terre-Patrie, 1993; La Méthode, Tome 1, 1977).
 ** Solutions to one crisis can exacerbate others, requiring integrated and systemic responses.
 
-Complex thought
+### Complex thought
 
 Morin's complex thought (pensée complexe) forms the foundation of his intellectual contributions. It is a paradigm that seeks to transcend Reductionism by integrating multiple dimensions of reality.
 
@@ -53,7 +53,7 @@ Morin's complex thought (pensée complexe) forms the foundation of his intellect
 ** Hologrammatic principle: Each part of a system contains the whole in some way.
 ** Recursive organization: Feedback loops between systems and their components.
 
-Paradigm of complexity
+### Paradigm of complexity
 
 Morin’s paradigm of complexity offers a methodological and epistemological shift in approaching knowledge. He advocates for connecting disciplines to address real-world problems, such as the polycrisis.
 
@@ -62,7 +62,7 @@ Morin’s paradigm of complexity offers a methodological and epistemological shi
 ** Education reform.
 ** Governance in times of uncertainty.
 
-Auto-eco-re-organization
+### Auto-eco-re-organization
 
 This concept emphasizes the self-organizing capacity of systems, coupled with their interaction with their environment (eco) and their ability to reorganize in response to challenges (re-organization). It is particularly relevant in understanding ecological systems and human societies.
 
@@ -70,19 +70,19 @@ This concept emphasizes the self-organizing capacity of systems, coupled with th
 ** Ecosystem resilience in the face of climate change.
 ** Societal adaptation during global crises.
 
-Reliance
+### Reliance
 
 Morin identifies reliance — the human capacity to create and maintain meaningful connections—as essential for addressing complex problems. This concept underscores the importance of solidarity and cooperation in a fragmented world.
 
-Metamorphosis
+### Metamorphosis
 
 In contrast to revolution, Morin proposes metamorphosis as a framework for understanding profound but gradual transformations in societies. This idea reflects his optimism for a potential transition to more sustainable and equitable systems.
 
-Chaosmos
+### Chaosmos
 
 A synthesis of chaos and cosmos, this concept highlights the interplay between disorder and order in complex systems. It is a central idea in Morin’s reflections on systems theory and ecology.
 
-Reform of thinking
+### Reform of thinking
 
 Morin emphasizes the need for a reform of thought to address the challenges of the polycrisis. He advocates for education that fosters:
 
@@ -92,7 +92,7 @@ Morin emphasizes the need for a reform of thought to address the challenges of t
 
 These principles are extensively explored and applied across various domains in Morin's six-volume magnum opus, La Méthode.
 
-Recognition and legacy
+## Recognition and legacy
 
 Morin did not embrace the French postmodern or poststructuralist movements, instead pursuing his own research agenda. As a result, US academics did not transport his theories into disciplinary discourses in same fashion as they did Michel Foucault 's, Jacques Derrida 's, and Béatrice Galinon-Mélénec 's. However, Morin's work spans scholarly and popular literature, and he has appeared on the cover of multiple publications including Sciences Humaines, as well as a special issue of Le Monde.
 
@@ -105,9 +105,9 @@ In addition to being the UNESCO Chair of Complex Thought, Morin is known as a fo
 
 Morin is the subject of several biographies as well as documentary films and TV shows, including the 2015 documentary Edgar Morin, chronique d'un regard, co-directed by Olivier Bohler and Céline Gailleurd. His 100th birthday in 2021 was celebrated in France, Italy, and Latin America, and several collections of essays were published in his honour. His work has been influential in southern Europe, Latin America, Francophone Africa, and into the 2020s in China and Japan. Morin's work has become increasingly accessible to the English-speaking world, notably with the 2022 publication of The Challenge of Complexity: Essays by Edgar Morin, which compiled 32 essays, including some that were translated into English for the first time. Morin worked on this collection with sociologist Amy Heath-Carpentier at the age of 101. Morin was elevated to the dignity of Knight Grand Cross of the Legion of Honour, in the Honours List of Bastille Day 2021 by French President Emmanuel Macron.
 
-Honours
+## Honours
 
-Books
+## Books
 
 * 1946: L'An zéro de l'Allemagne, Paris, Éditions de la Cité Universelle.
 * 1947: Allemagne notre souci, Paris, Éditions Hier et Aujourd'hui.
@@ -226,7 +226,7 @@ Books
 * 2024: Cheminer vers l'essentiel, Albin Michel
 * 2025: Y a-t-il des leçons de l'Histoire?, Denoël
 
-Films
+## Films
 
 * 1961: Chronique d'un été, co-created with Jean Rouch.
 * 1965: The Hour of Truth with Maurice Clavel et Henri Calef.
@@ -238,6 +238,6 @@ Films
 * 2014: Edgar Morin, chronique d'un regard. Created by Céline Gailleurd et Olivier Bohler.
 * 2017: Enseignez à vivre! – Edgar Morin et l’éducation innovante, by Abraham Ségal.
 
-Conferences
+## Conferences
 
 * 2005, "Restricted complexity, general complexity".

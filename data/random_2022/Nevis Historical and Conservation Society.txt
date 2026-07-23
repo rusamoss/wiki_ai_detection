@@ -1,16 +1,16 @@
 The Nevis Historical and Conservation Society is a nonprofit, non-governmental organisation (NGO) based in the Caribbean island of Nevis, founded in 1980 to protect the cultural and natural heritage of the island.
 
-Mission and funding
+## Mission and funding
 
 The Society, founded in 1980, is charged with protecting the cultural and natural heritage of the island of Nevis, which is part of the Federation of St. Kitts and Nevis, in the Leeward Islands, West Indies. The stated mission of the society is "Protecting & Promoting the Historical, Cultural and Natural Heritage of Nevis."
 
 The organization is funded through local and international memberships, donations, museum admissions and sales, annual fundraising events, and a modest subvention from the Nevis Island Administration.
 
-Museums and services
+## Museums and services
 
 The Society maintains three museums on the island, and has instituted projects and policies designed to preserve the island's unique history and environment, and to make that heritage accessible to locals and visitors.
 
-Museum of Nevis History
+### Museum of Nevis History
 
 The Alexander Hamilton Museum was for many years located in the building known as 'Hamilton House', a stone building on the waterfront near the center of Charlestown, the capital of Nevis. This Georgian building was built on the ruins of an earlier structure, now thought to be a stable that was destroyed by a hurricane in 1840. It now houses the Society's offices and the Museum of Nevis History. The building's upper floor hosts the Nevis Island Government's Legislative Offices, the Nevis Island Assembly. The museum building was long thought to be the house where the American statesman and Founding Father Alexander Hamilton was born and lived during his childhood.
 
@@ -18,7 +18,7 @@ In 2019, the NHCS was proud to unveil its new Museum of Nevis History exhibition
 
 Located just south of the museum building is the current site of the Alexander Hamilton Museum. in a wooden building, known locally as the Trott House, after the family that owned the house in recent times. In 2011, the wooden house and land were acquired by the Society. The house was intact, although it needed some repair and restoration before it could be opened to the public in 2018. A wall separating the wooden house from the stone house was removed and the land surrounding the wooden house was landscaped. A small outdoor café was moved to the southern edge of the property and is popular among locals and visitors alike.
 
-Horatio Nelson Museum
+### Horatio Nelson Museum
 
 The Horatio Nelson Museum is located to the southeast of Charlestown at Bellevue. The facility houses the Nevis Island Archives of historical records.
 
@@ -28,13 +28,13 @@ In 2022 the Society embarked on the redevelopment/re-branding of the Nelson Muse
 
 The new museums will not only spark an interest in tourists, but through the development of a variety of educational programming and tools, can also aim to inspire the next generation of Nevisians to champion the cause of cultural heritage and cultural industries in their communities.
 
-Joan Robinson Biodiversity and Oral History Resource Centre
+### Joan Robinson Biodiversity and Oral History Resource Centre
 
 The Bellevue facility also houses the Joan Robinson Biodiversity and Oral History Resource Centre, which was opened on April 22, 2009, and which currently consists of two laboratories. One is dedicated to recording and preserving the flora and fauna of Nevis and the other is a video editing suite, which is designed to preserve the oral history of the island by digitally recording the oldest people on the island, to preserve their memories of life on Nevis during the early parts of the 20th century. The Biodiversity and Oral History Projects were jointly funded by The United Nations Educational, Scientific and Cultural Organization (UNESCO), the Canada Fund for Local Initiatives (CIDA), the British High Commission (Barbados); and The Strabon Project (French Embassy, Saint Lucia).
 
 Among the notable aspects of these two projects is that local high school students perform most of the work. During the process they learn technical and scientific skills from NHCS staff and other experts in a wide variety of disciplines, including but not limited to, archaeology, marine and terrestrial biology, botany, GPS / GIS mapping and surveying techniques, still and video photography, website design and maintenance, video editing and production, and desktop publishing.
 
-Publications
+## Publications
 
 The Society previously published a quarterly newsletter, The Gathering, which detailed its current and ongoing projects. Since late 2021, the Society has been publishing its new-style Quarterly Newsletter.
 
@@ -42,4 +42,4 @@ In 1989, the NHCS published The Birds of Nevis, a 56-page booklet written by Pau
 
 In 2000, the society published a 69-page book entitled The Natural History of the Island of Nevis, edited by David Robinson and Jennifer Lowery, which included contributions such as a chapter on the island's freshwater invertebrates by biologist T. David Bass.
 
-Bibliography
+## Bibliography

@@ -2,7 +2,7 @@ Matrix is an open standard and communication protocol for real-time communicatio
 
 From a technical perspective, it is an application layer communication protocol for federated real-time communication. It provides HTTP APIs and open source reference implementations for securely distributing and persisting messages in JSON format over an open federation of servers. It can integrate with standard web services via WebRTC, facilitating browser-to-browser applications.
 
-History
+## History
 
 The initial project was created inside Amdocs, while building a chat tool called "Amdocs Unified Communications", by Matthew Hodgson and Amandine Le Pape. Amdocs then funded most of the development work from 2014 to October 2017. Matrix was the winner of the Innovation award at WebRTC 2014 Conference & Expo, and of the "Best in Show" award at WebRTC World in 2015. The protocol received praise mixed with some cautionary notes after it launched in 2014. Reviewers noted that other attempts at defining an open instant messaging or multimedia signalling protocol of this type had difficulties becoming widely adopted—e.g. XMPP and IRCv3 —and have highlighted the challenges involved, both technological and political. Some were unclear if there was enough demand among users for services which interoperate among providers. In 2015, a subsidiary of Amdocs was created, named "Vector Creations Limited", and the Matrix staff was moved there.
 
@@ -38,7 +38,7 @@ In March 2021, matrix.org announced that there are 28 million global visible acc
 
 In June 2021, the Fourth Estate announced the development of Ceriph, a pilot project that creates a secure messaging and communications service for news organizations and journalists based on the Matrix protocol.
 
-Protocol
+## Protocol
 
 Matrix targets use cases like voice over IP, Internet of Things and instant messaging, including group communication, along with a longer-term goal to be a generic messaging and data synchronization system for the web. The protocol supports security and replication, maintaining full conversation history, with no single points of control or failure. Existing communication services can integrate with the Matrix ecosystem.
 
@@ -51,7 +51,7 @@ The Olm library provides for optional end-to-end encryption on a room-by-room ba
 * vodozemac, the current reference implementation, written in Rust. In 2022, it has been audited by Least Authority, whose findings are publicly available and have been addressed by the Matrix team. The review was partially funded by Germany's national agency for the healthcare system digitalisation (Gematik).
 * libolm, the former reference implementation, has been subject of a cryptographic review by NCC Group, whose findings are publicly available, and have been addressed by the Matrix team. The review was sponsored by the Open Technology Fund.
 
-Bridges
+## Bridges
 
 Matrix supports bridging messages from different chat applications into Matrix rooms. These bridges are programs that run on the server and communicate with the non-Matrix servers. Bridges can either be acting as puppets or relays, where in the former the individual user's account is visibly posting the messages, and in the latter a bot posts the messages for non-puppeteered user accounts.
 
@@ -80,17 +80,17 @@ Bridges for the following notable applications are maintained by the community:
 * Whatsapp
 * LinkedIn
 
-Clients
+## Clients
 
 Element is the reference implementation of a client. The following client implementations exist; a possibly more complete list can be found on Matrix's website:
 
-Servers
+## Servers
 
 Synapse is the reference implementation of a Matrix home server, written in Python. A "second generation Matrix home server" called Dendrite is being developed by the Matrix core team. Dendrite is in beta.
 
 The following server implementations exist; a possibly more complete list can be found on Matrix's website:
 
-Adoption
+## Adoption
 
 Germany's national healthcare system's internal communication network uses a Matrix-based system (Ti-Messenger) for real-time communication among Germany's healthcare organizations and sharing of sensitive patient data, and is developed by the national agency for the digitalisation of the healthcare system (Gematik GmbH).
 

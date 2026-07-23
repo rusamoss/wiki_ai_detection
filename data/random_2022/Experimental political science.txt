@@ -1,6 +1,6 @@
 Experimental political science is the use of experiments, which may be natural or controlled, to implement the scientific method in political science.
 
-History development and usage
+## History development and usage
 
 In the 1909 American Political Science Association presidential address, A. Lawrence Lowell claimed: “We are limited by the impossibility of experiment. Politics is an observational, not an experimental science….” He argued that political science, as an emerging discipline, did not need to follow the experimental-led approach of the natural sciences. In the 1900s, observational research was the only way of doing research in political science.
 
@@ -40,9 +40,9 @@ Among the areas that it is used in are:
 * International relations
 * Interactions and voting in legislatures (and other deliberative assemblies), including the effects of different voting methods and control of the agenda.
 
-What makes a good experiment?
+## What makes a good experiment?
 
-Validity
+### Validity
 
 Social scientists, including political scientists, have long used validity to measure whether a particular analytical method can provide credible evidence for validating theoretical inferences. Donald Campbel defines validity as the validity of an empirical research design or method as the degree of approximation between the knowledge inference based on the design or method and the actual situation. Alternatively, validity is the extent to which we can believe that the empirical inference can reflect the real laws of human society. This definition has been recognized by most scholars.
 
@@ -52,65 +52,65 @@ Classification of validity aims to facilitate researchers to describe and conduc
 
 Internal validity is a prerequisite for external validity. If a reasonable estimate of the target group is not made, there is no point in extending relevant estimates to groups outside the target group.
 
-Internal validity
+#### Internal validity
 
 Internal validity refers to the degree to which knowledge inferences based on empirical research approximate the actual attitudes or behavioural patterns of the target population.
 
-Constructive validity
+##### Constructive validity
 
 Construct validity involves the generality of empirical inferences and aims to evaluate whether a research design is a reasonable and targeted assessment of the target theory.
 
-Causal validity
+##### Causal validity
 
 Causal validity is similar to the "identification problem" in economics, which examines whether an empirical design can effectively eliminate interference factors and provide accurate evidence for determining causal effects or mechanisms.
 
-Statistical validity
+##### Statistical validity
 
 Statistical validity refers to whether there is a significant and stable statistical relationship between the core causal factors of the study at the empirical level. The most common test of statistical validity is repeated testing of the same sample of the target population.
 
-External validity
+#### External validity
 
 External validity refers to how empirical inferences apply to populations other than the target population.
 
-Experimental designs
+## Experimental designs
 
-Laboratory experiment
+### Laboratory experiment
 
 Laboratory experiments place subjects in specific environments and examine how individuals make specific political decisions (such as voting, jury trials, and legislation). Laboratory experiments have stricter control over the experimental site and time, and the entire experimental process must be completed under the supervision and guidance of the researcher. Questionnaires are usually used to collect the subjects' personal information and experimental results.
 
 Laboratory experiments are usually carried out in independent laboratories, reflecting the researcher's understanding and attitude towards the information contained in time and space. Laboratory experiments emphasize the control environment and other non-experimental elements to maximize the exclusion of interference factors and accurately measure the causal effects of researched factors. The laboratory itself does not refer to the specialized laboratory used in the natural sciences. Classrooms, activity rooms, or other independent spaces can be used as experimental places.
 
-Conjoint survey
+### Conjoint survey
 
 The conjoint survey experiment is a method for examining multidimensional preferences.
 
-Lab-in-the-field experiment
+### Lab-in-the-field experiment
 
 At one extreme, "pure" laboratory experiments are carried out in environments that researchers highly control. Students are often a convenient sample in lab experiments because they are easy to participate in and able to follow the experimental instructions reliably. Natural experiments are the kind of design at another extreme. In natural experiments, participants are in the daily-live conditions, and they do not know they are being observed.
 
 Lab-in-the-field experimental research is located in a continuous spectrum between the "pure" lab experiments and natural experiments. It is conducted in a diversified environment with various types of subjects. The following four types of research experiments are distinguished according to the type of research problem they solve.
 
-Specific populations
+#### Specific populations
 
 The hypothesis may have to be tested by using specific populations. Or the researcher hopes to test if a result could be generalized to a broader or a representative, population.
 
-Measurement
+#### Measurement
 
 Lab procedures can be put into use in the measurement of the field. Risk aversion, time preference (patience), altruism, cooperation, competition, and in-group discrimination are the most common measures.
 
-Recruiting the treated
+#### Recruiting the treated
 
 This kind of lab-in-the-field experiment is for the circumstance that participants who have already been treated are being recruited. The experimenters are recruiting rather than implementing treatments.
 
-Teaching
+#### Teaching
 
 The purpose of the experimenter may be to teach the target population about the games by using a lab-in-the-field approach. Through this process, the experimenter could target a particular policy problem. The game could be the treatment in this circumstance.
 
-Audit study
+### Audit study
 
 Audit studies are often used for measuring bias or discrimination. Audit studies are part of the constructure of a giant field experiment. This field experiment aims to measure the behaviour of participants in the field rather than to change it. In most cases, researchers use the ways like sending messages to measure participants' behaviours unobtrusively.
 
-Ethics
+## Ethics
 
 Experimental research methods in political science have unavoidable ethical questions: Can humans be used for experiments? While experiments in political science usually do not cause physical harm, the elements of deception is commonly existing.
 
@@ -124,7 +124,7 @@ In 1968, Standing Committee on Professional Ethics was founded. Their job mainly
 
 In 1989 and 2008, the code of rules of professional conduct was revised.
 
-Ways ahead in experimental political science
+## Ways ahead in experimental political science
 
 After the 1970s, most political scholars began to use experimental methods to focus their research on political behaviour, public opinion, and mass communication. The classic topics include exploring the behavioural preferences and choices of different social groups in group actions, the influence of campaign propaganda on voting results in the voting process, the influence of media propaganda on public attitudes, and the influence of personality on political participation.
 

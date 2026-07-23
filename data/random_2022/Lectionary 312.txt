@@ -1,12 +1,12 @@
 Lectionary 312 (Gregory-Aland), designated by siglum ℓ 312 (in the Gregory-Aland numbering) is a Greek manuscript of the New Testament, on parchment. Palaeographically it has been assigned to the 9th century. The manuscript has survived in a fragmentary condition.
 
-Description
+## Description
 
 The original codex contained lessons from the Gospels (Evangelistarium), on 2 fragment parchment leaves, with some lacunae. It contains the text of Matthew 20:8-15; Luke 1:14-20.
 
 The text is written in Greek uncial letters.
 
-History
+## History
 
 Gregory dated the manuscript to the 9th century. It is presently assigned by the INTF to the 9th century.
 
@@ -16,6 +16,6 @@ Currently the codex is housed at the Saint Catherine's Monastery in the Sinai.
 
 The fragment is not cited in critical editions of the Greek New Testament (UBS4, NA27).
 
-Notes and references
+## Notes and references
 
-Bibliography
+## Bibliography

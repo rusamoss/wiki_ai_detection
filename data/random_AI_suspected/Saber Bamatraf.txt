@@ -2,29 +2,29 @@ Saber Bamatraf (Arabic: صابر بامطرف) is a Yemeni musician and cultural
 
 Bamatraf's collaborative activism with his wife has appeared on various film and media outlets and at festivals. Notable features include BBC Scotland ’s Loop (Series 4, Episode 3), the short film When the Music Stops by Declassified UK, and the documentary Voice of the Rainbow (Arabic: صوت قزح) at Karama Human Rights Film Festival, in addition to the theatre play Saber Came to Tea at Edinburgh Festival Fringe.
 
-Early life and education
+## Early life and education
 
 Saber Bamatraf was born in 1988, in Aden (Democratic Yemen, now Yemen) to a Hadhrami family originally from Ghayl Ba Wazir. He attended elementary school in Ghayl Ba Wazir before moving to the capital, Sana'a, where he spent most of his life. In 2013, Bamatraf graduated with a Bachelor of Information Technology with honours from Universiti Utara Malaysia, completing his studies at the university's Sana'a branch.
 
 During his university years, Bamatraf met Shatha Altowai, a fellow student pursuing the same degree. The two married in August 2014, shortly before fall of Sana'a to the Houthi rebels, a significant turning point in the escalation of the Yemeni civil war and their lives. Although Bamatraf did not formally study art or music, these fields remained his lifelong passion, which he has been practicing since childhood, specially music, using a small keyboard owned by his elder brother.
 
-Early career in Yemen
+## Early career in Yemen
 
 After graduating in 2013, Saber Bamatraf began working in the humanitarian sector with the International Committee of the Red Cross in Sana'a, while simultaneously participating in the creative industry through small-scale events. Although he had been playing the piano since childhood, Bamatraf considers his marriage to Shatha Altowai in August 2014 was the start of his artistic journey. He has expressed in many occasions how his wife's talent inspired him, ultimately leading the couple to share their artistic experiences with the public.
 
 Following their marriage, Bamatraf drew inspiration from his wife's artworks to compose original music pieces that often explored societal issues and their personal journey. He frequently performed his compositions at public events in Yemen as a solo pianist, with many of these occasions highlighting the couple's collaborative efforts either on stage or at shared events that featured both of their artistic contributions.
 
-Struggle during wartime
+### Struggle during wartime
 
 In July 2015, Bamatraf's home was damaged in a Saudi-led Coalition airstrike targeting a neighbouring building, forcing him and his wife to become displaced. The couple regards this event as a major setback to their artistic practice. Furthermore, according to the couple, their efforts to engage in the public sphere as an artistic duo were met with societal challenges, reflecting broader conservative and patriarchal norms in Yemen where women’s participation in public and artistic roles is often viewed as sensitive or unconventional. These difficulties were compounded by the ongoing conflict, which further restricted their opportunities and freedom to create.
 
-Voice of the Rainbow (2018)
+## Voice of the Rainbow (2018)
 
 Saber Bamatraf's story and his artistic collaboration with his wife Shatha Altowai gained wider attention in the Yemeni local context, and were featured in a short documentary titled Voice of the Rainbow (Arabic: صوت قزح), which was selected to be screened at the Karama Human Rights Film Festival that was supposed to take place in Sana'a in October 2018.
 
 The poster for the film, depicting Bamatraf and his wife surrounded by art and music materials, led to a controversy from the Houthi rebel group. The Houthis accused the film and the festival of "promoting moral decadence and advancing an agenda that serves the enemy," which led to the suspension of the festival. The controversy escalated into threats against the couple, ultimately forcing them to cease their public art practice during their remaining time in Yemen.
 
-The controversy around the film
+### The controversy around the film
 
 The hosting organisation of the Karama Human Rights Film Festival, Yemen Will Triumph (now known as Youth of The World Together), had previously announced that the event aimed to shed light on the suffering of Yemeni people caught in the fires of war. The festival also sought to highlight issues affecting displaced persons, the rights and challenges faced by women and children, and the broader impacts of war on these vulnerable groups. Additionally, it intended to address themes of democracy, peace, and coexistence.
 
@@ -40,7 +40,7 @@ In contrast, some individuals supported the cancellation, alleging that the fest
 
 In a research tilted The Role of Arts in Peacebuilding in Yemen (2021) published by the Centre for Applied Research in Partnership with the Orient (CARPO), Saber Bamatraf and Shatha Altowai revealed the challenges they faced seeking relocation due to widespread visa rejections for Yemeni nationals. While sending multiple urgent applications to organisations, they expressed frustration that some of the individuals responsible for the harassment campaign against them were being recognised and welcomed with gifts at the Stockholm negotiations in December 2018, which was between the conflicting parties, the government of Yemen and the Houthi rebels.
 
-Move to Edinburgh
+## Move to Edinburgh
 
 In November 2020, Saber Bamatraf relocated to Edinburgh after being awarded the IIE - Artist Protection Fund award, which was hosted within the Institute for Advanced Studies in the Humanities (IASH) within the University of Edinburgh from 2020 to 2021, his wife Shatha has also received a separate award from the Artist Protection Fund within the same period, allowing both of them to resume their artistic endeavours after years of challenges in a conflict-ridden environment.
 
@@ -48,7 +48,7 @@ In a speech at University College London, Saber stated that arriving in Edinburg
 
 During his fellowship, Bamatraf released a series of music compositions as part of his research project. His creative output included his second album, Embrace from Edinburgh. Concurrently, he participated in research initiatives exploring the intersections of art, conflict, and women's issues. At the conclusion of his fellowship, Bamatraf co-created a short play titled Saber Came to Tea.
 
-Embrace from Edinburgh (2021)
+### Embrace from Edinburgh (2021)
 
 In July 2021, Saber Bamatraf released his second album, Embrace from Edinburgh, coinciding with the opening of his wife Shatha Altowai ’s exhibition, The White Canvas, at IASH within the University of Edinburgh. The album comprises seven original New Age compositions, written following his relocation to Edinburgh, and reflects the inspiration drawn from the city's landscapes, history, and atmosphere. The music explores themes of peace, resilience, and transition after years of uncertainty in a conflict-affected environment.
 
@@ -56,7 +56,7 @@ The album was described by Monte Carlo Doualiya as a collection of “musical pa
 
 The influence of Edinburgh’s landscape is evident in the album’s track titles, which include Snowtime, inspired by the city’s winter scenery, and Walk at the Meadows, referencing a location frequented by Bamatraf and Altowai. Other compositions, such as The Alleys, Safehaven, and Morningside —named after an Edinburgh neighbourhood—similarly draw upon the city's geography and ambiance. Khalil described the album’s melodies as cinematic, likening them to a soundtrack that immerses the listener in a reflective journey through nature.
 
-Saber Came to Tea (2021)
+### Saber Came to Tea (2021)
 
 At the conclusion of Saber's fellowship at the University of Edinburgh, he collaborated with Art27Scotland to co-create a short play titled Saber Came to Tea. The play was inspired by true events from the lives of him and his wife, Shatha Altowai. The production blended original music and multimedia elements to narrate their story defying societal traditions and risking their lives to be together.
 
@@ -66,13 +66,13 @@ In its premier in October 2021, the play was followed by a panel discussion sess
 
 In 2022, Bamatraf joined Art27Scotland as a project coordinator and artist-in-residence. In this capacity, he re-presented Saber Came to Tea at the Edinburgh Festival Fringe in August 2022, as part of a series of events curated by Art27Scotland.
 
-Major media features
+## Major media features
 
 In November 2021, Saber Bamatraf’s story with his wife, Shatha Altowai, was featured in BBC Radio Scotland 's Sunday Morning with Connie McLaughlin. This was followed by BBC Scotland ’s Loop (Series 4, Episode 3), titled A Journey to Creative Freedom. The episode was subsequently named a finalist in the Refugee Festival Scotland Media Awards in June 2022.
 
 Bamatraf also appeared in the short film When the Music Stops by Declassified UK, released in March 2022, which reflected on Britain's arms trade and its impact on his life and work.
 
-Other endeavours
+## Other endeavours
 
 In June 2023, Bamatraf played a key role in coordinating Art27Scotland's Festival of Migration in Edinburgh. As part of the festival, he participated in The Southside Symphony concert, an ensemble that brought together musicians from diverse backgrounds, each contributing compositions inspired by the theme of migration. Bamatraf contributed his composition Hadhrami Nights.
 
@@ -80,9 +80,9 @@ In September 2023, Bamatraf has given a keynote speech at the Res Artis conferen
 
 In 2024, Bamatraf joined the musical ensemble The Other as a pianist. During their Edinburgh Festival Fringe 2024 performance, he and Altowai collaborated with the ensemble on a multimedia piece titled Just Like Her Mum, integrating music and visual storytelling.
 
-Selected discography
+## Selected discography
 
-Albums
+### Albums
 
 Turning Point (2021)
 
@@ -102,12 +102,12 @@ Embrace from Edinburgh (2021)
 * A Walk at the Meadows (2021)
 * Snowtime (2021)
 
-Singles
+### Singles
 
 * Mirrored Autumn (2020)
 * The Pursuit of Liberty (2021)
 * The White Canvas (2021)
 
-Covers
+### Covers
 
 * Dhabi AlYaman (2021)

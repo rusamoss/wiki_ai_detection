@@ -1,83 +1,83 @@
 Polistes carolina is one of two species of red paper wasp found in the eastern United States (the other being Polistes rubiginosus) and is noted for the finer ridges on its propodeum. It is a social wasp (subfamily Polistinae) in the family Vespidae. They are native to the United States from Texas to Florida, north to New York, and west to Nebraska. The wasp's common name is due to the reddish-brown color of its head and body. P. carolina prefer to build their nests in protected spaces.
 
-Taxonomy and phylogeny
+## Taxonomy and phylogeny
 
 The first description of Polistes carolina appears in the first volume of Carl Linnaeus ' 12th edition of Systema Naturae published in 1767. In this volume, he referred to the species as Vespa carolina. Henri Louis Frédéric de Saussure later moved it to the genus Polistes in 1855 after Pierre Andre Latreille coined the new genus in 1802. P. carolina is within the family Vespidae, which includes nearly all of the eusocial wasps and many of the solitary wasps. It is further placed within the subfamily Polistinae (paper wasps), which is the second-largest of the subfamilies within the Vespidae. The Polistinae contain two main behavioral groups: swarm founding, involving a large numbers of workers and several foundresses, and independent founding, which involve a few workers and foundresses. (P. carolina uses the latter.)
 
 P. carolina has been found to be most closely related to P. metricus. Recent phylogenetic analysis has shown that both P. carolina and P. metricus share a common ancestor with P. aurifer and P. fuscatus.
 
-Description and identification
+## Description and identification
 
 Both sexes of P. carolina are about 25–32 mm (0.98–1.26 in) long with black wings of lengths ranging from 15–25 mm (0.59–0.98 in). P. carolina is often confused with P. rubiginosus due to its strikingly similar reddish-brown coloring. Females can be separated by the bare genae of P. carolina in contrast to the silvery pubescence on the genae P. rubiginosus. Both sexes can also be differentiated by the coarser transverse ridging of the propodeum of P. rubiginosus when compared with P. carolina. Additionally, female P. carolina specimens have mostly bare malar spaces (the distance between the lower eye orbit and the mouth).
 
-Sexual dimorphism
+### Sexual dimorphism
 
 Females of Polistes carolina are usually completely ferruginous (rust in color) with the possibility of black markings forming spots around their eyes, lines on the dorsal surface of the scape, narrow lateral stripes on their scuta, or an incomplete median stripe on their propodea. Bands on sternum 2 or terga 3 and 4 can also be present. Additional very restricted yellow markings can be observed on mandibles, clypei, inner orbits, terga 1, the outer surfaces of the tibiae, and tarsi. Females also have more triangular faces with shorter antennae.
 
 Males often have more developed black or brown markings such as spots on the midfemur and sterna. Yellow markings vary, but have been reported on the face and sterna 1 through 4. Additionally, males have more squarish faces with longer hooked antenna.
 
-Nests
+### Nests
 
 Like most paper wasps, P. carolina constructs nests by chewing plant and wood fibers with saliva to create a paper-like material. When dried, their nests form an upside-down umbrella or dome shape with exposed honeycomb-like cells, opening at the bottom. P. carolina prefers to nest in protected spaces, such as naturally occurring locations in vegetation or the cavities of trees. They also frequently nest in man-made structures, such as the underside of bridges, roofs, chimneys, and eaves.
 
-Distribution and habitat
+## Distribution and habitat
 
 P. carolina is most commonly found in the eastern United States (along with another "red paper wasp", Polistes rubiginosus) from Nebraska to Texas and along the Atlantic coast from New York to Florida. It has also been recorded as an adventitious species in Ontario, Canada, and was introduced to Bermuda.
 
 It prefers to nest in protected areas such as hollow trees and is often observed in woodlands. However, given the opportunity, it will also construct nests near humans, such as the undersides of roofs.
 
-Colony cycle
+## Colony cycle
 
 The Polistes colony cycle involves four separate phases which often overlap: the founding phase, the worker phase, the reproductive phase, and the intermediate phase.
 
-The founding phase
+### The founding phase
 
 The founding phase begins in the spring and involves young reproductive females (called foundresses) building new nests, either alone or in conjunction with other foundresses. In field studies, P. carolina was observed to have a range of one to eight foundresses in surviving colonies. During the founding period, many foundresses move between nests, sometimes settling at another nest (movers) and sometimes returning to their own nest (visitors). In this way, the foundress continues to reassess her reproductive options. During these visits, foundresses were also observed to lay eggs in other nests. While most nests are initiated by one foundress, they are usually joined by full sisters which become subordinates during this period.
 
-The worker phase
+### The worker phase
 
 During the worker phase in many Polistes species, adult workers and early males are enclosed. P. carolina, however, lacks early males during this time and instead only produces worker females. As workers emerge, they begin to assume colony tasks, such as nest maintenance, foraging, and larval care.
 
-The reproductive phase
+### The reproductive phase
 
 The reproductive phase lasts from the emergence of the first reproductives until the colony begins to decline and new reproductives disperse to form their own nests. During this time, each foundress mates with a different male and lays her eggs, with the dominant foundress laying the majority of the eggs.
 
-The intermediate phase
+### The intermediate phase
 
 The time between colony decline and the founding of new colonies, the initial colony begins to disperse as new reproductives search for locations to initiate their own nests. The foundresses of the colony often disappear during this time, as males accumulate in the nest.
 
-Behavior
+## Behavior
 
-Dominance hierarchy
+### Dominance hierarchy
 
 Foundress associations in Polistes species establish clear dominant and subordinate relationships in which the dominant gains the most reproduction success. Unlike in many species, the queen (most dominant foundress) is not necessarily the largest female. Rather, the first foundress to arrive becomes the queen and any subsequent joiners become subordinates. While the queen may not be the largest foundress, field studies have shown that the dominant foundress usually has the largest ovaries of all foundresses present at the nest. Precedence rather than size hierarchy indicates that the earliest foundress may simply be the fittest. This is supported by evidence that the first female to emerge from hibernation has the most developed corporar allata (the site of juvenile hormone synthesis) and high juvenile hormone synthesis is correlated with dominance and ovarian development in Polistes. This convention could also be a method to prevent fighting amongst near equals, thus decreasing the risk of injury for both dominants and subordinates.
 
-Adopting a nest
+### Adopting a nest
 
 During the founding phase of the colony cycle, many foundresses leave their nests and join another. Foundresses that move most frequently join the nest of a full sister, yet do not increase their reproductive rank upon joining a new nest. The moving foundress usually lays her eggs at her previous nest, so joining a new nest is a surprising behavior as the offspring will not be directly related to her. These moving foundresses help care for the offspring, which has been shown to be very important for the survival of the colony. Colonies with subordinate foundresses have a much higher success rate and higher productivity than solitary colonies.
 
-Reproductive suppression
+### Reproductive suppression
 
 The foundress dominates reproduction, but not exclusively. Foundresses produce about 60% of total offspring and several subordinates produce the remaining 40%. Only about 20% of subordinates associated with any given nest do not participate in reproduction. According to skew theory, as resources become more scarce, the queen concedes less of her reproductive rights to subordinates (reproduction becomes more skewed toward the queen) since subordinates have more limited nesting options. Additionally, P. carolina does not participate in egg eating, which supports the theory that aggression is not the primary method of determining reproductive share.
 
-Mating behavior
+### Mating behavior
 
 In P. carolina, several foundresses mate; however, each foundress only mates once. The absence of early males in P. carolina is unique when compared to other Polistes species. This lack of early males, however, indicates that female workers do not become inseminated queens in this species as is common in other wasp species.
 
-Genetic relatedness of colonies
+### Genetic relatedness of colonies
 
 P. carolina, like many eusocial insects, follows a haplodiploidy sex determination system, meaning males are haploid and develop from unfertilized eggs, while females are diploid and develop from fertilized eggs. Daughters share one identical allele from their haploid father and receive the other allele from their diploid mother's two alleles. This knowledge allows determination of the relatedness among individuals via algorithms and computer programs such as Relatedness 4.2 and Kinship 1.1.2. Due to this system of reproduction, genetic relatedness among nestmate foundresses is about 0.75. Mating males, however, are not related to other males, nor are they related to the females with which they mated.
 
-Kin recognition and discrimination
+### Kin recognition and discrimination
 
 P. carolina demonstrates altruistic behavior in kin feeding. Many Polistes females feed their own progeny preferentially to increase their survival success. P. carolina, however, does not recognize or preferentially care for its own progeny. This behavior could also account for the lack of conflict often observed in this species.
 
-Feeding
+## Feeding
 
-Diet
+### Diet
 
 P. carolina wasps feed mostly on caterpillars and nectar fluids. They have also been observed to prey on Chrysomelidae larvae and cicadas. Females feed offspring by putting their heads into the cells containing the larvae. Feeding of larvae can involve visible transfers of food, such as caterpillar flesh held in their jaws or invisible transfers of nectar fluids.
 
-Human importance
+## Human importance
 
 Since P. carolina nests in sheltered areas, it commonly constructs nests in close proximity to humans, such as the open space under a roof. Typical paper wasps are relatively unaggressive, only attacking humans and animals if they or their nests are being threatened; however, only females have the ability to sting. Unlike bees, wasps do not have barbed stingers that can be lost, so they are able to sting multiple times to defend a nest.

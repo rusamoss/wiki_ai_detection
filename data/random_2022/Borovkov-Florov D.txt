@@ -1,10 +1,10 @@
 The Borovkov-Florov D was an experimental fighter aircraft designed in the USSR from 1940.
 
-Development
+## Development
 
 The 'D' was designed as a mixed power fighter with a piston engine and Merkulin ramjet booster operating in the same duct. A 1,500 kW (2,000 hp) Shvetsov M-71 engine was intended to be the main powerplant but it is unclear how the thermodynamic cycles of the two engines were to be linked. Similar aircraft were built later in the German-Soviet War using the main engine to drive a propeller and a compressor to supply air to a ramjet/afterburner booster, both the Su-5 and MiG-13 were produced in limited numbers but the performance gains were limited and soon eclipsed by turbo-jet engines. The 'D' was to have been a gull- winged monoplane with high set wing, of stressed skin construction with exceptionally smooth skin stabilised by underlying corrugated structure. A heavy armament of two 37 mm (1.457 in) Nudelman-Suranov NS-37 cannon and two 20 mm (0.787 in) ShVAK cannon was included, but all work was abandoned with the German invasion of 1941.
 
-Specifications
+## Specifications
 
 Data from
 

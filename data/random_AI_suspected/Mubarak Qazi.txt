@@ -2,7 +2,7 @@ Mubarak Qazi (Balochi: مبارک کازی), 24 December 1956 – 16 September 2
 
 Renowned for his evocative poetry that blended themes of love and politics, Qazi emerged as a powerful literary figure in Balochistan 's cultural landscape.
 
-Biography
+## Biography
 
 Born in 1956 in the coastal town of Pasni in Balochistan, Qazi was the son of Kahuda Amaanullah. Qazi received his early education in his hometown of Pasni, completing his matriculation in 1972 before pursuing higher studies in Karachi, where he graduated from Sindh Muslim Arts College. He later earned a master's degree in international relations from the University of Balochistan (UoB).
 
@@ -10,7 +10,7 @@ Over the course of his career, he published multiple collections of poetry. Qazi
 
 In 2014, his son, Kambar Mubarak, reportedly affiliated with a radical separatist group, was killed in an armed confrontation within Kech District. Qazi remained a respected and influential figure in Balochi literature until his death on 16 September 2023.
 
-Works
+## Works
 
 * Zarnawisht (1990)
 * Shag Man Sabzen Sawada (2003)

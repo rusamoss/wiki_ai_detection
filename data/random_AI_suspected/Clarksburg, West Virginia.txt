@@ -1,12 +1,12 @@
 Clarksburg is a city in Harrison County, West Virginia, United States, and its county seat. The population was 16,039 at the 2020 census, making it the tenth-most populous city in West Virginia. It is the principal city of the Clarksburg micropolitan area in North Central West Virginia, which had a population of 90,434 in 2020.
 
-History
+## History
 
 Indigenous peoples have lived in the area for thousands of years. The Oak Mounds outside Clarksburg were created by the Hopewell culture mound builders between A.D. 1 and 1000.
 
 The first known European visitor to the area that later became Clarksburg was John Simpson, a trapper, who in 1764 located his camp on the West Fork River opposite the mouth of Elk Creek at approximately 39°16′53″N 80°21′05″W ﻿ / ﻿ 39.28128°N 80.35145°W ﻿ / 39.28128; -80.35145.
 
-Settlement and early history
+### Settlement and early history
 
 As early as 1772, settlers began claiming lands near where Clarksburg now stands and building cabins. In 1773, Major Daniel Davisson (1748–1819) took up 400 acres (1.6 km 2), upon which the principal part of the town is now located. By 1774, those settling near present Clarksburg included Daniel, Obadiah, and Amaziah Davisson, Thomas, John, and Matthew Nutter, Samuel and Andrew Cottrill, Sotha Hickman, and Samuel Beard. Others likely settled on public lands without record.
 
@@ -18,7 +18,7 @@ Transportation improvements accelerated development. The Northwestern Turnpike r
 
 Two notable early landmarks survive from this era: the Stealey–Goff–Vance House (1807, expanded 1891, NRHP 1979) and Waldomore (begun 1839, public library 1931–1976, NRHP 1978).
 
-Civil War
+### Civil War
 
 At the Virginia Secession Convention of 1861, Harrison County delegates John S. Carlile and Benjamin Wilson took opposing paths. Carlile helped lead the Wheeling Convention and was appointed U.S. senator by the Restored Government of Virginia, later opposing the West Virginia statehood bill. Wilson abstained on April 17, then signed the secession ordinance, was arrested by Union forces and released, and later served as a U.S. senator from West Virginia.
 
@@ -26,7 +26,7 @@ Union General McClellan established his headquarters near Clarksburg until the F
 
 The wartime influx of troops and demand for goods stimulated the local economy, while debates over slavery and secession heightened political tensions.
 
-Postwar industrialization
+### Postwar industrialization
 
 In 1877, Clarksburg was one of three cities on the ballot for state capital. Despite an early lead, it finished second and Charleston became the capital.
 
@@ -42,11 +42,11 @@ As the Great Depression began, the Farmers Bank closed in 1929 and the Bank of W
 
 Clarksburg avoided the worst urban blight and preserved much of its boom-era architecture. The West Virginia Preservation Alliance, the state's first, was created in Clarksburg in 1981.
 
-Mountaineer Militia
+### Mountaineer Militia
 
 On October 11, 1996, seven men with connections to the Mountaineer Militia, a local anti-government paramilitary group, were arrested on charges of plotting to bomb the Federal Bureau of Investigation 's Criminal Justice Information Services Division complex in Clarksburg. Militia leader Floyd Raymond Looker obtained blueprints of the FBI facility from a Clarksburg firefighter and arranged to sell them for $50,000 to an undercover FBI agent. Plastic explosives were confiscated at five locations in West Virginia, Pennsylvania, and Ohio. In 1998, Looker was sentenced to 18 years in prison. Two other defendants were sentenced on explosives charges, and the firefighter received a year in prison for providing the blueprints.
 
-Geography
+## Geography
 
 Clarksburg is located along the West Fork River and Elk Creek.
 
@@ -54,15 +54,15 @@ According to the United States Census Bureau, the city has a total area of 9.74 
 
 Clarksburg is located in West Virginia's North-Central region. It lies within the ecoregion of the Western Allegheny Plateau.
 
-Climate
+### Climate
 
 Clarksburg had a humid continental climate if one considers the 0 °C isotherm. The latest temperature numbers have the climate as humid subtropical (Cfa). To the molds of Köppen the climate may be considered the southern boundary of the Dfb zone at low altitudes in the North American continent (limit of 39 ° N), although in the immediate vicinity it is Dfa. The city still suffers strong influences from the south, especially from the Gulf of Mexico but due to its location has a much more significant influence of the cold air intrusion of Canada, where it is not protected by the Appalachians. The extent further to the south is due to the eastern and southeastern mountain ranges blocking the oceanic influence in part, even if it is minimal anyway by the considerable distance from the coast. At the same time it can be classified as Cfa or hybrid of different climatic zones according to the criterion to be surveyed, a situation similar to that of Boston. It is the Dfb boundary throughout the northern hemisphere if it is to be disregarded in elevated regions on all continents. The southern record could appear on the Korean peninsula but the dry season defined version (Dwb) predominates in these locations. The average temperature is 52.2 °F (11.2 °C) with a high average of 63.3 °F (17.4 °C) and a low average of 41.1 °F (5.1 °C). It has 45.6 inches (1,160 mm) of rain with peak in May (4.8 inches or 122 mm) and lower value in February with 3.2 inches (81 mm). The amount of total snow is 25 inches (64 cm), with highest values between January and February, 8 inches (20 cm) in total for each month. Since the season of snowfall goes from November to March.
 
 Record temperatures range from −24 °F (−31 °C) on January 19, 1994, up to 102 °F (39 °C) as recently as September 3 and 4, 1953.
 
-Demographics
+## Demographics
 
-2020 census
+### 2020 census
 
 As of the 2020 census, Clarksburg had a population of 16,061. The median age was 40.5 years. 21.4% of residents were under the age of 18 and 18.6% of residents were 65 years of age or older. For every 100 females there were 96.2 males, and for every 100 females age 18 and over there were 93.7 males age 18 and over.
 
@@ -72,7 +72,7 @@ There were 6,977 households in Clarksburg, of which 26.3% had children under the
 
 There were 8,129 housing units, of which 14.2% were vacant. The homeowner vacancy rate was 3.3% and the rental vacancy rate was 10.3%.
 
-2010 census
+### 2010 census
 
 As of the census of 2010, there were 16,578 people, 7,213 households, and 4,179 families residing in the city. The population density was 1,702.1 inhabitants per square mile (657.2/km 2). There were 8,132 housing units at an average density of 834.9 per square mile (322.4/km 2). The racial makeup of the city was 92.9% White, 3.9% African American, 0.2% Native American, 0.3% Asian, 0.3% from other races, and 2.4% from two or more races. Hispanic or Latino people of any race were 1.6% of the population.
 
@@ -80,7 +80,7 @@ There were 7,213 households, of which 28.5% had children under the age of 18 liv
 
 The median age in the city was 39.5 years. 21.9% of residents were under the age of 18; 7.9% were between the ages of 18 and 24; 26.8% were from 25 to 44; 27.1% were from 45 to 64; and 16.3% were 65 years of age or older. The gender makeup of the city was 48.0% male and 52.0% female.
 
-2000 census
+### 2000 census
 
 As of the census of 2000, there were 16,743 people, 7,447 households, and 4,378 families residing in the city. The population density was 1,758.3 inhabitants per square mile (678.9/km 2). There were 8,662 housing units at an average density of 909.7 per square mile (351.2/km 2). The racial makeup of the city was 93.86% White, 3.83% African American, 0.13% Native American, 0.36% Asian, 0.05% Pacific Islander, 0.44% from other races, and 1.34% from two or more races. Hispanic or Latino people were 1.06% of the population.
 
@@ -90,7 +90,7 @@ In the city, the population was spread out, with 21.1% under the age of 18, 8.3%
 
 The median income for a household in the city was $27,722, and the median income for a family was $35,075. Males had a median income of $30,194 versus $22,388 for females. The per capita income for the city was $17,587. About 14.8% of families and 19.8% of the population were below the poverty line, including 28.5% of those under age 18 and 11.9% of those age 65 or over.
 
-Economy
+## Economy
 
 Clarksburg’s economy historically centered on manufacturing, glass production, and transportation. The city’s location along major rail lines and its proximity to natural gas and raw materials attracted industries such as chemical plants, brickworks, potteries, foundries, machine shops, hardwood and casket companies, and several major glass factories. Among these were the Akro-Agate marble company, the Hazel-Atlas Glass Company, the Rolland Glass Company, and the Jackson (later Phillips) Sheet and Tin Plate Company, an early forerunner of Weirton Steel. Economic growth brought successive waves of immigrants in the 19th and early 20th centuries, including Irish, Italians, Greeks, French, Belgians, and Spanish.
 
@@ -102,7 +102,7 @@ Federal and technology employment expanded in the 1990s, highlighted by the open
 
 In 1975 Clarksburg opened a new public library designed by architect Marcel Breuer, adding another distinctive element to its architecturally rich downtown. The city today relies primarily on government, health care, education, and professional services. Downtown now hosts law offices, financial institutions, and cultural venues, while retail activity has largely relocated to the interstate corridor. Clarksburg also supports a daily newspaper, the Exponent-Telegram, several local television stations, and six radio outlets.
 
-Arts and culture
+## Arts and culture
 
 Clarksburg serves as a cultural center for north-central West Virginia, noted for its historic architecture, festivals, and performing-arts venues.
 
@@ -114,7 +114,7 @@ The Clarksburg Amphitheater at Veterans Memorial Park provides an outdoor venue 
 
 Recreational traditions are another part of the city’s identity. The Greater Clarksburg 10K, established in 1997 and renamed in 2007 in memory of journalist J. Cecil Jarvis, serves as the official West Virginia 10K State Championship.
 
-Landmarks and attractions
+### Landmarks and attractions
 
 * Clarksburg Amphitheater
 * Clarksburg City Park at Norwood
@@ -135,9 +135,9 @@ Landmarks and attractions
 * Waldomore
 * Washington Irving High School
 
-Infrastructure
+## Infrastructure
 
-Transportation
+### Transportation
 
 Clarksburg sits at the crossroads of U.S. Route 50 (part of the Appalachian Corridor D) and Interstate 79. Other major highways serving the city include West Virginia Route 20, West Virginia Route 58, U.S. Route 19, West Virginia Route 98, and West Virginia Route 279.
 
@@ -153,7 +153,7 @@ The Northwestern Turnpike —chartered in 1827 and begun in 1831—reached Clark
 
 Air service is available through North Central West Virginia Airport, located about 7 miles (11 km) east of downtown Clarksburg near Bridgeport.
 
-Notable people
+## Notable people
 
 Several notable individuals in American politics, science, and the arts were born in or have strong ties to Clarksburg. The city was the birthplace of Thomas J. "Stonewall" Jackson, Confederate general during the American Civil War, and John W. Davis, the 1924 Democratic presidential nominee and U.S. ambassador to the United Kingdom.
 

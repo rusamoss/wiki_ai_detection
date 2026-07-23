@@ -4,7 +4,7 @@ Unlike Japanese sashimi, which is served completely unaltered, the seafood in ce
 
 Ceviche is often eaten as an appetizer; when eaten as a main dish, it is usually accompanied by starchy side dishes that are designed to balance its acidity, such as sweet potato, lettuce, maize, avocado, or fried plantains, among various other accompaniments.
 
-Etymology
+## Etymology
 
 The first documented evidence of the term ceviche is from 1820, in the patriotic song " La Chicha," considered the first Peruvian national anthem.
 
@@ -12,19 +12,19 @@ According to the Royal Spanish Academy, the word might have the same etymology a
 
 The name of the dish is spelled variously as cebiche, ceviche, seviche, or sebiche, but the most common spelling is ceviche with v, such as in Peru, which is an alternative spelling accepted by the Royal Spanish Academy. There are also other local variants of the name, including cerbiche and serviche.
 
-History
+## History
 
-Proto-Ceviche
+### Proto-Ceviche
 
 Before the arrival of Europeans, the ancient civilizations along the Pacific coast of South America practiced a form of "Proto-Ceviche". The term "Proto-Ceviche" refers to the historical predecessor of the modern version of the dish. These early versions of the dish relied on varying types of local acids and preservatives that were used long before the introduction of limes to the Andean region. Various explanations of the dish's origins exist, with Peruvian researchers and archaeological evidence strongly favoring a pre-Hispanic origin within coastal civilizations. According to some historic sources from Peru, the Caral civilization that developed in central Peru between 3500 BC to 1800 BC has left evidence of the use and consumption of raw Peruvian anchovy with chili and sea salt, according to the investigations of archaeologist Ruth Shady. Another theory is that ceviche originated among the Moche, a coastal civilization that began to flourish in present-day northern Peru nearly 2,000 years ago. The Moche used the fermented juice from the local banana passionfruit (known locally as tumbo) instead of lime or lemon juice which had not been introduced to the region until colonial times. Recent investigations further show that during the Inca Empire, fish was marinated with chicha, an Andean fermented corn beer. Different chronicles also report that along the Incan coast before the arrival of Spaniards, fish was consumed with sea salt and ají (South American chili peppers). Historical chronicles note that this type of "Proto-Ceviche" was a staple along the Incan Coast, highlighting a long standing tradition of consuming "acid-cooked" fish.
 
 Its origin is also often attributed to places ranging from Central America to Polynesia. In Ecuador, it may have had its origins in coastal civilizations, as Ecuador shares geographic and cultural heritages (such as the Inca Empire) and a wide variety of fish and shellfish that are also native to Peru. The Ecuadorian position traces the origin of ceviche to the harvest of the Spondylus shell in the years 3500 BC to 1500 BC in the Valdivia culture, whose diet used marine products that were later used in ceviche. The Spanish, who brought citrus fruits such as the lime from Europe, may have originated the dish in Spain with roots in Moorish cuisine. Peruvian historian Juan José Vega supports the theory put forward by Fernando Rueda García, historian of Málaga and a member of the Andalusian Ethnology Commission, who suggests that it was Moorish slaves who created ceviche by mixing local and foreign ingredients that were arriving on the Iberian Peninsula. However, archeological records and many researchers support pre-Hispanic origins, which suggest that foods resembling ceviche may have been indigenous to western South America as early as 2,000 years ago.
 
-Colonial and modern ceviche
+### Colonial and modern ceviche
 
 The modern style of ceviche recognized globally is a direct result of a culinary fusion that occurred during the Spanish colonial era in the 16th century. This period saw the combination of New World ingredients with Old World cooking techniques. Historians concur that the modern iteration of ceviche originated during colonial times in present-day Peru, specifically through the introduction of limes, onions, and vinegar. The technique of macerating (softening or breaking down a food by leaving it in liquid, in this case citrus) raw fish and meat in vinegar, citrus, and spices (escabeche) was brought to the Americas from Spain and is linked to the Moorish (Muslim) heritage in Spanish cuisine. The Peruvian chef Gastón Acurio further explains that the dominant position that Lima held throughout four centuries as the capital of the Viceroyalty of Peru, which at one point included most of western South America, allowed for popular dishes such as ceviche to be brought to other administrative provinces in the region, and in time becoming local cuisine incorporating regional flavors and styles.The dish was primarily popular in the Pacific coastal regions of western South America, but with the help of globalization it has become immensely popular across Northern and Central America as well.
 
-Preparation and variants
+## Preparation and variants
 
 Ceviche is marinated in a citrus-based mixture, with lemons and limes most commonly used. In addition to adding flavor, the citric acid causes the proteins in the seafood to become denatured, resulting in the dish appearing to be cooked without the application of heat. Because the dish is eaten raw and not cooked with heat, it must be prepared fresh and consumed immediately to minimize the risk of food poisoning. Acid marinades will not kill bacteria or parasitic worms, unlike the heat of cooking. Traditional-style ceviche was marinated for about three hours. Modern-style ceviche, popularized in the 1970s, usually has a very short marinating period. The appropriate fish can marinate in the time it takes to mix the ingredients, serve, and carry the ceviche to the table.
 
@@ -32,7 +32,7 @@ Accompaniments to ceviche vary greatly by region: in Ecuador, ceviche is served 
 
 Most Latin American countries have given ceviche its own touch of individuality by adding their own particular garnishes.
 
-South America
+### South America
 
 In Peru, ceviche has been declared part of the country's national heritage and has even had a holiday declared in its honor. The classic Peruvian ceviche is composed of chunks of raw fish, marinated in freshly squeezed key lime, with sliced onions, chili peppers, salt and pepper. Corvina or cebo (sea bass) was the fish traditionally used. The mixture was traditionally marinated for several hours and served at room temperature, with chunks of corn on the cob and slices of cooked sweet potato. Earlier preparation methods likely involved longer curing times, closer to pickling, before the adoption of citrus introduced after Spanish contact. Regional or contemporary variations include garlic, fish bone broth, minced Peruvian ají limo, or the Andean chili rocoto, toasted corn or cancha and yuyo (seaweed). A specialty of Trujillo is ceviche prepared from shark (tollo or tojo). Lenguado (sole) is often used in Lima. The modern version of Peruvian ceviche, similar to the method used in making Japanese sashimi, consists of fish marinated for a few minutes and served promptly. It was developed in the 1970s by Peruvian-Japanese chefs, including Dario Matsufuji and Humberto Sato. Many Peruvian cevicherías serve a small glass of the marinade, which is called leche de tigre or leche de pantera, as an appetizer along with the fish.
 
@@ -44,7 +44,7 @@ In Chile, ceviche is often made with fillets of halibut or Patagonian toothfish 
 
 In Colombia, cebiches or shrimp cocktails, oysters, crabs, squid, chipi chipi, among others, and combinations of them are prepared. The sauce includes tomato sauce, mayonnaise, garlic sauce, cilantro, chopped white onion, lemon juice, among other seasonings. They are accompanied with salty soda cracker.
 
-North and Central America and the Caribbean
+### North and Central America and the Caribbean
 
 In Mexico, the U.S., and some parts of Central America, it is served either in cocktail cups with tostadas or as a tostada topping and taco filling. In Mexico, when served in a cup with tomato sauce, it is called a ceviche cocktail. Shrimp, octopus, squid, tuna, and mackerel are also popular bases for Mexican ceviche. The marinade ingredients include salt, lime, onion, chili peppers, avocado, and cilantro (coriander). Cut olives and tomatoes are often added to the preparation.
 
@@ -56,16 +56,16 @@ In Panama, ceviche is prepared with lemon juice, chopped onion, celery, cilantro
 
 In the Caribbean, ceviche is often made using mahi-mahi prepared with lime juice, salt, onion, green pepper, habanero, and a touch of allspice. Squid and tuna are also popular. In Puerto Rico and other places in the Caribbean, the dish is prepared with coconut milk. In the Bahamas and south Florida, a conch ceviche, conch salad, is popular. It is prepared by marinating diced fresh conch in lime, chopped onions, and bell pepper. Diced pequin pepper or Scotch bonnet pepper is often added for spice. In south Florida, it is common to encounter a variation to which tomato juice has been added.
 
-Health risks
+## Health risks
 
 Aside from contaminants, raw seafood can also be the vector for various pathogens, viral and bacterial, as well as larger parasitic creatures. According to the United States Food and Drug Administration and studies since 2009, specific microbial hazards in ceviche include Anisakis simplex, Diphyllobothrium spp., Pseudoterranova decipiens and P. cattani, and Vibrio parahaemolyticus. Anisakiasis is a zoonotic disease caused by the ingestion of larval nematodes in raw seafood dishes such as ceviche. The Latin American cholera outbreaks in the 1990s may have been attributed to the consumption of raw cholera-infested seafood that was eaten as ceviche.
 
 The American Dietetic Association urges women to avoid raw fish including ceviche during pregnancy due to the health risks it introduces if not cooked properly.
 
-UNESCO Intangible Cultural Heritage of Humanity
+## UNESCO Intangible Cultural Heritage of Humanity
 
 In December 2023, the UNESCO Intergovernmental Committee for the Safeguarding of the Intangible Cultural Heritage of Humanity, met in Kasane, Botswana. During this meeting they made the decision to put the "practices and meanings associated with the preparation and consumption of ceviche", on the List of the Intangible Cultural Heritage of Humanity as a traditional dish of Peru. As a basis for its decision, it was considered that the preparation and consumption of ceviche in Peru, "entail specific practices, knowledge and meanings at each stage, from fishing to cultivating the ingredients and preparing the dish. As recipes vary from one region to the next, the dish also strengthens regional cultural identity".
 
 In awarding the honor to Peru's ceviche, UNESCO highlighted the role of the dish in Peru's cultural identity, the importance of artisanal sustainable fishers and traditional female ceviche cooks in cevicherías, regional variations of the dish, and how the knowledge of ingredients and techniques are passed down through families in Peru.
 
-Bibliography
+## Bibliography

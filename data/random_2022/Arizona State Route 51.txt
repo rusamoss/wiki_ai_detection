@@ -2,11 +2,11 @@ Arizona State Route 51 (SR 51), also known as the Piestewa Freeway, is a numbere
 
 The freeway was proposed at least as far back as 1955. It was intended to become part of a never-constructed Interstate 510.
 
-Route description
+## Route description
 
 SR 51 begins at an interchange with I-10 and Loop 202 immediately east of downtown Phoenix. The route heads north from the interchange through the northern sections of Phoenix. The freeway travels through some major areas of Phoenix and past some major services such as the Phoenix Children's Hospital, Arizona Heart Hospital and Heart Institute, and the Camelback Colonnade at 20th Street and Camelback Road. The highway then begins to climb to the top of Dreamy Draw, a mountain passage between Piestewa Peak and North Mountain, before descending into the Paradise Valley area of North Phoenix. It reaches its northern terminus at a three-way interchange with Loop 101 by Desert Ridge. The entire length of SR 51 features HOV lanes.
 
-History
+## History
 
 General Location of National System of Interstate Highways, a 1955 proposal for what would become the Interstate Highway System, included a spur freeway from what would become Interstate 10, proceeding north along a route similar to the modern Piestewa Freeway. The road was later designated I-510. The routing of the freeway later appeared in route logs in 1968 under the designation of State Route 510 and the name Squaw Peak Freeway.
 
@@ -20,6 +20,6 @@ In 2007, construction began to widen the Piestewa Freeway between Shea Blvd. and
 
 In March 2016, a new interchange from the road's existing terminus at Loop 101 to an intersection with Black Mountain Boulevard opened.
 
-Exit list
+## Exit list
 
 The entire route is in Phoenix, Maricopa County.

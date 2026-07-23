@@ -1,6 +1,6 @@
 Banki Mongra is a region in the city of Korba in the central Indian state of Chhattisgarh. The region is known for its underground coal mines which play a significant role in the region's economy and employment.
 
-Coal Mining in Banki Mongra
+## Coal Mining in Banki Mongra
 
 Banki Mongra is well known for its coal mines. As of 2011, the main active mines include:
 
@@ -12,7 +12,7 @@ The other mines are no longer active.
 
 The coal production in the area is now primarily carried out in the "Banki Main Mine" and "Surakachhar 5&6 Inclines". These mines are the key contributors to coal production in Banki Mongra, serving the energy and industrial needs of the region and beyond.
 
-Economic importance
+## Economic importance
 
 The mining operations in Banki Mongra and the surrounding areas form a backbone for Korba's industrial sector, as Korba is known as the "Power Capital of Chhattisgarh " due to its coal-based power plants. The coal from these mines supports power generation and industries, both locally and across the state.
 
@@ -20,23 +20,23 @@ Despite the industrial activity, some parts of Banki Mongra still retain areas o
 
 The specific area of Banki Mongra in square kilometers is not readily available in public records, as it is primarily recognized as a mining region rather than an administrative entity with clearly defined boundaries.
 
-Transport
+## Transport
 
 The township is well connected to Bilaspur, Raipur and Ambikapur via road. The nearest Railway station is Gevra Road Korba. The Korba airstrip is 12 km from Banki Mongra.
 
-Administration
+## Administration
 
 Banki Mongra earlier came under Municipal Corporation Korba, which included 13 wards under Banki Mongra Zone. But the Chhattisgarh government separated Banki Mongra from Municipal Corporation Korba and created a separate Municipal Council Banki Mongra, which has 30 wards. This is the second largest urban body after Municipal Corporation Korba in Korba district.
 
-Demographics
+## Demographics
 
 The population is about 118,000..
 
-Culture
+## Culture
 
 Local Hindu and Chhattisgarhi festivals of Chherchera, Makar Sankranti, Holi, Hareli, Teeja Pora, Ganesh Chaturthi, Navratri, Dussehra and Diwali and EID and many other festivals are celebrated.
 
-Hospitals
+## Hospitals
 
 * SECL Hospital
 * New Korba Hospital

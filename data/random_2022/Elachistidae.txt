@@ -8,7 +8,7 @@ A significant reduction of genera has been proposed, from the current mass of 20
 
 In the modern, reduced description, the Elachistidae are small to very small moths (wingspans usually around 1 cm). Their wings appear feather-like due to the fine hair covering the wings' fringes, and the hindwings can be significantly reduced in area, essentially consisting of a small strip with a wide hairy fringe. The caterpillars are typically leaf miners or stem miners on Poales.
 
-Genera
+## Genera
 
 The genera of Elachistidae are:
 
@@ -26,7 +26,7 @@ Several small genera colored by some authors are here included in Elachista, as 
 * Parametriotinae Capuse, 1971
 * Agonoxeninae Meyrick, 1925 (alternatively treated as a separate family)
 
-Fossil record
+### Fossil record
 
 Some prehistoric genera of Elachistidae, known only from fossils, have been described:
 
@@ -35,6 +35,6 @@ Some prehistoric genera of Elachistidae, known only from fossils, have been desc
 * † Palaeoelachista Kozlov, 1987
 * † Praemendesia Kozlov, 1987
 
-Former genera
+## Former genera
 
-Footnotes
+## Footnotes

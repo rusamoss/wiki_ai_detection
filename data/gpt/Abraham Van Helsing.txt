@@ -1,72 +1,29 @@
-{{Short description|Fictional character in Bram Stoker's ''Dracula''}}
-{{Infobox character
-| name = Abraham Van Helsing
-| series = ''Dracula''
-| image = 
-| caption = 
-| first = ''Dracula'' (1897)
-| creator = [[Bram Stoker]]
-| occupation = Physician, professor, and vampire hunter
-| nationality = Dutch
-}}
+Abraham Van Helsing is a fictional character in Bram Stoker's 1897 Gothic horror novel Dracula. A Dutch physician, professor, and scholar of obscure diseases and folklore, he is summoned to England to assist in the treatment of Lucy Westenra, whose unexplained illness proves to be the result of attacks by Count Dracula. Van Helsing becomes the principal organizer of the group that investigates Dracula and ultimately destroys him.
 
-'''Abraham Van Helsing''' is a fictional character in [[Bram Stoker]]'s 1897 Gothic horror novel ''[[Dracula (novel)|Dracula]]''. A Dutch physician and professor, he is called to England by his former student Dr. John Seward to help treat Lucy Westenra, whose unexplained illness is later revealed to be the result of attacks by the vampire Count Dracula. Van Helsing becomes the principal organizer of the group that identifies, pursues, and ultimately destroys Dracula.
+Van Helsing is commonly depicted as an elderly but vigorous man with wide-ranging medical, scientific, and folkloric knowledge. His combination of rational inquiry and willingness to accept supernatural explanations distinguishes him from the other principal characters in the novel.
 
-In the novel, Van Helsing combines modern medical knowledge with familiarity with folklore, religion, and supernatural threats. He is portrayed as an experienced scholar and practical investigator whose willingness to accept apparently impossible evidence distinguishes him from the other characters. The name “Van Helsing” has since become closely associated with vampire hunting in popular culture.
+## Role in Dracula
 
-==Role in ''Dracula''==
+Van Helsing is introduced through Dr. John Seward, a former student who requests his help with Lucy Westenra's deteriorating health. After examining Lucy, Van Helsing recognizes signs associated with vampirism, although he initially withholds his conclusions from Seward and the other men involved in her care. He attempts to protect Lucy by arranging blood transfusions and placing garlic flowers around her room.
 
-Van Helsing is introduced through Dr. John Seward, who had studied under him in Amsterdam and regards him as a mentor. Seward summons Van Helsing after Lucy Westenra suffers from recurring blood loss, weakness, and strange marks on her throat. Although Van Helsing initially withholds his conclusions, he recognizes that Lucy is being preyed upon by a vampire.
+Lucy dies despite these efforts and later rises as a vampire, preying upon children in the area. Van Helsing persuades Lucy's fiancé, Arthur Holmwood, along with Seward and Quincey Morris, to confront her. The group enters her tomb and destroys her undead form, allowing her to rest in peace.
 
-He attempts to protect Lucy using blood transfusions, garlic flowers, and other precautions. These measures are undermined by Lucy's mother, who removes the garlic from her daughter's room without understanding its purpose. Lucy dies and subsequently rises as an undead creature who attacks children near her home.
+Van Helsing subsequently explains the nature of Dracula to the others and leads the effort to locate and destroy the Count. He instructs the group in the use of crucifixes, consecrated wafers, garlic, and other protective measures. He also studies Dracula's movements through letters, diaries, newspaper reports, and other documents collected by the novel's narrators.
 
-Van Helsing persuades Lucy's fiancé, Arthur Holmwood, along with Seward and Quincey Morris, to confront the undead Lucy. The group destroys her vampire form in a scene that establishes both Van Helsing's authority and the novel's moral framework: the act is presented as a painful but merciful release of Lucy's soul.
+During the pursuit of Dracula, Van Helsing travels with Mina Harker to Transylvania. There he protects her from the vampire women inhabiting Dracula's castle and destroys them in their resting places. The other members of the group intercept Dracula while he is being transported back to his castle. Dracula is killed by Jonathan Harker and Quincey Morris, while Van Helsing's preparations prevent the Count from returning to safety.
 
-Afterward, Van Helsing helps assemble evidence against Count Dracula. He studies the Count's movements, explains the vampire's limitations, and directs efforts to locate and purify Dracula's hiding places in London. He also protects Mina Harker after Dracula begins targeting her. Van Helsing travels with Mina and the other pursuers toward Transylvania, where the group intercepts Dracula before he can return to his castle. While Jonathan Harker and Quincey Morris destroy Dracula, Van Helsing and Mina enter the castle and kill the vampire women who live there.
+## Characterization
 
-==Characterization==
+Van Helsing is portrayed as both a man of science and a believer in ancient traditions. He uses contemporary medical methods, including blood transfusion, hypnosis, and psychiatric observation, but he also accepts the existence of vampires, sacred objects, and supernatural evil. In the novel, his expertise is presented as the result of extensive study across several fields rather than as simple superstition.
 
-Van Helsing is presented as an accomplished but unconventional physician. He values scientific methods but rejects the assumption that science can explain every phenomenon. His knowledge of vampirism is rooted in folklore and religious tradition, yet he approaches the subject with the seriousness of a medical specialist.
+His speech is marked by non-native English grammar and unusual phrasing. This characteristic has been interpreted in adaptations in various ways, sometimes emphasizing his Dutch identity and sometimes replacing it with a more generalized European accent. Despite his occasional eccentricity, he is depicted as compassionate, determined, and deeply religious.
 
-The character often speaks in grammatically unusual English, reflecting that English is not his first language. His speech distinguishes him from the English narrators and contributes to his image as an outsider who brings specialized knowledge unavailable to the other characters.
+Van Helsing also serves as a mentor to the younger men in the novel. He gradually leads Seward, Holmwood, Harker, and Morris from skepticism to acceptance of the supernatural threat they face. His authority depends not only on his professional reputation but on his ability to reconcile evidence, practical action, and moral conviction.
 
-Although Van Helsing gives orders and interprets evidence for the group, he is not portrayed as unfeeling. He is deeply affected by Lucy's death and by the dangers faced by Mina Harker. His role combines that of physician, teacher, spiritual adviser, and military strategist.
+## Influence and adaptations
 
-==Themes==
+Van Helsing has become one of the best-known vampire hunters in popular culture. In many later adaptations of Dracula, he is given a more active combat-oriented role than in Stoker's novel, where he is primarily a physician, investigator, and organizer.
 
-Van Helsing is central to ''Dracula''{{'}}s treatment of the relationship between modernity and tradition. The novel includes contemporary technologies such as blood transfusions, phonographs, typewriters, and railway timetables, but these tools alone do not defeat Dracula. Van Helsing argues that scientific knowledge must be supplemented by openness to older beliefs and practices.
+The character has appeared in numerous films, television productions, radio dramas, comic books, video games, and novels. Actors who have portrayed Van Helsing include Edward Van Sloan in the 1931 film Dracula, Peter Cushing in Hammer Film Productions' vampire films, Laurence Olivier in the 1979 film Dracula, Anthony Hopkins in Bram Stoker's Dracula (1992), and Hugh Jackman in Van Helsing (2004).
 
-The character also represents collective action against Dracula. While several characters contribute important skills, Van Helsing provides the framework through which their observations become a coherent campaign against the Count. His leadership turns individual fear and confusion into coordinated resistance.
-
-==In adaptations and popular culture==
-
-Van Helsing has appeared in numerous adaptations of ''Dracula'', often with significant changes to his age, nationality, personality, and role. Some versions retain him as an elderly professor and vampire expert, while others reimagine him as an action-oriented hunter or a member of an organization devoted to combating supernatural creatures.
-
-Notable portrayals include:
-
-* [[Edward Van Sloan]] in the 1931 film ''[[Dracula (1931 English-language film)|Dracula]]'', where the character is named Professor Van Helsing.
-* [[Peter Cushing]] in Hammer Film Productions' ''[[Horror of Dracula]]'' (1958) and several later Hammer Dracula films.
-* [[Laurence Olivier]] in the 1979 film ''[[Dracula (1979 film)|Dracula]]''.
-* [[Anthony Hopkins]] in Francis Ford Coppola's 1992 film ''[[Bram Stoker's Dracula (1992 film)|Bram Stoker's Dracula]]''.
-* [[Hugh Jackman]] in the 2004 film ''[[Van Helsing (film)|Van Helsing]]'', which transforms the character into a younger monster hunter and expands his role beyond the events of Stoker's novel.
-
-The surname “Van Helsing” has also been used for characters and institutions in later vampire fiction, including descendants, successors, and unrelated hunters. Such uses often draw on the character's reputation as an expert on vampires rather than on the details of Stoker's portrayal.
-
-==See also==
-
-* [[Dracula (novel)]]
-* [[Vampire hunter]]
-* [[Characters in Dracula]]
-
-==Sources==
-
-* Stoker, Bram. ''Dracula''. London: Archibald Constable and Company, 1897.
-* Skal, David J. ''Something in the Blood: The Untold Story of Bram Stoker, the Man Who Wrote Dracula''. Liveright, 2016.
-* Senf, Carol A. ''Dracula: Between Tradition and Modernism''. Twayne Publishers, 1998.
-
-[[Category:Dracula characters]]
-[[Category:Fictional Dutch people]]
-[[Category:Fictional physicians]]
-[[Category:Fictional professors]]
-[[Category:Fictional vampire hunters]]
-[[Category:Literary characters introduced in 1897]]
+Some adaptations expand Van Helsing into a member of a hereditary family of vampire hunters or place him in conflicts with other monsters. These interpretations differ substantially from Stoker's original character, whose central role is tied specifically to the investigation and destruction of Count Dracula.

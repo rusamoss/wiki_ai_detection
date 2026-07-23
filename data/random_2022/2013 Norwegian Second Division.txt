@@ -1,6 +1,6 @@
 The 2013 2. divisjon (often referred to as Oddsen -ligaen for sponsorship reasons) was a Norwegian football league that started on 13 April 2013 and ended on 19 October 2013. The league consisted of 56 teams divided into 4 groups of 14 teams. The four group-winners, Bærum, Alta, Nest-Sotra and Tromsdalen was promoted to the 1. divisjon, while the bottom three teams in each groups was relegated to the 3. divisjon.
 
-Teams
+## Teams
 
 Alta, Notodden, Bærum and Tromsdalen were relegated from the 2012 1. divisjon, while Elverum, Kristiansund, Vard Haugesund and Follo were promoted to the 2013 1. divisjon.
 
@@ -10,14 +10,14 @@ Drøbak/Frogn, Skedsmo, Lyn, Eidsvold Turn, Arendal, Viking 2, Arna-Bjørnar, F�
 
 The 4 teams relegated from the 1. divisjon and the 12 teams promoted from the 3. divisjon, will join the 40 teams positioned in 2nd to 11th place in last season's 2. divisjon.
 
-Tables
+## Tables
 
 The league consisted of 56 teams divided into 4 groups:
 
-Group 1
+### Group 1
 
-Group 2
+### Group 2
 
-Group 3
+### Group 3
 
-Group 4
+### Group 4

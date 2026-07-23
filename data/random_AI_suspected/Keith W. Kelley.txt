@@ -2,13 +2,13 @@ Keith W. Kelley (born November 5, 1947) is an American immunophysiologist, resea
 
 He served as the second editor-in-chief of the journal Brain, Behavior, and Immunity from 2003 to 2018. In 2011, he was elected a Fellow of the American Association for the Advancement of Science (AAAS). In 2023 he also became the founding Managing Associate Editor of Brain, Behavior, and Immunity Integrative, a journal.
 
-Early life and education
+## Early life and education
 
 Kelley was born in Bloomington, Illinois, on November 5, 1947. He received a Bachelor of Science degree from Illinois State University in 1969. Following graduation, he was drafted into the United States Army and served for fourteen months with a field artillery fire direction control unit near Nha Trang during the Vietnam War.
 
 After completing military service in 1971, Kelley enrolled at the University of Illinois Urbana–Champaign, where he earned a Master of Science degree in 1973 and a Doctor of Philosophy degree in 1976. His doctoral training combined immunology, physiology and endocrinology, forming the basis for his later research on communication between the immune and nervous systems.
 
-Career
+## Career
 
 Following completion of his doctoral studies in 1976, Kelley joined the faculty of the University of Illinois Urbana–Champaign, where he established a research program in immunophysiology. His research received support from agencies including the National Institutes of Health, the United States Department of Agriculture, and the National Science Foundation. In 2003, Kelley succeeded Robert Ader as the second editor-in-chief of Brain, Behavior, and Immunity, the official journal of the Psychoneuroimmunology Research Society.
 
@@ -16,7 +16,7 @@ Kelley also served as Secretary-Treasurer of the Psychoneuroimmunology Research 
 
 Kelley retired from the University of Illinois in 2011 and was subsequently named professor emeritus. In 2021, he was appointed as a visiting scholar in the School of Psychological Sciences at Shenzhen University, China and in 2023 as a Global Faculty Affiliate Professor in the College of Health Sciences at VinUniversity in Vietnam.
 
-Research
+## Research
 
 Kelley's research has focused on understanding the bidirectional communication between the immune system and the central nervous system. During the early stages of his career, the immune system was generally viewed as functioning independently from the brain except in pathological conditions. Through laboratory and translational studies, Kelley helped demonstrate that the nervous, endocrine and immune systems communicate continuously through hormones, cytokines and neural pathways.
 
@@ -30,7 +30,7 @@ His later work examined neuroimmune mechanisms underlying depression, neurodegen
 
 In addition to experimental research, Kelley has written historical and conceptual analyses documenting the emergence of psychoneuroimmunology and its evolution into the interdisciplinary field of immuno-psychiatry.
 
-Editorial work
+## Editorial work
 
 Kelley has played a role in the development of scientific publishing in the fields of psychoneuroimmunology and immunopsychiatry. In 2003, he succeeded Robert Ader as the second editor-in-chief of Brain, Behavior, and Immunity, the official journal of the Psychoneuroimmunology Research Society (PNIRS). He served in that position until 2017, overseeing the journal during a period of expansion in both submissions and international readership.
 
@@ -40,7 +40,7 @@ In 2023, Kelley became the founding Managing Associate Editor of Brain, Behavior
 
 He has also contributed to the organization of international conferences and educational initiatives promoting collaboration among researchers in immunology, neuroscience and behavioral medicine.
 
-Honors and awards
+## Honors and awards
 
 * 2003: Norman Cousins Award from the Psychoneuroimmunology Research Society.
 * 2011:Fellow of the American Association for the Advancement of Science (AAAS)

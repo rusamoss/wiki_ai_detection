@@ -2,7 +2,7 @@ U Nārada (Burmese: နာရဒ; 1868–1955), also Mingun Jetawun Sayādaw or 
 
 His prominent students, particularly Mahasi Sayadaw, helped popularise what is now known as the "New Burmese Method" or the "Mahasi method." Sayadaw is a Burmese term of respect when addressing major Buddhist monks and means "great master".
 
-History
+## History
 
 Monk Kun Zetawan Sayadaw was born in Kangyi Kone village, 5 Myanmar poles (approximately 10 miles) north of Sagaing, west of Min Kone, to his father U Nyo and mother Daw Paing, on Saturday, January 16, 1869, at 6:00 PM. His younger brother Maung Tha Byaw was the second of four children.
 
@@ -16,13 +16,13 @@ From the age of 37, he engaged in three years of intensive meditative discipline
 
 Monk Kun Sayadaw died on the 10th day of the waning moon of Tabaung in 1316 ME (March 8, 1955), at the age of 86. In addition to his teachings, he authored and compiled 23 books.
 
-Creation of the New Burmese Method
+## Creation of the New Burmese Method
 
 Nyanaponika Thera, himself a student of Mahasi Sayadaw, describes the manner in which U Nārada developed the New Burmese Method:
 
 It was at the beginning of this century that a Burmese monk, U Nārada by name, bent on actual realization of the teachings he had learnt, was eagerly searching for a system of meditation offering a direct access to the Highest Goal, without encumbrance by accessories. Wandering through the country, he met many who were given to strict meditative practice, but he could not obtain guidance satisfactory to him. In the course of his quest, coming to the famous meditation-caves in the hills of Sagaing in Upper Burma, he met a monk who was reputed to have entered upon those lofty Paths of Sanctitude (ariya-magga) where the final achievement of Liberation is assured. When the Venerable U Nārada put his question to him, he was asked in return: 'Why are you searching outside of the Master's word? Has not the Only Way, Satipaṭṭhāna, been proclaimed by Him?' U Nārada took up this indication. Studying again the text and its traditional exposition, reflecting deeply on it, and entering energetically upon its practice, he finally came to understand its salient features. The results achieved in his own practice convinced him that he had found what he was searching for: a clear-cut and effective method of training the mind for highest realization. From his own experience he developed the principles and the details of the practice which formed the basis for those who followed him as his direct or indirect disciples. In order to give a name to the Venerable U Nārada's method of training in which the principles of Sattipaṭṭhāna are applied in such a definite and radical way, we propose to call it here the Burmese Sattipaṭṭhāna Method; not in the sense that it was a Burmese invention but because it was in Burma that the practice of that ancient Way had been so ably and energetically revived.
 
-Books compiled by him
+## Books compiled by him
 
 * Petakopa Veda Atthakathapatha.
 * Petakopa Veda Nistha First, Second, Third Volumes.

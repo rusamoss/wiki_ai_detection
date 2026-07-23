@@ -14,7 +14,7 @@ Since founding GirlBoss, Hilbertidou has spoken at over 150 schools, with more t
 
 GirlBoss programmes are offered free of charge and have collectively generated over NZ$63 million in value for young women across New Zealand, according to an independent PwC UK report.
 
-Life
+## Life
 
 Hilbertidou was born in Cyprus, and moved to New Zealand whilst still a baby. She is of Greek and Samoan descent.
 
@@ -24,7 +24,7 @@ She was educated at Albany Senior High School, Auckland. She studied digital IT 
 
 At 16, she founded GirlBoss New Zealand as a way to encourage teenage girls to participate more fully in leadership, entrepreneurship, science, technology, engineering, and maths. GirlBoss events have featured guest speakers such as My Food Bag founder Theresa Gattung, Green Party candidate Chloe Swarbrick, Labour leader Jacinda Ardern, and Xero's Anna Curzon.
 
-Recognition
+## Recognition
 
 In 2016, Hilbertidou won the Young Leader Award, an award given to the most influential New Zealand woman under at the age of 25, at the New Zealand Women of Influence Awards. She is an Eisenhower Youth Fellow and New Zealand's representative at the Global Teen Leader Summit. She also received the AIMES Bellingham Wallace Emergent Talent Award, which enabled her to work full-time on GirlBoss. In July 2017, Hilbertidou was invited by NASA to be part of the SOFIA Project and ride onboard NASA's 747 jumbo jet during an overnight exploratory mission. She is the youngest person to receive such an invitation. Hilbertidou is also the youngest member of the Super Diverse Women Network led by Mai Chen.
 
@@ -42,7 +42,7 @@ In 2025, Hilbertidou was named a Top 3 finalist for the Young New Zealander of t
 
 Additionally, she has served as New Zealand's Gender Equality Ambassador at the World Expo, a Facebook Leadership Fellow, and has been a VIP Scientific Communicator for NASA, as well as a National Geographic Explorer.
 
-Career
+## Career
 
 Alexia Hilbertidou is the founder of GirlBoss New Zealand, a social enterprise established in 2015 with the mission of empowering young women in leadership, entrepreneurship, and STEM (science, technology, engineering, and mathematics) fields. The organisation's programmes are offered free of charge and have collectively generated over $63 million NZD in value for women and girls across New Zealand, according to an independent PwC UK report.
 
@@ -52,35 +52,35 @@ At age 20, Hilbertidou was appointed to the board of Simplicity, a US$4.8 billio
 
 Key initiatives under Hilbertidou's leadership include:
 
-GirlBoss Edge: Healthcare
+### GirlBoss Edge: Healthcare
 
 This initiative is one of New Zealand's largest healthcare-focused programme aimed at increasing the participation of underrepresented youth, including Māori, Pasifika, Refugee, Low-Income, and Rural students, in healthcare careers. Over a five-year period, the programme has connected 3,500 young people with mentorship from more than 500 medical professionals, drawn from major hospitals and medical schools across the country.
 
-GirlBoss Edge: Law & Policy
+### GirlBoss Edge: Law & Policy
 
 A programme designed to inspire and support young women interested in pursuing careers in law and public policy. It has connected over 650 students with mentorship from more than 200 legal professionals across New Zealand, Singapore, Australia, Europe, and the United States. The programme has garnered support from leading law firms, including DLA Piper and the "Big Three" New Zealand law firms— Bell Gully, Chapman Tripp, and Russell McVeagh. The initiative is particularly focused on students from low-income backgrounds, providing them with the guidance, resources, and networking opportunities necessary to succeed in the legal profession.
 
-The GirlBoss Awards
+### The GirlBoss Awards
 
 Established to recognise and celebrate young female leaders, the GirlBoss Awards have evolved into a prominent platform that encourages youth to initiate social change projects. Since its inception, the programme has raised over $500,000 NZD, which has been distributed as cash grants to award winners. In 2024, the awards attracted 583 nominations, and since 2018, a total of 85 recipients have received cash grants. Supported by over 25 corporate partners, the awards provide winners with financial assistance, media training, and networking opportunities, significantly enhancing the impact of their initiatives. The GirlBoss Awards feature categories such as Arts & Culture, Business, Leadership, and Community, among others.
 
-GirlBoss Edge: Primary Industries
+### GirlBoss Edge: Primary Industries
 
 A programme targeting rural youth, GirlBoss Edge: Primary Industries provides training and support for careers in the primary sector, including agriculture, sustainability, and forestry. The programme has engaged 1,250 students, offering not only 1:1 mentorship from professionals at The Ministry for Primary Industries and training but also addressing mental health challenges common in rural communities. A significant increase in participants' self-confidence, from 18% to 97%, has been reported, underscoring the programme's impact on both personal and professional development.
 
-Changemakeher
+### Changemakeher
 
 A global initiative launched by Hilbertidou in 2024, Changemakeher seeks to empower young women aged 13–18 to leverage STEM for social change. The programme has reached participants in several countries, including New Zealand, Australia, the Pacific Islands, and the Middle East, with plans for further expansion.
 
-Changemakeher at Expo 2020 Dubai
+### Changemakeher at Expo 2020 Dubai
 
 In 2022, Hilbertidou was appointed a Gender Equality Ambassador at Expo 2020 Dubai, where she curated and hosted ChangemakeHer, a youth empowerment event attended by over 600 women and girls. Co-hosted with UAE Minister of Youth Shamma Al Mazrui, the programme was described as "transformational" and was featured in Gulf Business for its impact on youth leadership in the region.
 
-GirlBoss Edge: CashFlow
+### GirlBoss Edge: CashFlow
 
 Drawing from her early experiences of growing up in poverty in Kelston, West Auckland, where she was raised by a single mother, Hilbertidou developed this financial literacy programme to assist disadvantaged youth. The programme, which is provided free of charge, is structured as a 10-day virtual school holiday course, focusing on financial management, entrepreneurship, and investment, with an emphasis on addressing limiting beliefs about money. Each participant is paired with a one-on-one mentor to support the development of a positive money mindset and practical financial skills. The programme has received sponsorship from major organisations such as ANZ, Spark, and PwC, enabling it to reach over 2,000 participants, with a particular focus on Māori, Pasifika, refugee, and rural youth. The initiative encourages the application of financial literacy within families and broader communities, aiming to equip young people with the necessary knowledge and tools to achieve financial independence and break the cycle of poverty.
 
-We the Women Hackathon
+### We the Women Hackathon
 
 Inspired by Hilbertidou's experience representing New Zealand at the United Nations Commission on the Status of Women (CSW), this hackathon focuses on developing technological solutions aimed at promoting gender equality. Over the course of three years, the event has annually convened 127 women in technology from across New Zealand, facilitating collaboration on projects aligned with UN Global Goal #5: Gender Equality. The hackathon has been noted for its innovative approach in addressing gender disparities within the technology sector. In 2024, the impact of the event was particularly significant, with 100% of its alumni describing the experience as "life-changing."
 

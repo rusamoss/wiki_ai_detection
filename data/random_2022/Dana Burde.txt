@@ -1,10 +1,10 @@
 Dana Burde is an American political scientist. She is a professor at New York University, where she is also Director of International Education. Burde studies the relationship between level of education and violent conflict, particularly in Afghanistan, as well as how humanitarian organizations and government policies can promote successful education outcomes. For her book Schools for Conflict or for Peace in Afghanistan, Burde won the 2017 Grawemeyer Award for Ideas Improving World Order.
 
-Education and early work
+## Education and early work
 
 Burde attended Oberlin College, where she obtained a BA in English literature. She then graduated from Harvard University with a Master's in Educational Administration/International Education, followed by a PhD in Comparative Education and Political Science from Columbia University. After graduating from Columbia, she continued at Columbia's Saltzman Institute of War and Peace Studies as a Post-Doctoral Fellow and an Associate Research Scholar, after which she joined the faculty at New York University. She is also affiliated with the Arnold A. Saltzman Institute of War and Peace Studies.
 
-Career
+## Career
 
 Burde's work focuses both on the effects of conflict on education and the effects of education on levels of violence, particularly in Afghanistan, Pakistan, and Kenya. In 2014 Burde published the book Schools for Conflict or for Peace in Afghanistan, in which she examines the relationship between education and conflict in Afghanistan. The book is based on years of field research, with one study conducted in Panjshir Valley in 2006 and another in Ghor province in 2012. Contrary to a common assumption that increases in education lead to decreases in conflict, Burde argues that the effect of education level on conflict is contingent on both the education's content and whether or not education is distributed equitably throughout a population. Burde argues that the implementation of community education in Afghanistan could improve the distribution of educational opportunities, because community education can take place in arbitrarily remote areas, and is particularly effective at increasing the rate of female education. This argument relies on Burde's work conducting randomized controlled trials to test the effectiveness of community education programs, as well as interviews from her field research and an analysis of the contents of textbooks. Burde uses this evidence to argue that policies promoting community education in Afghanistan have the potential to make education access more equitable than centralized state education.
 
@@ -12,12 +12,12 @@ For Schools for Conflict or for Peace in Afghanistan, Burde won the 2017 Graweme
 
 Burde's work has been covered, or she has been interviewed, in media outlets like The Washington Post, The New York Times, Al Jazeera, The National Interest, and NPR, and on the blogs of The World Bank and the Abdul Latif Jameel Poverty Action Lab.
 
-Selected works
+## Selected works
 
 * "Assessing Impact and Bridging Methodological Divides: Randomized Trials in Countries Affected by Conflict", Comparative Education Review (2011)
 * "Bringing education to Afghan girls: A randomized controlled trial of village-based schools", American Economic Journal: Applied Economics (2013)
 * Schools for Conflict or for Peace in Afghanistan (2014)
 
-Selected awards
+## Selected awards
 
 * Grawemeyer Award for Ideas Improving World Order (2017)

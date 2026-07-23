@@ -2,7 +2,7 @@ Yama (Hindi: यामा, romanized: Yāmā) is a Hindi poetry collection compo
 
 Influenced by devotional and mystical traditions, the collection is characterized by introspective depth, emotional nuance, and a contemplative, philosophical style. For this work, Varma was presented with India's highest literary honor —the Jñānapīṭh Award for 1982—at a ceremony held in 1983. Selected poems from the collection have been set to classical and contemporary music and translated into English and several Indian languages.
 
-Content
+## Content
 
 The title Yāmā is derived from the feminine plural of yām, a term referring to the four divisions of either the daytime or the night. The choice of title is symbolic, reflecting the poetic phases across the poet's four previous works — Nīhār (Mist, 1930), Raśmi (A Ray of Light, 1932), Nīrajā (Blossomed Lotus, 1933), and Sāndhyagīt (Twilight Song, 1936). In the preface to the book, the poet states:
 
@@ -10,13 +10,13 @@ Yāmā contains the shadow play of the four phases (yām) of my inner world. Whe
 
 The collection comprises 185 lyric poems in total, drawing 47 from Nīhār, 35 from Raśmi, 58 from Nīrajā, and 45 from Sāndhyagīt. Some early editions of Yāmā also included tipped-in pages featuring illustrations created by the poet herself, reflecting the stylistic influence of the Bengal School of Art. Additionally, the imprints by Kitabistan featured an introductory poem that combined a wash-style painting with Varma's handwritten text; this poem was omitted in later editions and other compilations of her work. The current edition by Lokbharti Prakashan contains only a reduced selection of 63 poems from the complete volume and excludes all artwork.
 
-Themes
+## Themes
 
 The collection reflects the central themes of Chhayavad, the literary movement to which Varma is attributed to. It explores motifs such as separation, yearning, existential melancholy, divine beloved, bond with nature, and the pursuit of spiritual transcendence.
 
 The collection traces the evolving stages of the poet's emotional journey and poetic expression, moving from a state of wonder, confusion, and turmoil to one of contemplation, reflection, and ultimately, a serene acceptance of pleasure and sorrow.
 
-Analysis
+## Analysis
 
 Devanagari प्रिय मैं सीमा की गोदपली, पर हूँ असीम से खेली भी! Transliteration Priya main sīmā kī godpalī, par hū̃ asīm se kheli bhī! Translation Dear one, I was cradled in the lap of limitation, But I have also played with the limitless.
 
@@ -26,7 +26,7 @@ Nand Dulare Bajpai observes that Varma's poetry draws significantly from the dev
 
 David Rubin, an American author and translator, observed Varma as the most elusive among the Chhayavadi poets and also the most challenging to translate, since the meaning in her work is inseparably bound to its subtle and allusive musicality. In her poetry, music itself becomes a vehicle of meaning, distinguishing her use of themes and images from that of the early Bhakti poets. Her writings, therefore, require from readers not only considerable patience but also an almost ecstatic immersion.
 
-Reception
+## Reception
 
 The Bhāratīya Jñānapīṭh on the occasion of Guru Purnima observed on July 24, 1983, announced Mahadevi Varma as the recipient of the 18th (1982) Jñānapīṭh Award. Shortly after the announcement, in an interview broadcast on Akashvani (AIR) with Agyeya, she expressed:
 
@@ -36,11 +36,11 @@ That year, the criterion for awarding moved away from honoring a single work. Al
 
 The award was presented on November 28, 1983, by the then British Prime Minister, Margaret Thatcher, who recited translated excerpts from Varma's poem Us Pār during the ceremony. The ceremony was also attended by P. V. Narasimha Rao, who was serving as India's Minister of External Affairs at the time and was also the Chairman of the Jñānapīṭh Selection Board. Varma donated the entire prize money of ₹1,50,000 to a fund she had established for the welfare of indigent writers and their families.
 
-Legacy
+## Legacy
 
 Several poems from Yāmā have been musically interpreted in both light and classical forms. In the 1970s, a selection of some poems was set to music by Jaidev and rendered by Asha Bhosle. The television channel DD Sahyadri aired a series titled Madhurima, one episode of which was devoted to a musical rendition of Varma's poetry. Dhrupad vocalists Ramakant and Umakant Gundecha have also composed and performed select poems from the collection. Additionally, contemporary poet Kumar Vishwas included songs from Yāmā in his musical album Tarpan, a derivative of his biographical series Mahakavi. An overview of such musical settings is given in the following table.
 
-Translations
+## Translations
 
 Selections from Yāmā were translated into English by L. S. Sinha and published in 1987 by Writers Workshop Kolkata. Additional English translations by the American writer David Rubin appeared in two notable anthologies: The Return of Sarasvati: Four Hindi Poets (1998) and Of Love and War: A Chhayavad Anthology (2005), both issued by Oxford University Press.
 

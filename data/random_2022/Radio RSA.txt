@@ -1,6 +1,6 @@
 Radio RSA: The Voice of South Africa was the international broadcasting service of the Republic of South Africa. It was run by the South African Broadcasting Corporation from its inception on 1 May 1966 until its demise in 1992 following the end of the apartheid era. Radio RSA broadcast news and opinion programming that was mostly pro-government, and the message of its broadcasts reflected those views. Following the fall of the apartheid government, the service was renamed Channel Africa.
 
-Management
+## Management
 
 Radio RSA, as part of the South African Broadcasting Corporation, was originally part of the Department of Information, which was established after the National Party 's victory in the 1948 South African general election.
 
@@ -8,13 +8,13 @@ The Department of Information's task was to promote the image of South Africa in
 
 In 1976, Radio RSA transmitted for 36 hours a week. Radio RSA broadcast in 12 languages in 1976 including English, French, Portuguese, and Afrikaans. In 1984, 11 languages were broadcast.
 
-Facilities
+## Facilities
 
 The studios of Radio RSA were initially located at Broadcast House, Commissioner Street in Johannesburg, relocating to Auckland Park in 1976. Additional facilities were located in Bloemendal near Meyerton, Gauteng.
 
 Transmitters operated at 100, 250 and 500 kW power.
 
-Identification
+## Identification
 
 The station identification in English was “"This is Radio RSA, the Voice of South Africa, from Johannesburg", with similar announcements in other languages: "Ici R. RSA, la Voix de l'Afrique de Sud".
 
