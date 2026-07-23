@@ -13,6 +13,9 @@ Usage: `python generate_ai_articles.py --limit 10 --contact your_email@example.c
 
 Usage: `python run_pangram.py --folder data/random_2022 --source-csv data/wikipedia_sample.csv`
 
+* `summarize_pangram_results.py` outputs the percent in each category (AI/Human/Mixed) for each source (Random 2022 articles, random AI suspected articles, and our three LLMs).
+
+Usage: `python summarize_pangram_results.py`
 
 ## Notes
 This is very vibe coded. I've been sanity-checking it and verifying the outputs but code is almost entirely Claude Sonnet 5. Further Claude-generated documentation is in the docstring for each script; I have not necessarily checked it for accuracy.
