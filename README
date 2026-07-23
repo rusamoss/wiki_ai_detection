@@ -1,10 +1,12 @@
 
-get_test_wiki_pages.py fetches random wikipedia articles from October 2022 or before, which cannot be AI generated. It also fetches random articles from Category:Articles containing suspected AI-generated texts. It dumps a list of those articles into two CSVs, and then outputs a cleaned version of the prose of those articles to folders in data/.
+`get_test_wiki_pages.py` fetches random wikipedia articles from October 2022 or before, which cannot be AI generated. It also fetches random articles from "Category:Articles containing suspected AI-generated texts". It dumps a list of those articles into two CSVs, and then outputs a cleaned version of the prose of those articles to folders in data/.
 
-run_pangram.py runs the articles in data/ through Pangram, an AI detection tool.
+`generate_ai_articles.py` uses OpenRouter to generate articles about the subjects in `wikipedia_sample.csv` using Claude, Gemini, and ChatGPT, cleans the formatting to match the cleaning used on the real wikipedia articles, and writes them to the corresponding folders in data/ and metadata to `generated_articles.csv`.
 
-data/ contains the confirmed human Wikipedia articles in random_2022/, the suspected AI articles in random_AI_suspected, and AI generated articles I have generated (and thus can confirm are AI) in claude/, gemini/, and gpt/, according to which LLM was used to generate them. The prompt I used was "Write a wikipedia article about [title]. Do not copy the existing wikipedia article or use it as a source." In all cases, the model used was the publically available default free model in the chat interface of the given LLM, and I've turned off history ("incognito mode"/"temporary chat"). I have not copied any clear communication intended for the user (e.g. "Using non-Wikipedia sources, here's the article:") and in some cases did some very minor formatting tweaks. I used the default model (Gemini Flash 3.6, Claude Sonnet 5, and tried to use GPT-5.5 Instant but that didn't exist, so I priced matched approximately to the other models)
+`run_pangram.py` runs the articles in data/ through Pangram, an AI detection tool, and outputs `pangram_results.csv`.
 
-pangram_results.csv contains the Pangram evaluations for the articles.
 
+## Notes
 This is very vibe coded. I've been sanity-checking it and verifying the outputs but code is almost entirely Claude Sonnet 5.
+
+To run, you will need an API key for Pangram and OpenRouter. Pangram runs are 5c/article or every 1,000 words, whichever is greater; OpenRouter prices vary but seems to be a couple cents an article. While I have tested and do not expect any problems there is NO GUARANTEE THAT THIS CODE WILL NOT EAT ALL YOUR TOKENS. Set sane limits and/or turn off auto-reload.
