@@ -7,11 +7,11 @@ Usage: `python get_test_wiki_pages.py --n 25 --ai-n 25 --out wikipedia_sample.cs
 
 * `generate_ai_articles.py` uses OpenRouter to generate articles about the subjects in `wikipedia_sample.csv` using Claude, Gemini, and ChatGPT, cleans the formatting to match the cleaning used on the real wikipedia articles, and writes them to the corresponding folders in data/ and metadata to `generated_articles.csv`.
 
-Usage: `python generate_ai_articles.py --limit 10`
+Usage: `python generate_ai_articles.py --limit 10 --contact your_email@example.com`
 
 * `run_pangram.py` runs the articles in data/ through Pangram, an AI detection tool, and outputs `pangram_results.csv`.
 
-Usage: `python run_pangram.py --folder data/random_2022 --source-csv data/wikipedia_sample.csv --contact your_email@example.com`
+Usage: `python run_pangram.py --folder data/random_2022 --source-csv data/wikipedia_sample.csv`
 
 
 ## Notes
