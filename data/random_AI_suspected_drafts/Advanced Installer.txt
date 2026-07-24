@@ -1,0 +1,44 @@
+Advanced Installer is a setup packaging tool developed by the Romanian company Caphyon Ltd. It enables software developers to build installation packages for Microsoft Windows in formats such as MSI, EXE, App-V, and MSIX.
+
+The software has been recognized by Microsoft as a third-party installer capable of packaging desktop applications for the Windows Store through the Desktop Bridge. It is also listed among Microsoft's official MSIX partners.
+
+## History
+
+Advanced Installer was first released in 2003 as a user-friendly alternative to other setup authoring tools available at the time. The company Caphyon Ltd. was founded in 2002 in Craiova, Romania.
+
+In 2004, version 1.8 introduced the first commercial editions alongside a perpetually free version. By 2009, the tool added support for Windows Vista, Windows Mobile, and Windows 7. In 2013, version 10.5 introduced compatibility with Windows 8.1 and version 12.2 added support for Windows 10.
+
+Version 14.0, released in 2017, focused on the Universal Windows Platform (Desktop Bridge), integration with Microsoft Visual Studio extensions, and the new AppX format. In 2018, following a partnership with Microsoft, the company launched Advanced Installer Express, a free edition distributed through the Microsoft Store. It was the first third-party tool capable of building MSIX packages before the release of Microsoft's own MSIX Packaging Tool.
+
+In subsequent years, Advanced Installer added integrations for VMware, Docker, GitHub, and CI/CD platforms such as Azure DevOps, Jenkins, and Bamboo. Version 23.2, released in October 2025, introduced a new Suite Installer and an updated MSIX Editor.
+
+## Features
+
+Advanced Installer provides both graphical and command-line interfaces for creating setup packages. Its key capabilities include:
+
+* Support for MSI, EXE, App-V, and MSIX formats
+* Integration with Microsoft Visual Studio (official extension for Visual Studio 2022)
+* Automated builds and scripting via PowerShell and command-line interface
+* Versioning, updates, and patch management
+* Built-in tools for licensing, setup analytics, and installer customization
+* IIS, SQL database, and driver installation support
+* Support for **silent installation** mode (installation without visible user interface or prompts), commonly used in enterprise or network deployment contexts
+* Integration with cloud-based build servers and deployment environments
+
+## Editions
+
+Advanced Installer is available in multiple editions:
+
+* Freeware – basic MSI authoring functionality
+* Express – free MSIX packaging edition (distributed through Microsoft Store)
+* Professional – extended functionality for commercial apps
+* Enterprise – advanced deployment, patching, and analytics
+* Architect – full-featured edition with advanced customization and enterprise tools
+
+## Reception
+
+ComponentSource lists reviews highlighting reliability and support for the Professional edition.
+
+## Recognition and Availability
+
+Advanced Installer is listed by Microsoft as a trusted partner for MSIX packaging. The software is also listed in the VA Technical Reference Model of the United States Department of Veterans Affairs. Training materials for MSI packaging and virtualization with Advanced Installer are available on Udemy (for example, a course by Alex Marin).

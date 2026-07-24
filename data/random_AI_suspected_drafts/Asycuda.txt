@@ -1,0 +1,25 @@
+Customs clearance in Georgia refers to the procedures required for importing and exporting goods through the customs territory of Georgia. These procedures are regulated by the national customs legislation and administered by the Revenue Service of Georgia. In recent years, Georgia has fully digitalized its customs declaration processes to facilitate international trade and reduce administrative bureaucracy.
+
+## ASYCUDA System in Georgia
+
+The primary electronic platform utilized for customs clearance in Georgia is ASYCUDA (Automated System for Customs Data). ASYCUDA is a computerized customs management system developed by the United Nations Conference on Trade and Development (UNCTAD) and is used in over 100 countries. Georgia utilizes the customized "ASYCUDA World" version for its electronic cargo confirmation and customs control processes.
+
+The system allows for the complete digitalization of customs procedures. It enables users to submit customs declarations online without visiting a physical customs office, automatically calculates payable duties and taxes, and minimizes errors caused by human factors.
+
+### Licensing and Operation
+
+Access to the ASYCUDA portal in Georgia requires official registration. The procedures can be carried out either directly by the importing/exporting companies (if they acquire an ASYCUDA license from the state) or delegated to licensed customs brokerage firms. Owning a personal license allows businesses to declare goods 24/7, independently print declarations, and securely manage their customs data.
+
+## Clearance Process and Risk Management
+
+The customs clearance process involves several standardized steps managed through the electronic system:
+
+* Information Gathering: Submission of essential documents, including the commercial invoice, transport documents (e.g., waybills, CMR), packing lists, and certificates of origin.
+* Electronic Declaration: Licensed specialists or business representatives prepare and upload the customs declaration into ASYCUDA based on the Harmonized System (HS) codes.
+* Risk Management Channels: Once submitted electronically, the ASYCUDA system automatically assigns a risk status to the cargo using a color-coded channel system:
+** Green Channel: Immediate clearance without inspection.
+** Yellow Channel: Requires a documentary check (e.g., verification of values or VAT).
+** Red Channel: Requires physical inspection of the cargo by customs officers.
+* Tax Calculation: The system automatically assesses applicable taxes, which may include import duties, Value Added Tax (VAT, generally 18%), and excise taxes, depending on the HS code and customs value.
+
+Following the payment of assessed taxes, the cargo is officially cleared and released for free circulation.

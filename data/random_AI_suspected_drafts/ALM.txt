@@ -1,0 +1,32 @@
+Additional Literary Material (ALM) is a professional screen credit established by the Writers Guild of America (WGA) in 2022. It is awarded to writers who performed WGA-covered services on a theatrical feature film but did not meet the strict requirements for a traditional authorship credit, such as "Screenplay by" or "Story by."
+
+Unlike traditional credits, which generally require a writer to have contributed at least 33% of the final script (or 50% for subsequent writers on original screenplays), the ALM credit serves as a formal acknowledgment of employment and professional contribution. It provides a public record for writers—often script doctors or early-draft contributors—who would otherwise remain uncredited in official film records.
+
+## Development and Rationale
+
+The ALM credit was the result of the 2021 Screen Credits Referendum, which was approved by 73% of voting WGA members in November 2021. Prior to this change, feature film writers faced a "credit or nothing" system, whereas television writers received credits like "Staff Writer" or "Story Editor" to denote employment regardless of episode-specific authorship.
+
+The Guild identified several key drivers for the implementation of the credit:
+
+* Addressing "Resume Gaps": Feature writers often had years of consistent work that resulted in empty IMDb pages because their specific contributions did not reach the high authorship threshold required for a "by" credit.
+* Diversity and Inclusion: The WGA Inclusion and Equity Group noted that marginalized writers are frequently hired for "authenticity passes" or specific character polishes late in development. Without ALM, these contributions remained invisible, hindering career advancement and visibility.
+* Data Accuracy: By listing these writers in the WGA’s "Find a Writer" directory and major industry databases, the credit creates a more accurate historical record of a motion picture's development process.
+
+## Implementation and Rules
+
+The credit applies to theatrical motion pictures where WGA screen credits arbitration was finalized after January 1, 2022.
+
+* Opt-in Process: During the credit determination phase, the Guild contacts all participating writers. A writer may accept the ALM credit, decline it entirely, or choose to use a pseudonym.
+* Residuals and Rights: The ALM credit is explicitly defined as a non-authorship credit. It does not entitle the recipient to a share of the residuals pool or any "separated rights" (such as the right to write a sequel or remake).
+* Placement: ALM credits appear in the end credits (the "crawl") of a film, typically listed in alphabetical order.
+* Professional Standards: The WGA advises writers to describe their work accurately (e.g., "I worked on the movie") rather than claiming authorship (e.g., "I wrote the movie") to maintain the distinction between ALM and primary writing credits.
+
+## Notable Examples
+
+Since 2022, the ALM credit has been utilized on numerous high-profile productions, highlighting the work of prominent writers who contributed to scripts credited to others:
+
+* Wicked (2024): Craig Mazin received an ALM credit for his work on the adaptation alongside primary writers Winnie Holzman and Dana Fox.
+* Dune: Part Two (2024): Craig Mazin also received an ALM credit for contributions to the screenplay by Denis Villeneuve and Jon Spaihts.
+* Snow White (2025): The production includes ALM credits for Greta Gerwig, Jez Butterworth, and Chris Weitz.
+* Spaceman (2024): Colby Day received an ALM credit for his work on the science fiction drama starring Adam Sandler.
+* Tron: Ares (2025): This production features approximately ten writers under the ALM designation, including Billy Ray, Tom McCarthy, and Nicole Holofcener.

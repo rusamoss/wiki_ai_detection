@@ -1,0 +1,31 @@
+Object capture is a workflow for reconstructing three-dimensional (3D) digital models from multiple overlapping photographs of a physical object. Typical pipelines combine camera pose estimation (often structure-from-motion), dense reconstruction, mesh generation, and texture mapping.
+
+Object-capture methods are used in cultural-heritage documentation, visual-effects production, product digitization, and downstream 3D-print workflows.
+
+## Workflow
+
+A common object-capture workflow includes:
+
+* Capture of overlapping images from multiple viewpoints.
+* Camera pose estimation and sparse scene reconstruction.
+* Dense reconstruction into depth maps or point clouds.
+* Surface reconstruction into a polygon mesh.
+* Texture generation and optional post-processing (for example, hole filling or mesh simplification).
+
+## Applications
+
+### Cultural heritage
+
+Object capture is used to document artifacts, sculptures, and archaeological objects for preservation, measurement, and digital access.
+
+### Media and interactive content
+
+Film and game pipelines use image-based reconstruction to create realistic environment and prop assets from physical scenes and objects.
+
+### 3D printing
+
+Captured meshes are often exported to manufacturing formats (such as OBJ or STL), repaired where needed, and prepared in slicer software before additive manufacturing.
+
+## Limitations
+
+Accuracy can degrade on reflective or transparent surfaces, low-texture objects, or image sets with insufficient overlap and inconsistent lighting.

@@ -1,0 +1,63 @@
+The Boeing X-45 unmanned combat air vehicle is a concept demonstrator for a next generation of completely autonomous military aircraft, developed by Boeing's Phantom Works. Manufactured by Boeing Integrated Defense Systems, the X-45 was a part of DARPA 's J-UCAS project.
+
+## Development
+
+Boeing developed the X-45 from research gathered during the development of the Bird of Prey. The X-45 features an extremely low-profile dorsal intake placed near the leading edge of the aircraft. The center fuselage is blended into a swept lambda wing, with a small exhaust outlet. It has no vertical control surfaces — split ailerons near each wingtip function as asymmetric air brakes, providing rudder control, much as in Northrop 's flying wings.
+
+Removing the pilot and its associated facilities from the aircraft dramatically reduces the aircraft's cost. Ground-based pilots execute the higher level decisions, but the mechanical flying of the aircraft is autonomous.
+
+## Variants
+
+### X-45A
+
+Boeing built two of the model X-45A; both were scaled-down proof-of-concept aircraft. The first was completed by Boeing's Phantom Works in September 2000. The goal of the X-45A technology demonstrator program was to develop the technologies needed to "conduct suppression of enemy air defense missions with unmanned combat air vehicles." The first generation of unmanned combat air vehicles are primarily planned for air-to-ground roles with defensive air-to-air capabilities coupled with significant remote piloting.
+
+The X-45A had its first flight on May 22, 2002, and the second vehicle followed in November of that year. On April 18, 2004, the X-45A's first bombing run test at Edwards Air Force Base was successful; it hit a ground target with a 250-pound (110 kg) inert precision-guided munition. On August 1, 2004, for the first time, two X-45As were controlled in flight simultaneously by one ground-based pilot.
+
+On February 4, 2005, on their 50th flight, the two X-45As took off into a patrol pattern and were then alerted to the presence of a target. The X-45As then autonomously determined which vehicle held the optimum position, weapons (notional), and fuel load to properly attack the target. After making that decision, one of the X-45As changed course and the ground-based pilot authorized the consent to attack the simulated antiaircraft emplacement. Following a successful strike, another simulated threat, this time disguised, emerged and was subsequently destroyed by the second X-45A. This demonstrated the ability of these vehicles to work autonomously as a team and manage their resources, as well as to engage previously-undetected targets, which is significantly harder than following a predetermined attack path.
+
+After the completion of the flight test program, both X-45As were sent to museums, one to the National Air and Space Museum, and the other to the National Museum of the United States Air Force at Wright-Patterson Air Force Base, where it was inducted on November 13, 2006.
+
+The X-45A introduced yaw axis thrust vectoring.
+
+### X-45B/C
+
+The larger X-45B design was modified to have even more fuel capacity and three times greater combat range, becoming the X-45C. Each wing's leading edge spans from the nose to the wingtip, giving the aircraft more wing area, and a planform very similar to the B-2 Spirits '. The first of the three planned X-45C aircraft was originally scheduled to be completed in 2006, with capability demonstrations scheduled for early 2007. By 2010, Boeing hoped to complete an autonomous aerial refueling of the X-45C by a KC-135 Stratotanker. Boeing has displayed a mock-up of the X-45C on static displays at many airshows.
+
+The X-45C portion of the program received $767 million from DARPA in October 2004, to construct and test three aircraft, along with several supplemental goals. The X-45C included an F404 engine. In July 2005, DARPA awarded an additional $175 million to continue the program, as well as implement autonomous Aerial refueling technology.
+
+On March 2, 2006, the US Air Force decided not to continue with the X-45 project. However, Boeing submitted a proposal to the Navy for a carrier based demonstrator version of the X-45, designated the X-45N.
+
+### X-45N
+
+The X-45N was Boeing's proposal to the Navy's Unmanned Combat Air Systems demonstration project. When it became known that the US Air Force would end funding to the Joint Unmanned Combat Air System program (which included the X-45 and X-47), the US Navy started its own UCAS program. Requirements were defined over the summer of 2006, and proposals were submitted in April 2007.
+
+The first flight of the X-45N was planned for November 2008, had Boeing won the contract. The contract was eventually awarded to Northrop Grumman's proposed naval X-47, thus ending the X-45 program.
+
+The software Boeing developed to allow the X-45N to land and takeoff autonomously on aircraft carriers has recently been installed on the first F/A-18F, which has used it to perform autonomous approaches. All autonomous approaches ended with a wave-off by design. This Super Hornet is expected to be able to hook the carrier's arrester cables autonomously by the 2009 timeframe, setting the stage for carrier-borne UAV operations.
+
+### Phantom Ray
+
+Boeing planned to develop and demonstrate an unmanned flying test bed for advanced air system technologies. The internally funded program, called Phantom Ray, uses the X-45C prototype vehicle that Boeing originally developed for the Defense Advanced Research Projects Agency (DARPA)/U.S. Air Force/U.S. Navy Joint-Unmanned Combat Air System (J-UCAS) program. The UAV was not aimed at any particular program or competition.
+
+## Specifications (X-45A)
+
+Data from Airforce Technology, Boeing page
+
+General characteristics
+
+* Length: 26 ft 6 in (8.08 m)
+* Wingspan: 33 ft 10 in (10.31 m)
+* Height: 6 ft 8 in (2.03 m)
+* Empty weight: 8,000 lb (3,629 kg)
+* Powerplant: 1 × Honeywell F124-GA-100 turbofan engine
+
+Performance
+
+* Cruise speed: 533 kn (613 mph, 987 km/h)
+* Combat range: 1,300 nmi (1,500 mi, 2,400 km)
+* Service ceiling: 40,000 ft (12,000 m)
+
+Armament
+
+* Hardpoints: 8 - 2 weapon bays with 4 in each to carry JDAM or Small diameter bomb

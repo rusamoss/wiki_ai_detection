@@ -1,0 +1,92 @@
+The Soundscape R.Ed (1997–2001) was the second generation digital audio workstation manufactured by Soundscape Digital Technology Ltd. It was renamed the Soundscape 32 after Mackie acquired the product and continued to be available until around 2007.
+
+The system consisted of an external 2U rack unit which housed the audio processing hardware, based on Motorola 563xx family DSPs, 24 inputs and 24 outputs via TDIF digital ports and four IDE hard disk drives (two internal and two with removable trays). Synchronization for the basic unit was via MIDI in/out/thru via MIDI Timecode and an optional Timecode Sync board provided video sync, and LTC in/out. An I/O board provided additional balanced analogue and AES3 connections (2 in, 4 out). Each unit could record and play 32 tracks of 24bit 48 kHz audio or 16 tracks of 24/96.
+
+The unit connected to an ISA card fitted into a PC expansion slot, each of which could host 2 x R.Ed units. Multiple host cards could be used. A PCI version of the Host card was available in 2001.
+
+Windows software (for Windows 3.1, 95/98/ME, 2000, XP) controlled the unit and provided 256 virtual tracks, mixing and editing. This software also supported the legacy Soundscape SSHDR1, although with some limitations.
+
+Up to 16 units could be used simultaneously, with full sample accurate synchronization, controlled by one Soundscape editing application.
+
+Optional software packages for Auto-Conforming (for film and TV post-production use) and CD Mastering were available as well as a selection of plug-in effects developed by well known companies such as TC Electronic and Dolby Laboratories.
+
+## Design elements
+
+The modular design and expandability to accommodate up to 16 units connected to a single PC marked a distinctive feature of the Soundscape system. Initially introduced as a 4-track 16-bit, 48 kHz system utilizing cost-effective IDE drives (the initial shipments featured 2 x 120 MB drives), advancements in the efficiency of the DSP code led to expansions. This included an upgrade to 8 tracks with 24-bit recording and the incorporation of a second DSP board, enabling a configuration of 12 tracks. Notably, this enhancement introduced the world's first configurable DSP-based digital mixer. The system's scalability allowed the formation of extensive setups, where as few as 8 units interconnected could constitute a 96-track system with sample-accurate synchronization—all manageable from a single editing screen. The unit featured removable drive trays, reflecting a cost-efficient approach, as storing drives on the shelf proved economically favorable compared to traditional master tapes on a per-hour-of-audio basis.
+
+Soundscape also developed a series of modular audio interface units that established connections to the Soundscape SSHDR1 unit via TDIF.
+
+In a bold move, Soundscape opted to provide complimentary software updates to its users, a decision that cultivated an unprecedented level of user loyalty in the realm of computer-based audio products. This commitment to free updates, coupled with consistently high product release quality, contributed to an environment where bugs were virtually non-existent.
+
+## Soundscape 32
+
+The Soundscape 32 was the rebadged version of the Soundscape R.Ed. After Mackie acquired the product in 2001, the product remained unchanged, but with little activity until 2002, when the Soundscape 32 was launched. Mackie had revamped the styling of the main rack unit, and the units was certainly more attractive, but internally it was unchanged from the original Soundscape R.Ed.
+
+## Soundscape Digital Technology
+
+Soundscape Digital Technology was a British company that produced Windows-based on digital audio workstations, including the Soundscape R.Ed. The company specialized in multi-channel studio recording, editing and mastering. It was founded in 1993 and ceased operations in September 2001.
+
+Soundscape, established in the UK in 1993, originated from the collaboration between Chris Wright, the head designer and Technical Manager at Cheetah Marketing Ltd., Belgian designer Johan Bonnaerens, and Cheetah. Together with Johan's employer, Sydec NV, they devised a plan to jointly design, manufacture, and market a modular 4-track hard disk-based digital audio workstation (DAW).
+
+The SSHDR1 DAW emerged as one of the first products of its kind, showcased as an 8-track system at the NAMM and Musik Messe trade shows in 1993. However, Cheetah's parent company, Cannon Street Investments, faced challenges during the UK recession, leading to its closure in March 1993. The computer peripherals division, specializing in products like licensed joysticks (e.g., Bart Simpson, Batman, Alien), was separated into another company within the group.
+
+Following these developments, Chris Wright and Sales Manager Nick Owen acquired the assets of the Cheetah music products division, founding Soundscape Digital Technology Ltd. They promptly hired two former Cheetah employees, Marcus Case (Production Manager) and Kirstie Davies (Operations Manager), and initiated the production and marketing of the Soundscape SSHDR1. The first batch of 100 units was shipped in August 1993.
+
+Chris Wright, who designed music products in his spare time while working as a Senior Electronics Designer in telecoms, and Johan Bonnaerens, a rock guitar player and music enthusiast, collaborated on the project. Chris's extensive experience in audio design contributed to key elements of the Digital Signal Processing (DSP) code, focusing on real-time fade curves, digital compressors, chase locking to timecode, and EMC shielding and testing techniques for rapid EMC approval. Chris later directed his efforts toward developing specifications for Soundscape products in high-end markets, particularly in broadcast and film sound. Johan primarily focused on the Windows software, while another engineer took charge of the DSP code.
+
+The SSHDR1 gained rapid market success, with over 700 systems shipped in the first year. It received acclaim from the music and recording press in Europe, Australia, and the US, often featuring on the front pages of major magazines. Notably, the system was celebrated for its robust stability—a coveted quality in computer-based recording on PCs. This was attributed to its split design, featuring separate Motorola 56000 DSP-powered hardware controlled by Windows editing software. The dedicated hardware eased the strain on the PC, enabling simultaneous use of other MIDI sequencers like eMagic Logic, Steinberg Cubase, and Cakewalk. The system's resilience was demonstrated by its ability to continue recording even in the event of a PC crash. This unique feature made Soundscape suitable for live recording, and it gained a reputation for reliably recording large ensembles, such as 100-piece orchestras.
+
+Integration of the SSHDR1 hardware within eMagic Logic Audio and Cakewalk was a collaborative effort between both companies using the Soundscape API.
+
+### Mixtreme and Mixpander cards
+
+The Soundscape system had less DSP power for mixing and effects than Pro Tools. In 2000, the Mixpander card was introduced, which added nine Motorola 563xx DSPs to the system. Connected via a bus, the card provided real-time DSP processing for mixing and effects.
+
+Between 1993 and 2000, approximately 10,000 Soundscape systems were shipped, finding application in numerous professional settings and home studios alike. These systems played a pivotal role in the editing processes of successful Hollywood-produced TV shows, including Mad About You and Frasier. Notably, Soundscape systems were extensively utilized within the CBC in Canada and other broadcasting networks globally, as well as in large multi-track setups in recording studios.
+
+Soundscape contributed significantly to ushering in a new era of digital recording and editing, introducing an entire generation to these technologies—many of whom had not previously engaged with computer-based tools. Renowned for its user-friendly interface, the system boasted powerful editing tools and real-time plug-in effects. Its widespread industry support was evidenced by the development of Soundscape format plug-ins by leading companies such as TC Electronics, Dolby, Drawmer, CEDAR Audio Ltd, Synchro Arts, among others.
+
+Moreover, Soundscape's influence extended to collaborations with 30 to 40 companies that either developed or incorporated Soundscape hardware into their products. This encompassed a diverse range of entities, from radio automation companies like RCS, D.A.V.I.D, and Dalet Digital Media Systems to video NLE manufacturers such as DPS and D-Vision (later Discreet). Many of these entities integrated Soundscape Mixtreme cards and Soundscape iBox audio interfaces into their offerings.
+
+The Mixtreme card, initially introduced in 1998, marked Soundscape's inaugural venture into PCI card technology. Leveraging the DSP mixer originally developed for the Soundscape SSHDR1, the card not only featured 16 channels of I/O but also provided support for the complete array of real-time DSP effects plug-ins in the Soundscape format. This pioneering card stood out as the first of its kind.
+
+Over the subsequent years, thousands of Mixtreme cards were shipped, earning widespread acclaim for its exceptional flexibility and forward-looking design. Recognized as a versatile and future-proof audio solution, the Mixtreme card played a significant role in shaping the landscape of audio technology during this period.
+
+### Demise
+
+In 1997, Sydec encountered financial challenges when a management buyout from their parent company, Niko (a Belgian manufacturer of electrical products such as light fittings), resulted in complications. The managing director fell ill, leading to a dispute with their former owners, resulting in a sudden loss of 50% of anticipated income. Despite the adversity, the Soundscape division of Sydec, comprising approximately half of the company and employing around 10 individuals, continued to thrive.
+
+However, faced with the urgent need for additional revenue due to the financial strain on the other half of Sydec, Chris Wright initiated discussions on potential solutions. He began developing concepts to adapt the DSP core of the Soundscape R.Ed into a stand-alone recorder engine. These ideas were explored in collaboration with contacts at Tascam in Japan.
+
+A plan was devised to create a 24-track recorder plug-in board intended for Tascam digital mixers. However, Tascam opted not to sign the contract, having received a more favorable offer from one of their existing third-party developers. Unfortunately, this proposed product did not materialize. Subsequently, Chris Wright proposed the same concept to Mackie, a then $300 million NASDAQ-listed corporation. An agreement was reached to develop a stand-alone 24-track recorder, ultimately leading to the creation of the Mackie SDR2496.
+
+While Mackie initially refrained from signing the contract due to concerns about Sydec's financial stability, they later conducted investigations and identified vulnerability in the company. Mackie ultimately made an offer to purchase Sydec's shares, an offer that was accepted. In 2001, at the NAMM show, Mackie announced the acquisition of Soundscape to the global music industry, albeit inaccurately. This announcement, coupled with the use of Soundscape Digital Technology Ltd.'s copyrighted images and logos, caused unease among Soundscape's distribution network and customers. Consequently, business activities stalled at a critical time when the much-anticipated Mix pander was being launched.
+
+In response to Mackie's use of their intellectual property, Soundscape initiated a legal dispute, which culminated in a case presented before the High Court in London.
+
+In May 2003, an agreement was reached, allowing Soundscape to resume its business independently of Mackie. However, the ensuing five months witnessed no sales, coupled with a substantial legal bill and the anticipated slowdown during the summer months. Despite being in a healthy position at the close of 2000, Soundscape found itself facing financial difficulties, leading to the decision to cease operations in September 2001. Subsequently, Chris Wright joined Teac, while Nick Owen initiated a video dealership based in Cardiff, Wales.
+
+The suspension of sales occurred as the Soundscape distribution network suddenly lost access to the product, and the expertise and drive of the Soundscape team that had played a crucial role in the product's success disappeared. Contrary to expectations, Mackie, despite its role as the assumed savior, struggled to manage the product, resulting in minimal activity and almost no sales for a year. In 2002, an attempt was made to revive the product by re-branding the Soundscape R.Ed as the Mackie Soundscape 32. However, the product was based on a design conceived over a decade earlier in 1995. By then, the landscape of audio processing had evolved, with more powerful or native processing products (utilizing the CPU of the PC) entering the market at considerably lower costs, such as Nuendo, Pyramix, and Pro Tools LE. Since 2001, Pyramix, in particular, began filling the void left by Soundscape.
+
+Mackie, facing financial challenges across various fronts, abruptly closed Sydec's doors in 2003.
+
+Having regrouped, Sydec's Managing Director, along with Johan Bonnaerens and three others, reestablished the company as Sydec Audio Engineering. A deal was forged with Mackie to liquidate the existing stock of units manufactured by Mackie. This move brought relief to the highly loyal Soundscape user base, which had grown disenchanted with Mackie. Despite facing challenges with a modest team, the company persevered until 2006 when it was acquired by Solid State Logic.
+
+Post-acquisition, Sydec Audio Engineering has maintained its commitment to developing and introducing new software. The hardware department has shifted its focus toward Audio Acquisition and Format Converters, exemplified by their iBox range. As of 2010, the Soundscape 32 system and iBox range remained accessible. However, a notable challenge has arisen due to the replacement of IDE disk drives by SATA drives, rendering Soundscape 32 units incompatible. The current strategy involves utilizing hard disks connected to the PC in conjunction with a Mix pander card, enabling the software to operate independently of external units. The latest product range emphasizes MADI connections, albeit within a relatively niche market.
+
+### History
+
+* 1992 Cheetah Marketing agrees deal with Sydec NV
+* 1993 Soundscape Digital Technology Ltd. formed after Cheetah's closure.
+* 1993 Soundscape SSHDR1 launched
+* 1994 Over 700 Soundscape SSHDR1 systems sold
+* 1995 Soundscape iBox range of Audio Interfaces launched
+* 1997 Soundscape R.Ed launched
+* 1998 Soundscape Mixtreme PCI card launched
+* 2000 Soundscape Mixpander DSP card launched
+* 2001 Sydec NV bought by Mackie,
+* 2001 Soundscape Digital Technology in legal dispute with Mackie, the company closes its doors in September
+* 2003 Mackie closes Sydec in April
+* 2003 Sydec reopens in August as Sydec Audio Engineering NV
+* 2006 Sydec bought by SSL
+* 2012 Most Sydec's developers are leaving the company

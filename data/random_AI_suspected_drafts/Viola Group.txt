@@ -1,0 +1,85 @@
+Viola Group is an Israeli technology investment group headquartered in Herzliya, Israel. Founded in 2000 as Carmel Ventures, it is one of Israel's largest technology-focused investment firms, with over US$6.5 billion in assets under management (AUM). The group operates as a multi-strategy investment house through four distinct investment arms: Viola Ventures, Viola Growth, Viola Credit, and Viola Fintech. Viola focuses primarily on Israeli technology companies, partnering with entrepreneurs from early-stage inception through growth and expansion phases.
+
+## History
+
+### Founding as Carmel Ventures
+
+Viola Group traces its origins to 2000, when Shlomo Dovrat and Avi Zeevi co-founded the firm under the name Carmel Ventures. Dovrat, a serial entrepreneur who had previously co-founded Tecnomatix (later sold to UGS Corp. for approximately $227.7 million in 2005) and had managed Oshap, which was acquired by SunGard for $220 million in 1999, brought extensive operational experience to the venture capital field. Dovrat also served as Chairman of ECI Telecom from 2002 to 2007, leading its strategic turnaround which culminated in the company's $1.25 billion acquisition. Like many Israeli high-tech entrepreneurs, Dovrat had served in the Israel Defense Forces' Unit 8200.
+
+The firm was founded on the belief that the Israeli market was ready to produce large-scale, independent global corporations rather than simply serving as an R&D hub for multinational companies. Carmel Ventures focused on early-stage technology investments, building a portfolio across enterprise software, semiconductors, and internet technologies. From the outset, it was structured as an affiliate of the broader Viola Partners Group, a private equity investment group focused on technology-based growth opportunities in Israel.
+
+### Fund history
+
+Carmel Ventures raised a series of funds over its first decade and a half. Fund I, launched in 2000, raised $170 million from institutional and private investors. Fund II, raised in 2005, totaled $200 million and attracted global investment banks and funds. Fund III, closed in February 2008 at $235 million, brought in major institutional investors including J.P. Morgan, Horsley Bridge, Grove Street Advisors representing CalPERS, Oregon Public Employees Retirement Fund, Partners Group, and LGT Capital Partners, as well as an Asian government agency. At the time of Fund III's closing, Carmel Ventures had over $600 million under management, and the Viola Partners Group had over $1.5 billion under management in total.
+
+Fund IV, raised in 2014, closed at $194 million and notably included Chinese strategic investors: web services provider Baidu, insurer Ping-An, and software company Qihoo360. The involvement of Chinese strategic investors in an Israeli venture fund was notable at the time, reflecting growing China–Israel technology investment ties. The fund was reported by Venture Capital Journal upon its closing.
+
+### Rebranding to Viola Ventures
+
+In November 2017, Carmel Ventures rebranded as Viola Ventures to reflect its full integration within the broader Viola Group identity. The rebrand signified the firm's evolution from a standalone venture fund into one arm of a multi-strategy investment house. Viola Ventures subsequently raised Fund VI, continuing its focus on early-stage Israeli technology.
+
+### Recent fundraising
+
+In December 2025, Viola Ventures announced the closing of two new investment vehicles totaling approximately $250 million. The announcement coincided with a strong year for Israeli technology: tech funding in Israel reached $11.3 billion in 2025 and M&A activity broke an all-time high of $67 billion. The first vehicle, Viola Ventures VII (approximately $150 million), is the firm's seventh flagship fund and focuses on seed, Series A, and incubation investments across vertical AI, enterprise AI, fintech, AI infrastructure, cybersecurity, quantum computing, and defense technology. The second vehicle, Viola Conviction Fund I (approximately $100 million), is a dedicated secondary fund allowing existing limited partners to increase their stakes in high-performing portfolio companies; it had already been fully deployed at the time of announcement. Viola Ventures VII was scheduled to be activated in the first half of 2026, as new investments continued to be made from Viola Ventures VI in the interim.
+
+## Investment arms
+
+Viola Group operates through four distinct but complementary investment arms, each with a dedicated team, investors, and pool of funds.
+
+### Viola Ventures
+
+Viola Ventures is the group's early-stage venture capital arm, focusing on Israeli technology startups. Co-founded by Shlomo Dovrat and Avi Zeevi, Viola Ventures targets seed and Series A investments in companies with the potential for transformational global impact. The firm manages over $1.5 billion and has a historical portfolio exceeding 150 investments. PitchBook tracks the fund's investment activity and portfolio.
+
+As of 2025, Viola Ventures VII is led by Managing Partners Omry Ben David and Zvika Orron, alongside co-founder and Managing Partner Shlomo Dovrat. Avi Zeevi, co-founder of the Viola Group, continues to serve as a mentor, member of the investment committee, and board member of portfolio companies.
+
+### Viola Growth
+
+Viola Growth is the group's growth capital fund, investing in technology companies at the expansion phase. The fund focuses on companies that have demonstrated product-market fit and are seeking capital to scale their operations globally. Notable portfolio companies include SimilarWeb, Guesty, Bringg, and Buildots. The fund is led by General Partner Ayal Shiran.
+
+### Viola Credit
+
+Viola Credit is Viola Group's global alternative credit asset manager, offering multi-credit products to growing technology companies. With offices in London, Tel Aviv, and New York, Viola Credit manages over US$4 billion in assets under management and focuses on supporting the growth of the innovation economy through flexible credit solutions.
+
+### Viola Fintech
+
+Viola Fintech is a cross-stage venture fund that invests in global financial technology companies. Viola Group's annual Israel FinTech report, widely cited in Israeli financial media, tracks the development of Israel's fintech ecosystem and identifies trends. According to the firm's 2026 State of FinTech report, covered by Calcalist, Israeli fintech exits reached $5.8 billion in 2025, bringing the number of Israeli fintech unicorns and public companies on par with the cybersecurity sector. The report identified a "Fintech Mafia" phenomenon — a third generation of Israeli fintech companies born from established players, with firms such as Apprentice and Atlas Invest originating from Pagaya, which itself was spun out of Fundbox. Viola Fintech portfolio companies include Duetti, PayZen, and Faye, and the firm tracks a pipeline of Israeli fintech IPO candidates including Lendbuzz, Deel, and Tipalti.
+
+## Notable investments and exits
+
+Viola Ventures and its predecessor Carmel Ventures have backed numerous Israeli technology companies that achieved significant scale:
+
+* ironSource: A mobile advertising and app monetization platform co-founded in 2010 by Tomer Bar-Zeev, Tamir Carmi, and Arnon Harish. Viola Group was an investor. Prior to being acquired, ironSource made eight acquisitions of its own, including Bidalgo, Tapjoy, and Soomla. ironSource completed a merger with Unity Technologies (NYSE: U) on November 7, 2022, creating the industry's leading end-to-end platform for mobile app creators. Upon completion of the merger, Tomer Bar-Zeev, Shlomo Dovrat, and David Kostman joined the Unity Board of Directors.
+
+* Payoneer: A global payment platform that went public through a SPAC merger in 2021, listing on Nasdaq under the ticker PAYO. At the time of the transaction, Viola Ventures III, L.P. held 25,223,122 shares, representing approximately 7.4% of Payoneer's outstanding stock.
+
+* Redis (formerly Redis Labs): An open-source in-memory database platform.
+
+* Lightricks: Developer of photo and video editing applications including Facetune and Photoleap.
+
+* Outbrain: A content discovery and advertising platform listed on Nasdaq (ticker: OB), which acquired Teads in 2024.
+
+* SimilarWeb: A digital intelligence company that completed an initial public offering on the New York Stock Exchange in 2021 (ticker: SMWB).
+
+* Pagaya: An AI-driven financial technology company.
+
+* Wanova: An enterprise software company in which Carmel Ventures led the investment; acquired by VMware in May 2012.
+
+* Red Bend Software: A mobile software management company; acquired by Harman in January 2015. Shlomo Dovrat served as Chairman of the board.
+
+* Samanage: IT service management company acquired by SolarWinds in 2019.
+
+* Actimize: Financial crime prevention company acquired by NICE Systems in 2007.
+
+The firm's portfolio activity is tracked by PitchBook.
+
+## Leadership Circle
+
+Viola Ventures maintains a network of advisors and mentors called the Leadership Circle, comprising CEOs and entrepreneurs who have invested in the fund and serve as advisors and board members for portfolio companies. Notable members include Jim Whitehurst (former President of IBM and former CEO of Red Hat), Scott Galit (former CEO of Payoneer), Eyal Waldman (founder and former CEO of Mellanox Technologies, acquired by Nvidia), and Tomer Bar-Zeev (co-founder and former CEO of ironSource).
+
+## Role in Israeli technology ecosystem
+
+Viola Group has played a significant role in the development of Israel's technology sector, which has earned the country the reputation as the Start-Up Nation. The Globes newspaper described Carmel Ventures in its early years as an "old fashioned VC fund" reflecting the institutional character of the firm's early investment style.
+
+Shlomo Dovrat, co-founder of Viola Ventures, is recognized as a prominent figure in Israel's technology ecosystem and was a board member of Reichman University (formerly IDC Herzliya). Dovrat also chaired the government-appointed Dovrat Commission on education reform in 2004. Beyond business, Dovrat is a founding member of the Israel Venture Network, an initiative by leading figures in the US and Israeli high-tech communities to promote social change throughout Israel, and has served as Chairman of the Aharon Institute for Economic Policy.
+
+According to the firm's 2026 fintech report, covered by Calcalist, Israeli fintech has emerged as a "second pillar" of Israel's high-tech ecosystem alongside cybersecurity, with the sector accounting for 7% of Israel's tech workforce by 2025.

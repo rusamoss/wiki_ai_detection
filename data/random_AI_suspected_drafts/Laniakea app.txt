@@ -1,0 +1,13 @@
+Laniakea (founded on 21 August 2021 in Mexico City, Mexico) is an app described in app-store listings as combining social networking features with an e-commerce marketplace, including social commerce functions such as sharing posts/listings and monetizing certain posts. The app is available on Google Play, the App Store, the Amazon Appstore (Mexico), Huawei AppGallery and the Samsung Galaxy Store.
+
+## History
+
+José Gerardo Rosado Ortega, a co-founder of Laniakea, has been described in publicly available documents as having held senior roles in Mexico’s banking sector, including relationships linked to BBVA México. Laniakea lists OpenPay as a payment provider; OpenPay was founded in 2013 and was acquired by BBVA in 2016. App-store descriptions state that, since its launch, the app has included social and content features alongside modules for financial tools, lodging bookings, live streaming, and mobility-related services.
+
+### Name and origin
+
+According to the company, the name Laniakea references the astronomical term Laniakea, the name given to the local supercluster of galaxies that includes the Milky Way; the word comes from Hawaiian and is commonly glossed as “immense heaven” or “open skies”.
+
+### Other
+
+Laniakea has also been used for other software projects, including a cloud platform described in the scientific literature for deploying on-demand instances of the Galaxy workflow manager in life-science computing.

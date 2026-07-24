@@ -1,0 +1,54 @@
+Christoph Engemann (born 1972, Paderborn) is a German media scholar. His research focuses on media theory and the history of media in the digital age, artificial intelligence, media of statehood, and the genealogy of transactions. He is a research associate in the Collaborative Research Center (SFB) 1567 "Virtual Lifeworlds" at Ruhr University Bochum.
+
+## Career
+
+Engemann studied psychology at the University of Bremen. In 2015, he completed his doctorate in media culture studies with the dissertation Der Wille ein Selbst zu schreiben – Gouvernemedialität der Digitalen Identität (The Will to Write a Self – Governmediality of Digital Identity) at Bauhaus University Weimar.
+
+From 2003 to 2006, he was a research associate at the Bremen International Graduate School of Social Sciences (BIGSSS) and held non-residential fellowships at the Stanford Law School Center for Internet and Society during the same period. From 2007 to 2008, he taught in the Science, Technology and Society Program at the University of Texas at Austin.
+
+From 2009 to 2013, he was a research associate at the International Research Institute for Cultural Techniques and Media Philosophy (IKKM) at Bauhaus University Weimar, followed by a position until 2016 at the DFG research group "Media Cultures of Computer Simulation" (MECS) at Leuphana University of Lüneburg. In 2018, he was a member of the Chair for the History of Science at Leuphana University, and from 2019 to 2020, he was a postdoc for Digitization and Society at the Faculty of Media at Bauhaus University Weimar.
+
+In 2021, he held a guest professorship for media studies at the School of International Studies at Zhejiang University in Hangzhou. Since July 2022, he has been a research associate at SFB 1567 "Virtual Lifeworlds" at Ruhr University Bochum.
+
+## Research
+
+### Governmediality
+
+Engemann's central theoretical concept is Governmediality (German: Gouvernemedialität), developed alongside Boris Traue. It describes the structural entanglement of media and governing: media are not merely tools of state communication but the constitutive infrastructure of state action itself. Any transaction—every contract, every administrative act—presupposes state-controlled reference media: official time, official spatial order (cadastre, land registry), official identification (registers, biometrics), and official value reference (currency monopoly). In this perspective, the state is not the framework or guarantor of transactions, but their constitutive infrastructure.
+
+### Media of statehood and digital identity
+
+Engemann's early research focused on the media of state identification and its transformation through digitization. In his monograph Electronic Government – Vom User zum Bürger (2003), he analyzes how e-government systems attempt to transform anonymous Internet users into legally addressable, liable citizens.
+
+In later works, Engemann developed the concept of the four expropriations of modern statehood: in addition to Marx's expropriation of the means of production, Weber's expropriation of the means of violence, and Torpey's expropriation of the freedom of movement, he describes the fourth expropriation as the state appropriation of reference media for space, time, identity, and economic value—the basis of every modern transaction.
+
+### Transactionality and Big Data
+
+With the concept of transactionality, Engemann fundamentally expands the classical notion of transaction. In his 2014 essay You cannot not transact, he argues by analogy to Watzlawick's communication axiom: under digital conditions, every action (including passive browsing or leaving a page) is a transaction that generates data traces. Following the Snowden revelations, Engemann distinguishes between declarative identity (what a person states about themselves in forms) and relational identity (what is inferred through the linking of data points without their involvement).
+
+### Artificial intelligence and indexicality work
+
+In his works on AI, Engemann links Peircean sign theory with media theory following Friedrich Kittler. He understands machine learning training datasets as indexicality work (Indexikalitätsarbeit): they are corpora of body traces (images, sounds, texts) that function as indices. The model learns to recognize bodies by abstracting patterns in these traces. Consequently, which bodies are considered "normal" and which categories are conceived as binary or continuous is predecided by the composition of the training data.
+
+## Selected publications
+
+### Monographs
+
+* Electronic Government – vom User zum Bürger. Zur kritischen Theorie des Internet. transcript, Bielefeld 2003, ISBN 3-89942-147-7.
+* Der Wille ein Selbst zu schreiben. Zur Gouvernemedialität der digitalen Identität. Weimar, 2015 (Dissertation, Bauhaus University Weimar).
+* Die Zukunft des Lesens. Matthes & Seitz, Berlin 2025, ISBN 978-3-7518-3041-6.
+
+### Edited volumes
+
+* (with Florian Sprenger): Das Internet der Dinge. Über smarte Objekte, intelligente Umgebungen und die technische Durchdringung der Welt. transcript, Bielefeld 2015, ISBN 978-3-8376-3046-6.
+* (with Gerrit Hornung): Der digitale Bürger und seine Identität. Nomos, Baden-Baden 2016, ISBN 978-3-8487-3337-8.
+* (with Andreas Sudmann): Machine Learning. Medien, Infrastrukturen und Technologien der Künstlichen Intelligenz. transcript, Bielefeld 2018, ISBN 978-3-8376-3530-0.
+
+### Articles (Selection)
+
+* "Write me down, make me real – zur Gouvernemedialität digitaler Identität." In: H. Passoth, J. Wehner (Eds.): Quoten, Kurven und Profile. Springer VS, Wiesbaden 2013, ISBN 978-3-531-17189-0, pp. 205–227.
+* "You cannot not transact. Big Data und Transaktionalität." In: R. Reichert (Ed.): Big Data. transcript, Bielefeld 2014, ISBN 978-3-8376-2592-9, pp. 365–381.
+* "Die Adresse des freien Bürgers: Digitale Identitätssysteme Deutschlands und der USA im Vergleich." In: Leviathan. Vol. 43, 1/2015, pp. 43–63.
+* (with F. Sprenger and T. A. Heilmann): "Formatwechsel. Zur Methodendebatte." In: Zeitschrift für Medienwissenschaft, Vol. 12 (2020), No. 2, pp. 188–191.
+* "Raum im Raum – Architektur und Augmented Reality." In: Wolkenkuckucksheim. Vol. 25, No. 40, 2021, pp. 57–74.
+* "Papier und Automatisierung in Speyer. Von der Tyrannei des Ortes und der Dauer der Akten." In: A. Echterhölter et al. (Eds.): Apparate. J. B. Metzler, Berlin 2024, ISBN 978-3-662-67711-7, pp. 65–80.

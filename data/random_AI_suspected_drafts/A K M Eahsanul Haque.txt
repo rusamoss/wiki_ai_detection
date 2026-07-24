@@ -1,0 +1,50 @@
+A K M Eahsanul Haque is a Bangladeshi geoscientist and academic whose research spans CO 2 geological storage, reservoir characterization, organic geochemistry, and planetary surface processes. He is a Senior Lecturer at Universiti Teknologi PETRONAS (UTP) in Malaysia and an Affiliate Scientist at the SETI Institute, where he contributes to machine-learning–based crater analysis and interstellar object studies. Haque is known for his published natural-origin hypothesis for the interstellar object 3I/ATLAS, which has received international media coverage. His scientific work has appeared in peer-reviewed journals including Marine and Petroleum Geology, ACS Omega, Petroleum Exploration and Development, and the Geological Journal.
+
+## Early life and education
+
+Haque was born in Dhaka, Bangladesh. He completed a Bachelor of Science (Honours) in Geology from the University of Dhaka. He later received the Government of Brunei Darussalam Graduate Scholarship to pursue an MSc (2011) and PhD (2018) in Petroleum Geoscience at Universiti Brunei Darussalam (UBD). His doctoral research included seismic stratigraphy, reservoir characterization, and basin geodynamics.
+
+He also served as a junior research fellow at the Lamont–Doherty Earth Observatory (LDEO), Columbia University, contributing to a National Science Foundation–supported investigation into the tectonics and seismicity of the Bengal Basin.
+
+## Career
+
+Haque began his industry career with Chevron and Weatherford, serving as a development geoscientist, wellsite geologist, reservoir modeller, and logging analyst. His work has contributed to upstream projects in Bangladesh, Brunei Darussalam, Thailand, Australia, Oman, and New Zealand.
+
+In 2022, he joined Universiti Teknologi PETRONAS as a Senior Lecturer. His research group works on CO 2 storage, geostatistical reservoir characterization, and subsurface imaging. He is principal investigator for several funded projects, including:
+
+* **Murata Foundation Grant (2024–2025)** – advanced 3D geomodelling using OrbStrata® for CO 2 storage evaluation
+* **YUTP Grant** – multi-point geostatistical modelling of clastic saline reservoirs in the Malay Basin
+* **Malaysia–Thailand Joint Authority (MTJA)** consultancy on reservoir–seal integrity
+
+He also provides reservoir and CCUS advisory support to government energy divisions in Turkmenistan, China, and Southeast Asia.
+
+## Research
+
+Haque’s research contributions include:
+
+* CO 2 geological storage – permeability prediction using machine learning, caprock integrity evaluation, and mineral trapping pathways using PHREEQC.
+* Reservoir characterization – structural modelling, 3D facies simulation, and sequence stratigraphic interpretation.
+* Geochemical & reactive transport modelling – mineral dissolution–precipitation reactions relevant to long-term CO 2 sequestration.
+* Planetary geology – crater morphology interpretation, Martian surface process modelling, and interstellar object classification.
+* Organic geochemistry & basin modeling – studies on hydrocarbon generation potential of the Taranaki Basin.
+
+## Contribution to the 3I/ATLAS hypothesis
+
+In 2025, Haque published two EarthArXiv papers that argued for a **natural astrogeological origin** for the interstellar object 3I/ATLAS. His analysis included trajectory reconstruction, spectral comparison, fragmentation modelling, and analogues with known cometary bodies.
+
+He concluded that 3I/ATLAS was most consistent with a volatile-rich cometary fragment rather than an engineered object. Haque’s publications were widely covered in international media, including IFLScience, ABC (Spain), and The Economic Times. His work has been referenced as a scientific counterpoint to speculative claims about extraterrestrial technologies.
+
+## Awards and recognition
+
+* Asia’s Most Promising Scientist Award (2023)
+* PETRONAS Recognition for contributions to subsurface research (2024)
+* International media coverage for 3I/ATLAS research
+* Invited speaker at SEG, AAPG Asia-Pacific, IAGR Seoul, and regional CCUS and energy-geoscience workshops
+
+## Selected publications
+
+* Lathbl, M. A. et al. (2024). Organic geochemistry and 1D-basin modeling in the Taranaki Basin. *Marine and Petroleum Geology*. doi:10.1016/j.marpetgeo.2024.107146.
+* Lathbl, M. A. & Haque, A. K. M. E. (2025). 1D Basin Modeling – NW Taranaki. *Journal of Engineering Research*. doi:10.1016/j.jer.2024.06.015.
+* Arafath, M. Y. et al. (2025). Permeability prediction and CO 2 storage using ML. *ACS Omega*. doi:10.1021/acsomega.4c07242.
+* Haque, A. K. M. E. et al. (2016). Structure modeling of Maui Gas Field. *Petroleum Exploration and Development*. doi:10.1016/S1876-3804(16)30114-8.
+* Haque, A. K. M. E. (2024). Natural origins of 3I/ATLAS. *EarthArXiv*. doi:10.31223/X5BJ1D.

@@ -13,7 +13,7 @@ Generates a random sample of English Wikipedia articles that satisfy:
      classification, so spot-check results if precision matters a lot).
 
 Usage:
-    python get_test_wiki_pages.py --n 25 --out sample.csv
+    python get_test_wiki_pages.py --2022-n 25 --out sample.csv
 
 Optionally, with --ai-n and/or --ai-drafts-n, also collects separate random
 samples from two Wikipedia maintenance categories of likely-AI-generated
@@ -22,12 +22,22 @@ mainspace articles human editors have flagged) and Category:AfC submissions
 declined as a large language model output (--ai-drafts-n, Draft-namespace
 submissions a reviewer explicitly declined as LLM output). Both are
 processed the same way as each other, except there's no creation-date
-cutoff and each article's *current* revision is used instead of its
-Oct-2022 one. Each is written to its own folder/CSV pair
+cutoff, and rather than the *current* revision, each searches its last 50
+revisions for the one actually carrying the evidence a human flagged it:
+find_decline_revision looks for the AfC reviewing tool's LLM-decline edit
+summary, find_ai_tagged_revision looks for an {{AI-generated}}/{{Prod
+llm}} tag in the wikitext itself. Falls back to the current revision (with
+a warning) if neither turns up within that window. Each is written to its
+own folder/CSV pair
 (--ai-articles-dir/--ai-out and --ai-drafts-articles-dir/--ai-drafts-out)
 so neither is ever mixed with the dated sample or with each other:
 
-    python get_test_wiki_pages.py --n 25 --ai-n 25 --ai-drafts-n 25 --out sample.csv --ai-out ai_sample.csv --ai-drafts-out ai_drafts_sample.csv
+    python get_test_wiki_pages.py --2022-n 25 --ai-n 25 --ai-drafts-n 25 --out sample.csv --ai-out ai_sample.csv --ai-drafts-out ai_drafts_sample.csv
+
+-n is shorthand for setting all three (--2022-n, --ai-n, --ai-drafts-n) to
+the same count at once, e.g. `-n 25` collects 25 from each. It only takes
+effect if none of those three are given individually -- passing any of
+them is what makes each opt-in, and -n doesn't override that.
 
 Articles land in --articles-dir/--ai-articles-dir, and both that folder and its CSV accumulate across
 runs -- collecting a title that's already there overwrites its .txt file
@@ -296,6 +306,76 @@ def get_revision_ids(
         rev = page["revisions"][0]
         result[page["title"]] = (rev["revid"], rev["size"])
     return result
+
+
+# ---------------------------------------------------------------------
+# Revision finders for the two AI-suspected categories: rather than trust
+# the *current* revision, dig back through recent history for the specific
+# revision that actually carries the evidence a human flagged this page --
+# the tag/decline can predate later edits, or (for AI_SUSPECTED_CATEGORY)
+# be removed entirely while category membership lags behind the edit that
+# removed it. Both search at most 50 revisions back (newest first) and
+# return None -- the caller falls back to the current revision -- if
+# nothing turns up in that window.
+# ---------------------------------------------------------------------
+
+# The edit summary Wikipedia's AfC reviewing tool (AFCH) leaves when
+# declining a submission specifically as LLM-generated content.
+AFC_LLM_DECLINE_COMMENT = "Submission appears to be a large language model output"
+
+def find_decline_revision(session: requests.Session, limiter: RateLimiter, title: str) -> tuple[int, int] | None:
+    """Returns (revid, size) of the most recent revision whose edit summary
+    matches AFC_LLM_DECLINE_COMMENT, searching up to the last 50 revisions
+    -- so a declined draft is captured as of that decline, not whatever
+    it's since been edited to (further reviewer comments, resubmission,
+    etc). None if no match turns up."""
+    data = api_get(session, limiter, {
+        "action": "query",
+        "prop": "revisions",
+        "titles": title,
+        "rvlimit": 50,
+        "rvprop": "ids|comment|size",
+        "rvdir": "older",
+        "formatversion": "2",
+    })
+    pages = data.get("query", {}).get("pages", [])
+    if not pages:
+        return None
+    for rev in pages[0].get("revisions", []):
+        if AFC_LLM_DECLINE_COMMENT.lower() in (rev.get("comment") or "").lower():
+            return rev["revid"], rev["size"]
+    return None
+
+
+# Matches {{AI-generated|date=...}} and {{Prod llm/dated|...}} (and the
+# hyphen/underscore/space variants MediaWiki treats as equivalent in
+# template names) -- the maintenance tags that put an article in
+# AI_SUSPECTED_CATEGORY in the first place.
+AI_TEMPLATE_RE = re.compile(r"\{\{\s*(ai[- _]generated|prod[- _]?llm)\b", re.IGNORECASE)
+
+
+def find_ai_tagged_revision(session: requests.Session, limiter: RateLimiter, title: str) -> tuple[int, int] | None:
+    """Returns (revid, wikitext size) of the most recent revision whose
+    wikitext contains an AI_TEMPLATE_RE match, searching up to the last 50
+    revisions. None if no match turns up."""
+    data = api_get(session, limiter, {
+        "action": "query",
+        "prop": "revisions",
+        "titles": title,
+        "rvlimit": 50,
+        "rvprop": "ids|content",
+        "rvslots": "main",
+        "rvdir": "older",
+        "formatversion": "2",
+    })
+    pages = data.get("query", {}).get("pages", [])
+    if not pages:
+        return None
+    for rev in pages[0].get("revisions", []):
+        content = rev.get("slots", {}).get("main", {}).get("content", "")
+        if AI_TEMPLATE_RE.search(content):
+            return rev["revid"], len(content.encode("utf-8"))
+    return None
 
 
 # ---------------------------------------------------------------------
@@ -598,6 +678,7 @@ def collect_sample(
     rvstart: str | None,
     label: str,
     source: Callable[[str], str],
+    revision_finder: Callable[[str], tuple[int, int] | None] | None = None,
 ) -> list[dict[str, Any]]:
     """Pulls candidate titles from `batches` until `target_n` articles are written to `out_path`
     (CSV) and `run_dir` (one .txt per article), or `batches` is exhausted.
@@ -606,7 +687,11 @@ def collect_sample(
     snapshot date via get_revision_ids (one request per title -- required
     for a historical revision). When `rvstart` is None, the current
     (revid, size) pairs filter_navigational_and_redirects already returns
-    are reused directly.
+    are reused directly -- unless `revision_finder` is also given, in which
+    case it overrides that current revision with whatever
+    revision_finder(title) finds (e.g. find_decline_revision,
+    find_ai_tagged_revision), falling back to the current one with a
+    warning if it returns None.
 
     `source(title)` becomes each row's "source" column -- a callable so
     both a constant value (e.g. `lambda _: "some label"`) and a per-title
@@ -639,6 +724,18 @@ def collect_sample(
             print_discarded(set(batch) - set(revid_map), "no revision at snapshot date")
             if not revid_map:
                 continue
+
+        if revision_finder is not None:
+            found: dict[str, tuple[int, int]] = {}
+            for title in revid_map:
+                result = revision_finder(title)
+                if result is None:
+                    print(f"  [warn] {title}: no matching revision found in "
+                          f"last 50; using current revision", file=sys.stderr)
+                    found[title] = revid_map[title]
+                else:
+                    found[title] = result
+            revid_map = found
 
         # Free pre-filter: skip anything whose raw wikitext is too small
         # to plausibly contain MIN_WORDS of prose, without ever calling
@@ -711,6 +808,7 @@ def collect_from_category(
     articles_dir: Path,
     label: str,
     require_prefix: str | None = None,
+    revision_finder: Callable[[str], tuple[int, int] | None] | None = None,
 ) -> None:
     print(f"\n--- Collecting {target_n} {label} from {category} ---", file=sys.stderr)
 
@@ -736,7 +834,7 @@ def collect_from_category(
     collect_sample(session, limiter, articles_dir, out_csv, batches,
                     fieldnames=AI_FIELDNAMES,
                     target_n=target_n, rvstart=None, label=label,
-                    source=candidate_map.get)
+                    source=candidate_map.get, revision_finder=revision_finder)
 
 
 # ---------------------------------------------------------------------
@@ -750,10 +848,14 @@ def main() -> None:
     ap.add_argument("--from-csv",
                      help="reuse the articles from an existing "
                           "output CSV instead of drawing a fresh random sample")
-    ap.add_argument("--n", type=int, default=0,
+    ap.add_argument("--2022-n", type=int, default=0, dest="n2022",
                      help="number of dated (random_2022) articles to collect -- "
-                          "each of --n/--ai-n/--ai-drafts-n is independently "
+                          "each of --2022-n/--ai-n/--ai-drafts-n is independently "
                           "opt-in, so only the ones actually given run")
+    ap.add_argument("-n", type=int, default=0, dest="n_all",
+                     help="shorthand for collecting this many articles from all three "
+                          "categories at once (--2022-n, --ai-n, and --ai-drafts-n) -- "
+                          "only takes effect if none of those three are given")
     ap.add_argument("--out", default=DEFAULT_OUT,
                      help="CSV path for the random 2022 sample")
     ap.add_argument("--articles-dir", default=DEFAULT_ARTICLES_DIR,
@@ -780,6 +882,8 @@ def main() -> None:
                      help="CSV path for the AfC-declined-as-LLM sample (see --ai-drafts-n)")
 
     args = ap.parse_args()
+    if args.n_all > 0 and not (args.n2022 > 0 or args.ai_n > 0 or args.ai_drafts_n > 0):
+        args.n2022 = args.ai_n = args.ai_drafts_n = args.n_all
 
     session = make_session(args.contact)
     limiter = RateLimiter()
@@ -796,31 +900,35 @@ def main() -> None:
               f"(reused titles from {args.from_csv}).")
         if args.ai_n > 0:
             collect_from_category(session, limiter, AI_SUSPECTED_CATEGORY, args.ai_n,
-                                   args.ai_out, Path(args.ai_articles_dir), "suspected-AI articles")
+                                   args.ai_out, Path(args.ai_articles_dir), "suspected-AI articles",
+                                   revision_finder=lambda t: find_ai_tagged_revision(session, limiter, t))
         if args.ai_drafts_n > 0:
             collect_from_category(session, limiter, AI_SUSPECTED_DRAFTS_CATEGORY, args.ai_drafts_n,
                                    args.ai_drafts_out, Path(args.ai_drafts_articles_dir),
-                                   "AfC-declined-as-LLM drafts", require_prefix="Draft:")
+                                   "AfC-declined-as-LLM drafts", require_prefix="Draft:",
+                                   revision_finder=lambda t: find_decline_revision(session, limiter, t))
         return
 
-    if not (args.n > 0 or args.ai_n > 0 or args.ai_drafts_n > 0):
-        raise SystemExit("Nothing to do -- pass --n, --ai-n, and/or --ai-drafts-n "
-                          "(or --from-csv to reuse an existing sample).")
+    if not (args.n2022 > 0 or args.ai_n > 0 or args.ai_drafts_n > 0):
+        raise SystemExit("Nothing to do -- pass -n, --2022-n, --ai-n, and/or "
+                          "--ai-drafts-n (or --from-csv to reuse an existing sample).")
 
-    if args.n > 0:
+    if args.n2022 > 0:
         batches = (get_random_titles(session, limiter, BATCH_SIZE) for _ in range(200)) # limit to 200 rounds for safety; lift this if deliberately doing very large run
         collect_sample(session, limiter, run_dir, args.out, batches,
                         fieldnames=fieldnames,
-                        target_n=args.n, rvstart=OCT_SNAPSHOT, label="articles",
+                        target_n=args.n2022, rvstart=OCT_SNAPSHOT, label="articles",
                         source=lambda _title: RANDOM_SOURCE_LABEL)
 
     if args.ai_n > 0:
         collect_from_category(session, limiter, AI_SUSPECTED_CATEGORY, args.ai_n,
-                               args.ai_out, Path(args.ai_articles_dir), "suspected-AI articles")
+                               args.ai_out, Path(args.ai_articles_dir), "suspected-AI articles",
+                               revision_finder=lambda t: find_ai_tagged_revision(session, limiter, t))
     if args.ai_drafts_n > 0:
         collect_from_category(session, limiter, AI_SUSPECTED_DRAFTS_CATEGORY, args.ai_drafts_n,
                                args.ai_drafts_out, Path(args.ai_drafts_articles_dir),
-                               "AfC-declined-as-LLM drafts", require_prefix="Draft:")
+                               "AfC-declined-as-LLM drafts", require_prefix="Draft:",
+                               revision_finder=lambda t: find_decline_revision(session, limiter, t))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,206 @@
+Van Gogh Curve
+
+This article is about a theoretical framework in cognitive psychology and philosophy of mind. For the painter, see Vincent van Gogh. For bell curve models of intelligence, see The Bell Curve.
+
+The Van Gogh Curve is a theoretical framework for understanding human cognitive diversity that reinterprets the traditional bell curve model of cognitive traits. Proposed by Olivier Boether in 2025, the framework retains the mathematical form of the normal distribution but fundamentally reinterprets the meaning of positions along it. Rather than treating the statistical centre as "optimal functioning" and the tails as pathological deviation, the Van Gogh Curve characterises all positions as complementary cognitive specialisations, each with distinct strengths and contributions.
+
+The framework is named after Vincent van Gogh, whose painting The Starry Night depicts a sky of swirling celestial bodies, each shining from its own position—a visual metaphor for the idea that individuals at every point on the cognitive distribution contribute uniquely to human knowledge and culture. [1]
+
+The Van Gogh Curve functions both as a philosophical tool —advancing claims about epistemic pluralism, cognitive justice, and the nature of mind—and as a psychological tool —offering a clinical framework for differential diagnosis, therapeutic reframing, and the identification of a proposed new condition called Philosophical Depression.
+
+Contents
+
+* Definition and overview
+* Theoretical background
+** Critique of the bell curve hierarchy
+** Neurodiversity foundations
+* Core constructs
+** Knowledge Distribution Principle
+** Failure of Imagination (FOI)
+** Compulsive Philosophical Curiosity (CPC)
+** Cognitive ambidexterity (centre)
+* As a philosophical tool
+** Epistemological implications
+** Ethics of cognitive justice
+** Philosophy of mind
+* As a psychological tool
+** Differentiating orientation from dysfunction
+** Philosophical Depression
+** Therapeutic implications
+* Evolutionary perspective
+* Applications
+** Education
+** Workplace
+* See also
+* References
+
+Definition and overview
+
+The Van Gogh Curve is a non-hierarchical model of cognitive variation that maps individuals along a distribution from certainty-seeking to philosophical inquiry. Its central argument is that the standard bell curve, when applied to cognitive traits, carries an implicit evaluative hierarchy: the statistical average is treated as "normal" and therefore desirable, while positions in the tails are treated as deficits or excesses requiring correction. [1] The Van Gogh Curve challenges this by proposing that:
+
+• The centre of the distribution represents cognitive ambidexterity —generalists who move comfortably between concrete and abstract modes of thinking—rather than an optimum.
+
+• The tails represent cognitive specialisation —orientations toward either rapid certainty-seeking (FOI) or sustained philosophical inquiry (CPC)—rather than pathology.
+
+• Expertise and knowledge exist at all positions on the curve; position determines how one engages with knowledge, not whether one can achieve mastery.
+
+The framework draws on evolutionary psychology, the neurodiversity movement, phenomenological analysis, expertise research, and virtue epistemology, and is explicitly presented as a product of consilience—the integration of philosophy and psychology to address phenomena that neither discipline can fully explain alone. [1]
+
+Theoretical background
+
+Critique of the bell curve hierarchy
+
+The Van Gogh Curve builds on a long tradition of critiquing the evaluative assumptions embedded in bell curve models of cognition. Francis Galton's Hereditary Genius (1869) established the normal distribution as the foundational framework for measuring human cognitive variation, but as Boether argues, nothing in the mathematics of normal distribution implies evaluation: a bell curve of heights describes how people are distributed without suggesting that average height is optimal. [2] When the same model is applied to cognitive traits, however, "normal" shifts from a statistical descriptor to a normative judgment. [1]
+
+The framework also draws on Todd Rose's The End of Average (2016), which showed that the "average person" described by the bell curve is a statistical fiction. Rose demonstrated that when the U.S. Air Force designed cockpits for the "average" pilot, no individual pilot was actually average on all measured dimensions. [3] The Van Gogh Curve applies this insight to cognition: individuals are not simply "high" or "low" on a single curiosity dimension but exhibit complex, multidimensional cognitive profiles.
+
+Neurodiversity foundations
+
+The Van Gogh Curve extends the conceptual advances of the neurodiversity movement to cognitive orientation more broadly. Judy Singer (1998) coined the term "neurodiversity" to argue that neurological variations such as autism should be understood as natural human diversity rather than pathology. [4] Nick Walker (2014) further distinguished between the "neurodiversity paradigm" (which recognises neurological variation as legitimate) and the "pathology paradigm" (which treats deviation from norms as disorder). [5]
+
+Boether's contribution is to apply this same logic to the continuum of cognitive orientation—from certainty-seeking to philosophical inquiry—arguing that if autism represents legitimate neurological variation, the same analysis should extend to differences in how people relate to knowledge and uncertainty. [1]
+
+Core constructs
+
+Knowledge Distribution Principle
+
+The Knowledge Distribution Principle is the central formal claim of the Van Gogh Curve. It states that knowledge, expertise, and meaningful contribution exist at all positions on the cognitive orientation distribution, and that position determines how one engages with knowledge—not whether one can achieve mastery. [1]
+
+This principle is supported by research on deliberate practice. Ericsson, Krampe, and Tesch-Römer (1993) demonstrated that expert performance depends primarily on domain-specific knowledge acquired through deliberate practice rather than general cognitive traits, [6] and Robert Sternberg's work on practical intelligence showed that individuals can excel at concrete, real-world problems while struggling with abstract tasks, and vice versa.
+
+Boether uses the metaphor of van Gogh's night sky: different domains of knowledge are like coloured stars scattered across the entire distribution. Medical expertise, for example, appears at all positions—certainty-oriented surgeons, inquiry-oriented researchers, and centre-positioned generalists—rather than clustering at the mean. [1]
+
+Failure of Imagination (FOI)
+
+Failure of Imagination (FOI) is a cognitive orientation characterised by a strong preference for concrete thinking, rapid certainty-seeking, and practical problem-solving. The name is deliberately provocative: it describes what observers with the opposite orientation perceive, not what FOI-oriented individuals actually lack. [1]
+
+Core features of the FOI orientation include:
+
+• A primary preference for concrete over abstract thinking, with comfort in domains offering clear answers
+
+• Rapid movement toward closure when questions arise
+
+• Reliance on established authorities rather than independent philosophical inquiry
+
+• Satisfaction in implementing proven approaches rather than questioning assumptions
+
+• Discomfort with sustained uncertainty or open-ended exploration
+
+FOI is framed not as a deficiency but as a specialisation. It enables split-second surgical decisions, precise protocol execution by pilots, and efficient process implementation by managers. Research on need for closure by Kruglanski and Webster (1996) is cited as empirical evidence for this orientation, which the Van Gogh Curve reinterprets as genuine cognitive difference rather than pathological intolerance of uncertainty. [7]
+
+Compulsive Philosophical Curiosity (CPC)
+
+Compulsive Philosophical Curiosity (CPC) is a cognitive orientation characterised by persistent, automatic engagement with abstract, foundational, or existential questions. [1]
+
+Core features include:
+
+• Spontaneous generation of philosophical questions without deliberate initiation
+
+• Difficulty accepting simple or provisional answers when deeper inquiry seems possible
+
+• Sustained engagement with abstract concepts, often at the expense of practical concerns
+
+• Experience of closure or certainty as premature
+
+• A cascading quality to questioning—each answer generates multiple new questions
+
+CPC-oriented individuals often describe an inability to achieve "mental quiet." The continuous inquiry creates both cognitive exhaustion and the capacity for theoretical insight, paradigm questioning, and error detection. As with FOI, the framework treats CPC not as excess but as specialisation—enabling theoretical physics, philosophy, and transformative art. [1]
+
+Cognitive ambidexterity (centre)
+
+In the Van Gogh Curve, the centre of the distribution represents cognitive ambidexterity —individuals who can move relatively easily between concrete certainty-seeking and abstract inquiry. They are described as cognitive generalists, comfortable in multiple modes without a strong preference for either. Crucially, this position is reframed as one orientation among many rather than as the ideal toward which others should aspire. [1]
+
+As a philosophical tool
+
+The Van Gogh Curve is not only a psychological model but a set of philosophical claims about knowledge, ethics, and mind. Boether frames it as an exercise in consilience—the deliberate integration of philosophy and psychology that E. O. Wilson (1998) identified as essential for understanding complex human phenomena. [8]
+
+Epistemological implications
+
+If knowledge is genuinely accessible through multiple cognitive pathways, epistemology must accommodate pluralism without collapsing into relativism. The Van Gogh Curve aligns with what Ernest Sosa (1991) termed virtue epistemology: different cognitive orientations may constitute different epistemic virtues, with practical knowledge representing genuine knowledge alongside theoretical understanding. [9] Michael Polanyi's (1966) work on tacit knowledge further supports this view—the expert surgeon's embodied knowledge is as epistemically legitimate as the philosopher's propositional knowledge, even though the two forms of knowing arise from very different cognitive orientations. [10]
+
+As a philosophical tool for differentiation, the Van Gogh Curve provides a vocabulary for distinguishing between types of knowers without ranking them. It allows philosophers, educators, and clinicians to recognise that a person's position on the cognitive spectrum shapes the kind of knowledge they are most likely to generate and value, rather than determining whether they can know at all.
+
+Ethics of cognitive justice
+
+If cognitive orientation represents authentic human variation, the Van Gogh Curve implies that cognitive justice —the obligation of institutions to accommodate cognitive diversity rather than forcing conformity—is a moral demand. The framework introduces what Boether calls the duty of accommodation: the responsibility to modify environments so that individuals of all orientations can flourish, analogous to existing frameworks for accommodating physical or neurological differences. [1]
+
+This ethical argument transforms cognitive mismatch (a CPC-oriented individual in a role demanding rapid certainty, or an FOI-oriented individual in a role demanding sustained abstraction) from a personal failing into a structural injustice that can be remedied through environmental modification.
+
+Philosophy of mind
+
+The framework raises questions for philosophy of mind about the phenomenology of different cognitive orientations. Boether invokes Thomas Nagel's (1974) famous question, "What is it like to be a bat?", and applies it to human cognitive diversity: What is it like to be FOI-oriented? What is it like to be CPC-oriented? [11] The implication is that the subjective experience of cognition varies significantly across the distribution, and that philosophy of mind must reconsider assumptions about a unified "human cognitive experience."
+
+As a psychological tool
+
+In clinical and applied psychology, the Van Gogh Curve provides a framework for differential diagnosis, treatment planning, and the recognition of a proposed new condition.
+
+Differentiating orientation from dysfunction
+
+The framework's core clinical slogan is: "Differentiation is not pathology." It distinguishes three categories that the traditional model conflates: [1]
+
+Cognitive orientation – A characteristic way of engaging with knowledge and uncertainty, neither healthy nor unhealthy in itself. Position on the Van Gogh Curve represents orientation, not pathology.
+
+Context mismatch – Suffering that results when a person's cognitive orientation conflicts with environmental demands. The distress arises from the mismatch, not from intrinsic dysfunction, and the primary remedy is environmental modification rather than individual "fixing."
+
+Genuine dysfunction – Cognitive patterns that cause suffering independent of context, experienced as involuntary and ego-dystonic, and that prevent basic functioning across all environments. Genuine dysfunction may occur at any position on the curve and requires clinical intervention beyond accommodation.
+
+This tripartite distinction provides clinicians with a tool for differentiating, for example, between CPC orientation and obsessive-compulsive disorder (where intrusive thoughts are experienced as senseless rather than as meaningful inquiry), generalized anxiety disorder (where certainty-seeking serves anxiety reduction rather than reflecting a primary cognitive pattern), or major depressive disorder with rumination (where thought is passive and repetitive rather than actively inquisitive). [1]
+
+Philosophical Depression
+
+Philosophical Depression is a proposed distinct cognitive-affective condition introduced as part of the Van Gogh Curve framework. It is defined as a time-limited depressive episode (typically lasting 3 days to 6 weeks) with the following characteristics: [1]
+
+• Question-initiated onset – Triggered by encounter with philosophical questions for which the individual lacks adequate conceptual resources
+
+• Epistemic despair – A sense that answers exist but are currently inaccessible
+
+• Thought-resolved course – Resolution occurs upon acquisition of adequate philosophical source material
+
+Unlike major depressive disorder, Philosophical Depression is not characterized by anhedonia or neurovegetative symptoms. The individual's capacity for intellectual engagement remains intact; the distress is specifically one of epistemic insufficiency rather than generalized hopelessness. Accordingly, the proposed treatment differs fundamentally from standard antidepressant therapy: bibliotherapy, philosophical dialogue, and guided access to relevant literature are the primary interventions, while pharmacological treatment is considered generally ineffective and potentially counterproductive (by dulling the cognitive engagement needed for resolution). The prognosis is described as excellent when appropriate philosophical resources are provided. [1]
+
+Therapeutic implications
+
+The Van Gogh Curve reframes therapeutic goals for individuals at all points on the distribution. Rather than attempting to shift a person's cognitive orientation toward the centre, therapy aims to: [1]
+
+• Build cognitive flexibility while honouring the person's authentic orientation
+
+• Distinguish context mismatch from intrinsic dysfunction
+
+• Develop strategies for functioning across contexts that may not match one's orientation
+
+• Identify environments in which the person's natural orientation serves an adaptive function
+
+Treatment that attempts to transform CPC into FOI (or vice versa) is predicted to fail and may cause harm by pathologizing authentic cognitive variation.
+
+Evolutionary perspective
+
+The Van Gogh Curve draws on evolutionary theory to explain why cognitive diversity persists. Boyd and Richerson's (1985) dual-inheritance theory provides the overarching framework: human evolution is shaped by both genetic and cultural transmission, and different cognitive orientations serve complementary functions essential for collective survival. [12]
+
+FOI orientation supports rapid decision-making in time-critical situations, efficient resource utilization, maintenance of social cohesion through shared frameworks, and cultural transmission through confident teaching. CPC orientation enables paradigm shifts when established approaches fail, error detection through questioning of assumptions, cultural evolution through the generation of alternatives, and meaning-creation in response to existential challenges. [1]
+
+This argument is supported by the mathematical work of Hong and Page (2004), who demonstrated that groups of diverse problem solvers outperform groups of high-ability but homogeneous solvers—suggesting that cognitive diversity itself has adaptive value beyond the contributions of any single orientation. [13]
+
+Applications
+
+Education
+
+The framework proposes that educational systems should honour multiple pathways to mastery by providing clear structure and concrete guidance for FOI-oriented learners while simultaneously creating space for sustained, open-ended inquiry for CPC-oriented learners. This does not imply tracking or segregation but rather pedagogical flexibility that recognizes different students may master the same material through different cognitive approaches. [1]
+
+Workplace
+
+In organisational contexts, the Van Gogh Curve supports matching cognitive orientation to role requirements: leveraging FOI-oriented individuals for implementation, maintenance, and execution roles, and channelling CPC-oriented individuals toward innovation, research, and error-detection roles. The principle of cognitive justice implies that workplaces have an obligation to accommodate cognitive diversity rather than selecting exclusively for one orientation. [1]
+
+See also
+
+* Neurodiversity
+* Bell curve
+* Cognitive style
+* Need for closure
+* Virtue epistemology
+* Epistemic pluralism
+* Philosophical counseling
+* Deliberate practice
+* Dual-inheritance theory
+* Consilience
+
+Categories: Cognitive psychology | Philosophy of mind | Neurodiversity | Epistemology | Psychological theories | Individual differences | Philosophy of psychology
